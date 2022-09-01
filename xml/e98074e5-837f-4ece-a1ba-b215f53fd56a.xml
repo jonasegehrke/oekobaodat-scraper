@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>e98074e5-837f-4ece-a1ba-b215f53fd56a</common:UUID>
+<name>
+<baseName xml:lang="de">Mauermörtel-Leichtmauermörtel</baseName>
+<functionalUnitFlowProperties xml:lang="de" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="1">Mineralische Baustoffe</common:class>
+<common:class level="1" classId="1.4">Mörtel und Beton</common:class>
+<common:class level="2" classId="1.4.02">Mauermörtel</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">02 Bauprodukte</common:class>
+<common:class level="1">Mauerwerk und Mörtel</common:class>
+<common:class level="2">Mineralische Werkmörtel</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="de">Mineralische Werkmörtel sind Mörtel, deren Bestandteile im Werk und nicht auf der Baustelle gemischt werden. Sie werden in Abhängigkeit von der Art der Verwendung in die drei Werkmörtelarten Mauermörtel, Putzmörtel und Estrichmörtel unterteilt.  Mineralische Mauermörtel sind Gemische aus einem oder mehreren anorganischen Bindemitteln, Zuschlägen, Wasser und ggf. Zusatzstoffen bzw. Zusatzmitteln zur Herstellung von Lager-, Stoß- und Längsfugen, Fugenglattstrich und zum nachträglichen Verfugen von Mauerwerk. Abhängig von den technischen Daten, den eingesetzten Grund- und Hilfsstoffen und der praktischen Anwendung werden Mauermörtel in die Produktgruppen Normalmauermörtel, Leichtmauermörtel, Vormauermörtel / Mörtel mit besonderen Eigenschaften und Dünnbettmörtel / Mörtel mit besonderen Eigenschaften unterteilt.  Je nach Herstellung unterscheidet man Werk-Trockenmörtel, Werk-Frischmörtel, Mehrkammer-Silomörtel und Werk-Vormörtel.</common:generalComment>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2019</common:referenceYear>
+<common:dataSetValidUntil>2024</common:dataSetValidUntil>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="DE" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="de">In der Graphik ist der Herstellungsprozess dargestellt. Mineralische Mauermörtel werden in Mischwerken in folgenden Arbeitsschritten hergestellt: Füllen der Vorrats- bzw. Wägebehälter, Förderung der Einsatzstoffe/des Mischgutes in den Mischer, Mischen, Förderung des Fertigproduktes, Verpackung, Verladung des Fertigproduktes und Auslieferung. Die Rohstoffe – Sand, Bindemittel, Leichtzuschläge, Hilfsstoffe, Zusatzmittel und -stoffe (siehe Grundstoffe) – werden im Herstellwerk in Silos gelagert. Aus den Silos werden die Rohstoffe entsprechend der jeweiligen Rezeptur gravimetrisch dosiert und intensiv miteinander vermischt. Anschließend wird das Mischgut abgepackt und entweder als Werk-Trockenmörtel trocken in Gebinden oder Silos oder als Werk-Frischmörtel fertig gemischt mit Wasser ausgeliefert. Die Grundstoffe können im Werk auch ohne Mischen getrennt voneinander in Spezialsilos gefüllt, ausgeliefert und direkt auf der Baustelle unter Zugabe von Wasser zu gebrauchsfertigem Mörtel gemischt werden. Weiterhin besteht die Möglichkeit, bestimmte Grundstoffe vorzumischen, auszuliefern, dieser Vormischung auf der Baustelle weitere Bestandteile beizufügen und unter Zugabe von Wasser zu gebrauchsfertigem Mörtel zu mischen. Graphik 1: Herstellungsprozess (grün: Input; rot: Input der verschiedenen Sorten; blau: Einheitsprozess) 
+Deklarierte Einheit: 
+Abhängig von den technischen Daten, den eingesetzten Grund- und Hilfsstoffen und der praktischen Anwendung werden Mauermörtel in die Produktgruppen Normalmauermörtel, Leichtmauermörtel, Vormauermörtel / Mörtel mit besonderen Eigenschaften und Dünnbettmörtel / Mörtel mit besonderen Eigenschaften unterteilt.  Diese Deklaration bezieht sich auf die Herstellung von einem Kilogramm typischer Mauermörtel der Produktgruppe Leichtmauermörtel. Es werden sowohl Frisch- als auch Trockenmörtel betrachtet. Auch bei Frischmörtelprodukten wird die deklarierte Einheit auf 1 kg Trockenmasse bezogen, um die Vergleichbarkeit zu gewährleisten.</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="de">Im Werk hergestellte Mauermörtel zur Verwendung in Wänden, Pfeilern und Trennwänden aus Mauerwerk: Leichtmauermörtel zur Herstellung von Mauerwerk, für tragende und nicht tragende Mauerwerkskonstruktionen in Hoch- und Tiefbauten.</technologicalApplicability>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="0c337d6a-1f1a-48e3-91db-52723c3e9255">
+<common:shortDescription xml:lang="de">Mineralische Werkmörtel.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">average dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="add871c7-5a36-4a7c-aff8-c357ccfe1d0d">
+<common:shortDescription xml:lang="de">Mauermörtel-Leichtmauermörtel.pdf</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="28d74cc0-db8b-4d7e-bc44-5f6d56ce0c4a">
+<common:shortDescription xml:lang="de">GaBi Database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="feda7597-12a1-4bd5-93ef-4d8120877b78">
+<common:shortDescription xml:lang="de">GaBi database SP35 2018</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
+Bei diesem Dokument handelt es sich um eine Muster-EPD, bei der für die Berechnung der Ökobilanz das Produkt einer Gruppe ausgewählt wurde, welches die höchsten Umweltlasten dieser Gruppe aufweist. Sie gilt ausschließlich für Mauermörtel-Leichtmauermörtel als mineralische Werkmörtel für Verbandsmitglieder; diese können der Verbandshomepage entnommen werden. Bei den Zahlenangaben, zum Beispiel für bautechnische Daten oder Konzentrationsangaben, handelt es sich um durchschnittliche praxisübliche Werte für diese Produktgruppe. 
+Systemgrenze: 
+Die Lebenszyklusanalyse der untersuchten Produkte umfasst die Produktion des Mörtels einschließlich der Rohstoffgewinnung und Energieträgerbereitstellung bis zum fertig verpackten Produkt (Modul A1-A3), den Einbau des Produktes inkl. Transport zur Baustelle (Modul A4-A5), die Nutzungsphase (Modul B1) sowie die Entsorgung des Mörtels (Modul C4). Für Siloware werden die anteiligen Aufwendungen für den Transport und die Herstellung des Silos berücksichtigt. Gutschriften für die Verpackung einschließlich Energierückgewinnung (Modul D) gehen ebenfalls in die Ökobilanz ein.</useAdviceForDataSet>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">DIN EN 15804</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/4f2eb655-6e44-4874-a95a-e28f5442cd4d.xml" type="source data set" refObjectId="4f2eb655-6e44-4874-a95a-e28f5442cd4d">
+<common:shortDescription xml:lang="de">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<dataEntryBy>
+<common:timeStamp>2019-11-29T17:10:38.911</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="de">ILCD Format 1.1</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/cba73800-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="cba73800-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToPersonOrEntityEnteringTheData uri="../contacts/623edf96-39d1-4e6f-9892-674c7228546b.xml" type="contact data set" refObjectId="623edf96-39d1-4e6f-9892-674c7228546b">
+<common:shortDescription xml:lang="de">thinkstep AG</common:shortDescription>
+</common:referenceToPersonOrEntityEnteringTheData>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.03.000</common:dataSetVersion>
+<common:referenceToRegistrationAuthority uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToRegistrationAuthority>
+<common:registrationNumber>10370</common:registrationNumber>
+<common:referenceToOwnershipOfDataSet uri="../contacts/44750c29-588a-4c5b-8574-0cf93efbeca4.xml" type="contact data set" refObjectId="44750c29-588a-4c5b-8574-0cf93efbeca4">
+<common:shortDescription xml:lang="de">Industrieverband WerkMörtel e. V. (IWM)</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/83489d17-6cfb-8bd0-ab91-301deaaaeccf.xml" type="flow data set" refObjectId="83489d17-6cfb-8bd0-ab91-301deaaaeccf">
+<common:shortDescription xml:lang="de">1 kg Mauermörtel-Leichtmörtel (1 kg Mauermörtel-Leichtmörtel)</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.496</epd:amount>
+<epd:amount epd:module="A4">0.00664</epd:amount>
+<epd:amount epd:module="A5">0.32858</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0.0309</epd:amount>
+<epd:amount epd:module="D">-0.0399</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.327</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">-0.327</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.823</epd:amount>
+<epd:amount epd:module="A4">0.00664</epd:amount>
+<epd:amount epd:module="A5">0.00158</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0.0309</epd:amount>
+<epd:amount epd:module="D">-0.0399</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">4.468</epd:amount>
+<epd:amount epd:module="A4">0.0986</epd:amount>
+<epd:amount epd:module="A5">0.05139</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0.249</epd:amount>
+<epd:amount epd:module="D">-0.191</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.042</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">-0.042</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">4.51</epd:amount>
+<epd:amount epd:module="A4">0.0986</epd:amount>
+<epd:amount epd:module="A5">0.00939</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0.249</epd:amount>
+<epd:amount epd:module="D">-0.191</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.127</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="de">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00105</epd:amount>
+<epd:amount epd:module="A4">7.7E-06</epd:amount>
+<epd:amount epd:module="A5">0.000413</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">4.75E-05</epd:amount>
+<epd:amount epd:module="D">-2.54E-05</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">2.15E-05</epd:amount>
+<epd:amount epd:module="A4">6.32E-09</epd:amount>
+<epd:amount epd:module="A5">9.4E-12</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">4.29E-09</epd:amount>
+<epd:amount epd:module="D">-1.07E-10</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0265</epd:amount>
+<epd:amount epd:module="A4">7.35E-06</epd:amount>
+<epd:amount epd:module="A5">0.000158</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">1.17</epd:amount>
+<epd:amount epd:module="D">-0.000102</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.000146</epd:amount>
+<epd:amount epd:module="A4">1.19E-07</epd:amount>
+<epd:amount epd:module="A5">3.33E-07</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">3.57E-06</epd:amount>
+<epd:amount epd:module="D">-8.41E-06</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">4.19E-05</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.0173</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.04</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.0935</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/77e416eb-a363-4258-a04e-171d843a6460.xml" type="LCIA method data set" refObjectId="77e416eb-a363-4258-a04e-171d843a6460">
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial (GWP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="de">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.572</epd:amount>
+<epd:amount epd:module="A4">0.00735</epd:amount>
+<epd:amount epd:module="A5">0.032</epd:amount>
+<epd:amount epd:module="B1">-0.15375</epd:amount>
+<epd:amount epd:module="C4">0.0186</epd:amount>
+<epd:amount epd:module="D">-0.0131</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/06dcd26f-025f-401a-a7c1-5e457eb54637.xml" type="LCIA method data set" refObjectId="06dcd26f-025f-401a-a7c1-5e457eb54637">
+<common:shortDescription xml:lang="de">Abbau Potential der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512.xml" type="unit group data set" refObjectId="88054749-b0a6-47ea-a82b-dc5b29326512">
+<common:shortDescription xml:lang="de">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">3.59E-11</epd:amount>
+<epd:amount epd:module="A4">1.54E-16</epd:amount>
+<epd:amount epd:module="A5">3.8E-16</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">4.14E-15</epd:amount>
+<epd:amount epd:module="D">-9.66E-15</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/b4274add-93b7-4905-a5e4-2e878c4e4216.xml" type="LCIA method data set" refObjectId="b4274add-93b7-4905-a5e4-2e878c4e4216">
+<common:shortDescription xml:lang="de">Versauerungspotenzial von Boden und Wasser (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f.xml" type="unit group data set" refObjectId="bc50c624-a9bc-45b1-a9b0-e6b10d00476f">
+<common:shortDescription xml:lang="de">kg SO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00146</epd:amount>
+<epd:amount epd:module="A4">5.66E-06</epd:amount>
+<epd:amount epd:module="A5">4.18E-06</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0.00011</epd:amount>
+<epd:amount epd:module="D">-1.4E-05</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/f58827d0-b407-4ec6-be75-8b69efb98a0f.xml" type="LCIA method data set" refObjectId="f58827d0-b407-4ec6-be75-8b69efb98a0f">
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial (EP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822.xml" type="unit group data set" refObjectId="67b5401d-873c-485f-bcf3-6ae83b918822">
+<common:shortDescription xml:lang="de">kg PO_(4)^(3)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.000142</epd:amount>
+<epd:amount epd:module="A4">1.28E-06</epd:amount>
+<epd:amount epd:module="A5">9.44E-07</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">1.52E-05</epd:amount>
+<epd:amount epd:module="D">-2.33E-06</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/1e84a202-dae6-42aa-9e9d-71ea48b8be00.xml" type="LCIA method data set" refObjectId="1e84a202-dae6-42aa-9e9d-71ea48b8be00">
+<common:shortDescription xml:lang="de">Bildungspotential für troposphärisches Ozon (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e.xml" type="unit group data set" refObjectId="01c26c17-9a76-406e-8295-f17b55fd909e">
+<common:shortDescription xml:lang="de">kg Ethen-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.000117</epd:amount>
+<epd:amount epd:module="A4">-1.14E-07</epd:amount>
+<epd:amount epd:module="A5">2.81E-07</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">8.55E-06</epd:amount>
+<epd:amount epd:module="D">-1.22E-06</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/f7c73bb9-ab1a-4249-9c6d-379a0de6f67e.xml" type="LCIA method data set" refObjectId="f7c73bb9-ab1a-4249-9c6d-379a0de6f67e">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="de">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">9.31E-07</epd:amount>
+<epd:amount epd:module="A4">7.61E-10</epd:amount>
+<epd:amount epd:module="A5">5.54E-10</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">7.15E-09</epd:amount>
+<epd:amount epd:module="D">-1.24E-08</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/804ebcdf-309d-4098-8ed8-fdaf2f389981.xml" type="LCIA method data set" refObjectId="804ebcdf-309d-4098-8ed8-fdaf2f389981">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">4.15</epd:amount>
+<epd:amount epd:module="A4">0.0983</epd:amount>
+<epd:amount epd:module="A5">0.00855</epd:amount>
+<epd:amount epd:module="B1">0</epd:amount>
+<epd:amount epd:module="C4">0.24</epd:amount>
+<epd:amount epd:module="D">-0.17</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>

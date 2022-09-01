@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:epd2="http://www.indata.network/EPD/2019" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" epd2:epd-version="1.2" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>270534ca-3eef-4c9f-a55c-6be7e0c46f8c</common:UUID>
+<name>
+<baseName xml:lang="en">NedZink NOVA, NedZink NEO, NedZink NOIR</baseName>
+<functionalUnitFlowProperties xml:lang="en" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="4">Metalle</common:class>
+<common:class level="1" classId="4.5">Zink</common:class>
+<common:class level="2" classId="4.5.01">Zinkbleche</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">02 Building products</common:class>
+<common:class level="1">Metallic products and ancillaries</common:class>
+<common:class level="2">Building metals</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="en">NedZink® NOVA/NedZink® NEO/NedZink® NOIR is pre-weathered titanium zinc produced by NedZink according to EN 988.Small quantities, as specified in EN 988, of the alloy elements copper, titanium and aluminium are added to electrolytically refined zinc (with a purity of min. 99,995% Zn, Z1 according to EN 1179). The chemical composition, mechanical and physical properties and measurement tolerances are determined in the KOMO product certificate and certified as NedZink NTZ® by Lloyd&apos;s RegisterProduct certificate (approval No QIS 122).  The defined material properties are checked by an independent and neutral research institute. This product certification and the ISO 9001 certificate for the quality management system at NedZink assure a constant and uniform high-quality standard.  NedZink® NOVA is pre-weathered titanium zinc in a matt natural medium grey colour. NedZink® NEO is pre-weathered titanium zinc in a matt natural mineral grey colour. NedZink® NOIR is pre-weathered titanium zinc in an anthracite black colour.</common:generalComment>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2022</common:referenceYear>
+<common:dataSetValidUntil>2027</common:dataSetValidUntil>
+<common:other>
+<epd2:publicationDateOfEPD>2022-03-22</epd2:publicationDateOfEPD>
+</common:other>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="RER" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="en">The manufacturing process of pre-weathered rolled zinc includes the following steps: Pre-alloy: In order to improve the properties of zinc, and for energy saving purposes, a pre-alloy with titanium, copper and aluminium is prepared in an induction furnace. This pre-alloy is poured into ingots. Melting: In the melting furnace the Special High Grade (SHG) zinc and the ingots are mixed homogeneously. Zinc with the right composition is pumped to the casting furnace. Casting: Casting takes place from the casting furnace into a vertical casting installation. The zinc is cast into blocks, cooled down with a closed water system and stored for further processing. Rolling and coiling: Blocks coming from the casting installation are homogeneous pre-heated for the “hot rolling” process. This takes place in a gas-fired continuous oven. During the hot rolling on a reversible rolling machine the blocks are processed to a predefined thickness. At the end of the rolling installation the zinc is coiled and stored to cool off. On the reversible cold-rolling mill the coils are rolled to the desired final thickness. For cooling and lubrication of the process a special emulsion is used Stretching and cutting: Tension in the coils is released by a stretching-and straightening process. The zinc is uniquely marked and slitted and cut to the desired width and length. Pre-weathering: In a continuously operating production line the coils are degreased, brushed and phosphated to get a prepatinated medium gray appearance for NedZink® NOVA or a mineral grey appearance for NedZink® NEO. With an additional proces for NedZink® NOIR an anthracite black appearance is created. After rinsing and drying the material surface is provided with a thin transparent protection layer and stored in the warehouse. Quality control: During the entire process extensive quality checks are conducted by the manufacturer and Lloyd&apos;s Register. Quality Management according to ISO 9001. Product quality is checked by Lloyd&apos;s Register and approved with an Industrial Quality Scheme Approval Certificate QIS122 Additionally the quality control is audited by Kiwa and declared against: - BRL2034, KOMO K7054/04 zinc sheets - BRL2035, KOMO K7057/04 zinc gutters - BRL2044, KOMO K7063/04 zinc downpipes 
+Technical data: 
+The main constructional data are presented in the following table: 
+Declared unit: 
+The declared unit is 1 kg of NedZink® NOVA/ NedZink® NEO/NedZink® NOIR, pre-weathered titanium zinc.</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="en">NedZink® NOVA/NedZink® NEO/NedZink® NOIR titanium zinc coils, sheets, strips and profiles are used for:- roof and façade cladding (CE-marked based on EN14782:2006, Self-supporting metal sheet for roofing, external cladding and internal lining or EN14783:2013, Fully supported metal sheet and strip for roofing, external cladding and internal lining)- interior use- roof drainage systems (gutters, downpipes and accessories according to EN612)- ornaments</technologicalApplicability>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="ef09381f-d624-4517-869b-3fe058a8286b">
+<common:shortDescription xml:lang="en">Building metals.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">specific dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="b497a91f-e14b-4b69-8f28-f50eb1576766">
+<common:shortDescription xml:lang="en">ecoinvent database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="766b9973-5ee8-48a2-8098-72c8e20b369f">
+<common:shortDescription xml:lang="en">ecoinvent 3.6 database</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="en">Scope: 
+The Life Cycle Assessment (LCA) was carried out according to ISO 14040, ISO 14044 and EN 15804. The LCA is performed for the pre-weathered products NedZink® NOVA/NedZink® NEO/NedZink® NOIR manufactured by NedZink B.V. in Budel-Dorplein, Netherlands. The pre-weathered rolled zinc from NedZink covered by this EPD can be used in buildings as roof, façade or rainwater systems. The LCA was carried out for the manufacturing phase of the declared product, containing information on raw and secondary material production, transport and packaging (cradle to gate). Possible credits after the end of life phase (module D), demolition (C1), transport to waste processing and disposal (C2), waste processing (C3) and waste disposal (C4) are also included. 
+System boundary: 
+Type of the EPD: Cradle-to-Gate with options. Modules A1, A2 and A3 contain information on the raw- and secondary material extraction, transport to the manufacturer, manufacturing and packaging.  Module C1 - C4 (end of life) and module D (applicable to the aforementioned modules) are declared. Modules A4, A5 and B1-B7 are not declared.</useAdviceForDataSet>
+<common:other>
+<epd2:referenceToOriginalEPD type="source data set" refObjectId="0c7b13d8-bddc-4d16-b25b-79969ff8a2e0">
+<common:shortDescription xml:lang="en">NedZink NOVA, NedZink NEO, NedZink NOIR.pdf</common:shortDescription>
+</epd2:referenceToOriginalEPD>
+</common:other>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="en">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/c0016b33-8cf7-415c-ac6e-deba0d21440d.xml" type="source data set" refObjectId="c0016b33-8cf7-415c-ac6e-deba0d21440d">
+<common:shortDescription xml:lang="en">DIN EN 15804+A2</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/4f2eb655-6e44-4874-a95a-e28f5442cd4d.xml" type="source data set" refObjectId="4f2eb655-6e44-4874-a95a-e28f5442cd4d">
+<common:shortDescription xml:lang="en">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<common:commissionerAndGoal>
+<common:referenceToCommissioner uri="../contacts/7d44a779-36f5-49ef-94f9-4c8c5602e0aa.xml" type="contact data set" refObjectId="7d44a779-36f5-49ef-94f9-4c8c5602e0aa">
+<common:shortDescription xml:lang="en">NedZink B.V.</common:shortDescription>
+</common:referenceToCommissioner>
+</common:commissionerAndGoal>
+<dataGenerator>
+<common:referenceToPersonOrEntityGeneratingTheDataSet uri="../contacts/82bcdc71-2928-4b2b-a433-1be14e43afda.xml" type="contact data set" refObjectId="82bcdc71-2928-4b2b-a433-1be14e43afda">
+<common:shortDescription xml:lang="en">Stichting Adviescentrum Metaal</common:shortDescription>
+</common:referenceToPersonOrEntityGeneratingTheDataSet>
+</dataGenerator>
+<dataEntryBy>
+<common:timeStamp>2022-03-22T14:22:04.627</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="en">ILCD Format</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml" type="source data set" refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+<common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+</common:referenceToDataSetFormat>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.01.000</common:dataSetVersion>
+<common:referenceToRegistrationAuthority uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="en">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToRegistrationAuthority>
+<common:registrationNumber>EPD-NED-20200257-IBA1-EN</common:registrationNumber>
+<common:referenceToOwnershipOfDataSet uri="../contacts/7d44a779-36f5-49ef-94f9-4c8c5602e0aa.xml" type="contact data set" refObjectId="7d44a779-36f5-49ef-94f9-4c8c5602e0aa">
+<common:shortDescription xml:lang="en">NedZink B.V.</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+<common:licenseType>Free of charge for all users and uses</common:licenseType>
+<common:accessRestrictions xml:lang="en">None</common:accessRestrictions>
+<common:other>
+<epd2:referenceToPublisher type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95" uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml">
+<common:shortDescription xml:lang="en">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</epd2:referenceToPublisher>
+</common:other>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/e56d19d2-baa4-1511-a453-ab6947377fea.xml" type="flow data set" refObjectId="e56d19d2-baa4-1511-a453-ab6947377fea">
+<common:shortDescription xml:lang="en">1 kg NEDZINK NOVA/NEO/NOIR (1 kg NEDZINK NOVA/NOIR)</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="en">Renewable primary energy as energy carrier (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">8.7254253</epd:amount>
+<epd:amount epd:module="C1">1.2908422E-05</epd:amount>
+<epd:amount epd:module="C2">0.001521673</epd:amount>
+<epd:amount epd:module="C3">0.0082740496</epd:amount>
+<epd:amount epd:module="C4">5.9515333E-05</epd:amount>
+<epd:amount epd:module="D">-5.6158787</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="en">Renewable primary energy resources as material utilization (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.201</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="en">Total use of renewable primary energy resources (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">8.9264253</epd:amount>
+<epd:amount epd:module="C1">1.2908422E-05</epd:amount>
+<epd:amount epd:module="C2">0.001521673</epd:amount>
+<epd:amount epd:module="C3">0.0082740496</epd:amount>
+<epd:amount epd:module="C4">5.9515333E-05</epd:amount>
+<epd:amount epd:module="D">-5.6158787</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="en">Non renewable primary energy as energy carrier (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">71.399822</epd:amount>
+<epd:amount epd:module="C1">0.0025343781</epd:amount>
+<epd:amount epd:module="C2">0.1126058</epd:amount>
+<epd:amount epd:module="C3">0.83381689</epd:amount>
+<epd:amount epd:module="C4">0.007818784</epd:amount>
+<epd:amount epd:module="D">-44.027495</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="en">Non renewable primary energy as material utilization (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="en">Total use of non renewable primary energy resources (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">71.399822</epd:amount>
+<epd:amount epd:module="C1">0.0025343781</epd:amount>
+<epd:amount epd:module="C2">0.1126058</epd:amount>
+<epd:amount epd:module="C3">0.83381689</epd:amount>
+<epd:amount epd:module="C4">0.007818784</epd:amount>
+<epd:amount epd:module="D">-44.027495</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="en">Use of secondary material (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0.947398233610898</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="en">Use of renewable secondary fuels (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="en">Use of non renewable secondary fuels (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="en">Use of net fresh water (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="en">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.11953322</epd:amount>
+<epd:amount epd:module="C1">1.2282973E-07</epd:amount>
+<epd:amount epd:module="C2">1.2003434E-05</epd:amount>
+<epd:amount epd:module="C3">5.8712731E-05</epd:amount>
+<epd:amount epd:module="C4">7.8615766E-06</epd:amount>
+<epd:amount epd:module="D">-0.089538727</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="en">Hazardous waste disposed (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.011846393</epd:amount>
+<epd:amount epd:module="C1">6.5001279E-09</epd:amount>
+<epd:amount epd:module="C2">2.7124778E-07</epd:amount>
+<epd:amount epd:module="C3">2.0614655E-06</epd:amount>
+<epd:amount epd:module="C4">1.0999475E-08</epd:amount>
+<epd:amount epd:module="D">-0.0094633385</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="en">Non hazardous waste disposed (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.63909699</epd:amount>
+<epd:amount epd:module="C1">2.8255551E-06</epd:amount>
+<epd:amount epd:module="C2">0.0065739009</epd:amount>
+<epd:amount epd:module="C3">0.00106431</epd:amount>
+<epd:amount epd:module="C4">0.049984731</epd:amount>
+<epd:amount epd:module="D">-0.40801906</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="en">Radioactive waste disposed (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00030648349</epd:amount>
+<epd:amount epd:module="C1">1.6570862E-08</epd:amount>
+<epd:amount epd:module="C2">7.2130897E-07</epd:amount>
+<epd:amount epd:module="C3">5.3186373E-06</epd:amount>
+<epd:amount epd:module="C4">4.8340259E-08</epd:amount>
+<epd:amount epd:module="D">-0.0002143127</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="en">Components for re-use (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="en">Materials for recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.188338872569929</epd:amount>
+<epd:amount epd:module="C1">1.18833887256993</epd:amount>
+<epd:amount epd:module="C2">2.18833887256993</epd:amount>
+<epd:amount epd:module="C3">3.18833887256993</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="en">Materials for energy recovery (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="en">Exported electrical energy (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="en">Exported thermal energy (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/6a37f984-a4b3-458a-a20a-64418c145fa2.xml" type="LCIA method data set" refObjectId="6a37f984-a4b3-458a-a20a-64418c145fa2">
+<common:shortDescription xml:lang="en">Global Warming Potential total (GWP-total)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="en">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">4.726711</epd:amount>
+<epd:amount epd:module="C1">0.00017345662</epd:amount>
+<epd:amount epd:module="C2">0.0069155829</epd:amount>
+<epd:amount epd:module="C3">0.057262791</epd:amount>
+<epd:amount epd:module="C4">0.00026387158</epd:amount>
+<epd:amount epd:module="D">-2.9117959</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/5f635281-343e-44fb-83df-1971b155e6b6.xml" type="LCIA method data set" refObjectId="5f635281-343e-44fb-83df-1971b155e6b6">
+<common:shortDescription xml:lang="en">Global Warming Potential fossil fuels (GWP-fossil)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="en">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">4.5626582</epd:amount>
+<epd:amount epd:module="C1">0.00017339473</epd:amount>
+<epd:amount epd:module="C2">0.0069089416</epd:amount>
+<epd:amount epd:module="C3">0.057222024</epd:amount>
+<epd:amount epd:module="C4">0.00026327612</epd:amount>
+<epd:amount epd:module="D">-2.7815475</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/2356e1ab-0185-4db5-86e5-16de51c7485c.xml" type="LCIA method data set" refObjectId="2356e1ab-0185-4db5-86e5-16de51c7485c">
+<common:shortDescription xml:lang="en">Global Warming Potential biogenic (GWP-biogenic)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="en">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.15042627</epd:amount>
+<epd:amount epd:module="C1">4.8226014E-08</epd:amount>
+<epd:amount epd:module="C2">4.1958024E-06</epd:amount>
+<epd:amount epd:module="C3">3.093662E-05</epd:amount>
+<epd:amount epd:module="C4">5.2206555E-07</epd:amount>
+<epd:amount epd:module="D">-0.1207549</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/4331bbdb-978a-490d-8707-eeb047f01a55.xml" type="LCIA method data set" refObjectId="4331bbdb-978a-490d-8707-eeb047f01a55">
+<common:shortDescription xml:lang="en">Global Warming Potential luluc (GWP-luluc)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="en">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.013626459</epd:amount>
+<epd:amount epd:module="C1">1.3665843E-08</epd:amount>
+<epd:amount epd:module="C2">2.4455106E-06</epd:amount>
+<epd:amount epd:module="C3">9.8302827E-06</epd:amount>
+<epd:amount epd:module="C4">7.3394738E-08</epd:amount>
+<epd:amount epd:module="D">-0.009493445</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c629d6-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c629d6-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Depletion potential of the stratospheric ozone layer (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/d9e957c9-7309-4474-bf3a-7777df6c4e5b.xml" type="unit group data set" refObjectId="d9e957c9-7309-4474-bf3a-7777df6c4e5b">
+<common:shortDescription xml:lang="en">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">3.7212801E-07</epd:amount>
+<epd:amount epd:module="C1">3.7446255E-11</epd:amount>
+<epd:amount epd:module="C2">1.5923196E-09</epd:amount>
+<epd:amount epd:module="C3">1.1888567E-08</epd:amount>
+<epd:amount epd:module="C4">1.0842468E-10</epd:amount>
+<epd:amount epd:module="D">-2.0795062E-07</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c611c6-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c611c6-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Acidification potential of land and water (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/42e089ac-92bf-4bf2-8ca1-5fc40d18f2ed.xml" type="unit group data set" refObjectId="42e089ac-92bf-4bf2-8ca1-5fc40d18f2ed">
+<common:shortDescription xml:lang="en">mol H^(+)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.04389333</epd:amount>
+<epd:amount epd:module="C1">1.8135916E-06</epd:amount>
+<epd:amount epd:module="C2">3.9360172E-05</epd:amount>
+<epd:amount epd:module="C3">0.00058415965</epd:amount>
+<epd:amount epd:module="C4">2.4995346E-06</epd:amount>
+<epd:amount epd:module="D">-0.027518495</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b53ec18f-7377-4ad3-86eb-cc3f4f276b2b.xml" type="LCIA method data set" refObjectId="b53ec18f-7377-4ad3-86eb-cc3f4f276b2b">
+<common:shortDescription xml:lang="en">Eutrophication potential aquatic freshwater (EP-freshwater)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/0429039d-a61d-4590-ba67-aa4a20a810a1.xml" type="unit group data set" refObjectId="0429039d-a61d-4590-ba67-aa4a20a810a1">
+<common:shortDescription xml:lang="en">kg PO_(4)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00045832891</epd:amount>
+<epd:amount epd:module="C1">6.3124593E-10</epd:amount>
+<epd:amount epd:module="C2">5.6858345E-08</epd:amount>
+<epd:amount epd:module="C3">3.482392E-07</epd:amount>
+<epd:amount epd:module="C4">2.9511562E-09</epd:amount>
+<epd:amount epd:module="D">-0.00032643584</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c619fa-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c619fa-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Eutrophication potential aquatic marine (EP-marine)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/d05bb823-ecdf-4686-8c40-bf1d9257859f.xml" type="unit group data set" refObjectId="d05bb823-ecdf-4686-8c40-bf1d9257859f">
+<common:shortDescription xml:lang="en">kg N-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0085399362</epd:amount>
+<epd:amount epd:module="C1">8.0062148E-07</epd:amount>
+<epd:amount epd:module="C2">1.408329E-05</epd:amount>
+<epd:amount epd:module="C3">0.00025405639</epd:amount>
+<epd:amount epd:module="C4">8.5962737E-07</epd:amount>
+<epd:amount epd:module="D">-0.0059434815</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c614d2-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c614d2-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Eutrophication potential terrestrial (EP-terrestrial)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/71b4d617-0ec9-4d3f-b65e-e438940c2401.xml" type="unit group data set" refObjectId="71b4d617-0ec9-4d3f-b65e-e438940c2401">
+<common:shortDescription xml:lang="en">mol N-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.096632483</epd:amount>
+<epd:amount epd:module="C1">8.7846682E-06</epd:amount>
+<epd:amount epd:module="C2">0.00015519691</epd:amount>
+<epd:amount epd:module="C3">0.0027883382</epd:amount>
+<epd:amount epd:module="C4">9.477986E-06</epd:amount>
+<epd:amount epd:module="D">-0.0670687</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c610fe-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c610fe-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Formation potential of tropospheric ozone photochemical oxidants (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/d27c25f8-fbc1-44c6-b47b-4adbae4199c6.xml" type="unit group data set" refObjectId="d27c25f8-fbc1-44c6-b47b-4adbae4199c6">
+<common:shortDescription xml:lang="en">kg NMVOC-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.024806422</epd:amount>
+<epd:amount epd:module="C1">2.415349E-06</epd:amount>
+<epd:amount epd:module="C2">4.4366942E-05</epd:amount>
+<epd:amount epd:module="C3">0.00076652855</epd:amount>
+<epd:amount epd:module="C4">2.7530675E-06</epd:amount>
+<epd:amount epd:module="D">-0.016725821</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b2ad6494-c78d-11e6-9d9d-cec0c932ce01.xml" type="LCIA method data set" refObjectId="b2ad6494-c78d-11e6-9d9d-cec0c932ce01">
+<common:shortDescription xml:lang="en">Abiotic depletion potential for non fossil resources (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="en">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.09301381</epd:amount>
+<epd:amount epd:module="C1">2.6592489E-10</epd:amount>
+<epd:amount epd:module="C2">1.7875398E-07</epd:amount>
+<epd:amount epd:module="C3">9.3666803E-08</epd:amount>
+<epd:amount epd:module="C4">2.4095318E-09</epd:amount>
+<epd:amount epd:module="D">-0.073175949</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b2ad6110-c78d-11e6-9d9d-cec0c932ce01.xml" type="LCIA method data set" refObjectId="b2ad6110-c78d-11e6-9d9d-cec0c932ce01">
+<common:shortDescription xml:lang="en">Abiotic depletion potential for fossil resources (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">66.919779</epd:amount>
+<epd:amount epd:module="C1">0.0023864795</epd:amount>
+<epd:amount epd:module="C2">0.10606739</epd:amount>
+<epd:amount epd:module="C3">0.78512974</epd:amount>
+<epd:amount epd:module="C4">0.0073608618</epd:amount>
+<epd:amount epd:module="D">-41.400582</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b2ad66ce-c78d-11e6-9d9d-cec0c932ce01.xml" type="LCIA method data set" refObjectId="b2ad66ce-c78d-11e6-9d9d-cec0c932ce01">
+<common:shortDescription xml:lang="en">Water use (WDP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/6ae2df01-888e-46c8-b17d-49fa3869b476.xml" type="unit group data set" refObjectId="6ae2df01-888e-46c8-b17d-49fa3869b476">
+<common:shortDescription xml:lang="en">m^(3) world-Äq. deprived</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">3.866109</epd:amount>
+<epd:amount epd:module="C1">3.1964571E-06</epd:amount>
+<epd:amount epd:module="C2">0.00032550299</epd:amount>
+<epd:amount epd:module="C3">0.0014316858</epd:amount>
+<epd:amount epd:module="C4">0.00032995604</epd:amount>
+<epd:amount epd:module="D">-3.0089433</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c602c6-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c602c6-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Incidence of disease due to PM emissions (PM)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/3883559b-648f-4afc-8ba2-0bd24f3affa3.xml" type="unit group data set" refObjectId="3883559b-648f-4afc-8ba2-0bd24f3affa3">
+<common:shortDescription xml:lang="en">Disease incidence</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.6840024E-07</epd:amount>
+<epd:amount epd:module="C1">4.798261E-11</epd:amount>
+<epd:amount epd:module="C2">6.2372568E-10</epd:amount>
+<epd:amount epd:module="C3">1.5188843E-08</epd:amount>
+<epd:amount epd:module="C4">4.849317E-11</epd:amount>
+<epd:amount epd:module="D">-9.6178044E-08</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c632be-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c632be-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Human exposure efficiency relative to U235 (IR)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/456b05bf-1415-44a9-9993-02452f554c09.xml" type="unit group data set" refObjectId="456b05bf-1415-44a9-9993-02452f554c09">
+<common:shortDescription xml:lang="en">kBq U235-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.4170009</epd:amount>
+<epd:amount epd:module="C1">1.0226592E-05</epd:amount>
+<epd:amount epd:module="C2">0.00046360052</epd:amount>
+<epd:amount epd:module="C3">0.0033689635</epd:amount>
+<epd:amount epd:module="C4">3.019598E-05</epd:amount>
+<epd:amount epd:module="D">-0.30810039</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/ee1082d1-b0f7-43ca-a1f0-21e2a4a74511.xml" type="LCIA method data set" refObjectId="ee1082d1-b0f7-43ca-a1f0-21e2a4a74511">
+<common:shortDescription xml:lang="en">Comparative toxic unit for ecosystems (ETP-fw)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/aa959ded-f1eb-4efb-9c5c-2d60be36b3e6.xml" type="unit group data set" refObjectId="aa959ded-f1eb-4efb-9c5c-2d60be36b3e6">
+<common:shortDescription xml:lang="en">CTUe</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">860.53643954</epd:amount>
+<epd:amount epd:module="C1">0.00143862092</epd:amount>
+<epd:amount epd:module="C2">0.0861285555</epd:amount>
+<epd:amount epd:module="C3">0.504435635</epd:amount>
+<epd:amount epd:module="C4">0.0047749674</epd:amount>
+<epd:amount epd:module="D">-661.37340059</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/2299222a-bbd8-474f-9d4f-4dd1f18aea7c.xml" type="LCIA method data set" refObjectId="2299222a-bbd8-474f-9d4f-4dd1f18aea7c">
+<common:shortDescription xml:lang="en">Comparative toxic unit for humans (carcinogenic) (HTP-c)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/d4c9523e-2d7e-49fd-8469-998f547d3a70.xml" type="unit group data set" refObjectId="d4c9523e-2d7e-49fd-8469-998f547d3a70">
+<common:shortDescription xml:lang="en">CTUh</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">2.117554207E-08</epd:amount>
+<epd:amount epd:module="C1">5.0273838E-14</epd:amount>
+<epd:amount epd:module="C2">3.066015E-12</epd:amount>
+<epd:amount epd:module="C3">1.67598249E-11</epd:amount>
+<epd:amount epd:module="C4">1.10378762E-13</epd:amount>
+<epd:amount epd:module="D">-1.623010634E-08</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/3af763a5-b7a1-48c9-9cee-1f223481fcef.xml" type="LCIA method data set" refObjectId="3af763a5-b7a1-48c9-9cee-1f223481fcef">
+<common:shortDescription xml:lang="en">Comparative toxic unit for humans (noncarcinogenic) (HTP-nc)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/d4c9523e-2d7e-49fd-8469-998f547d3a70.xml" type="unit group data set" refObjectId="d4c9523e-2d7e-49fd-8469-998f547d3a70">
+<common:shortDescription xml:lang="en">CTUh</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">6.282211006E-07</epd:amount>
+<epd:amount epd:module="C1">1.239407197E-12</epd:amount>
+<epd:amount epd:module="C2">1.0287793E-10</epd:amount>
+<epd:amount epd:module="C3">4.18737462E-10</epd:amount>
+<epd:amount epd:module="C4">3.4119607E-12</epd:amount>
+<epd:amount epd:module="D">-4.80486177E-07</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b2ad6890-c78d-11e6-9d9d-cec0c932ce01.xml" type="LCIA method data set" refObjectId="b2ad6890-c78d-11e6-9d9d-cec0c932ce01">
+<common:shortDescription xml:lang="en">Soil quality index (SQP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/f130951c-e67f-4f7f-8dd4-665de3974e18.xml" type="unit group data set" refObjectId="f130951c-e67f-4f7f-8dd4-665de3974e18">
+<common:shortDescription xml:lang="en">SQP</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">32.604158</epd:amount>
+<epd:amount epd:module="C1">0.00030457141</epd:amount>
+<epd:amount epd:module="C2">0.090709874</epd:amount>
+<epd:amount epd:module="C3">0.11572944</epd:amount>
+<epd:amount epd:module="C4">0.01543719</epd:amount>
+<epd:amount epd:module="D">-21.26894</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>

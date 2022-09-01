@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:epd2="http://www.indata.network/EPD/2019" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" epd2:epd-version="1.2" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>4b465ace-d203-4498-91eb-dab665bad291</common:UUID>
+<name>
+<baseName xml:lang="de">Schilliger-Leimholz nach EN 14080:2013</baseName>
+<baseName xml:lang="en">Schilliger glued laminated timber (Glulam) as per EN 14080:2013</baseName>
+<functionalUnitFlowProperties xml:lang="de" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="3">Holz</common:class>
+<common:class level="1" classId="3.1">Vollholz</common:class>
+<common:class level="2" classId="3.1.04">Brettschichtholz (BSH)</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">02 Bauprodukte</common:class>
+<common:class level="1">Produkte aus Bauholz</common:class>
+<common:class level="2">Vollholzprodukte</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="de">Das Schilliger-Leimholz ist ein industriell gefertigtes Holzprodukt für tragende Konstruktionen. Es wird im Gebäude- und Brückenbau eingesetzt. Der Aufbau ist symmetrisch, besteht aus mindestens zwei faserparallel miteinander verklebten getrockneten Brettern oder Holzlamellen aus Nadelvollholz. Es ist in Folge der Festigkeitssortierung des Ausgangsmaterials und der Homogenisierung durch schichtweisen Aufbau vergütet und hat höhere Tragfähigkeiten als übliches Bauholz. Gemäß der /EN 14080:2013/ werden die Produktgruppen Brettschichtholz (BSH) und Balkenschichtholz (BalkenSH) definiert (/1359-CPR-0622/).Das BSH ist durch die Lamellenstärke von 40 mm gekennzeichnet und aufgrund seiner hohen Festigkeiten und variablen Produktausprägungen in einem breiten Anwendungsgebiet einsetzbar. Das BalkenSH weist von 40 mm abweichend dünnere oder dickere Lagen auf und ist für spezielle Anforderungen entwickelt: hierunter fallen die betriebseigenen Produkte Massivholzträger (MHT), Lamellenbalken (LAM), Rigibalken (RBS) sowie Rahmenbaukanteln (RBK).Eine ausführliche Beschreibung der BSH- und BalkenSH-Produkte befindet sich auf der Firmen-Webpage &quot;www.schilliger.ch&quot;.</common:generalComment>
+<common:generalComment xml:lang="en">Schilliger glued laminated timber (Glulam) is an industrially manufactured wood product for load-bearing structures. It is used in building and bridge construction. Its composition is symmetrical and consists of at least two dried boards of coniferous solid wood glued together parallel to the grain. As a result of the strength grading of the raw material and the homogenisation, it is reinforced through its layered formation and has higher load-bearing capacities than conventional timber. The glued laminated timber (Glulam) and glued solid timber product-groups are defined according to /EN 14080:2013/, (/1359-CPR-0622/). Glulam is characterised by a lamellae thickness of 40 mm and can be utilised in a wide range of applications, due to its high strength and variable product characteristics. Glued solid timber has either thinner or thicker layers than 40 mm and is produced for special requirements: this includes the company&apos;s own products,&quot;Massivholzträger (MHT)&quot;, &quot;Lamellenbalken (LAM)&quot;, &quot;Rigibalken (RBS)&quot; and &quot;Rahmenbaukanteln (RBK)&quot;.   A comprehensive description of Glulam and glued solid timber products can be found on the company website at &quot;www.schilliger.ch&quot;.</common:generalComment>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2018</common:referenceYear>
+<common:dataSetValidUntil>2023</common:dataSetValidUntil>
+<common:other>
+<epd2:publicationDateOfEPD>2018-05-28</epd2:publicationDateOfEPD>
+</common:other>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="CH" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="de">Verwendet wird nur betriebsintern produziertes Schnittholz, das auf 12% Holzfeuchte vorgetrocknet und unbehandelt ist. Die Holzfeuchte jeder Lamelle wird gemessen, nach einer visuellen Vorsortierung werden diese 4-seitig gehobelt. Anschließend durchlaufen sie den Qualitätsscanner, welcher Fehlerstellen für die Auskappung markiert und die Lamellen nach ihrer Qualität sortiert. Nachdem die Fehlerstellen ausgekappt sind werden die Lamellen zu einem Endlosstrang keilgezinkt und kommissionsbezogen abgelängt. Nach einem weiteren Hobelvorgang werden die Lamellen verleimt und gepresst: Fünf Pressen auf einer Trommel kommen flexibel zum Einsatz. Das fertige Produkt wird abschließend gehobelt, gefast und endkontrolliert. Die Kommissionspakete werden zur Auslieferung in der Folieranlage verpackt. Während des Produktionsprozesses werden die Qualitätsanforderungen der /ISO 9001/ eingehalten (/Zertifikatsnummer 01 100 1300116 LGA-Intercert/). 
+Technische Daten: 
+Das Schilliger-Leimholz erfüllt die Anforderungen nach /EN 14080:2013/ (/1359-CPR-0622 /).Diese werden in den Leistungserklärungen für Brettschichtholz Fi/Ta / SHI / 01-01012016 vom 1.1.2016 und für Balkenschichtholz Fi/Ta / SHI / 04-01012016 vom 1.1.2016 weiter ausgeführt. Einzelheiten zu den Querschnittsaufbauten und Produkteigenschaften können auch den Technischen Merkblättern entnommen werden, welche der Betrieb zu jedem Produkt auf seiner Internetseite veröffentlicht. 
+Deklarierte Einheit: 
+Die deklarierten Umweltkennzahlen beziehen sich auf 1 m3 Leimholz gemäß EN 14080:2013. Darunter fallen Brettschichtholz (BSH) sowie Balkenschichtholz, wobei alle Produkte mit PUR-Kleber verleimt sind.Bei der Modellierung wurde für die Sägereiprozesse konservativ von der Herstellung von Brettern (nicht von Balken) ausgegangen; für den Leimverbrauch wurde aber der nach Produktionsvolumen gewichtete Leimverbrauch für BSH bzw. Balkenschichtholz verwendet.</technologyDescriptionAndIncludedProcesses>
+<technologyDescriptionAndIncludedProcesses xml:lang="en"> 
+Technical data: 
+Schilliger-Glulam fulfils the requirements of /EN 14080:2013/ (/1359-CPR-0622 /). These are further elaborated in the declarations of performance for Glulam (silver fir/spruce) / SHI / 01-01012016 of 1.1.2016 and for glued solid timber (silver fir/spruce) / SHI / 04-01012016 of 1.1.2016.   Details of the cross-sectional structures and the properties of each product can also be found in the technical data sheets published by the company on its website. 
+Declared unit: 
+The declared environmental figures refer to 1 m3 of glued wood in accordance with EN 14080:2013, including Glulam  and solid glued timber, with all products having been glued using PUR adhesive. For the statistical modelling of the sawing processes, the production of planks (not beams) was conservatively estimated; however, for the glue consumption, the consumption for Glulam or glued solid timber, weighted according to production volume, was used.</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="de">Das BSH wird im Konstruktionsbau als tragendes Element eingesetzt, z.B. in Brücken und Gebäuden, als sichtbare oder verdeckte Trägerteile.MHT, LAM und RBS finden ebenfalls im Konstruktionsbau Anwendung, Rahmenbaukanteln sind als Ständer für den Holzrahmenbau und als Spurschwellen für den Elementbau vorgesehen.</technologicalApplicability>
+<technologicalApplicability xml:lang="en">The Glulam is used in structural engineering as visible or concealed load-bearing elements, such as in bridges and buildings. &quot;MHT&quot;, &quot;LAM&quot; and &quot;RBS&quot; are also used in structural engineering, &quot;Rahmenbaukanteln&quot; are intended as uprights for timber frame construction and as sleepers in prefabricated-building construction.</technologicalApplicability>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="7ad0ff8a-3ee4-4a10-9e01-e04566451e90">
+<common:shortDescription xml:lang="de">Vollholzprodukte.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">average dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="b497a91f-e14b-4b69-8f28-f50eb1576766">
+<common:shortDescription xml:lang="de">ecoinvent database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="9ffadc15-4649-4871-b565-cee8197b17e9">
+<common:shortDescription xml:lang="de">ecoinvent 2.2 database</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
+Diese Deklaration umfasst das von der Schilliger Holz AG gefertigte Leimholz gemäß /EN 14080:2013/: das Brettschichtholz (BSH) sowie die folgenden Balkenschichtholz-Produkte: Massivholzträger (MHT), Lamellenbalken (LAM), Rigibalken (RBS) sowie Rahmenbaukanteln (RBK). Der Produktionsstandort ist das Werk in Küssnacht, Schweiz. 
+Systemgrenze: 
+EPD von der Wiege bis zum Werkstor - mit Optionen.Die Herstellung der Leimholzprodukte (Module A1-A3) umfasst die Forstprozesse, den Transport des Rundholzes zur Sägerei, die Herstellung der Sägeware und daraus des Leimholzes sowie die damit zusammenhängenden Hintergrundprozesse (Stromgewinnung, Gewinnung fossiler Treib- und Brennstoffe, etc.). Weiter wird die Herstellung des Leimes sowie der Verpackung mit bilanziert. Die benötigte Infrastruktur für die Sägerei und das Leimholzwerk werden abgeschätzt.Der Gehalt an biogenem CO2 wird gemäss PCR beim Treibhausgaspotenzial (GWP) als negativer Input verrechnet.Abfälle, Sekundärmaterialien oder Sekundärbrennstoffe werden in der Produktion nicht eingesetzt. Rinde, Hackschnitzel/Hobelspäne und weitere rohe Sägeware verlassen das Produktsystem als Ko-Produkte.In Modul A4 wird ein durchschnittlicher Transport des Leimholzes über 90 km auf die Baustelle bilanziert.Modul A5 umfasst die Entsorgung der PE-Verpackung in einer Müllverbrennungsanlage (KVA). Die in der KVA erzeugte Wärme und Strom werden als exportierte Energie in Modul D verrechnet.Installationsmaterial wird in Modul A5 nicht verrechnet, da sich Art und Menge des Installationsmaterials je nach Verwendung des Leimholzes unterscheiden; Installationsmaterial muss bei der Bilanzierung eines Gebäudes entsprechend ergänzt werden.Modul C2 umfasst den Transport des rückgebauten Leimholzes zu einem Biomassekraftwerk.In Modul C3 wird das Hacken des rückgebauten Leimholzes abgebildet; es wird in Übereinstimmung mit /EN 16485/ davon ausgegangen, dass nicht druckbehandeltes Altholz das Ende der Abfalleigenschaften erreicht, wenn es als Hackschnitzel verfügbar wird und als Sekundärbrennstoff mit dem entsprechenden Gehalt an biogenem C (als CO2-Äquivalent) und der gespeicherten erneuerbaren Primärenergie den Bilanzraum verlässt.In Modul C4 fallen keine Prozesse/Umweltwirkungen an.In Modul D ist die energetische Verwertung der Hackschnitzel in einem Biomassekraftwerk verrechnet. Dabei wird ausgegangen, dass die rückgewonnene Energie den Strommix Deutschland sowie Wärme ab industrielle Erdgasfeuerung ersetzt. Analog verrechnet wird die exportierte Energie aus der energetischen Nutzung der PE-Verpackung aus Modul A5.</useAdviceForDataSet>
+<useAdviceForDataSet xml:lang="en">Scope: 
+This declaration concerns Glulam produced by Schilliger Holz AG in accordance with /EN 14080:2013/: glued laminated timber and the following glued solid timber: &quot;Massivholzträger (MHT)&quot;, &quot;Lamellenbalken (LAM)&quot;, &quot;Rigibalken (RBS)&quot;, and&quot;Rahmenbaukanteln (RBK)&quot;. The production site is the plant in Küssnacht, Switzerland. 
+System boundary: 
+This EPD represents a &apos;cradle-to-gate&apos; analysis, with options. The manufacturing process of the Glulam products (modules A1-A3) comprises the forestry processes, the transportation of the round timber to the sawmill, the production of the sawn timber and the related background processes (power generation, extraction of fossil fuels, etc.). Furthermore, the production of the glue, as well as the packaging, is also reflected in the analysis. The infrastructure required for the sawmill and the Glulam plant is estimated. According to the applicable PCR, the content of biogenic CO2 is accounted for as a negative input to the global warming potential (GWP). Waste and secondary materials or secondary fuels are not used in production. Bark, wood -chips -shavings and other raw sawdust leave the product scope as co-products. In module A4, an average transport distance of over 90km for the Glulam to reach the prospective construction site is accounted for. Module A5 includes the disposal of PE packaging in a waste incineration plant (WIP).The heat and electricity generated in the WIP are offset as exported energy in module D. Installation material is not reflected in module A5, as the type and quantity of installation material varies depending on the use of the glued wood; installation material must be considered accordingly when assessing a building. Module C2 comprises the transport of the reclaimed Glulam to a biomass power plant. Module C3 depicts the chopping of the reclaimed Glulam; in accordance with /EN 16485/, it is assumed that non-pressure-treated waste wood reaches the end of its waste-state when it becomes available as wood chips. The chipped wood, including its content of biogenic C (as CO2 equivalent) and its content of renewable primary energy, leaves the product system as secondary fuel. In module C4 contains no processes/environmental impacts.   Module D calculates the energy recovery of the wood chips in a biomass power plant. It is assumed that the recovered energy will replace the electricity mix in Germany and heat from industrial natural gas firing. The exported energy recovered from the PE packaging (module A5) is calculated analogically.</useAdviceForDataSet>
+<common:other>
+<epd2:referenceToOriginalEPD type="source data set" refObjectId="e2d7c560-bd57-4ae5-9220-f449c44ddf35">
+<common:shortDescription xml:lang="de">Schilliger-Leimholz nach EN 14080:2013.pdf</common:shortDescription>
+</epd2:referenceToOriginalEPD>
+</common:other>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">DIN EN 15804</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/4f2eb655-6e44-4874-a95a-e28f5442cd4d.xml" type="source data set" refObjectId="4f2eb655-6e44-4874-a95a-e28f5442cd4d">
+<common:shortDescription xml:lang="de">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<common:commissionerAndGoal>
+<common:referenceToCommissioner uri="../contacts/7f447f9a-f855-41ef-9eeb-063b9a1d2bb7.xml" type="contact data set" refObjectId="7f447f9a-f855-41ef-9eeb-063b9a1d2bb7">
+<common:shortDescription xml:lang="de">Schilliger Holz AG</common:shortDescription>
+</common:referenceToCommissioner>
+</common:commissionerAndGoal>
+<dataGenerator>
+<common:referenceToPersonOrEntityGeneratingTheDataSet uri="../contacts/62792478-795c-4ae2-ac9a-1012d9515424.xml" type="contact data set" refObjectId="62792478-795c-4ae2-ac9a-1012d9515424">
+<common:shortDescription xml:lang="de">Dr. Frank Werner - Umwelt &amp; Entwicklung</common:shortDescription>
+</common:referenceToPersonOrEntityGeneratingTheDataSet>
+</dataGenerator>
+<dataEntryBy>
+<common:timeStamp>2018-05-28T11:04:21.295</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="de">ILCD Format</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml" type="source data set" refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+<common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+</common:referenceToDataSetFormat>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.03.000</common:dataSetVersion>
+<common:referenceToRegistrationAuthority uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToRegistrationAuthority>
+<common:registrationNumber>EPD-SLH-20180066-IBC1-DE</common:registrationNumber>
+<common:referenceToOwnershipOfDataSet uri="../contacts/7f447f9a-f855-41ef-9eeb-063b9a1d2bb7.xml" type="contact data set" refObjectId="7f447f9a-f855-41ef-9eeb-063b9a1d2bb7">
+<common:shortDescription xml:lang="de">Schilliger Holz AG</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+<common:licenseType>Free of charge for all users and uses</common:licenseType>
+<common:accessRestrictions xml:lang="en">None</common:accessRestrictions>
+<common:other>
+<epd2:referenceToPublisher type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95" uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</epd2:referenceToPublisher>
+</common:other>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/f5a31a25-d90f-3424-37b2-ae2499ab1feb.xml" type="flow data set" refObjectId="f5a31a25-d90f-3424-37b2-ae2499ab1feb">
+<common:shortDescription xml:lang="de">Leimholz (424 kg/m³) (Leimholz (424 kg/m³))</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy as energy carrier (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1640.7</epd:amount>
+<epd:amount epd:module="A4">0.118</epd:amount>
+<epd:amount epd:module="A5">0.00824</epd:amount>
+<epd:amount epd:module="C2">0.0392</epd:amount>
+<epd:amount epd:module="C3">8.26</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-819.1</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy resources as material utilization (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">7155</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">-7155</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of renewable primary energy resources (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">8796</epd:amount>
+<epd:amount epd:module="A4">0.12</epd:amount>
+<epd:amount epd:module="A5">0.00824</epd:amount>
+<epd:amount epd:module="C2">0.0392</epd:amount>
+<epd:amount epd:module="C3">-7147</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-819.1</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as energy carrier (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1756</epd:amount>
+<epd:amount epd:module="A4">56</epd:amount>
+<epd:amount epd:module="A5">83.758</epd:amount>
+<epd:amount epd:module="C2">18.6</epd:amount>
+<epd:amount epd:module="C3">96.3</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-6807</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as material utilization (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">184</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">-83</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">-101</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of non renewable primary energy resources (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1940</epd:amount>
+<epd:amount epd:module="A4">56</epd:amount>
+<epd:amount epd:module="A5">0.758</epd:amount>
+<epd:amount epd:module="C2">18.6</epd:amount>
+<epd:amount epd:module="C3">-4.71</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-6807</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of secondary material (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of renewable secondary fuels (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">7155</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of non renewable secondary fuels (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">101</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of net fresh water (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="de">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3"></epd:amount>
+<epd:amount epd:module="A4"></epd:amount>
+<epd:amount epd:module="A5"></epd:amount>
+<epd:amount epd:module="C2"></epd:amount>
+<epd:amount epd:module="C3"></epd:amount>
+<epd:amount epd:module="C4"></epd:amount>
+<epd:amount epd:module="D"></epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Hazardous waste disposed (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.000415</epd:amount>
+<epd:amount epd:module="A4">1.51E-06</epd:amount>
+<epd:amount epd:module="A5">5.11E-06</epd:amount>
+<epd:amount epd:module="C2">5.02E-07</epd:amount>
+<epd:amount epd:module="C3">7.43E-05</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-0.00136</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non hazardous waste disposed (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">2.72</epd:amount>
+<epd:amount epd:module="A4">0.000838</epd:amount>
+<epd:amount epd:module="A5">0.0841</epd:amount>
+<epd:amount epd:module="C2">0.000278</epd:amount>
+<epd:amount epd:module="C3">0.0474</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">1.41</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Radioactive waste disposed (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0167</epd:amount>
+<epd:amount epd:module="A4">9.7E-06</epd:amount>
+<epd:amount epd:module="A5">5.7E-07</epd:amount>
+<epd:amount epd:module="C2">3.23E-06</epd:amount>
+<epd:amount epd:module="C3">0.000695</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-0.0769</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+<common:shortDescription xml:lang="en">Components for re-use (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for energy recovery (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">424</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported electrical energy (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">10.8</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported thermal energy (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">21.3</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/77e416eb-a363-4258-a04e-171d843a6460.xml" type="LCIA method data set" refObjectId="77e416eb-a363-4258-a04e-171d843a6460">
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial (GWP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Global warming potential (GWP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="de">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">-615</epd:amount>
+<epd:amount epd:module="A4">4.12</epd:amount>
+<epd:amount epd:module="A5">5.75</epd:amount>
+<epd:amount epd:module="C2">1.37</epd:amount>
+<epd:amount epd:module="C3">686</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-196</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/06dcd26f-025f-401a-a7c1-5e457eb54637.xml" type="LCIA method data set" refObjectId="06dcd26f-025f-401a-a7c1-5e457eb54637">
+<common:shortDescription xml:lang="de">Abbau Potential der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Depletion potential of the stratospheric ozone layer (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512.xml" type="unit group data set" refObjectId="88054749-b0a6-47ea-a82b-dc5b29326512">
+<common:shortDescription xml:lang="de">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">5.24E-06</epd:amount>
+<epd:amount epd:module="A4">1.35E-07</epd:amount>
+<epd:amount epd:module="A5">5.22E-09</epd:amount>
+<epd:amount epd:module="C2">4.47E-08</epd:amount>
+<epd:amount epd:module="C3">1.93E-07</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-3.97E-05</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b4274add-93b7-4905-a5e4-2e878c4e4216.xml" type="LCIA method data set" refObjectId="b4274add-93b7-4905-a5e4-2e878c4e4216">
+<common:shortDescription xml:lang="de">Versauerungspotenzial von Boden und Wasser (AP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Acidification potential of land and water (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f.xml" type="unit group data set" refObjectId="bc50c624-a9bc-45b1-a9b0-e6b10d00476f">
+<common:shortDescription xml:lang="de">kg SO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.394</epd:amount>
+<epd:amount epd:module="A4">0.0222</epd:amount>
+<epd:amount epd:module="A5">0.000531</epd:amount>
+<epd:amount epd:module="C2">0.00736</epd:amount>
+<epd:amount epd:module="C3">0.0151</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-0.192</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/f58827d0-b407-4ec6-be75-8b69efb98a0f.xml" type="LCIA method data set" refObjectId="f58827d0-b407-4ec6-be75-8b69efb98a0f">
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial (EP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Eutrophication potential (EP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822.xml" type="unit group data set" refObjectId="67b5401d-873c-485f-bcf3-6ae83b918822">
+<common:shortDescription xml:lang="de">kg PO_(4)^(3)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0893</epd:amount>
+<epd:amount epd:module="A4">0.00502</epd:amount>
+<epd:amount epd:module="A5">0.00018</epd:amount>
+<epd:amount epd:module="C2">0.00167</epd:amount>
+<epd:amount epd:module="C3">0.00197</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0.00313</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/1e84a202-dae6-42aa-9e9d-71ea48b8be00.xml" type="LCIA method data set" refObjectId="1e84a202-dae6-42aa-9e9d-71ea48b8be00">
+<common:shortDescription xml:lang="de">Bildungspotential für troposphärisches Ozon (POCP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Formation potential of tropospheric ozone photochemical oxidants (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e.xml" type="unit group data set" refObjectId="01c26c17-9a76-406e-8295-f17b55fd909e">
+<common:shortDescription xml:lang="de">kg Ethen-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.123</epd:amount>
+<epd:amount epd:module="A4">0.000634</epd:amount>
+<epd:amount epd:module="A5">6.48E-06</epd:amount>
+<epd:amount epd:module="C2">0.00021</epd:amount>
+<epd:amount epd:module="C3">0.00064</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-0.0128</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/f7c73bb9-ab1a-4249-9c6d-379a0de6f67e.xml" type="LCIA method data set" refObjectId="f7c73bb9-ab1a-4249-9c6d-379a0de6f67e">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for non fossil resources (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="de">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">2.2E-05</epd:amount>
+<epd:amount epd:module="A4">4.88E-09</epd:amount>
+<epd:amount epd:module="A5">2.61E-09</epd:amount>
+<epd:amount epd:module="C2">1.62E-09</epd:amount>
+<epd:amount epd:module="C3">1.18E-07</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-1.037E-05</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/804ebcdf-309d-4098-8ed8-fdaf2f389981.xml" type="LCIA method data set" refObjectId="804ebcdf-309d-4098-8ed8-fdaf2f389981">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for fossil resources (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1097</epd:amount>
+<epd:amount epd:module="A4">55.5</epd:amount>
+<epd:amount epd:module="A5">0.732</epd:amount>
+<epd:amount epd:module="C2">18.4</epd:amount>
+<epd:amount epd:module="C3">65.4</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-3146</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>

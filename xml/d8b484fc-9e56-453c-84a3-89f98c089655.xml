@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:epd2="http://www.indata.network/EPD/2019" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" epd2:epd-version="1.2" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>d8b484fc-9e56-453c-84a3-89f98c089655</common:UUID>
+<name>
+<baseName xml:lang="de">PU-Dämmplatten mit Mineralvlies-Deckschicht</baseName>
+<baseName xml:lang="en">PU thermal insulation boards with mineral fleece facing</baseName>
+<functionalUnitFlowProperties xml:lang="de" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="2">Dämmstoffe</common:class>
+<common:class level="1" classId="2.4">Polyurethan-Hartschaum (PU)</common:class>
+<common:class level="2" classId="2.4.02">PU mit Mineralvlies</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">02 Bauprodukte</common:class>
+<common:class level="1">Wärmedämmungsprodukte</common:class>
+<common:class level="2">Dämmstoffe aus Schaumkunststoffen</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="de">Polyurethan-Hartschaum (PU) ist ein geschlossenzelliger Schaumstoff, der als werkmäßig hergestellter Wärmedämmstoff in Form von Dämmplatten im Hochbau und für haus- und betriebstechnische Anlagen eingesetzt wird. Die Produktfamilie der Polyurethan-Dämmstoffe (PU) umfasst hauptsächlich die Produktvariante Polyurethan – siehe EN 13165. PU-Dämmstoffe werden u. a. als Dämmplatten mit flexiblen Deckschichten hergestellt. Diese Produktdeklaration bezieht sich auf beidseitig mit Mineralvlies-Folie kaschierten PU-Dämmplatten.</common:generalComment>
+<common:generalComment xml:lang="en">Polyurethane rigid foam (PU) is a closed-cell foam and factory-made thermal insulating material, which is used in the form of insulation boards for insulating buildings, as well as for the insulation of building equipment and industrial installations. The polyurethane insulating material (PU) product family consists mostly of the product variant polyurethane (PUR) - see EN 13165. PU insulating materials are produced, inter alia, as insulation boards with flexible facings. This Product Declaration covers PU insulation boards with mineral fleece facings on both sides.</common:generalComment>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2021</common:referenceYear>
+<common:dataSetValidUntil>2026</common:dataSetValidUntil>
+<common:other>
+<epd2:publicationDateOfEPD>2021-10-05</epd2:publicationDateOfEPD>
+</common:other>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="DE" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="de">Polyurethan-Hartschaumdämmplatten mit flexiblen Mineralvlies-Deckschichten werden in einem kontinuierlichen Verfahren auf einer Doppelbandanlage hergestellt. Bei diesem Fertigungsprozess strömt das Polyurethan-Reaktionsgemisch aus einem Mischkopf auf die untere Mineralvlies-Deckschicht, schäumt auf und verklebt innerhalb der Druckzone der Anlage mit einer von oben zugeführten Mineralvlies-Deckschicht. Die Bandschaumplatten werden nach dem Durchlauf durch die Doppelbandanlage in die gewünschten Abmessungen zugeschnitten. Gütesicherung Die deklarierten Produkte sind qualitätsüberwacht. Diese Gütesicherung basiert auf der Überwachung und Zertifizierung durch unabhängige, bauaufsichtlich anerkannte Stellen. 
+Technische Daten: 
+Zur Bestimmung der technischen Daten werden die Prüfmethoden gemäß EN 13165 verwendet. Die Rohdichte von PU-Dämmplatten mit Mineralvlies-Deckschichten für den Hochbau beträgt ca. 31 - 32 kg/m³.Die Platten werden abhängig von den Dicken in den Wärmeleitfähigkeitsstufen WLS 026 bis WLS 029 hergestellt. Diese Stufen entsprechen Bemessungswerten der Wärmeleitfähigkeit von 0,026 W/(m·K) bis 0,029 W/(m·K). Kapillaraktiv modifizierte Dämmplatten weisen Bemessungswerte von 0,031 W/(m·K) auf. Zusätzlich zu der Wärmeleitfähigkeit kann der Nennwert des Wärmedurchlasswiderstandes R 4,29 (m2·K)/W bis 4,80 (m2·K)/W und die Dicke von 25 bis 28 mm der Dämmplatte bei R = 1 (m2·K)/W angegeben werden.  Die Nenndruckspannung oder Nenndruckfestigkeit bei 10% Stauchung beträgt 100 kPa (dh) oder 150 kPa (ds) nach DIN 4108-10. Höhere Druckfestigkeiten sind möglich. Die Nennzugfestigkeit senkrecht zur Dämmplattenebenebeträgt 40 kPa. Höhere Zugfestigkeiten sind möglich. Die Wasserdampfdiffusionswiderstandszahl μ von Polyurethan-Hartschaum liegt gemäß DIN 4108-4 zwischen 40 und 200.Die maximale Feuchteaufnahme von Polyurethan-Hartschaum bei Diffusion und Kondensation beträgt ca. 6 Vol.-%. Die im Untertauchversuch nach 28 Tagen gemessene Wasseraufnahme liegt bei einer 60 mm dicken PU-Dämmplatte mit Mineralvlies-Kaschierung bei 1,3 Vol.-%. Die Feuchteaufnahme bei Frost-Tau-Wechsel ergibt – auf den Dämmstoff ohne Deckschicht bezogen – Werte zwischen 2 und 7 Vol.-%.Polyurethan-Hartschaum besitzt ausgeprägt duroplastische Eigenschaften und ist daher nicht schmelzbar. 
+Deklarierte Einheit: 
+Die deklarierte Einheit ist 1 m² installierte PU-Dämmplatte mit Mineralvlies-Deckschicht (beidseitig) und den folgenden Spezifikationen:</technologyDescriptionAndIncludedProcesses>
+<technologyDescriptionAndIncludedProcesses xml:lang="en">Polyurethane rigid foam insulation boards with flexible mineral fleece facings are produced in a continuous process on a double belt line. In this process, the polyurethane reaction mixture pours from a mixing head onto the bottom mineral fleece facing, where it foams up and glues – still within the line’s pressure area – with the top mineral fleece facing. After passing the double belt line, the foam boards are cut to the desired dimensions. Quality assurance The declared products are subject to quality controls. Quality assurance is based on surveillance and certification by independent Notified Bodies. 
+Technical data: 
+For determining technical data, testing methods as stated in DIN EN 13165 are used. The gross density of PU insulation boards with mineral fleece facings for building construction is approx. 31 - 32 kg/m³. Depending on their thickness, the boards are manufactured with thermal conductivity levels WLS 026 up to WLS 029. These levels are equivalent to thermal conductivity design values from 0.026 W/(m.K) up to 0.029 W/(m.K). Capillary-actively modified insulation boards have design values of 0.031 W/(m.K). In addition, the nominal value of the thermal resistance from RD = 4.29 (m².K)/W to 4.80 (m².K)/W  and the thickness from 25 mm to 28 mm of the insulation board at RD = 1 (m².K)/W can be specified. Nominal compressive stress or nominal compressive strength at 10% deformation is 100 kPa (dh) or 150 kPa (ds) acc. to DIN 4108-10. Higher compressive strength is possible. Nominal tensile strength perpendicular to the insulation board plane is 40 kPa. Higher tensile strength is possible. The water vapour diffusion resistance factor µ of polyurethane rigid foam is between 40 and 200 acc. to DIN 4108-4.Maximum moisture absorption of polyurethane rigid foam at diffusion and condensation is at approx. 6 % by volume. Water absorption at total immersion of a 60 mm thick PU insulation board with mineral fleece facings was measured at 1.3 % by volume after 28 days. Moisture absorption after freezing and thawing was between 2 % and 7 % by volume (measured at insulating material without facings).Polyurethane rigid foam is a distinctive thermosetting material and therefore cannot be melted. 
+Declared unit: 
+The declared unit is 1 m² of installed PU thermal insulation board with mineral fleece facing (on both sides) and has the following specifications:</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="de">Das Anwendungsgebiet von PU-Hartschaum-Dämmstoffen ist die Wärmedämmung im Hochbau (z.B. Steildach, Flachdach, Boden, Decke und Außenwand (außen und innen)). Darüber hinaus wird PU-Hartschaum für die Dämmung haus- und betriebstechnischer Anlagen verwendet.</technologicalApplicability>
+<technologicalApplicability xml:lang="en">The scope of application of PU rigid foam insulation materials includes thermal insulation in building construction (e.g. pitched roofs, flat roofs, floors, ceilings and exterior walls (inside and outside)).Furthermore, PU rigid foam is used for insulating building equipment and industrial installations.</technologicalApplicability>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="1f4d46b4-0616-4b23-9c5a-c7b1237d1460">
+<common:shortDescription xml:lang="de">Dämmstoffe aus Schaumkunststoffen.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">average dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="28d74cc0-db8b-4d7e-bc44-5f6d56ce0c4a">
+<common:shortDescription xml:lang="de">GaBi Database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="0115289e-52f0-4920-bc7e-57b1c96aec8d">
+<common:shortDescription xml:lang="de">GaBi database SP40 2020</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
+Diese Umwelt-Produktdeklaration gilt für die deklarierten Produkte der IVPU-Mitglieder Karl Bachl GmbH &amp; Co KG, Paul Bauder GmbH &amp; Co KG, IKO Insulation BV, Kingspan Insulation GmbH &amp; Co KG, Linzmeier Bauelemente GmbH, puren gmbh, Recticel Dämmsysteme GmbH, Steinbacher Dämmstoff-GmbH, Unilin Insulation bv. Der IVPU repräsentiert über 90 % des Polyurethan-Dämmstoffmarktes in Deutschland. Diese Umwelt-Produktdeklaration basiert auf gewichteten Mittelwerten, bestimmt auf Basis der Einzelwerte aus den Produktionswerken der genannten Herstellerfirmen (siehe Abschnitt 3.1). 
+Systemgrenze: 
+Typ der EPD: Wiege bis Werkstor - mit Optionen Die Ökobilanz betrachtet folgende Punkte des Lebenszyklus: Rohstoffgewinnung und -bereitstellung (A1) Transporte der Rohstoffe (A2) Herstellung inklusive Verpackung (A3) Transport zur Baustelle (A4) Einbau ins Gebäude (Recycling bzw. thermische Verwertung der Verschnitte und Verpackungsabfälle) (A5) Transport zum End-of-Life (C2) Abfallbehandlung: Energie für Schredder (C3) thermische Verwertung (PU Schaum) (C3)Recycling- bzw. Nutzenpotenzial außerhalb der Systemgrenze (D)</useAdviceForDataSet>
+<useAdviceForDataSet xml:lang="en">Scope: 
+This EPD applies to all declared products of the IVPU&apos;s member companies Karl Bachl GmbH &amp; Co KG, Paul Bauder GmbH &amp; Co KG, IKO Insulation BV, Kingspan Insulation GmbH &amp; Co KG, Linzmeier Bauelemente GmbH, puren gmbh, Recticel Dämmsysteme GmbH, Steinbacher Dämmstoff-GmbH, Unilin Insulation bv. The IVPU represents more than 90% of the companies within the German polyurethane insulating materials market. This EPD is based on weighted averages which have been determined on the basis of the single values originating from the factories of the aforementioned manufacturing companies (see section 3.1). 
+System boundary: 
+Type of EPD: cradle to gate - with options  The life cycle assessment considers the following steps of the life cycle: · production and supply of raw materials (A1) · transporting raw materials (A2) · production including packaging (A3) · transport to construction site (A4) · installation in buildings (recycling or thermal treatment of cutting leftovers and packaging waste) (A5) · transport to End-of-Life (C2) · waste treatment: energy for shredders (C3) · thermal treatment (PU foam) (C3) · recycling or use potentials beyond the system&apos;s boundary (D).</useAdviceForDataSet>
+<common:other>
+<epd2:referenceToOriginalEPD type="source data set" refObjectId="d4598006-5969-4b58-85c9-3e2a824a5af7">
+<common:shortDescription xml:lang="de">PU-Dämmplatten mit Mineralvlies-Deckschicht.pdf</common:shortDescription>
+</epd2:referenceToOriginalEPD>
+</common:other>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">DIN EN 15804</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/4f2eb655-6e44-4874-a95a-e28f5442cd4d.xml" type="source data set" refObjectId="4f2eb655-6e44-4874-a95a-e28f5442cd4d">
+<common:shortDescription xml:lang="de">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<common:commissionerAndGoal>
+<common:referenceToCommissioner uri="../contacts/61e847ad-7245-4eda-ad2c-75f901ca26f0.xml" type="contact data set" refObjectId="61e847ad-7245-4eda-ad2c-75f901ca26f0">
+<common:shortDescription xml:lang="de">Industrieverband Polyurethan-Hartschaum e.V.</common:shortDescription>
+</common:referenceToCommissioner>
+</common:commissionerAndGoal>
+<dataGenerator>
+<common:referenceToPersonOrEntityGeneratingTheDataSet uri="../contacts/6e882050-12ae-4797-a5df-69674aa5b701.xml" type="contact data set" refObjectId="6e882050-12ae-4797-a5df-69674aa5b701">
+<common:shortDescription xml:lang="de">PE INTERNATIONAL AG</common:shortDescription>
+</common:referenceToPersonOrEntityGeneratingTheDataSet>
+</dataGenerator>
+<dataEntryBy>
+<common:timeStamp>2021-10-05T14:56:01.487</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="de">ILCD Format</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml" type="source data set" refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+<common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+</common:referenceToDataSetFormat>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.02.000</common:dataSetVersion>
+<common:referenceToRegistrationAuthority uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToRegistrationAuthority>
+<common:registrationNumber>EPD-IVP-20210002-IBE2-DE</common:registrationNumber>
+<common:referenceToOwnershipOfDataSet uri="../contacts/61e847ad-7245-4eda-ad2c-75f901ca26f0.xml" type="contact data set" refObjectId="61e847ad-7245-4eda-ad2c-75f901ca26f0">
+<common:shortDescription xml:lang="de">Industrieverband Polyurethan-Hartschaum e.V.</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+<common:licenseType>Free of charge for all users and uses</common:licenseType>
+<common:accessRestrictions xml:lang="en">None</common:accessRestrictions>
+<common:other>
+<epd2:referenceToPublisher type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95" uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</epd2:referenceToPublisher>
+</common:other>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/136269db-07d9-a3d3-0782-3ff1dffefa1a.xml" type="flow data set" refObjectId="136269db-07d9-a3d3-0782-3ff1dffefa1a">
+<common:shortDescription xml:lang="de">1 m² installierte PU-Dämmplatte mit Mineralvlies-Deckschicht (1 m² installierte PU-Dämmplatte mit Mineralvlies-Deckschicht)</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy as energy carrier (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">17.1</epd:amount>
+<epd:amount epd:module="A4">0.357</epd:amount>
+<epd:amount epd:module="A5">1.26</epd:amount>
+<epd:amount epd:module="C2">0.0689</epd:amount>
+<epd:amount epd:module="C3">1.144</epd:amount>
+<epd:amount epd:module="D">-14.1</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy resources as material utilization (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.23</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">-1.23</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of renewable primary energy resources (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">18.3</epd:amount>
+<epd:amount epd:module="A4">0.357</epd:amount>
+<epd:amount epd:module="A5">0.028</epd:amount>
+<epd:amount epd:module="C2">0.0689</epd:amount>
+<epd:amount epd:module="C3">1.144</epd:amount>
+<epd:amount epd:module="D">-14.1</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as energy carrier (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">89.9</epd:amount>
+<epd:amount epd:module="A4">6.36</epd:amount>
+<epd:amount epd:module="A5">22.5</epd:amount>
+<epd:amount epd:module="C2">1.23</epd:amount>
+<epd:amount epd:module="C3">174.01</epd:amount>
+<epd:amount epd:module="D">-66.2</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as material utilization (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">192</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">-22.4</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">-170</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of non renewable primary energy resources (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">282</epd:amount>
+<epd:amount epd:module="A4">6.36</epd:amount>
+<epd:amount epd:module="A5">0.113</epd:amount>
+<epd:amount epd:module="C2">1.23</epd:amount>
+<epd:amount epd:module="C3">4.33</epd:amount>
+<epd:amount epd:module="D">-66.2</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of secondary material (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of renewable secondary fuels (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of non renewable secondary fuels (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of net fresh water (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="de">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0814</epd:amount>
+<epd:amount epd:module="A4">0.000414</epd:amount>
+<epd:amount epd:module="A5">0.000887</epd:amount>
+<epd:amount epd:module="C2">7.98E-05</epd:amount>
+<epd:amount epd:module="C3">0.02259</epd:amount>
+<epd:amount epd:module="D">-0.0164</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Hazardous waste disposed (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.13E-05</epd:amount>
+<epd:amount epd:module="A4">2.96E-07</epd:amount>
+<epd:amount epd:module="A5">8.44E-11</epd:amount>
+<epd:amount epd:module="C2">5.71E-08</epd:amount>
+<epd:amount epd:module="C3">3.309E-09</epd:amount>
+<epd:amount epd:module="D">-2.65E-08</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non hazardous waste disposed (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.259</epd:amount>
+<epd:amount epd:module="A4">0.000974</epd:amount>
+<epd:amount epd:module="A5">0.00378</epd:amount>
+<epd:amount epd:module="C2">0.000188</epd:amount>
+<epd:amount epd:module="C3">0.14623</epd:amount>
+<epd:amount epd:module="D">-0.0301</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Radioactive waste disposed (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00629</epd:amount>
+<epd:amount epd:module="A4">7.88E-06</epd:amount>
+<epd:amount epd:module="A5">8.97E-06</epd:amount>
+<epd:amount epd:module="C2">1.52E-06</epd:amount>
+<epd:amount epd:module="C3">0.000368</epd:amount>
+<epd:amount epd:module="D">-0.00482</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+<common:shortDescription xml:lang="en">Components for re-use (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for energy recovery (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">3.81</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported electrical energy (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.411</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">15.4</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported thermal energy (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.731</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">27.8</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/77e416eb-a363-4258-a04e-171d843a6460.xml" type="LCIA method data set" refObjectId="77e416eb-a363-4258-a04e-171d843a6460">
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial (GWP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Global warming potential (GWP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="de">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">11.6</epd:amount>
+<epd:amount epd:module="A4">0.465</epd:amount>
+<epd:amount epd:module="A5">0.392</epd:amount>
+<epd:amount epd:module="C2">0.0896</epd:amount>
+<epd:amount epd:module="C3">9.2968</epd:amount>
+<epd:amount epd:module="D">-3.82</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/06dcd26f-025f-401a-a7c1-5e457eb54637.xml" type="LCIA method data set" refObjectId="06dcd26f-025f-401a-a7c1-5e457eb54637">
+<common:shortDescription xml:lang="de">Abbau Potential der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Depletion potential of the stratospheric ozone layer (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512.xml" type="unit group data set" refObjectId="88054749-b0a6-47ea-a82b-dc5b29326512">
+<common:shortDescription xml:lang="de">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.91E-05</epd:amount>
+<epd:amount epd:module="A4">7.65E-17</epd:amount>
+<epd:amount epd:module="A5">1.11E-16</epd:amount>
+<epd:amount epd:module="C2">1.47E-17</epd:amount>
+<epd:amount epd:module="C3">4.51E-15</epd:amount>
+<epd:amount epd:module="D">-5.31E-14</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b4274add-93b7-4905-a5e4-2e878c4e4216.xml" type="LCIA method data set" refObjectId="b4274add-93b7-4905-a5e4-2e878c4e4216">
+<common:shortDescription xml:lang="de">Versauerungspotenzial von Boden und Wasser (AP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Acidification potential of land and water (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f.xml" type="unit group data set" refObjectId="bc50c624-a9bc-45b1-a9b0-e6b10d00476f">
+<common:shortDescription xml:lang="de">kg SO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.022</epd:amount>
+<epd:amount epd:module="A4">0.000376</epd:amount>
+<epd:amount epd:module="A5">9.08E-05</epd:amount>
+<epd:amount epd:module="C2">7.26E-05</epd:amount>
+<epd:amount epd:module="C3">0.003747</epd:amount>
+<epd:amount epd:module="D">-0.00429</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/f58827d0-b407-4ec6-be75-8b69efb98a0f.xml" type="LCIA method data set" refObjectId="f58827d0-b407-4ec6-be75-8b69efb98a0f">
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial (EP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Eutrophication potential (EP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822.xml" type="unit group data set" refObjectId="67b5401d-873c-485f-bcf3-6ae83b918822">
+<common:shortDescription xml:lang="de">kg PO_(4)^(3)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00314</epd:amount>
+<epd:amount epd:module="A4">7.01E-05</epd:amount>
+<epd:amount epd:module="A5">2.2E-05</epd:amount>
+<epd:amount epd:module="C2">1.35E-05</epd:amount>
+<epd:amount epd:module="C3">0.0009177</epd:amount>
+<epd:amount epd:module="D">-0.000576</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/1e84a202-dae6-42aa-9e9d-71ea48b8be00.xml" type="LCIA method data set" refObjectId="1e84a202-dae6-42aa-9e9d-71ea48b8be00">
+<common:shortDescription xml:lang="de">Bildungspotential für troposphärisches Ozon (POCP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Formation potential of tropospheric ozone photochemical oxidants (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e.xml" type="unit group data set" refObjectId="01c26c17-9a76-406e-8295-f17b55fd909e">
+<common:shortDescription xml:lang="de">kg Ethen-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0121</epd:amount>
+<epd:amount epd:module="A4">-6.12E-06</epd:amount>
+<epd:amount epd:module="A5">6.31E-06</epd:amount>
+<epd:amount epd:module="C2">-1.18E-06</epd:amount>
+<epd:amount epd:module="C3">0.0002415</epd:amount>
+<epd:amount epd:module="D">-0.000437</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/f7c73bb9-ab1a-4249-9c6d-379a0de6f67e.xml" type="LCIA method data set" refObjectId="f7c73bb9-ab1a-4249-9c6d-379a0de6f67e">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for non fossil resources (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="de">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.6E-06</epd:amount>
+<epd:amount epd:module="A4">3.43E-08</epd:amount>
+<epd:amount epd:module="A5">1.29E-09</epd:amount>
+<epd:amount epd:module="C2">6.61E-09</epd:amount>
+<epd:amount epd:module="C3">5.17E-08</epd:amount>
+<epd:amount epd:module="D">-6.62E-07</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/804ebcdf-309d-4098-8ed8-fdaf2f389981.xml" type="LCIA method data set" refObjectId="804ebcdf-309d-4098-8ed8-fdaf2f389981">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for fossil resources (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">267</epd:amount>
+<epd:amount epd:module="A4">6.34</epd:amount>
+<epd:amount epd:module="A5">0.0908</epd:amount>
+<epd:amount epd:module="C2">1.22</epd:amount>
+<epd:amount epd:module="C3">3.39</epd:amount>
+<epd:amount epd:module="D">-54.1</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>

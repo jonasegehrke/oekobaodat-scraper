@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>bd7319aa-d609-4f27-9460-d11bc966bb2b</common:UUID>
+<name>
+<baseName xml:lang="de">Mineralwolle-Dämmstoff im niedrigen Rohdichtebereich</baseName>
+<baseName xml:lang="en">Mineral wool insulation (low bulk density range)</baseName>
+<functionalUnitFlowProperties xml:lang="de" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="2">Dämmstoffe</common:class>
+<common:class level="1" classId="2.1">Mineralwolle</common:class>
+<common:class level="2" classId="2.1.01">Mineralwolle</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">02 Bauprodukte</common:class>
+<common:class level="1">Wärmedämmungsprodukte</common:class>
+<common:class level="2">Mineralische Dämmstoffe</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="de">Mineralwolle ist der Oberbegriff für Dämmstoffe aus Glas- und Steinwolle. Diese sind nichtbrennbare Dämmstoffe, welche hauptsächlich aus amorphen Fasern bestehen, die aus einer silikatischen Schmelze gewonnen werden. Die in dieser Deklaration beschriebenen Mineralwolle-Dämmstoffe werden in Form von Rollen, Platten, Matten, Lamellenmatten sowie loser Wolle (Stopfwolle) und Einblaswolle im niedrigen Rohdichtebereich (bis 60 kg/m³) hergestellt. Die konfektionierten Produkte werden in Dicken zwischen 10 mm und 400 mm geliefert.   Für bestimmte Anwendungsbereiche werden die Dämmstoffe ein- oder zweiseitig mit einer Funktionskaschierung versehen. Die Umweltwirkungen der Kaschierungen werden im Anhang auf Basis von 1 m² dargestellt.</common:generalComment>
+<common:generalComment xml:lang="en">Mineral wool is the generic term for insulating materials made of glass wool and stone wool. These are non-combustible insulating materials, which consist mainly of amorphous fibres obtained from a silicate melt.The mineral wool insulation materials described in this declaration are produced in the form of rolls, boards, mats, lamella mats as well as loose-fill insulation and blowing wool in the low bulk density range (up to 60 kg/m³). The ready-made products are supplied in thicknesses between 10 mm and 400 mm.    For certain applications, the insulation materials are provided with a functional facing on one or both sides. The environmental effects of the facings are shown in the appendix on the basis of 1 m².</common:generalComment>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2021</common:referenceYear>
+<common:dataSetValidUntil>2026</common:dataSetValidUntil>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="DE" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="de">Zur Herstellung werden zunächst die erforderlichen Mengen an Rohmaterial abgewogen, gemischt und einem Schmelzofen zugeführt. Das Ausgangsmaterial wird in einem Ofen bei Temperaturen von ca. 1.400-1.500 °C geschmolzen. Die Herstellung der Fasern ist produktabhängig. Zum Einsatz kommen drei Verfahren: - Zieh-Blas-Verfahren (v. a. Glaswolle): Nach dem Durchlaufen des Schmelzofens wird die glasartige Schmelze zerfasert, indem ein dünner Glasstrahl in einen sich schnell drehenden Metallkorb trifft und dort durch tausende kleine Löcher, die sich in der Außenwand des Korbes befinden, herausgeschleudert wird. Die dabei entstehenden Fäden werden mittels Gasbrenner und Druckluft zu Fasern ausgezogen. - Schleuderverfahren (Steinwolle): Nach dem Durchlaufen des Kupolofens tritt ein Strahl der flüssigen Schmelze auf sich schnell drehende Metallwalzen und wird durch die Drehbewegung zu Fasern geschleudert. - Düsenblasverfahren (Steinwolle): Nach dem Durchlaufen des Schmelzofens fließt die Glasschmelze durch eine Vielzahl von Düsen. Die dabei entstehenden Fäden werden durch Druckluft oder hochgespannten Dampf zu Fasern ausgezogen. Zur Gewährleistung der Formstabilität sowie zur Staubminderung und Hydrophobierung werden die Fasern mit einer wässrigen Lösung aus Bindemittel, Staubbindeöl, Haftvermittler und – produktabhängig – Silikonen besprüht und anschließend auf unter Unterdruck stehenden Transportbändern abgelegt. Optional können anschließend Kaschierungen aufgebracht werden (die entsprechenden Umweltwirkungen hierzu werden im Anhang angegeben). In einem kontinuierlich laufenden Härteofen erfolgt das Aushärten des Bindemittels bei oberhalb 200 °C. Struktur und Dichte des Produkts können hierbei an die genauen Einsatzanforderungen angepasst werden. Die Mineralwolle wird entsprechend der gewünschten Größe und Form zurechtgeschnitten bzw. abgelängt, zum Beispiel in Form von Rollen, Matten oder Platten. Die fertigen Produkte werden verpackt und für den Versand vorbereitet. Abschnitte und andere Reste aus Mineralwolle werden wieder in den Produktionsprozess zurückgeführt. Gütesicherung: - RAL-GZ 388 - Eigen- und Fremdüberwachung gem. CE-Kennzeichnung nach europäischen Vorschriften - KEYMARK gem. Insulation KEYMARK Scheme Rules 2.1; für Produkte der technischen Isolierung nach VDI 2055 entsprechend KEYMARK Scheme Rules und AGI-Q 132 - EUCEB - Qualitätsmanagementsystem gemäß DIN EN ISO 9001 - Für technische Isolierung produktabhängig durch VDI 2055 / AGI-Q 132 
+Deklarierte Einheit: 
+Die vorliegende Umwelt-­Produktdeklaration bezieht sich auf eine deklarierte Einheit von 1 m³ unkaschiertem bzw. unbeschichtetem Mineralwolle-Dämmstoff mit einer deklarierten Rohdichte von 24 kg/m³ (Rohdichtebereich &lt; 60 kg/m³).</technologyDescriptionAndIncludedProcesses>
+<technologyDescriptionAndIncludedProcesses xml:lang="en">For production, the required quantities of the raw materials are weighed, mixed and fed into a melting furnace. The raw materials are melted in a furnace at temperatures of approx. 1,400-1,500 °C. The manufacture of the fibres depends on the product. Three processes are used: - Rotary process (mainly glass wool): After passing the melting furnace, a thin jet of glass is led into a rapidly rotating metal basket where it is ejected through thousands of small holes in the outer wall of the basket. The resulting filaments are drawn out into fibres using a gas burner and compressed air. - Cascade centrifugal process (stone wool): After passing the cupola furnace, a thin jet of the liquid melt is directed onto rapidly rotating metal wheels. Their rotational movement spins the melt into fibres. - Steam-Blown process (stone wool): After passing the melting furnace, the glass melt flows through many nozzles. The resulting filaments are drawn out into fibres by compressed air or high-pressure steam. To ensure dimensional stability and to reduce dust and make the fibres water-repellent, they are sprayed with an aqueous solution of binder, dust-binding oil, adhesive agent and - depending on the product - silicones. They are then placed on conveyor belts under negative pressure. Facings can then be applied optionally. (The corresponding environmental impacts for this are specified in the Appendix.) In a curing oven, which runs continuously, the binder is cured at above 200 °C. The structure and density of the product are adapted to the exact application requirements. The mineral wool is cut according to the desired size and shape, for example in the form of rolls, mats or boards. The finished products are packed and prepared for shipping. Cut-offs and other mineral wool residues are returned to the production process. Quality assurance: - RAL-GZ 388 - Factory production control and third-party monitoring in accordance with CE marking according to European regulations - KEYMARK according to Insulation KEYMARK Scheme Rules 2.1; for technical insulation according to VDI 2055 according to KEYMARK Scheme Rules and AGI-Q 132 - EUCEB - Quality management system according to DIN EN ISO 9001 - For technical insulation, VDI 2055 / AGI-Q 132 (depending on product) 
+Declared unit: 
+This EPD refers to a declared unit of 1 m³ unfaced mineral wool insulation material with a declared bulk density of 24 kg/m³ (low bulk density range up to 60 kg/m³).</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="de">Mineralwolle-Dämmstoffe werden sowohl in Gebäuden als auch in Industrieanlagen zum Wärme-, Schall- und Brandschutz verwendet. Die Haupt-Anwendungsbereiche der in dieser EPD deklarierten Produkte sind:- Alle Anwendungsbereiche nach DIN 4108-10 für die Anwendungsgebiete Wand, Decke und Dach mit den dort festgelegten Anforderungen hinsichtlich des Wärme- und Schallschutzes und der mechanischen Eigenschaften- Einblas- und Schüttdämmung- Technische Isolierung und Haustechnik (z.B. Dämmung von Lüftungs-, Heizungs- und Warmwasserrohren, Fernwärmeleitungen, Kesseln und Apparaturen)- Brandschutzelemente und Industrieanwendungen (z.B. Klimakanäle, Feuerschutztüren, Fertighauselemente, Schornsteinsysteme, Kabelabschottungen)</technologicalApplicability>
+<technologicalApplicability xml:lang="en">Mineral wool insulation materials are used in buildings and industrial plants for thermal insulation as well as noise and fire protection. The main application areas of the products declared in this EPD are:- All areas of application according to DIN 4108-10 for wall, ceiling and roof applications with the specified requirements regarding thermal and sound insulation and the mechanical properties  - Blowing wool and loose-fill insulation  - Technical insulation and building services (e.g. insulation of pipes for ventilation, heating and hot water, district heating pipelines, boilers and equipment) - Fire protection elements and industrial applications (e.g. air-conditioning ducts, fire protection doors, prefabricated components, chimney systems, cable penetration sealing)</technologicalApplicability>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="95ddbf8a-1c3f-4f0f-8bc6-dc1fc74ddd42">
+<common:shortDescription xml:lang="de">Mineralische Dämmstoffe.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">average dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="b603677e-62d8-41b8-bc5e-3d1e6e51a18b">
+<common:shortDescription xml:lang="de">Mineralwolle-Dämmstoff im niedrigen Rohdichtebereich.pdf</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="28d74cc0-db8b-4d7e-bc44-5f6d56ce0c4a">
+<common:shortDescription xml:lang="de">GaBi Database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="0115289e-52f0-4920-bc7e-57b1c96aec8d">
+<common:shortDescription xml:lang="de">GaBi database SP40 2020</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
+Bei der vorliegenden Umwelt-Produktdeklaration handelt es sich um eine Verbands-EPD. Die in der EPD dargestellte Ökobilanz bezieht sich auf den Lebenszyklus von 1 m³ Mineralwolle im niedrigen Rohdichtebereich (≤ 60 kg/m³) folgender Mitglieder des Fachverband Mineralwolleindustrie e.V. (FMI): -  DEUTSCHE ROCKWOOL GmbH &amp; Co. KG: Werke Flechtingen, Gladbeck und Neuburg  -  Knauf Insulation GmbH: Werke Bernburg und St. Egidien -  SAINT-GOBAIN ISOVER G+H AG: Werke Bergisch Gladbach, Ladenburg, Lübz und Speyer -  URSA Deutschland GmbH: Werk Delitzsch Die verwendeten Daten decken 100 % der jährlichen Produktion der FMI-Mitglieder in Deutschland ab.  Diese EPD beruht überwiegend auf Produktionsdaten für das Bezugsjahr 2019, die in den Werken erhoben und nach massebasierter Produktionsmenge gewichtet wurden. Infolge der Durchschnittsbildung ergibt sich eine mittlere Rohdichte von 24 kg/m³ für Mineralwolle-Dämmstoffe im niedrigen Rohdichtebereich. 
+Systemgrenze: 
+Die Ökobilanz der Mineralwolle-Dämmstoffe beinhaltet eine cradle-to-gate (Wiege bis zum Werkstor) -Betrachtung mit Optionen. Die folgenden Lebenszyklusphasen werden in der Analyse berücksichtigt:Modul A1-A3 | Produktionsstadium Das Produktionsstadium beinhaltet die Aufwendungen der Rohstoffversorgung (Basalt, Dolomit, Sand, Sekundärrohstoffe, Bindemittel, etc.) sowie der damit verbundenen Transporte bezogen auf die Produktionsstandorte der FMI-Mitglieder. Die Systemgrenze für in der Produktion verwendete Sekundärrohstoffe wird nach Erreichen des Endes der Abfalleigenschaft gesetzt. Hier gilt die nach EN 15804 definierte Systemgrenze für Sekundärrohstoffe.Innerhalb der Werksgrenzen werden die Prozessschritte der Verflüssigung, Zerfaserung, Zuführung des Bindemittels, Verdichten, Härten, der Zuschnitt und die Verpackung der Mineralwolle betrachtet. Der Herstellprozess wird dazu basierend auf den Primärdaten aller betrachteten Standorte abgebildet. Die Produktion der Kaschierung für kaschierte Produkte wird in drei separaten Anhängen zur EPD deklariert.   Modul A4 | Transport zur Baustelle  Der Transport von den betrachteten Werken zum Kunden wird basierend auf einem repräsentativen Szenario als gewichteter Durchschnitt abgebildet (360 km LKW-Transport).  Modul A5 | Einbau ins Gebäude Für den Einbau ins Gebäude wird ein Szenario von 2 % Verschnitt gemäß EURIMA (2019) deklariert. Die Verluste beim Einbau in das Gebäude sind stark von der Gebäudegeometrie und dem spezifischen Anwendungsfall abhängig. Somit kann der Verschnittanteil im Gebäudekontext stark variieren und ist auf Gebäudeebene gemäß der tatsächlichen Gegebenheiten entsprechend anzupassen.  Neben den Verlusten beim Einbau in das Gebäude beinhaltet Modul A5 die Umweltlasten aus der Verwertung der Verpackung der Produkte.  Modul C1 | Rückbau / Abriss Für die Mineralwolle-Produkte wurde ein manueller Ausbau angenommen. Die damit verbundenen Aufwände sind vernachlässigbar, wodurch keine Umweltwirkungen aus dem Rückbau der Produkte deklariert werden.  Modul C2 | Transport zur Abfallbehandlung Modul C2 beinhaltet den Transport zur Abfallbehandlung. Dazu wird der Transport via LKW über 50 km Transportdistanz angesetzt. Dies entspricht den Empfehlungen gemäß EURIMA (2019).  Modul C3 | Abfallbehandlung  Das angesetzte Szenario deklariert die Deponierung der Mineralwolle, wodurch keine Umweltauswirkungen aus der Abfallbehandlung der Produkte in C3 zu deklarieren sind.   Modul C4 | Beseitigung Das Modul C4 beinhaltet die durch die Deponierung der Dämmstoffe entstehenden Umweltwirkungen. Der biogene Kohlenstoff im Bindemittel der Produkte wird als Emissionen von biogenem CO2 aus der Technosphäre in die natürliche Umwelt behandelt. Modul D | Gutschriften und Lasten außerhalb der Systemgrenzen  In Modul D werden die Substitutionspotenziale aus der energetischen Verwertung der Verpackung deklariert.</useAdviceForDataSet>
+<useAdviceForDataSet xml:lang="en">Scope: 
+This Environmental Product Declaration is a generic EPD of the FMI association. The life cycle assessment presented in the EPD refers to the life cycle of 1 m³ mineral wool in the low bulk density range (≤ 60 kg/m³) of the following members of the Fachverband Mineralwolleindustrie e.V. (FMI):-  DEUTSCHE ROCKWOOL GmbH &amp; Co. KG: Flechtingen, Gladbeck and Neuburg plants -  Knauf Insulation GmbH: Bernburg and St. Egidien plants -  SAINT-GOBAIN ISOVER G+H AG: Bergisch Gladbach, Ladenburg, Lübz and Speyer plants -  URSA Deutschland GmbH: Delitzsch plant The data used cover 100 % of the annual production of the FMI members in Germany.  This EPD is mainly based on production data for the reference year 2019, collected in the plants and weighted by mass-based production volume. As a result of averaging, an average bulk density of 24 kg/m³ is obtained for mineral wool insulation materials in the low bulk density range. 
+System boundary: 
+The life cycle assessment of mineral wool insulation material includes a cradle-to-gate analysis of the products’ environmental impacts with options. Subsequent life cycle phases are part of the analysis:Module A1-A3 | Production stage The production stage includes the upstream burdens of raw material supply (basalt, dolomite, sand, secondary raw materials, binding agents, etc.), the respective transports and the manufacturing plants of the members of the FMI. The system boundary for secondary raw materials used in production is set after the end of waste status has been reached. The system boundary for secondary raw materials is defined according to EN 15804. During production, melting in the melting furnace, fiberization, injection of binder, compacting, curing, cutting and packaging of the mineral wool are considered. The manufacturing process is modelled based on the primary data of all sites considered. The production of the facings of mineral wool products is declared in three separate appendices to the EPD.  Module A4 | Transport to construction siteThe transport from the plants to the customer is considered as a weighted average based on a representative scenario (360 km truck transport). Module A5 | Assembly For installation in the building, a scenario of 2 % waste is declared according to EURIMA (2019). The losses during installation are highly dependent on the building geometry and the specific application. Thus, the percentage of waste can vary greatly in the building context and must be adjusted at the building level according to the actual conditions. In addition to the losses during installation, module A5 includes the environmental impacts from the utilization of the packaging of the products. Module C1 | Deconstruction and demolition For the disassembly of the mineral wool products, a manual dismantling was assumed. Referring energy demand is considered to be negligible.Module C2 | Transport to disposal Module C2 includes the transport to waste treatment. In this case, transport by truck over a transport distance of 50 km is assumed. This corresponds to the recommendations according to EURIMA (2019). Module C3 | Waste processing The declared scenario assumes landfilling of the mineral wool, therefore no environmental impacts from the waste treatment of the products are declared in C3.   Module C4 | Disposal Module C4 refers to the emissions from the disposal of the insulation material. The chosen scenario, therefore, includes the environmental burdens of landfilling of the product. The biogenic carbon in the binder of the products is treated as emissions of biogenic CO2 from the technosphere into the natural environment.Module D | Benefits and loads beyond the system boundary In module D the substitution potential from the energy recovery of the packaging is declared.</useAdviceForDataSet>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">DIN EN 15804</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/4f2eb655-6e44-4874-a95a-e28f5442cd4d.xml" type="source data set" refObjectId="4f2eb655-6e44-4874-a95a-e28f5442cd4d">
+<common:shortDescription xml:lang="de">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<dataEntryBy>
+<common:timeStamp>2021-03-24T00:00:00</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="de">ILCD Format 1.1</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/cba73800-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="cba73800-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToPersonOrEntityEnteringTheData uri="../contacts/ad8ad627-3991-42b7-a7ca-5a3fe0a34c28.xml" type="contact data set" refObjectId="ad8ad627-3991-42b7-a7ca-5a3fe0a34c28">
+<common:shortDescription xml:lang="de">Daxner &amp; Merl GmbH</common:shortDescription>
+</common:referenceToPersonOrEntityEnteringTheData>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.03.000</common:dataSetVersion>
+<common:referenceToRegistrationAuthority uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToRegistrationAuthority>
+<common:registrationNumber>EPD-FMI-20210020-IBG1-DE</common:registrationNumber>
+<common:referenceToOwnershipOfDataSet uri="../contacts/964fbdfe-2345-49da-9588-91347ed0aa3d.xml" type="contact data set" refObjectId="964fbdfe-2345-49da-9588-91347ed0aa3d">
+<common:shortDescription xml:lang="de">FMI Fachverband Mineralwolleindustrie e.V.</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/a6761208-d31d-c77b-a35b-de58db654afd.xml" type="flow data set" refObjectId="a6761208-d31d-c77b-a35b-de58db654afd">
+<common:shortDescription xml:lang="de">Mineralwolle-Dämmstoff (Mineralwolle-Dämmstoff)</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy as energy carrier (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">77.2248741561842</epd:amount>
+<epd:amount epd:module="A4">0.400547621389403</epd:amount>
+<epd:amount epd:module="A5">27.0593165477386</epd:amount>
+<epd:amount epd:module="C2">0.0556316140818616</epd:amount>
+<epd:amount epd:module="C4">0.625343954619649</epd:amount>
+<epd:amount epd:module="D">-5.55361935001149</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy resources as material utilization (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">45.0811893013148</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">-24.4640101197</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of renewable primary energy resources (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">122.306063457499</epd:amount>
+<epd:amount epd:module="A4">0.400547621389403</epd:amount>
+<epd:amount epd:module="A5">2.59530642803863</epd:amount>
+<epd:amount epd:module="C2">0.0556316140818616</epd:amount>
+<epd:amount epd:module="C4">0.625343954619649</epd:amount>
+<epd:amount epd:module="D">-5.55361935001149</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as energy carrier (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">507.376737619614</epd:amount>
+<epd:amount epd:module="A4">6.95519066253132</epd:amount>
+<epd:amount epd:module="A5">29.6968135338027</epd:amount>
+<epd:amount epd:module="C2">0.96599870312935</epd:amount>
+<epd:amount epd:module="C4">4.7780338201199</epd:amount>
+<epd:amount epd:module="D">-25.2962613874741</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as material utilization (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">51.1829740889577</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">-17.5895186923162</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of non renewable primary energy resources (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">558.559711708572</epd:amount>
+<epd:amount epd:module="A4">6.95519066254335</epd:amount>
+<epd:amount epd:module="A5">12.1072948414865</epd:amount>
+<epd:amount epd:module="C2">0.965998703131021</epd:amount>
+<epd:amount epd:module="C4">4.77803382012414</epd:amount>
+<epd:amount epd:module="D">-25.2962613874934</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of secondary material (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">11.1653198829726</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.223306397659452</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of renewable secondary fuels (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of non renewable secondary fuels (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.0451660414325298</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of net fresh water (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="de">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.130913252606842</epd:amount>
+<epd:amount epd:module="A4">0.00046677284717998</epd:amount>
+<epd:amount epd:module="A5">0.0114165823687957</epd:amount>
+<epd:amount epd:module="C2">6.48295621083297E-05</epd:amount>
+<epd:amount epd:module="C4">0.00120433838101075</epd:amount>
+<epd:amount epd:module="D">-0.0064310845352642</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Hazardous waste disposed (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.67014969267061E-06</epd:amount>
+<epd:amount epd:module="A4">3.21619331280559E-07</epd:amount>
+<epd:amount epd:module="A5">4.26572748592689E-08</epd:amount>
+<epd:amount epd:module="C2">4.46693515667443E-08</epd:amount>
+<epd:amount epd:module="C4">7.2831801141139E-08</epd:amount>
+<epd:amount epd:module="D">-1.008963762801E-08</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non hazardous waste disposed (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">3.9825759505743</epd:amount>
+<epd:amount epd:module="A4">0.00110234398428472</epd:amount>
+<epd:amount epd:module="A5">0.582713552276898</epd:amount>
+<epd:amount epd:module="C2">0.000153103331150656</epd:amount>
+<epd:amount epd:module="C4">24.0237046508669</epd:amount>
+<epd:amount epd:module="D">-0.0117200871429864</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Radioactive waste disposed (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.014556975561652</epd:amount>
+<epd:amount epd:module="A4">1.28190774281421E-05</epd:amount>
+<epd:amount epd:module="A5">0.000331756727028624</epd:amount>
+<epd:amount epd:module="C2">1.78042742057529E-06</epd:amount>
+<epd:amount epd:module="C4">5.42708525973658E-05</epd:amount>
+<epd:amount epd:module="D">-0.00189656858413656</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+<common:shortDescription xml:lang="en">Components for re-use (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.0583813096510527</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for energy recovery (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported electrical energy (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">6.34517737848709</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported thermal energy (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">11.3446836077137</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/77e416eb-a363-4258-a04e-171d843a6460.xml" type="LCIA method data set" refObjectId="77e416eb-a363-4258-a04e-171d843a6460">
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial (GWP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Global warming potential (GWP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="de">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">33.5775578141675</epd:amount>
+<epd:amount epd:module="A4">0.511569181537959</epd:amount>
+<epd:amount epd:module="A5">4.56570866213916</epd:amount>
+<epd:amount epd:module="C2">0.0710512752136055</epd:amount>
+<epd:amount epd:module="C4">1.50787676012611</epd:amount>
+<epd:amount epd:module="D">-1.45741905414899</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/06dcd26f-025f-401a-a7c1-5e457eb54637.xml" type="LCIA method data set" refObjectId="06dcd26f-025f-401a-a7c1-5e457eb54637">
+<common:shortDescription xml:lang="de">Abbau Potential der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Depletion potential of the stratospheric ozone layer (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512.xml" type="unit group data set" refObjectId="88054749-b0a6-47ea-a82b-dc5b29326512">
+<common:shortDescription xml:lang="de">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.44770029342082E-10</epd:amount>
+<epd:amount epd:module="A4">1.27030332592683E-16</epd:amount>
+<epd:amount epd:module="A5">2.89595700294788E-12</epd:amount>
+<epd:amount epd:module="C2">1.76431017489837E-17</epd:amount>
+<epd:amount epd:module="C4">1.798623701911E-15</epd:amount>
+<epd:amount epd:module="D">-2.08601145833383E-14</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/b4274add-93b7-4905-a5e4-2e878c4e4216.xml" type="LCIA method data set" refObjectId="b4274add-93b7-4905-a5e4-2e878c4e4216">
+<common:shortDescription xml:lang="de">Versauerungspotenzial von Boden und Wasser (AP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Acidification potential of land and water (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f.xml" type="unit group data set" refObjectId="bc50c624-a9bc-45b1-a9b0-e6b10d00476f">
+<common:shortDescription xml:lang="de">kg SO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.182324005014254</epd:amount>
+<epd:amount epd:module="A4">0.000756571071533727</epd:amount>
+<epd:amount epd:module="A5">0.00401558530406253</epd:amount>
+<epd:amount epd:module="C2">0.000105079315490795</epd:amount>
+<epd:amount epd:module="C4">0.00207984786552765</epd:amount>
+<epd:amount epd:module="D">-0.00166455648221129</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/f58827d0-b407-4ec6-be75-8b69efb98a0f.xml" type="LCIA method data set" refObjectId="f58827d0-b407-4ec6-be75-8b69efb98a0f">
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial (EP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Eutrophication potential (EP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822.xml" type="unit group data set" refObjectId="67b5401d-873c-485f-bcf3-6ae83b918822">
+<common:shortDescription xml:lang="de">kg PO_(4)^(3)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0436410449872451</epd:amount>
+<epd:amount epd:module="A4">0.000164843652665409</epd:amount>
+<epd:amount epd:module="A5">0.000948496708392261</epd:amount>
+<epd:amount epd:module="C2">2.28949517590846E-05</epd:amount>
+<epd:amount epd:module="C4">0.000233922908657149</epd:amount>
+<epd:amount epd:module="D">-0.000222421526660464</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/1e84a202-dae6-42aa-9e9d-71ea48b8be00.xml" type="LCIA method data set" refObjectId="1e84a202-dae6-42aa-9e9d-71ea48b8be00">
+<common:shortDescription xml:lang="de">Bildungspotential für troposphärisches Ozon (POCP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Formation potential of tropospheric ozone photochemical oxidants (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e.xml" type="unit group data set" refObjectId="01c26c17-9a76-406e-8295-f17b55fd909e">
+<common:shortDescription xml:lang="de">kg Ethen-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0112306506412495</epd:amount>
+<epd:amount epd:module="A4">-0.000169758196723329</epd:amount>
+<epd:amount epd:module="A5">0.00025160938222942</epd:amount>
+<epd:amount epd:module="C2">-2.35775273226846E-05</epd:amount>
+<epd:amount epd:module="C4">0.000157704633318632</epd:amount>
+<epd:amount epd:module="D">-0.000168652377130649</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/f7c73bb9-ab1a-4249-9c6d-379a0de6f67e.xml" type="LCIA method data set" refObjectId="f7c73bb9-ab1a-4249-9c6d-379a0de6f67e">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for non fossil resources (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="de">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">2.48161444562234E-05</epd:amount>
+<epd:amount epd:module="A4">4.20650996146083E-08</epd:amount>
+<epd:amount epd:module="A5">5.04346449798957E-07</epd:amount>
+<epd:amount epd:module="C2">5.84237494647337E-09</epd:amount>
+<epd:amount epd:module="C4">3.30165758574694E-08</epd:amount>
+<epd:amount epd:module="D">-2.5740158174071E-07</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/804ebcdf-309d-4098-8ed8-fdaf2f389981.xml" type="LCIA method data set" refObjectId="804ebcdf-309d-4098-8ed8-fdaf2f389981">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for fossil resources (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">495.155451853867</epd:amount>
+<epd:amount epd:module="A4">6.88438771601099</epd:amount>
+<epd:amount epd:module="A5">10.7338544953859</epd:amount>
+<epd:amount epd:module="C2">0.956164960557082</epd:amount>
+<epd:amount epd:module="C4">4.63185650415937</epd:amount>
+<epd:amount epd:module="D">-20.4442080778559</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>

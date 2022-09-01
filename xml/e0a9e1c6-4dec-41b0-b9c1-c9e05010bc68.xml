@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:epd2="http://www.indata.network/EPD/2019" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" epd2:epd-version="1.2" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>e0a9e1c6-4dec-41b0-b9c1-c9e05010bc68</common:UUID>
+<name>
+<baseName xml:lang="de">binderholz Brettsperrholz BBS</baseName>
+<baseName xml:lang="en">binderholz CLT BBS</baseName>
+<functionalUnitFlowProperties xml:lang="de" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="3">Holz</common:class>
+<common:class level="1" classId="3.1">Vollholz</common:class>
+<common:class level="2" classId="3.1.05">Brettschichtholzplatte</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">02 Bauprodukte</common:class>
+<common:class level="1">Produkte aus Bauholz</common:class>
+<common:class level="2">Vollholzprodukte</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="de">binderholz Brettsperrholz BBS ist ein massives, plattenförmiges Holzbauelement, welches aus zueinander rechtwinklig verklebten Nadelholzlagen besteht. Hergestellt wird das binderholz Brettsperrholz BBS nach der /ETA-06/0009/ oder nach dem /PRG-320/ bzw. dem /ESR-4081/ gemäß den jeweiligen projektspezifischen Anforderungen.    Die kreuzweise Orientierung der einzelnen Lamellen und der i.d.R. symmetrische Aufbau des binderholz Brettsperrholz BBS birgt den Vorteil einer äußerst hohen Formstabilität, sowie einer potentiellen Lastabtragung sowohl längs, als auch quer zur Haupttragrichtung.binderholz Brettsperrholz BBS definiert sich im Querschnittaufbau durch eine minimale Lagenanzahl von mindestens drei Lagen, wobei sich die maximale Lagenanzahl auf neun Lagen beschränkt.  binderholz Brettsperrholz BBS steht in 2 unterschiedlichen Formaten zur Verfügung:- Systemformat BBS 125: Systembreite 125 cm- Großformat BBS XL: max. Breite 350 cm Aufgrund der vorhandenen, in die Produktionswerke integrierten Abbundmöglichkeiten kann ein enormer Vorfertigungsgrad und somit eine äußerst geringe Bauzeit erreicht werden.</common:generalComment>
+<common:generalComment xml:lang="en">binderholz Brettsperrholz BBS ist ein massives, plattenförmiges Holzbauelement, welches aus zueinander rechtwinklig verklebten Nadelholzlagen besteht. Hergestellt wird das binderholz Brettsperrholz BBS nach der /ETA-06/0009/ or /PRG-320/ and /ESR-4081/ according to the respective project-specific requirements.    binderholz CLT (Cross Laminated Timber) BBS is a solid, wooden construction element in panel form that consists of softwood layers that are glued together at right angles to each other. binderholz CLT BBS is produced in accordance with /ETA-06/0009/.     The crosswise orientation of the individual lamellae and the usually symmetrical construction of binderholz CLT BBS has the benefit of extremely high dimensional stability, as well as load-bearing potential both lengthways and transversely to the main load-bearing direction. The cross-section structure of binderholz CLT BBS is characterised by a minimised number of layers, with no less than three and no more than nine layers.   binderholz CLT BBS is available in 2 different formats: - System format BBS 125: system width 125 cm - Large format BBS XL: max. width 350 cm  A very high degree of pre-fabrication and thus an extremely short building time can be achieved, thanks to the existing trimming options that are integrated at the production facilities.</common:generalComment>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2019</common:referenceYear>
+<common:dataSetValidUntil>2024</common:dataSetValidUntil>
+<common:other>
+<epd2:publicationDateOfEPD>2019-03-20</epd2:publicationDateOfEPD>
+</common:other>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="DE" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="de">binderholz Brettsperrholz BBS sind flächige Holzbauteile aus mindestens drei kreuzweise verklebten Brettlagen aus Nadelholz. Benachbarte Lagen sind unter einem Winkel von 90° miteinander verklebt. Der Querschnitt der Bauteile ist symmetrisch. Die Bauteile sind eben. Bis zu zwei benachbarte Lagen können faserparallel verklebt sein, solange ein symmetrischer, kreuzweise gesperrter Aufbau erhalten bleibt. Nichttragende äußere Lagen sind zulässig. Einzelne Lagen (maximal 50% des Querschnitts) dürfen durch ein- und mehrschichtige Massivholzplatten nach EN 13986 in tragender Qualität ersetzt werden. Die Holzbauteile werden mit einer Breite von bis zu 3,5 m und einer Länge von bis zu 22 m als Großformat oder mit einer Breite von bis zu 1,25 m und einer Länge von bis zu 5 m als Systemformat hergestellt. Bauteile im Systemformat mit einer Breite von bis zu 1,25 m können werksmäßig in Längsrichtung durch Universal-KeiIzinkenverbindungen gemäß EN 14080 bis zu einer Länge von 20 m verbunden sein. Die Holzbauteile werden durch einen automatisierten Herstellungsprozess, entsprechend der hinterlegten und durch Inspektion überprüften technischen Dokumentation, gefertigt. Das Dickenspektrum der gehobelten Einzellamellen liegt im Bereich von 18 mm bis 45 mm, bei einer Breite von 80 mm bis 250 mm. Die einzelnen Lagen sind bis zur geforderten Bauteildicke verklebt. Die Bretter werden visuell oder maschinell sortiert. Nur technisch getrocknetes Holz wird eingesetzt (Holzfeuchte = 12 % +/- 2 %). Nur beidseitig auf den Deckflächen gehobelte Bretter werden verwendet. Die Bretter der einzelnen Lagen dürfen durch Keilzinkenverbindungen nach EN 14080 in Längsrichtung verbunden werden. Stumpfstöße sind nicht möglich. Die einzelnen Bretter der in Bauteillängsachse verlaufenden Brettlagen können an ihren Schmalseiten verklebt sein. Materialeigenschaften, Abmessungen und Toleranzen des Brettsperrholzes, sind in der technischen Dokumentation der Europäischen Technischen Bewertung (ETA-06/0009) enthalten. Spezifizierung des Verwendungszwecks gemäß dem anwendbaren Europäischen Bewertungsdokument. Die Elemente sind für eine Verwendung als tragende und/oder aussteifende oder als nicht tragende Wand-‚ Decken-, Boden-, Dach- oder Sonderbauteile für Holzbauwerke vorgesehen. Dabei dürfen sie zur Aufnahme und Weiterleitung von Lasten sowohl rechtwinklig zur Elementebene als auch in Elementebene beansprucht werden. Die Anwendung darf nur in Bauwerken unter statischen bzw. quasi-statischen Einwirkungen erfolgen. Die Elemente sind für eine Verwendung in den Nutzungsklassen 1 und 2 gemäß EN 1995-1-1 vorgesehen. Die Elemente sind während Einbau und Nutzung mit einem ausreichenden Wetterschutz zu versehen. Ein kunden- bzw. objektspezifischer Abbund ist möglich. 
+Technische Daten: 
+binderholz Brettsperrholz BBS wird mit einer Holzfeuchte von 12 % +/- 2 % hergestellt.Es gelten die Daten der Leistungserklärung.Je nach Querschnittaufbau (Lagenanzahl, Lagendicke) und der Laststellung des binderholz Brettsperrholz BBS variieren die bauphysikalischen Eigenschaften, wie Bauteilwiderstand oder Feuerwiderstand. Daher müssen diese nach den geltenden Bemessungsregeln bauwerksbezogen ermittelt werden.Gemäß /EN 1995-1-1/ kann binderholz Brettsperrholz BBS in den Nutzungsklassen 1 oder 2  mit vorwiegend ruhenden Verkehrslasten verwendet werden. Ein vorbeugender, chemischer Holzschutz nach /DIN 68800-3/ ist auf Anfrage möglich. Hierbei kann das binderholz Brettsperrholz BBS zum Schutz vor Pilz- und Insektenbefall mit einer Imprägnierung der Klasse 2 nach /DIN 68800-3/ behandelt werden.  Generell ist ein konstruktiver Holzschutz nach /DIN 68800-2/ vorzuziehen. 
+Deklarierte Einheit: 
+Die deklarierte Einheit der ökologischen Betrachtung ist 1 m³ Brettsperrholz BBS unter Berücksichtigung des Mixes der verwendeten Klebstoffe nach Kapitel 2.5 und einer Masse von 470,88 kg/m³ bei einer Holzfeuchte von 12,1 %, was einem Wasseranteil von 10,7 % entspricht. Der Anteil der Klebstoffe liegt bei 1,015 %. Alle Angaben zu eingesetzten Klebstoffen wurden auf Grundlage spezifischer Daten berechnet.</technologyDescriptionAndIncludedProcesses>
+<technologyDescriptionAndIncludedProcesses xml:lang="en">binderholz Brettsperrholz BBS sind flächige Holzbauteile aus mindestens drei kreuzweise verklebten Brettlagen aus Nadelholz. Benachbarte Lagen sind unter einem Winkel von 90° miteinander verklebt. Der Querschnitt der Bauteile ist symmetrisch. Die Bauteile sind eben. Bis zu zwei benachbarte Lagen können faserparallel verklebt sein, solange ein symmetrischer, kreuzweise gesperrter Aufbau erhalten bleibt. Nichttragende äußere Lagen sind zulässig. Einzelne Lagen (maximal 50% des Querschnitts) dürfen durch ein- und mehrschichtige Massivholzplatten nach EN 13986 in tragender Qualität ersetzt werden. Die Holzbauteile werden mit einer Breite von bis zu 3,5 m und einer Länge von bis zu 22 m als Großformat oder mit einer Breite von bis zu 1,25 m und einer Länge von bis zu 5 m als Systemformat hergestellt. Bauteile im Systemformat mit einer Breite von bis zu 1,25 m können werksmäßig in Längsrichtung durch Universal-KeiIzinkenverbindungen gemäß EN 14080 bis zu einer Länge von 20 m verbunden sein. Die Holzbauteile werden durch einen automatisierten Herstellungsprozess, entsprechend der hinterlegten und durch Inspektion überprüften technischen Dokumentation, gefertigt. Das Dickenspektrum der gehobelten Einzellamellen liegt im Bereich von 18 mm bis 45 mm, bei einer Breite von 80 mm bis 250 mm. Die einzelnen Lagen sind bis zur geforderten Bauteildicke verklebt. Die Bretter werden visuell oder maschinell sortiert. Nur technisch getrocknetes Holz wird eingesetzt (Holzfeuchte = 12 % +/- 2 %). Nur beidseitig auf den Deckflächen gehobelte Bretter werden verwendet. Die Bretter der einzelnen Lagen dürfen durch Keilzinkenverbindungen nach EN 14080 in Längsrichtung verbunden werden. Stumpfstöße sind nicht möglich. Die einzelnen Bretter der in Bauteillängsachse verlaufenden Brettlagen können an ihren Schmalseiten verklebt sein. Materialeigenschaften, Abmessungen und Toleranzen des Brettsperrholzes, sind in der technischen Dokumentation der Europäischen Technischen Bewertung (ETA-06/0009) enthalten. Spezifizierung des Verwendungszwecks gemäß dem anwendbaren Europäischen Bewertungsdokument. Die Elemente sind für eine Verwendung als tragende und/oder aussteifende oder als nicht tragende Wand-‚ Decken-, Boden-, Dach- oder Sonderbauteile für Holzbauwerke vorgesehen. Dabei dürfen sie zur Aufnahme und Weiterleitung von Lasten sowohl rechtwinklig zur Elementebene als auch in Elementebene beansprucht werden. Die Anwendung darf nur in Bauwerken unter statischen bzw. quasi-statischen Einwirkungen erfolgen. Die Elemente sind für eine Verwendung in den Nutzungsklassen 1 und 2 gemäß EN 1995-1-1 vorgesehen. Die Elemente sind während Einbau und Nutzung mit einem ausreichenden Wetterschutz zu versehen. Ein kunden- bzw. objektspezifischer Abbund ist möglich. 
+Technical data: 
+binderholz CLT BBS is produced with a wood moisture content of 12 % +/- 2 %.  The data included in the declaration of performance applies. Building-physical properties, such as component resistance and fire resistance, vary depending on the cross-section structure (number of layers, layer thickness) and the load position of the binderholz CLT BBS product. These therefore have to be determined for the structure in question, based on the applicable measurement regulations.  Pursuant to /EN 1995-1-1/ binderholz CLT BBS can be used in service classes 1 and 2 with predominantly static loads.  Preventive chemical wood treatment in accordance with /DIN 68800-3/ can be applied by request. In this context, binderholz CLT BBS can be treated with a class 2 impregnation pursuant to /DIN 68800-3/ to protect it against fungi and insect infestation.   Structural wood protection according to /DIN 68800-2/ is generally preferable. 
+Declared unit: 
+The declared unit for the ecological assessment is 1 m³ of CLT BBS, under consideration of the mixture of adhesive used according to chapter 2.5 and a mass of 470.88 kg/m³ at 12.1 % wood moisture content, which corresponds to a water content of 10.7 %. The proportion of adhesives is 1.015 %. All specifications regarding adhesives used were calculated based on specific data.</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="de">binderholz Brettsperrholz BBS wird in allen konstruktiven Bereichen des modernen Holzbaus eingesetzt, vom traditionellen Einfamilienhausbau bis zum ingenieursmäßigen Hoch- und Brückenbau.   Für die Verwendung von binderholz Brettsperrholz BBS gelten die jeweiligen nationalen Vorschriften.</technologicalApplicability>
+<technologicalApplicability xml:lang="en">binderholz CLT BBS is used in all constructional areas of modern timber construction, ranging from traditional single-family house construction through to structural and bridge engineering.    The respective national regulations apply for using binderholz CLT BBS.</technologicalApplicability>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="b9f5b1dd-6250-4d40-8638-9c422037f833">
+<common:shortDescription xml:lang="de">Vollholzprodukte.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">average dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="28d74cc0-db8b-4d7e-bc44-5f6d56ce0c4a">
+<common:shortDescription xml:lang="de">GaBi Database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="07d9b8a7-e0fc-408f-a95e-c90735f843ce">
+<common:shortDescription xml:lang="de">GaBi database SP39 2019</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
+Die Datengrundlage für die Erstellung der Ökobilanz bilden die Brettsperrholz-Produktionsdaten des Brettsperrholzwerks der Binderholz Unternberg GmbH im Lungau (AT), sowie des Brettsperrholzwerks der Binderholz Burgbernheim GmbH mit Sitz im mittelfränkischen Burgbernheim (D). In Summe repräsentieren diese Werke 100 % der binderholz Brettsperrholz BBS Gesamtproduktion.Die vorliegende Umweltproduktdeklaration ist für binderholz Brettsperrholz BBS gültig. 
+Systemgrenze: 
+Der Deklarationstyp entspricht einer EPD „Wiege bis Werkstor - mit Optionen“. Inhalte sind das Stadium der Produktion, also von der Bereitstellung der Rohstoffe bis zum Werkstor der Produktion (cradle-to-gate, Module A1 bis A3), sowie das Modul A5 und Teile des Endes des Lebensweges (Modul C2 und C3). Darüber hinaus erfolgt eine Betrachtung der potenziellen Nutzen und Lasten über den Lebensweg des Produktes hinaus (Modul D). Im Einzelnen werden in Modul A1 die Bereitstellung des Holzes aus dem Forst sowie die Bereitstellung der Klebstoffe bilanziert. Die Transporte dieser Stoffe werden in Modul A2 berücksichtigt. Modul A3 umfasst die Bereitstellung der Brennstoffe, Betriebsmittel und des Stroms sowie die Herstellungsprozesse vor Ort. Diese sind im Wesentlichen der Zuschnitt, die Verklebung, Hobel- und Profilierprozesse sowie die Verpackung der Produkte. In Modul A5 wird ausschließlich die Entsorgung der Produktverpackung abgedeckt, welche den Ausgang des enthaltenen biogenen Kohlenstoffes sowie der enthaltenen Primärenergie (PERM und PENRM) einschließt.  Modul C2 berücksichtigt den Transport zum Entsorger und Modul C3 die Aufbereitung und Sortierung des Altholzes. Zudem werden in Modul C3 gemäß /EN 16485/ die CO2-Äquivalente des im Produkt befindlichen holzinhärenten Kohlenstoffs sowie die im Produkt enthaltene erneuerbare und nicht erneuerbare Primärenergie (PERM und PENRM) als Abgänge verbucht. Modul D bilanziert die thermische Verwertung des Produktes am Ende seines Lebenswegs sowie die daraus resultierenden potenziellen Nutzen und Lasten in Form einer Systemerweiterung.</useAdviceForDataSet>
+<useAdviceForDataSet xml:lang="en">Scope: 
+The CLT (Cross Laminated Timber) production data from the CLT production facility of Binderholz Unternberg GmbH in Lungau (AT) and the CLT production facility of Binderholz Burgbernheim GmbH based in Burgbernheim in Middle Franconia in Germany, is used as the basis for the life cycle assessment. Together these facilities account for 100 % of the total production of binderholz CLT BBS. This Environmental Product Declaration applies for binderholz CLT BBS. 
+System boundary: 
+The declaration type corresponds to a “cradle to gate with options” EPD. It covers the production phase from provision of the raw materials through to the factory gates (cradle-to-gate, modules A1 to A3), as well as module A5 and parts of end-of-life (modules C2 and C3). In addition to this, potential benefits and burdens are considered beyond the product’s life cycle (module D).  The provision of wood from the forest and provision of glues are considered in module A1. The transport of these materials is considered in module A2. Module A3 covers the provision of fuels, operating materials, and electricity, as well as the production processes on site. These are primarily trimming, gluing, planing, and profiling processes, as well as packaging of the products. Module A5 covers solely the disposal of the product packaging, including the output of contained biomass carbon and contained primary energy (PERM and PENRM).  Transport to the disposer is considered in module C2, and module C3 covers the processing and sorting of waste wood. In addition to this, the CO2 equivalents of the inherent carbon stored in the wood and renewable and non-renewable primary energy (PERM and PENRM) in accordance with /EN 16485/, are registered as output in module C3. Thermal recovery of the product at the end of its life, and the resulting benefits and burdens are addressed in module D in the form of a system Extension.</useAdviceForDataSet>
+<common:other>
+<epd2:referenceToOriginalEPD type="source data set" refObjectId="7bb63ae5-8782-45dc-b192-1b7328e57d46">
+<common:shortDescription xml:lang="de">binderholz Brettsperrholz BBS.pdf</common:shortDescription>
+</epd2:referenceToOriginalEPD>
+</common:other>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">DIN EN 15804</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/4f2eb655-6e44-4874-a95a-e28f5442cd4d.xml" type="source data set" refObjectId="4f2eb655-6e44-4874-a95a-e28f5442cd4d">
+<common:shortDescription xml:lang="de">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<common:commissionerAndGoal>
+<common:referenceToCommissioner uri="../contacts/7ac81002-181b-4302-827e-7ccc1a3730f0.xml" type="contact data set" refObjectId="7ac81002-181b-4302-827e-7ccc1a3730f0">
+<common:shortDescription xml:lang="de">Thünen-Institut für Holzforschung</common:shortDescription>
+</common:referenceToCommissioner>
+</common:commissionerAndGoal>
+<dataGenerator>
+<common:referenceToPersonOrEntityGeneratingTheDataSet uri="../contacts/de5ed5e4-e8c5-494d-9e3e-e4fe0f039a02.xml" type="contact data set" refObjectId="de5ed5e4-e8c5-494d-9e3e-e4fe0f039a02">
+<common:shortDescription xml:lang="de">Thünen-Institut für Holzforschung</common:shortDescription>
+</common:referenceToPersonOrEntityGeneratingTheDataSet>
+</dataGenerator>
+<dataEntryBy>
+<common:timeStamp>2019-03-20T09:32:28.969</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="de">ILCD Format</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml" type="source data set" refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+<common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+</common:referenceToDataSetFormat>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.05.000</common:dataSetVersion>
+<common:referenceToRegistrationAuthority uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToRegistrationAuthority>
+<common:registrationNumber>EPD-BBS-20190021-IBB1-DE</common:registrationNumber>
+<common:referenceToOwnershipOfDataSet uri="../contacts/7ac81002-181b-4302-827e-7ccc1a3730f0.xml" type="contact data set" refObjectId="7ac81002-181b-4302-827e-7ccc1a3730f0">
+<common:shortDescription xml:lang="de">Thünen-Institut für Holzforschung</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+<common:licenseType>Free of charge for all users and uses</common:licenseType>
+<common:accessRestrictions xml:lang="en">None</common:accessRestrictions>
+<common:other>
+<epd2:referenceToPublisher type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95" uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</epd2:referenceToPublisher>
+</common:other>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/9b9ff348-a86f-d34d-a3e4-59b1263f2673.xml" type="flow data set" refObjectId="9b9ff348-a86f-d34d-a3e4-59b1263f2673">
+<common:shortDescription xml:lang="de">Brettsperrholz BBS (Brettsperrholz BBS)</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy as energy carrier (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">1893.59951416506</epd:amount>
+<epd:amount epd:module="A2">5.75786212767948</epd:amount>
+<epd:amount epd:module="A3">988.561161503058</epd:amount>
+<epd:amount epd:module="A5">0.282885834433267</epd:amount>
+<epd:amount epd:module="C2">0.417021936806704</epd:amount>
+<epd:amount epd:module="C3">27.0521609360799</epd:amount>
+<epd:amount epd:module="D">-1417.52084060717</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy resources as material utilization (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">8011.22360833948</epd:amount>
+<epd:amount epd:module="A2">0</epd:amount>
+<epd:amount epd:module="A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">-8011.22360833948</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of renewable primary energy resources (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">9904.82312250454</epd:amount>
+<epd:amount epd:module="A2">5.75786212767948</epd:amount>
+<epd:amount epd:module="A3">988.561161503058</epd:amount>
+<epd:amount epd:module="A5">0.282885834433267</epd:amount>
+<epd:amount epd:module="C2">0.417021936806704</epd:amount>
+<epd:amount epd:module="C3">-7984.1714474034</epd:amount>
+<epd:amount epd:module="D">-1417.52084060717</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as energy carrier (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">1147.15331178234</epd:amount>
+<epd:amount epd:module="A2">104.392543319367</epd:amount>
+<epd:amount epd:module="A3">299.021017437875</epd:amount>
+<epd:amount epd:module="A5">60.6552039237302</epd:amount>
+<epd:amount epd:module="C2">7.560788993877</epd:amount>
+<epd:amount epd:module="C3">57.7776717103062</epd:amount>
+<epd:amount epd:module="D">-6077.00736737843</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as material utilization (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">47.7901912033261</epd:amount>
+<epd:amount epd:module="A2">0</epd:amount>
+<epd:amount epd:module="A3">59.04</epd:amount>
+<epd:amount epd:module="A5">-59.04</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">-47.7901912033261</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of non renewable primary energy resources (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">1194.94350298566</epd:amount>
+<epd:amount epd:module="A2">104.392543319367</epd:amount>
+<epd:amount epd:module="A3">358.061017437875</epd:amount>
+<epd:amount epd:module="A5">1.61520392373024</epd:amount>
+<epd:amount epd:module="C2">7.560788993877</epd:amount>
+<epd:amount epd:module="C3">9.98748050698006</epd:amount>
+<epd:amount epd:module="D">-6077.00736737843</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of secondary material (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0</epd:amount>
+<epd:amount epd:module="A2">0</epd:amount>
+<epd:amount epd:module="A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of renewable secondary fuels (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0</epd:amount>
+<epd:amount epd:module="A2">0</epd:amount>
+<epd:amount epd:module="A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">8011.22360833948</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of non renewable secondary fuels (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0</epd:amount>
+<epd:amount epd:module="A2">0</epd:amount>
+<epd:amount epd:module="A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">47.7901912033261</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of net fresh water (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="de">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0.953112833201759</epd:amount>
+<epd:amount epd:module="A2">0.0106105717206449</epd:amount>
+<epd:amount epd:module="A3">0.342989095728754</epd:amount>
+<epd:amount epd:module="A5">0.0101163310863633</epd:amount>
+<epd:amount epd:module="C2">0.000768486822270098</epd:amount>
+<epd:amount epd:module="C3">0.017178336380106</epd:amount>
+<epd:amount epd:module="D">0.921124605327106</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Hazardous waste disposed (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0.0468304345738979</epd:amount>
+<epd:amount epd:module="A2">6.03607936763785E-06</epd:amount>
+<epd:amount epd:module="A3">0.000147692980957755</epd:amount>
+<epd:amount epd:module="A5">8.92495419218882E-09</epd:amount>
+<epd:amount epd:module="C2">4.37172244279802E-07</epd:amount>
+<epd:amount epd:module="C3">4.40647775680111E-08</epd:amount>
+<epd:amount epd:module="D">-3.47009521655162E-06</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non hazardous waste disposed (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0.690066580857374</epd:amount>
+<epd:amount epd:module="A2">0.00874496232209544</epd:amount>
+<epd:amount epd:module="A3">0.374030611534887</epd:amount>
+<epd:amount epd:module="A5">0.380443374908225</epd:amount>
+<epd:amount epd:module="C2">0.000633367219289711</epd:amount>
+<epd:amount epd:module="C3">0.0593648848552844</epd:amount>
+<epd:amount epd:module="D">-0.894444271492365</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Radioactive waste disposed (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0.0445169218819481</epd:amount>
+<epd:amount epd:module="A2">0.00014286969065882</epd:amount>
+<epd:amount epd:module="A3">0.0139126360706304</epd:amount>
+<epd:amount epd:module="A5">7.81294176211584E-05</epd:amount>
+<epd:amount epd:module="C2">1.0347555010583E-05</epd:amount>
+<epd:amount epd:module="C3">0.00571594118878568</epd:amount>
+<epd:amount epd:module="D">-0.300908992274966</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+<common:shortDescription xml:lang="en">Components for re-use (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0</epd:amount>
+<epd:amount epd:module="A2">0</epd:amount>
+<epd:amount epd:module="A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0</epd:amount>
+<epd:amount epd:module="A2">0</epd:amount>
+<epd:amount epd:module="A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for energy recovery (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0</epd:amount>
+<epd:amount epd:module="A2">0</epd:amount>
+<epd:amount epd:module="A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">470.876796010146</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported electrical energy (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0</epd:amount>
+<epd:amount epd:module="A2">0</epd:amount>
+<epd:amount epd:module="A3">0</epd:amount>
+<epd:amount epd:module="A5">9.05014788356737</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported thermal energy (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0</epd:amount>
+<epd:amount epd:module="A2">0</epd:amount>
+<epd:amount epd:module="A3">0</epd:amount>
+<epd:amount epd:module="A5">16.3147501988526</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/77e416eb-a363-4258-a04e-171d843a6460.xml" type="LCIA method data set" refObjectId="77e416eb-a363-4258-a04e-171d843a6460">
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial (GWP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Global warming potential (GWP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="de">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">-683.431660933163</epd:amount>
+<epd:amount epd:module="A2">7.56440802275419</epd:amount>
+<epd:amount epd:module="A3">18.3894269460135</epd:amount>
+<epd:amount epd:module="A5">4.07777255824853</epd:amount>
+<epd:amount epd:module="C2">0.547863775563596</epd:amount>
+<epd:amount epd:module="C3">766.05880041765</epd:amount>
+<epd:amount epd:module="D">-411.860746838967</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/06dcd26f-025f-401a-a7c1-5e457eb54637.xml" type="LCIA method data set" refObjectId="06dcd26f-025f-401a-a7c1-5e457eb54637">
+<common:shortDescription xml:lang="de">Abbau Potential der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Depletion potential of the stratospheric ozone layer (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512.xml" type="unit group data set" refObjectId="88054749-b0a6-47ea-a82b-dc5b29326512">
+<common:shortDescription xml:lang="de">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">3.5690286924735E-07</epd:amount>
+<epd:amount epd:module="A2">2.08854869819038E-13</epd:amount>
+<epd:amount epd:module="A3">8.3791492058962E-09</epd:amount>
+<epd:amount epd:module="A5">1.02312950271454E-13</epd:amount>
+<epd:amount epd:module="C2">1.51266321409034E-14</epd:amount>
+<epd:amount epd:module="C3">6.57922436568308E-12</epd:amount>
+<epd:amount epd:module="D">-3.45885565165427E-10</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b4274add-93b7-4905-a5e4-2e878c4e4216.xml" type="LCIA method data set" refObjectId="b4274add-93b7-4905-a5e4-2e878c4e4216">
+<common:shortDescription xml:lang="de">Versauerungspotenzial von Boden und Wasser (AP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Acidification potential of land and water (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f.xml" type="unit group data set" refObjectId="bc50c624-a9bc-45b1-a9b0-e6b10d00476f">
+<common:shortDescription xml:lang="de">kg SO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0.284888368327753</epd:amount>
+<epd:amount epd:module="A2">0.0319244083859408</epd:amount>
+<epd:amount epd:module="A3">0.098845049476623</epd:amount>
+<epd:amount epd:module="A5">0.000974228141354183</epd:amount>
+<epd:amount epd:module="C2">0.00231217391477879</epd:amount>
+<epd:amount epd:module="C3">0.00680786086791455</epd:amount>
+<epd:amount epd:module="D">-0.389093921713418</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/f58827d0-b407-4ec6-be75-8b69efb98a0f.xml" type="LCIA method data set" refObjectId="f58827d0-b407-4ec6-be75-8b69efb98a0f">
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial (EP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Eutrophication potential (EP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822.xml" type="unit group data set" refObjectId="67b5401d-873c-485f-bcf3-6ae83b918822">
+<common:shortDescription xml:lang="de">kg PO_(4)^(3)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0.0654179579288527</epd:amount>
+<epd:amount epd:module="A2">0.00818759700016012</epd:amount>
+<epd:amount epd:module="A3">0.0207298219916182</epd:amount>
+<epd:amount epd:module="A5">7.94462152544013E-05</epd:amount>
+<epd:amount epd:module="C2">0.000592999186692161</epd:amount>
+<epd:amount epd:module="C3">0.00110880334061568</epd:amount>
+<epd:amount epd:module="D">-0.0603591610697323</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/1e84a202-dae6-42aa-9e9d-71ea48b8be00.xml" type="LCIA method data set" refObjectId="1e84a202-dae6-42aa-9e9d-71ea48b8be00">
+<common:shortDescription xml:lang="de">Bildungspotential für troposphärisches Ozon (POCP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Formation potential of tropospheric ozone photochemical oxidants (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e.xml" type="unit group data set" refObjectId="01c26c17-9a76-406e-8295-f17b55fd909e">
+<common:shortDescription xml:lang="de">kg Ethen-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">0.0681584168280721</epd:amount>
+<epd:amount epd:module="A2">-0.0132867088456459</epd:amount>
+<epd:amount epd:module="A3">0.0125867511977601</epd:amount>
+<epd:amount epd:module="A5">3.3766189828113E-05</epd:amount>
+<epd:amount epd:module="C2">-0.000962310130692738</epd:amount>
+<epd:amount epd:module="C3">0.000451890874759091</epd:amount>
+<epd:amount epd:module="D">-0.0341036398799754</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/f7c73bb9-ab1a-4249-9c6d-379a0de6f67e.xml" type="LCIA method data set" refObjectId="f7c73bb9-ab1a-4249-9c6d-379a0de6f67e">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for non fossil resources (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="de">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">8.01222633034957E-05</epd:amount>
+<epd:amount epd:module="A2">6.27609630572329E-07</epd:amount>
+<epd:amount epd:module="A3">2.47359616636478E-05</epd:amount>
+<epd:amount epd:module="A5">2.89074003024811E-07</epd:amount>
+<epd:amount epd:module="C2">4.54555836690888E-08</epd:amount>
+<epd:amount epd:module="C3">3.04835257819984E-06</epd:amount>
+<epd:amount epd:module="D">-0.000162521338840256</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/804ebcdf-309d-4098-8ed8-fdaf2f389981.xml" type="LCIA method data set" refObjectId="804ebcdf-309d-4098-8ed8-fdaf2f389981">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for fossil resources (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1">1076.8444892169</epd:amount>
+<epd:amount epd:module="A2">104.025897464792</epd:amount>
+<epd:amount epd:module="A3">263.743744460427</epd:amount>
+<epd:amount epd:module="A5">1.4180405372862</epd:amount>
+<epd:amount epd:module="C2">7.53423410926763</epd:amount>
+<epd:amount epd:module="C3">43.3416118676863</epd:amount>
+<epd:amount epd:module="D">-5353.69049421831</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>

@@ -1,0 +1,644 @@
+<?xml-stylesheet type='text/xsl' href='../../stylesheets/epd2html.xsl'?>
+<processDataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" locations="../ILCDLocations.xml" version="1.1">
+  <processInformation>
+    <dataSetInformation>
+      <common:UUID xmlns:common="http://lca.jrc.it/ILCD/Common">c3d4882b-ee25-4595-9b95-01a318e72a44</common:UUID>
+      <name>
+        <baseName xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="en">Chlorodifluoromethane (R22)</baseName>
+        <baseName xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="de">Chlorodifluormethan (R22)</baseName>
+      </name>
+      <classificationInformation>
+        <common:classification xmlns:common="http://lca.jrc.it/ILCD/Common" name="oekobau.dat">
+          <common:class level="0" classId="8">Gebäudetechnik</common:class>
+          <common:class level="1" classId="8.2">Klimatisierung und Lüftung</common:class>
+          <common:class level="2" classId="8.2.04">Kältemittel</common:class>
+        </common:classification>
+      </classificationInformation>
+      <common:generalComment xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">This data set has been modeled according to the European Standard EN 15804 for Sustainable Building. Results are depicted in modules that allow the structured expression of results over the entire life cycle.</common:generalComment>
+      <common:generalComment xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Dieser Datensatz wurde nach dem European Standard EN 15804 für Nachhaltiges Bauen modelliert. Ergebnisse werden in Modulen abgebildet, die den strukturierten Ausdruck von Ergebnissen über den gesamten Lebenszyklus zulassen.</common:generalComment>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:safetyMargins xmlns:epd="http://www.iai.kit.edu/EPD/2013">
+          <epd:margins>10</epd:margins>
+          <epd:description xml:lang="en">Product system almost completely covered. Good technological, temporal and geographic representativeness.</epd:description>
+          <epd:description xml:lang="de">Produktsystem weitgehend vollständig abgebildet. Gute technologische, zeitliche und geographische Repräsentativität.</epd:description>
+        </epd:safetyMargins>
+      </common:other>
+    </dataSetInformation>
+    <quantitativeReference type="Reference flow(s)">
+      <referenceToReferenceFlow>101007</referenceToReferenceFlow>
+    </quantitativeReference>
+    <time>
+      <common:referenceYear xmlns:common="http://lca.jrc.it/ILCD/Common">2018</common:referenceYear>
+      <common:dataSetValidUntil xmlns:common="http://lca.jrc.it/ILCD/Common">2022</common:dataSetValidUntil>
+      <common:timeRepresentativenessDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">annual average</common:timeRepresentativenessDescription>
+      <common:timeRepresentativenessDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Jährlicher Durchschnitt</common:timeRepresentativenessDescription>
+    </time>
+    <geography>
+      <locationOfOperationSupplyOrProduction location="DE">
+        <descriptionOfRestrictions xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="en">The data set represents the country specific situation in Germany, focusing on the main technologies, the region specific characteristics and / or import statistics.</descriptionOfRestrictions>
+        <descriptionOfRestrictions xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="de">Der Datensatz bildet die länderspezifische Situation in Deutschland ab. Dabei werden Haupttechnologien, spezifische regionale Charakteristiken und ggf. Importstatistiken berücksichtigt.</descriptionOfRestrictions>
+      </locationOfOperationSupplyOrProduction>
+    </geography>
+    <technology>
+      <technologyDescriptionAndIncludedProcesses xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">The production (modules A1-A3) of the refrigerant is based on hydrogen flourid and trichloromethane. The upstream chain of the two above-mentioned basic chemicals dominates the production phase.
+
+In module B1, the escape of 1 kg of refrigerant into the air was accounted for. The values of module B1 can be used for both the usage phase (e.g., leakage) and the disposal phase (module C1 disposal losses). Scenarios for use and disposal must be defined at the building level (see field "Use advice for data set").
+
+In the disposal phase (C-modules), any burdens due to removal (usually extraction by means of compressed air in special container systems), transport to the disposal or recycling company, as well as the loads for chemical analysis (e.g. gas chromatography) were neglected. Disposal losses (emissions into the air) must be determined at building level (see above).
+
+In module C4 100% thermal treatment / disposal was accounted for. Reuse is prohibited by law. In module D, a credit for substituted electrical and thermal energy takes place.</technologyDescriptionAndIncludedProcesses>
+      <technologyDescriptionAndIncludedProcesses xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Die Herstellung (Module A1-A3) des Kältemittels erfolgt auf Basis von Flurwasserstoff und Trichlormethan. Die Vorkette der beiden o.g. Grundchemikalien dominiert dabei die Herstellungsphase.
+
+In Modul B1 wurde das Entweichen von 1 kg Kältemittel in die Luft bilanziert. Die Werte von Modul B1 können sowohl für die Nutzungsphase (z.B. Leckagen) als auch für die Entsorgungsphase (Modul C1 Ausbau, Entsorgungsverluste) verwendet werden. Szenarien für Nutzung und Entsorgung müssen auf der Gebäudeebene festgelegt werden (siehe Feld Anwendungshinweis für den Datensatz).
+
+In der Entsorgungsphase (C-Module) wurden eventuelle Lasten durch den Ausbau (in der Regel Absaugung mittels Druckluft in spezielle Behältersysteme), Transporte zum Entsorgungs- bzw. Verwertungsunternehmen, sowie die Lasten für die chemische Analyse (i.d.R. Gaschromatographie) vernachlässigt. Entsorgungsverluste (Emissionen in die Luft) müssen auf Gebäudeebene festgelegt werden (s.o.).
+
+In Modul C4 wurde 100% thermische Behandlung/Beseitigung bilanziert. Eine Wiederverwendung ist gesetzlich untersagt. In Modul D erfolgt eine Gutschrift für substituierte elektrische und thermische Energie.</technologyDescriptionAndIncludedProcesses>
+      <technologicalApplicability xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">The usual purpose is the use in existing air conditioners. Since the year 2000, the refrigerant must no longer be used in new systems. Since 2015, a general ban on use applies.</technologicalApplicability>
+      <technologicalApplicability xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Üblicher Einsatzzweck ist die Verwendung in Bestandsklimaanlagen. Seit dem Jahr 2000 darf das Kühlmittel nicht mehr in Neuanlagen eingesetzt werden. Seit 2015 gilt ein generelles Verwendungsverbot.</technologicalApplicability>
+      <referenceToTechnologyPictogramme refObjectId="812c4548-b169-4214-9e65-0b1a096118ec" version="39.00.000" type="source data set" uri="../sources/812c4548-b169-4214-9e65-0b1a096118ec.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">construction_tabelle 46_füllmengen für kompressionskältemaschinen.jpg</common:shortDescription>
+      </referenceToTechnologyPictogramme>
+      <referenceToTechnologyFlowDiagrammOrPicture refObjectId="19b760e2-e0f7-4a21-a9f2-b63e05a75359" version="39.00.000" type="source data set" uri="../sources/19b760e2-e0f7-4a21-a9f2-b63e05a75359.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">construction_tabelle 50_leckageraten, entsorgungsverlute und lebensdauern von kältemitteln.jpg</common:shortDescription>
+      </referenceToTechnologyFlowDiagrammOrPicture>
+    </technology>
+  </processInformation>
+  <modellingAndValidation>
+    <LCIMethodAndAllocation>
+      <typeOfDataSet>EPD</typeOfDataSet>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:subType xmlns:epd="http://www.iai.kit.edu/EPD/2013">generic dataset</epd:subType>
+      </common:other>
+    </LCIMethodAndAllocation>
+    <dataSourcesTreatmentAndRepresentativeness>
+      <referenceToDataSource refObjectId="cb50c596-16b4-44e4-b1aa-319319a79fb5" version="39.00.000" type="source data set" uri="../sources/cb50c596-16b4-44e4-b1aa-319319a79fb5.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">GaBi Database Edition 2020, SP40</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">GaBi Database Edition 2020, SP40</common:shortDescription>
+      </referenceToDataSource>
+      <referenceToDataSource refObjectId="28d74cc0-db8b-4d7e-bc44-5f6d56ce0c4a" version="39.00.000" type="source data set" uri="../sources/28d74cc0-db8b-4d7e-bc44-5f6d56ce0c4a.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">GaBi database (all versions)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">GaBi database (all versions)</common:shortDescription>
+      </referenceToDataSource>
+      <useAdviceForDataSet xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">The dataset refers to the manufacture, use and recycling of 1 kg of refrigerant. The dataset can not be used for the estimation of other refrigerants since environmental effects, durability and intended use can be very different.
+For the calculation of the potential environmental effects through the use of the refrigerant at the building level, the specifications/calculation rules of the respective certification scheme must be followed. For a first estimate the following formulas may be used:
+
+I_tot= I_(man.)+ I_use+ I_(disp.)   
+
+with
+
+I_(man.) = I_(A1-A3) × m ×  a_b/a_r  
+I_use = (I_(A1-A3) × L × a_b ) + (I_B1 × L × a_b )   
+I_(disp.) = (I_B1 × m × a_b/a_r × E ) + (I_C4  × m ×  a_b/a_r × (1-E)) + (I_D  × m ×  a_b/a_r × (1-E)) 
+
+with:
+
+I	Indicator value of the respective life cycle stage
+m	Mass of the refrigerant [kg]
+a_b	Life time of the building [a]
+a_r	Life time of the refrigerant [a]
+L	Leakage rate [%/a]
+E	Disposal losses [%]
+
+Typical values for the required mass m of the coolant in kg per kW nominal cooling capacity can be taken from Table 46 /UBA/ (see figures).
+Approximate values for the usual service life a_KM, leakage rate L and disposal losses E can be taken from Table 50 /UBA/ (see figures).
+
+/UBA/: Environment Federal Office (UBA), Climate-friendly air conditioning (heating and cooling) with natural refrigerants - Concepts for non-residential buildings with server rooms / data centers, 2016</useAdviceForDataSet>
+      <useAdviceForDataSet xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Der Datensatz bezieht sich auf die Herstellung, Nutzung und Recycling von 1 kg Kältemittel. Der Datensatz kann nicht für die Abschätzung anderer Kältemittel verwendet werden, da Umweltwirkungen, Haltbarkeit und Einsatzzweck sehr unterschiedlich sein können.
+Für die Berechnung der potentiellen Umweltwirkungen durch den Einsatz des Kühlmittels auf Gebäudeebene sind die Vorgaben des jeweiligen Zertifizierungssystems zu beachten. Für eine erste Abschätzung können folgende Formeln verwendet werden:
+
+I_tot= I_(Herst.)+ I_(Nutz.)+ I_(Ent.)   
+
+mit
+
+I_(Herst.)  = I_(A1-A3)  × m ×  a_Geb/a_KM  
+I_(Nutz.)  = (I_(A1-A3)  × L × a_Geb ) + (I_B1  ×L × a_Geb )   
+I_(Ent.)= (I_B1  × m ×  a_Geb/a_KM ×E ) + (I_C4  × m ×  a_Geb/a_KM × (1-E)) + (I_D × m ×  a_Geb/a_KM × (1-E))  
+
+Dabei ist:
+
+I	Indikatorwert der jeweiligen Lebenszyklusphase
+m	Masse des Kältemittels [kg]
+a_Geb	Lebensdauer des Gebäudes [a]
+a_KM	Lebensdauer des Kältemittels [a]
+L	Leckage Rate [%/a]
+E	Entsorgungsverluste [%]
+
+Übliche Werte für die benötigte Masse m des Kühlmittels in kg je kW Nennkälteleistung können Tabelle 46 /UBA/ entnommen werden (siehe Abbildungen). 
+Näherungswerte für die übliche Lebensdauer a_KM, Leckage Raten L und Entsorgungsverluste E können Tabelle 50 /UBA/ entnommen werden (siehe Abbildungen).
+/UBA/: Umwelt Bundesamt (UBA), Klimaschonende Klimatisierung (Heizen und Kühlen) mit natürlichen Kältemitteln  Konzepte für Nichtwohngebäude mit Serverräumen/Rechenzentren, 2016</useAdviceForDataSet>
+    </dataSourcesTreatmentAndRepresentativeness>
+    <validation>
+      <review type="Dependent internal review">
+        <common:referenceToNameOfReviewerAndInstitution xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="39.00.000" type="contact data set" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010.xml">
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">thinkstep</common:shortDescription>
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">thinkstep</common:shortDescription>
+        </common:referenceToNameOfReviewerAndInstitution>
+        <common:referenceToNameOfReviewerAndInstitution xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="de53c560-d6a9-11da-a94d-0800200c9a66" version="39.00.000" type="contact data set" uri="../contacts/de53c560-d6a9-11da-a94d-0800200c9a66.xml">
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">IABP-GaBi</common:shortDescription>
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">IABP-GaBi</common:shortDescription>
+        </common:referenceToNameOfReviewerAndInstitution>
+        <common:referenceToNameOfReviewerAndInstitution xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="c0a9feeb-48d1-4c8f-9e8f-3ada7c0294c7" version="39.00.000" type="contact data set" uri="../contacts/c0a9feeb-48d1-4c8f-9e8f-3ada7c0294c7.xml">
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">IBP-GaBi</common:shortDescription>
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">IBP-GaBi</common:shortDescription>
+        </common:referenceToNameOfReviewerAndInstitution>
+      </review>
+      <review type="Independent external review">
+        <common:referenceToNameOfReviewerAndInstitution xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="8f1306f0-7b83-4f36-a537-aa83f0498266" version="39.00.000" type="contact data set" uri="../contacts/8f1306f0-7b83-4f36-a537-aa83f0498266.xml">
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">GaBi user forum</common:shortDescription>
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">GaBi user forum</common:shortDescription>
+        </common:referenceToNameOfReviewerAndInstitution>
+        <common:referenceToNameOfReviewerAndInstitution xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="851d996c-b88d-45ce-983a-b00ed0393ffb" version="39.00.000" type="contact data set" uri="../contacts/851d996c-b88d-45ce-983a-b00ed0393ffb.xml">
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">GaBi bug forum</common:shortDescription>
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">GaBi bug forum</common:shortDescription>
+        </common:referenceToNameOfReviewerAndInstitution>
+        <common:referenceToNameOfReviewerAndInstitution xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="47511c41-5096-4dcf-be4f-dbb0c1c5cffc" version="39.00.000" type="contact data set" uri="../contacts/47511c41-5096-4dcf-be4f-dbb0c1c5cffc.xml">
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">GaBi user community</common:shortDescription>
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">GaBi user community</common:shortDescription>
+        </common:referenceToNameOfReviewerAndInstitution>
+      </review>
+    </validation>
+    <complianceDeclarations>
+      <compliance>
+        <common:referenceToComplianceSystem xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66" version="02.00.000" type="source data set" uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml">
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">DIN EN 15804</common:shortDescription>
+          <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">DIN EN 15804</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance xmlns:common="http://lca.jrc.it/ILCD/Common">Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+    </complianceDeclarations>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp xmlns:common="http://lca.jrc.it/ILCD/Common">2019-12-04T10:05:57+01:00</common:timeStamp>
+      <common:referenceToDataSetFormat xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="03.00.000" type="source data set" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+        <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">ILCD format 1.1</common:shortDescription>
+        <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">ILCD format 1.1</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToDataSetFormat xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="cba73800-7874-11e3-981f-0800200c9a66" version="02.00.000" type="source data set" uri="../sources/cba73800-7874-11e3-981f-0800200c9a66.xml">
+        <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">EPD Data Format Extensions</common:shortDescription>
+        <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">EPD-Datenformaterweiterungen</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToPersonOrEntityEnteringTheData xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="39.00.000" type="contact data set" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010.xml">
+        <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">thinkstep</common:shortDescription>
+        <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">thinkstep</common:shortDescription>
+      </common:referenceToPersonOrEntityEnteringTheData>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dataSetVersion xmlns:common="http://lca.jrc.it/ILCD/Common">20.19.120</common:dataSetVersion>
+      <common:permanentDataSetURI xmlns:common="http://lca.jrc.it/ILCD/Common"/>
+      <common:referenceToOwnershipOfDataSet xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="39.00.000" type="contact data set" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010.xml">
+        <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">thinkstep</common:shortDescription>
+        <common:shortDescription xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">thinkstep</common:shortDescription>
+      </common:referenceToOwnershipOfDataSet>
+      <common:copyright xmlns:common="http://lca.jrc.it/ILCD/Common">true</common:copyright>
+    </publicationAndOwnership>
+  </administrativeInformation>
+  <exchanges>
+    <exchange dataSetInternalID="101007">
+      <referenceToFlowDataSet refObjectId="0d4e956b-5c86-4488-8c99-ce13f1aab5a9" version="39.00.000" type="flow data set" uri="../flows/0d4e956b-5c86-4488-8c99-ce13f1aab5a9.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Chlorodifluoromethane (R22)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Chlordifluormethan (R22)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <meanAmount>1</meanAmount>
+    </exchange>
+    <exchange dataSetInternalID="101008">
+      <referenceToFlowDataSet refObjectId="20f32be5-0398-4288-9b6d-accddd195317" version="39.00.000" type="flow data set" uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Use of renewable primary energy (PERE)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Input</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">16.0039239477304</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">1.12653669429108</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-0.887592767526962</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101009">
+      <referenceToFlowDataSet refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702" version="39.00.000" type="flow data set" uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Primary energy resources used as raw materials (PERM)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Input</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">0</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101010">
+      <referenceToFlowDataSet refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0" version="39.00.000" type="flow data set" uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Total use of renewable primary energy resources (PERT)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Input</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">16.0039239477304</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">1.12653669429108</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-0.887592767526962</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101011">
+      <referenceToFlowDataSet refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372" version="39.00.000" type="flow data set" uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Use of non-renewable primary energy (PENRE)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Input</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">91.7469637616012</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">14.7854840589154</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-3.11456790772643</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101012">
+      <referenceToFlowDataSet refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27" version="39.00.000" type="flow data set" uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Non-renewable primary energy resources used as raw materials (PENRM)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Input</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">0</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101013">
+      <referenceToFlowDataSet refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1" version="39.00.000" type="flow data set" uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Total use of non-renewable primary energy resources (PENRT)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Input</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">91.7469637616012</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">14.7854840589154</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-3.11456790772643</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101014">
+      <referenceToFlowDataSet refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92" version="39.00.000" type="flow data set" uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Input of secondary material (SM)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Input</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a4c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a4c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">kg</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">0</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101015">
+      <referenceToFlowDataSet refObjectId="64333088-a55f-4aa2-9a31-c10b07816787" version="39.00.000" type="flow data set" uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Use of renewable secondary fuels (RSF)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Input</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">0</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101016">
+      <referenceToFlowDataSet refObjectId="89def144-d39a-4287-b86f-efde453ddcb2" version="39.00.000" type="flow data set" uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Use of non renewable secondary fuels (NRSF)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Input</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">0</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101017">
+      <referenceToFlowDataSet refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246" version="39.00.000" type="flow data set" uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Use of net fresh water (FW)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Input</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0.0358481447404151</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-12da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-12da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">m3</common:shortDescription>
+          <common:shortDescription xml:lang="de">m3</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0.00868489681916695</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-0.000414060844122802</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101018">
+      <referenceToFlowDataSet refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc" version="39.00.000" type="flow data set" uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Hazardous waste disposed (HWD)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Output</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">9.74574762212209E-8</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a4c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a4c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">kg</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">5.84970472717756E-8</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-1.64542576040667E-9</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101019">
+      <referenceToFlowDataSet refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa" version="39.00.000" type="flow data set" uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Non-hazardous waste disposed (NHWD)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Output</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0.0479043416690441</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a4c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a4c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">kg</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0.735754454860821</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-0.00146314206977464</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101020">
+      <referenceToFlowDataSet refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6" version="39.00.000" type="flow data set" uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Radioactive waste disposed (RWD)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Output</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0.0023722841099687</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a4c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a4c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">kg</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0.000163059961136453</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-0.00010723396173409</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101021">
+      <referenceToFlowDataSet refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33" version="39.00.000" type="flow data set" uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Components for re-use (CRU)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Output</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a4c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a4c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">kg</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">0</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101022">
+      <referenceToFlowDataSet refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae" version="39.00.000" type="flow data set" uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Materials for Recycling (MFR)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Output</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a4c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a4c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">kg</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">0</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101023">
+      <referenceToFlowDataSet refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447" version="39.00.000" type="flow data set" uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Material for Energy Recovery (MER)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Output</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a4c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a4c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">kg</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">0</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101024">
+      <referenceToFlowDataSet refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29" version="39.00.000" type="flow data set" uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Exported electrical energy (EEE)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Output</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0.78017000629429</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">0</epd:amount>
+      </common:other>
+    </exchange>
+    <exchange dataSetInternalID="101025">
+      <referenceToFlowDataSet refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810" version="39.00.000" type="flow data set" uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Exported thermal energy (EET)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <functionType>General reminder flow</functionType>
+      <exchangeDirection>Output</exchangeDirection>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">1.80802124864045</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">0</epd:amount>
+      </common:other>
+    </exchange>
+  </exchanges>
+  <LCIAResults>
+    <LCIAResult>
+      <referenceToLCIAMethodDataSet refObjectId="77e416eb-a363-4258-a04e-171d843a6460" version="39.00.000" type="LCIA method data set" uri="../lciamethods/77e416eb-a363-4258-a04e-171d843a6460.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Global warming potential (GWP)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Globales Erwärmungspotenzial (GWP)</common:shortDescription>
+      </referenceToLCIAMethodDataSet>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">4.75856485758823</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">1810</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">1.7748300701147</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-0.212757276924293</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1" version="39.00.000" type="unit group data set" uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml">
+          <common:shortDescription xml:lang="en">kg CO2 eq.</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg CO2 Äquiv.</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+      </common:other>
+    </LCIAResult>
+    <LCIAResult>
+      <referenceToLCIAMethodDataSet refObjectId="06dcd26f-025f-401a-a7c1-5e457eb54637" version="39.00.000" type="LCIA method data set" uri="../lciamethods/06dcd26f-025f-401a-a7c1-5e457eb54637.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Ozone Depletion Potential (ODP)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Abbaupotenzial der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+      </referenceToLCIAMethodDataSet>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">1.8361019005925E-7</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0.05</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">5.4451276962219E-15</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-4.90790542468828E-15</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="88054749-b0a6-47ea-a82b-dc5b29326512" version="39.00.000" type="unit group data set" uri="../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512.xml">
+          <common:shortDescription xml:lang="en">kg R11 eq.</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg R11 Äquiv.</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+      </common:other>
+    </LCIAResult>
+    <LCIAResult>
+      <referenceToLCIAMethodDataSet refObjectId="b4274add-93b7-4905-a5e4-2e878c4e4216" version="39.00.000" type="LCIA method data set" uri="../lciamethods/b4274add-93b7-4905-a5e4-2e878c4e4216.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Acidification potential (AP)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Versauerungspotential (AP)</common:shortDescription>
+      </referenceToLCIAMethodDataSet>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0.0185125225039544</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0.00566937989488345</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-0.000179396343087619</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="bc50c624-a9bc-45b1-a9b0-e6b10d00476f" version="39.00.000" type="unit group data set" uri="../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f.xml">
+          <common:shortDescription xml:lang="en">kg SO2 eq.</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg SO2 Äquiv.</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+      </common:other>
+    </LCIAResult>
+    <LCIAResult>
+      <referenceToLCIAMethodDataSet refObjectId="f58827d0-b407-4ec6-be75-8b69efb98a0f" version="39.00.000" type="LCIA method data set" uri="../lciamethods/f58827d0-b407-4ec6-be75-8b69efb98a0f.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Eutrophication potential (EP)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Eutrophierungspotential (EP)</common:shortDescription>
+      </referenceToLCIAMethodDataSet>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0.00130868384312069</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0.00105124504528597</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-3.39889042778425E-5</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="67b5401d-873c-485f-bcf3-6ae83b918822" version="39.00.000" type="unit group data set" uri="../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822.xml">
+          <common:shortDescription xml:lang="en">kg Phosphate eq.</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg Phosphat Äquiv.</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+      </common:other>
+    </LCIAResult>
+    <LCIAResult>
+      <referenceToLCIAMethodDataSet refObjectId="1e84a202-dae6-42aa-9e9d-71ea48b8be00" version="39.00.000" type="LCIA method data set" uri="../lciamethods/1e84a202-dae6-42aa-9e9d-71ea48b8be00.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Photochemical Ozone Creation Potential (POCP)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Bildungspotenzial für troposphärisches Ozon (POCP)</common:shortDescription>
+      </referenceToLCIAMethodDataSet>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0.00115118927447493</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">0.000401132875407653</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-1.82878987593531E-5</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="01c26c17-9a76-406e-8295-f17b55fd909e" version="39.00.000" type="unit group data set" uri="../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e.xml">
+          <common:shortDescription xml:lang="en">kg Ethene eq.</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg Ethen Äquiv.</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+      </common:other>
+    </LCIAResult>
+    <LCIAResult>
+      <referenceToLCIAMethodDataSet refObjectId="f7c73bb9-ab1a-4249-9c6d-379a0de6f67e" version="39.00.000" type="LCIA method data set" uri="../lciamethods/f7c73bb9-ab1a-4249-9c6d-379a0de6f67e.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Abiotic depletion potential for non fossil resources (ADPE)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+      </referenceToLCIAMethodDataSet>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">0.000967001328837936</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">7.9379797134909E-8</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-5.27300077453674E-8</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4" version="39.00.000" type="unit group data set" uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml">
+          <common:shortDescription xml:lang="en">kg Sb eq.</common:shortDescription>
+          <common:shortDescription xml:lang="de">kg Sb Äquiv.</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+      </common:other>
+    </LCIAResult>
+    <LCIAResult>
+      <referenceToLCIAMethodDataSet refObjectId="804ebcdf-309d-4098-8ed8-fdaf2f389981" version="39.00.000" type="LCIA method data set" uri="../lciamethods/804ebcdf-309d-4098-8ed8-fdaf2f389981.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="en">Abiotic depletion potential for fossil resources (ADPF)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:epd="http://www.iai.kit.edu/EPD/2013" xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+      </referenceToLCIAMethodDataSet>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common">
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="A1-A3">85.750780424739</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="B1">0</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="C4">14.3735926004078</epd:amount>
+        <epd:amount xmlns:epd="http://www.iai.kit.edu/EPD/2013" epd:module="D">-2.8438566518859</epd:amount>
+        <epd:referenceToUnitGroupDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="unit group data set" uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml">
+          <common:shortDescription xml:lang="en">MJ</common:shortDescription>
+          <common:shortDescription xml:lang="de">MJ</common:shortDescription>
+        </epd:referenceToUnitGroupDataSet>
+      </common:other>
+    </LCIAResult>
+  </LCIAResults>
+</processDataSet>

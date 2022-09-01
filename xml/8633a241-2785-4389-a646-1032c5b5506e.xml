@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:epd2="http://www.indata.network/EPD/2019" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" epd2:epd-version="1.2" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>8633a241-2785-4389-a646-1032c5b5506e</common:UUID>
+<name>
+<baseName xml:lang="de">Duschflächen, Badewannen und Waschtische aus KALDEWEI Stahl-Email</baseName>
+<baseName xml:lang="en">Shower surfaces, bathtubs and washbasins made of KALDEWEI steel enamel</baseName>
+<functionalUnitFlowProperties xml:lang="de" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="8">Gebäudetechnik</common:class>
+<common:class level="1" classId="8.3">Sanitär</common:class>
+<common:class level="2" classId="8.3.03">Dusch- und Badewannen</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">03 Gebäudetechnik</common:class>
+<common:class level="1">Sanitäreinrichtungen</common:class>
+<common:class level="2">Sanitärprodukte aus Verbundwerkstoffen</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="de">Emaillierte Duschflächen, Badewannen und Waschtische bestehen aus einem tiefgezogenen Grundkörper aus emaillierfähigem Stahl, der beidseitig mit Grundemail und auf der Sichtseite mit Deckemail beschichtet ist.Die deklarierte Einheit ist 1 m² Stahl-Email, aus denen Duschflächen, Badewannen und Waschtische der Marke Kaldewei hergestellt werden. Je nach Produkt variiert die Stahldicke und Emaildicke. Daher gibt es für das spezifische Produkt gewisse Abweichungen von den Umweltwirkungen in Abhängigkeit von der Stahl -und Emaildicke.</common:generalComment>
+<common:generalComment xml:lang="en">Enamelled shower surfaces, bathtubs and washbasins consist of a deep-drawn body made of steel suitable for enamelling which is coated on both sides with base enamel and on the front with finishing enamel. The declared unit is 1 m² steel enamel for manufacturing Kaldewei shower surfaces, bathtubs and washbasins. The steel thickness and enamel thickness vary depending on the product. Accordingly, there are certain deviations for the specific product in terms of environmental impacts depending on the thickness of steel and enamel.</common:generalComment>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2019</common:referenceYear>
+<common:dataSetValidUntil>2024</common:dataSetValidUntil>
+<common:other>
+<epd2:publicationDateOfEPD>2019-06-26</epd2:publicationDateOfEPD>
+</common:other>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="DE" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="de">Der Prozess zur Herstellung emaillierter Duschflächen, Badewannen und Waschtische gliedert sich in die Teilprozesse: - Herstellung der Stahl-Rohteile - Reinigung der Rohteile - Herstellung der Emailfritten - Herstellung der Emailschlicker - Emaillierung. Die Verfahrensschritte der Teilprozesse sind folgendermaßen zu beschreiben: 1. Herstellung der Stahl-Rohteile Die Herstellung der Rohteile erfolgt in automatischen, kontinuierlichen Pressenstraßen mit folgenden Verfahrensschritten: • Tiefziehen: Die Formgebung der Rohteile erfolgt durch Tiefziehen von elektrostatisch beölten Stahlplatinen in 2 Teilzügen mit Kräften von 8.000-10.000 kN. • Bearbeitung des Rohlings: Nach dem Tiefziehen werden in die Rohlinge Ablauf-, Überlauf- und z. T. Grifflöcher eingestanzt und es werden ggf. die Befestigungen des Fußgestells angebracht. • Bei Badewannen mit Schürzen werden diese nach dem Tiefziehen der Wannenrohlinge angeschweißt. • Bei Waschtischen zur Wandmontage sowie bei Ein- und Aufbau-Waschtischen werden die Waschtischränder verschweißt. • Randbearbeitung des Wannenrohlings: In mehreren Arbeitsgängen werden die Randkonturen der Rohwannen durch Umkanten und Beschneiden der Wannenränder erzeugt. 2. Reinigung der Rohteile Die Reinigung der Rohteile aus Stahl wird in einer kontinuierlichen, automatischen Anlage vorgenommen und geschieht in folgenden Teilschritten: • Entfettung der Rohteile: Nach der Herstellung sind die Rohteile mit einem Film bedeckt, der aus Korrosionsschutzölen, Tiefziehölen und Metallabrieb des Tiefziehprozesses besteht und durch Besprühen mit alkalischen Tensidlösungen abgewaschen wird. • Saures Spülen der Rohteile: Eventuell auf den Rohteilen nach dem Entfetten verbliebene Verunreinigungen werden durch Besprühen mit einer stark verdünnten Schwefelsäurelösung abgewaschen. • Alkalisches Spülen der Rohteile: Der Aufbau einer temporären Rostschutzschicht auf den Rohteilen wird durch das Besprühen mit einer leicht alkalischen Aminlösung erzielt. 3. Herstellung der Emailfritte Emailfritten sind für das Emaillieren verwendete Glasgranulate, die in folgenden Teilschritten hergestellt werden: • Rezeptieren und Mischen der Glasrohstoffe: Die Glasrohstoffe werden gewogen und in Mischanlagen miteinander vermischt. • Schmelzen der Emailfritte: Die Mischungen der Glasrohstoffe werden in diskontinuierlichen Schmelzöfen 2 - 3 Stunden bei Temperaturen von 1.100-1.300 °C geschmolzen. Nach der Beendigung des Schmelzprozesses wird die Glasschmelze zur Abschreckung in Wasser gegossen und dadurch granuliert. • Trocknen der Emailfritte: Das an den Emailfrittekörnern anhaftende Oberflächenwasser wird teilweise durch Trocknen entfernt. 4. Herstellung der Emailschlicker Emailschlicker sind für das Emaillieren verwendete Suspensionen von Glasgranulaten in Wasser, die in folgenden Teilschritten hergestellt werden: • Rezeptieren der Schlickerrohstoffe: Feste Rohstoffe werden gewogen und zusammen mit den flüssigen, volumetrisch dosierten Rohstoffen in diskontinuierlich betriebene Mühlen gefüllt. • Mahlprozess: Die Schlickerrohstoffe werden in Trommelmühlen zu Emailschlickern gemahlen • Aufbereitung der Emailschlicker: Nach dem Mahlprozess werden die Emailschlicker durch Siebanlagen und Magnetabscheider gepumpt, um grobe mechanische und magnetische metallene Verunreinigungen abzutrennen. 5. Emaillierung Das Emaillieren ist die Herstellung einer Glasschicht auf einer Metalloberfläche und wird in folgenden Teilschritten vorgenommen: • Beschichtung der gereinigten Rohteile mit Emailschlicker: Die Rohteile werden auf der Vorder- und Rückseite von Robotern in automatischen Spritzkabinen mit Emailschlickern besprüht. • Trocknen der Emailschicht: Das in der Emailschicht verbliebene Wasser wird in kontinuierlich betriebenen Trockenöfen verdampft. • Brennen der Emailschicht bei 820-860 °C: In kontinuierlich betriebenen Durchlauföfen wird die Emailschicht auf den Rohteilen aufgeschmolzen, wobei eine Schichtdicke von 200-300 μm auf der Waschtisch- bzw. Wannenoberseite resultiert. • Verpackung: Die emaillierten Teile werden in einer automatischen Anlage mit einem Firmenlogo versehen und verpackt. 
+Technische Daten: 
+Die Produkte bestehen aus einem tiefgezogenenGrundkörper aus emaillierfähigem Stahl, der beidseitig mit Grundemail und auf der Vorderseitemit Deckemail beschichtet ist. Als Beispiele sind in derfolgenden Tabelle exemplarisch die Daten einiger Duschflächen, Badewannen und Waschtische aufgelistet.Das Verhältnis von Wannenoberfläche zu Projektionsfläche lässt sich für Produkte der Firma KALDEWEI wie folgt ermitteln: Bei Badewannen: Wannenoberfläche [m²] ~ 1,5 x Projektionsfläche [m²] + 0,5 [m²]Bei Duschwannen unter 140 mm Tiefe: Wannenoberfläche [m²] ~ 1,14 x Projektionsfläche [m²] + 0,06 [m²]Bei Duschwannen von 140 mm Tiefe: Wannenoberfläche [m²] ~ 1,24 x Projektionsfläche [m²] + 0,13 [m²]Bei Duschwannen von 250 mm Tiefe: Wannenoberfläche [m²] ~ 1,45 x Projektionsfläche [m²] + 0,24 [m²]Ein- und Unterbauwaschtische:Waschtischoberfläche [m²] ~ Projektionsfläche [m²] x 1,19 + 0,02 [m²]Wandhängende und Aufbau-Waschtische:Waschtischoberfläche [m²] ~ Projektionsfläche [m²] x 1,86 + 0,04 [m²]Badewannen mit Schürze:Wannenoberfläche [m²] ~ Projektionsfläche [m²] x 1,5 + Schürzenlänge [m] x Wannenhöhe [m] + 0,5 [m²]Das Flächengewicht der zur Emaillierung verwendeten Stahlgrundkörper beträgt bei Duschflächen und Badewannen 18 bis 22 kg/m², bei Badewannen mit reduzierter Stahldicke (vorwiegend für den Export) 10 bis 11 kg/m² und bei Waschtischen 15 bis 21 kg/m².Duschflächen, Badewannen und Waschtische aus KALDEWEI Stahl-Email erfüllen je nach Modell, Ausrüstung und baulichen Vorgaben im Prüfstand einzelne oder mehrere Schallschutznormen. Dazu gehören u.a. DIN 4109 bzw. DIN 4109/A1, VDI 4100 SST I-III und SIA 181. Alle Schallschutzzertifikate stehen auf www.kaldewei.de zur Verfügung.Die maximale Belastungstemperatur der emaillierten Stahlteile liegt deutlich oberhalb von 500 °C. Die Emaildicke beträgt auf der Nutzseite mindestens 0,2 mm.Die optionalen emailbasierten rutschhemmenden Oberflächenveredelungen &quot;Antislip&quot;, &quot;Vollantislip&quot; oder &quot;KALDEWEI SECURE PLUS&quot; erfüllen die Bewertungsgruppe B für nassbelastete Barfußbereiche /DIN 51097/ und Bewertungsgruppe R 10 für rutschhemmende Eigenschaften in Arbeitsräumen und Arbeitsbereichen mit erhöhter Rutschgefahr /DIN 51130/. 
+Deklarierte Einheit: 
+Ein m2 Oberfläche des deklarierten Durchschnittsprodukts wiegt 17,93 kg. Für den Stahl beträgt das durchschnittliche Flächengewicht 16,64 kg/m². Daraus ergibt sich eine errechnete Stahldicke von 2,1 mm im Durchschnitt über die Produkte. Für Email beträgt das durchschnittliche Flächengewicht über die verschiedenen Produkte 1,29 kg/m². Daraus ergibt sich eine errechnete Emaildicke von 517µm, diese beinhaltet die Vorder- und Rückseitenemaillierung.</technologyDescriptionAndIncludedProcesses>
+<technologyDescriptionAndIncludedProcesses xml:lang="en">The manufacturing process for enamelled shower surfaces, bathtubs and washbasins is subdivided into the following processes: - Manufacture of the steel blanks - Cleaning the blanks - Manufacture of the enamel frits - Manufacture of the enamel slips - Enamelling The process steps associated with these sub-processes are outlined as follows: 1. Manufacture of the steel blanks The blanks are manufactured in automatic, continuous press lines in the following process stages: · Deep-drawing: The blanks acquire the required shape by deep-drawing electrostatically-oiled steel blanks in 2-part drawings with forces of 8,000–10,000 kN. · Processing the blank: After deep-drawing, the outlets, overflows and sometimes holes for handles are punched in the blanks and the base frame brackets mounted. · In the case of bathtubs with panelling, these are welded on after deep-drawing the bathtub blanks. · In the case of wall-mounted washbasins as well as built-in and top-mounted washbasins, the washbasin edges are welded. · Working the edges of the raw bath/tray: The edge contours of the raw bathtubs/trays are produced by folding over and trimming the edges in several steps. 2. Cleaning the blanks The raw steel bathtubs and trays are cleaned in a continuous, automated facility according to the following sub-steps: · Degreasing the blanks: After they have been produced, the blanks are covered with a film of corrosion-protection oils, deep-drawing oils and abraded metal particles from the deep-drawing process which are washed off by spraying them with alkali tenside solutions. · Acidic rinsing of the blanks: Any impurities remaining on the blanks after degreasing are washed off by spraying with a strongly-diluted solution of sulphuric acid. · Alkali rinsing of the blanks: A temporary rust-inhibiting layer is formed on the blanks by spraying them with a slightly alkaline amine solution. 3. Manufacture of the enamel frits Enamel frits are the glass granulate used for enamelling and are produced in the following sub-steps: · Formulation and mixing of the raw materials for the glass: The raw materials for the glass are weighed and mixed in mixing plants. · Smelting the enamel frit: The raw material mixtures for the glass are smelted in batch-type smelters for 2-3 hours at temperatures of between 1100 and -1300 °C. When the smelting process is complete, the glass melt is poured into water to quench it and thus granulated. · Drying the enamel frit: The surface water adhering to the grains of the enamel frit is partially removed by drying. 4. Manufacture of the enamel slips Enamel slips are the suspensions of glass granulate in water used for enamelling and are produced in the following sub-steps: · Formulation of the raw materials for the slip: Solid raw materials are weighed and filled into batch-operated mills along with the liquid, volumetrically-dosed raw materials. · Grinding process: The raw materials for the slip are ground to enamel slips in drum mills. · Preparation of the enamel slips: After the grinding process, the enamel slips are pumped through systems of sieves and magnetic separators in order to separate off coarse mechanical and magnetic metallic impurities. 5. Enamelling Enamelling is the production of a layer of glass on a metal surface and is carried out in the following sub-steps: · Coating the cleaned blanks with enamel slip: Robots in automatic spray booths spray the fronts and backs of the blanks with enamel slips. · Drying the enamel coating: The water remaining in the enamel coating is evaporated in continuous drying ovens. · Firing the enamel coating at 820-860 °C: The enamel coating is fired onto the blanks in continuous furnaces so that the coating on the upper side of the washbasin or bathtub/tray has a thickness of 200-300 μm. · Packaging: An automated system applies the company logo before the enamelled parts are packaged. 
+Technical data: 
+The products consist of a deep-drawn body made of steel suitable for enamelling which is coated on both sides with base enamel and on the front with finishing enamel. The following chart depicts sample data on some shower surfaces, bathtubs and washbasins.For KALDEWEI products, the ratio of bathtub/tray surface to the projection surface is determined as follows: For bathtubs: bathtub surface [m²] ~ 1.5 x projection surface [m²] + 0.5 [m²] For shower trays lower than 140 mm: tray surface [m²] ~ 1.14 x projection surface [m²] + 0.06 [m²] For shower trays with a depth of 140 mm: tray surface [m²] ~ 1.24 x projection surface [m²] + 0.13 [m²] For shower trays with a depth of 250 mm: tray surface [m²] ~ 1.45 x projection surface [m²] + 0.24 [m²] Built-in and under-counter washbasins: washbasin surface [m²] ~ projection surface [m²] x 1.19 + 0.02 [m²] Wall-mounted and top-mounted washbasins: washbasin surface [m²] ~ projection surface [m²] x 1.86 + 0.04 [m²] Bathtubs with panelling: bathtub surface [m²] ~ projection surface [m²] x 1.5 + panelling length [m] x bathtub height [m] 0.5 [m²] The basis weight of the steel body used for enamelling is 18 to 22 kg/m² for shower surfaces and bathtubs, 10 to 11 kg/m² for bathtubs with a reduced steel thickness (primarily for export), and 15 to 21 kg/m² for washbasins. Depending on the respective model, features and construction specifications on the test bench, KALDEWEI shower surfaces, bathtubs and washbasins comply with individual or several sound insulation standards. These include DIN 4109, DIN 4109/A1, VDI 4100 SST I-III and SIA 181. All sound insulation certificates are available on www.kaldewei.de. The maximum service temperature of the enamelled steel parts is significantly higher than 500 °C. The enamel is at least 0.2 mm thick on the upper side. The optional enamel-based &quot;Anti-slip&quot;, &quot;Full anti-slip&quot; or &quot;KALDEWEI SECURE PLUS&quot; surface finishes comply with evaluation group B for wet-loaded barefoot areas /DIN 51097/ and evaluation group R 10 for anti-slip properties in workrooms and fields of activities with increased risk of slipping /DIN 51130/. 
+Declared unit: 
+1m2 of surface of the declared average product weighs 17.93 kg. The average basis weight of steel is 16.64 kg/m². This gives rise to an average calculated steel thickness of 2.1 mm for these products. The average basis weight across the various products is 1.29 kg/m² for enamel. This gives rise to a calculated enamel thickness of 517 µm, including enamelling on the front and back.</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="de">Duschflächen, Badewannen und Waschtische aus KALDEWEI Stahl-Email werden als selbsttragende oder nicht selbsttragende Elemente im Sanitärbereich eingesetzt.</technologicalApplicability>
+<technologicalApplicability xml:lang="en">Steel enamel shower surfaces, bathtubs and washbasins manufactured by KALDEWEI are used as self-supporting or non self-supporting elements in sanitary areas.</technologicalApplicability>
+<referenceToTechnologyFlowDiagrammOrPicture uri="../sources/7af2d0e8-141d-426b-a9e4-e9f93f7a302a.xml" type="source data set" refObjectId="7af2d0e8-141d-426b-a9e4-e9f93f7a302a">
+<common:shortDescription xml:lang="de">Tabelle exemplarische Wannendaten 06.06.2019.JPG</common:shortDescription>
+</referenceToTechnologyFlowDiagrammOrPicture>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="b95d01c0-98cd-4932-b1ae-45d4283c9696">
+<common:shortDescription xml:lang="de">Sanitärprodukte aus Verbundwerkstoffen.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">average dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="28d74cc0-db8b-4d7e-bc44-5f6d56ce0c4a">
+<common:shortDescription xml:lang="de">GaBi Database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="dad5023c-8d97-4656-b82a-2fc6480b33a7">
+<common:shortDescription xml:lang="de">GaBi database SP36 2018</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
+Duschflächen, Badewannen und Waschtische aus KALDEWEI Stahl-Email, ausschließlich hergestellt im Werk Ahlen der Franz Kaldewei GmbH &amp; Co. KG, Deutschland. 
+Systemgrenze: 
+Typ der EPD: Wiege bis Werkstor - mit Optionen.Die Ökobilanz für Duschflächen, Badewannen und Waschtische aus KALDEWEI Stahl-Email berücksichtigt die Lebenszyklusphasen der Produktherstellung (A1–A3) sowie die Verwertung der Verpackung beim Einbau (Modul A5). Die Entsorgung, im Sinne einer Weiterverarbeitung oder Aufbereitung (C3) sowie Deponierung (C4) ist in dieser Studie ebenfalls berücksichtigt. Aus der Bilanzierung der betrachteten Module ergeben sich Gutschriften und Lasten außerhalb der Systemgrenze (Modul D), insbesondere infolge des Stahl-Recyclingpotenzials, welches vollständig diesem Modul zugeordnet ist. Der Transport zum Gebäude (Modul A4), der Abbau während des End-of-Life (C1), der Transport für das End-of-Life (C2) sowie das Nutzungsstadium (Modul B) sind in dieser Studie nicht berücksichtigt.</useAdviceForDataSet>
+<useAdviceForDataSet xml:lang="en">Scope: 
+Shower surfaces, bathtubs and washbasins made of KALDEWEI steel enamel, exclusively manufactured in the Ahlen plant of Franz Kaldewei GmbH &amp; Co. KG, Germany. 
+System boundary: 
+Type of EPD: cradle to gate – with options The LCA for the steel enamel shower surfaces, bathtubs and washbasins manufactured by KALDEWEI considers the life cycle phases of production (A1-A3) as well as recycling of packaging during installation (Module A5). Disposal in terms of reuse or treatment (C3) and landfilling (C4) is also considered in this study. An analysis of the modules under review gives rise to credits and debits beyond the system boundary (Module D), especially as a result of the steel recycling potential which is fully allocated to this module. Transport to the building (Module A4), dismantling at the end-of-life (C1), transport for the end-of-life (C2) and the use stage (Module B) are not considered in this study.</useAdviceForDataSet>
+<common:other>
+<epd2:referenceToOriginalEPD type="source data set" refObjectId="55aa0724-f513-43f5-b9d4-cf2c2fc890c3">
+<common:shortDescription xml:lang="de">Duschflächen, Badewannen und Waschtische aus KALDEWEI Stahl-Email.pdf</common:shortDescription>
+</epd2:referenceToOriginalEPD>
+</common:other>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">DIN EN 15804</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/4f2eb655-6e44-4874-a95a-e28f5442cd4d.xml" type="source data set" refObjectId="4f2eb655-6e44-4874-a95a-e28f5442cd4d">
+<common:shortDescription xml:lang="de">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<common:commissionerAndGoal>
+<common:referenceToCommissioner uri="../contacts/e61ca9af-cf4b-4763-9258-db1577248706.xml" type="contact data set" refObjectId="e61ca9af-cf4b-4763-9258-db1577248706">
+<common:shortDescription xml:lang="de">Franz Kaldewei GmbH &amp; Co. KG</common:shortDescription>
+</common:referenceToCommissioner>
+</common:commissionerAndGoal>
+<dataGenerator>
+<common:referenceToPersonOrEntityGeneratingTheDataSet uri="../contacts/623edf96-39d1-4e6f-9892-674c7228546b.xml" type="contact data set" refObjectId="623edf96-39d1-4e6f-9892-674c7228546b">
+<common:shortDescription xml:lang="de">Sphera Solutions GmbH</common:shortDescription>
+</common:referenceToPersonOrEntityGeneratingTheDataSet>
+</dataGenerator>
+<dataEntryBy>
+<common:timeStamp>2019-06-26T14:08:12.379</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="de">ILCD Format</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml" type="source data set" refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+<common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+</common:referenceToDataSetFormat>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.04.000</common:dataSetVersion>
+<common:referenceToRegistrationAuthority uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToRegistrationAuthority>
+<common:registrationNumber>EPD-KAL-20190057-IBC1-DE</common:registrationNumber>
+<common:referenceToOwnershipOfDataSet uri="../contacts/e61ca9af-cf4b-4763-9258-db1577248706.xml" type="contact data set" refObjectId="e61ca9af-cf4b-4763-9258-db1577248706">
+<common:shortDescription xml:lang="de">Franz Kaldewei GmbH &amp; Co. KG</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+<common:licenseType>Free of charge for all users and uses</common:licenseType>
+<common:accessRestrictions xml:lang="en">None</common:accessRestrictions>
+<common:other>
+<epd2:referenceToPublisher type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95" uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</epd2:referenceToPublisher>
+</common:other>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/4ce64f0b-0f10-b8cf-1687-666f7ede4064.xml" type="flow data set" refObjectId="4ce64f0b-0f10-b8cf-1687-666f7ede4064">
+<common:shortDescription xml:lang="de">1m² Duschfläche, Badewanne oder Waschtisch (1m² Duschfläche, Badewanne oder Waschtisch)</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy as energy carrier (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">74.848</epd:amount>
+<epd:amount epd:module="A5">0.00712</epd:amount>
+<epd:amount epd:module="C3">0.191</epd:amount>
+<epd:amount epd:module="C4">0.0561</epd:amount>
+<epd:amount epd:module="D">19.4</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy resources as material utilization (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">6.952</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of renewable primary energy resources (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">81.8</epd:amount>
+<epd:amount epd:module="A5">0.00712</epd:amount>
+<epd:amount epd:module="C3">0.191</epd:amount>
+<epd:amount epd:module="C4">0.0561</epd:amount>
+<epd:amount epd:module="D">19.4</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as energy carrier (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">678</epd:amount>
+<epd:amount epd:module="A5">0.0324</epd:amount>
+<epd:amount epd:module="C3">0.537</epd:amount>
+<epd:amount epd:module="C4">0.452</epd:amount>
+<epd:amount epd:module="D">-253</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as material utilization (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of non renewable primary energy resources (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">678</epd:amount>
+<epd:amount epd:module="A5">0.0324</epd:amount>
+<epd:amount epd:module="C3">0.537</epd:amount>
+<epd:amount epd:module="C4">0.452</epd:amount>
+<epd:amount epd:module="D">-253</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of secondary material (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">4.341</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">16.8</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of renewable secondary fuels (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of non renewable secondary fuels (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of net fresh water (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="de">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0454</epd:amount>
+<epd:amount epd:module="A5">0.000187</epd:amount>
+<epd:amount epd:module="C3">0.000259</epd:amount>
+<epd:amount epd:module="C4">8.61E-05</epd:amount>
+<epd:amount epd:module="D">-0.0518</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Hazardous waste disposed (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">4.93E-06</epd:amount>
+<epd:amount epd:module="A5">1.66E-10</epd:amount>
+<epd:amount epd:module="C3">2.58E-09</epd:amount>
+<epd:amount epd:module="C4">7.78E-09</epd:amount>
+<epd:amount epd:module="D">-3.23E-05</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non hazardous waste disposed (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">3.8</epd:amount>
+<epd:amount epd:module="A5">0.00629</epd:amount>
+<epd:amount epd:module="C3">0.000355</epd:amount>
+<epd:amount epd:module="C4">2.12</epd:amount>
+<epd:amount epd:module="D">3.01</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Radioactive waste disposed (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.012</epd:amount>
+<epd:amount epd:module="A5">1.47E-06</epd:amount>
+<epd:amount epd:module="C3">8.3E-05</epd:amount>
+<epd:amount epd:module="C4">6.48E-06</epd:amount>
+<epd:amount epd:module="D">-1.89E-05</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+<common:shortDescription xml:lang="en">Components for re-use (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C3">16.8</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for energy recovery (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported electrical energy (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A5">0.133</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported thermal energy (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A5">0.306</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/77e416eb-a363-4258-a04e-171d843a6460.xml" type="LCIA method data set" refObjectId="77e416eb-a363-4258-a04e-171d843a6460">
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial (GWP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Global warming potential (GWP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="de">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">64.5</epd:amount>
+<epd:amount epd:module="A5">0.0763</epd:amount>
+<epd:amount epd:module="C3">0.0301</epd:amount>
+<epd:amount epd:module="C4">0.0337</epd:amount>
+<epd:amount epd:module="D">-28</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/06dcd26f-025f-401a-a7c1-5e457eb54637.xml" type="LCIA method data set" refObjectId="06dcd26f-025f-401a-a7c1-5e457eb54637">
+<common:shortDescription xml:lang="de">Abbau Potential der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Depletion potential of the stratospheric ozone layer (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512.xml" type="unit group data set" refObjectId="88054749-b0a6-47ea-a82b-dc5b29326512">
+<common:shortDescription xml:lang="de">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">3.14E-11</epd:amount>
+<epd:amount epd:module="A5">1.69E-15</epd:amount>
+<epd:amount epd:module="C3">1.22E-13</epd:amount>
+<epd:amount epd:module="C4">7.5E-15</epd:amount>
+<epd:amount epd:module="D">5.26E-14</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b4274add-93b7-4905-a5e4-2e878c4e4216.xml" type="LCIA method data set" refObjectId="b4274add-93b7-4905-a5e4-2e878c4e4216">
+<common:shortDescription xml:lang="de">Versauerungspotenzial von Boden und Wasser (AP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Acidification potential of land and water (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f.xml" type="unit group data set" refObjectId="bc50c624-a9bc-45b1-a9b0-e6b10d00476f">
+<common:shortDescription xml:lang="de">kg SO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.163</epd:amount>
+<epd:amount epd:module="A5">1.77E-05</epd:amount>
+<epd:amount epd:module="C3">8.75E-05</epd:amount>
+<epd:amount epd:module="C4">0.000199</epd:amount>
+<epd:amount epd:module="D">-0.0541</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/f58827d0-b407-4ec6-be75-8b69efb98a0f.xml" type="LCIA method data set" refObjectId="f58827d0-b407-4ec6-be75-8b69efb98a0f">
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial (EP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Eutrophication potential (EP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822.xml" type="unit group data set" refObjectId="67b5401d-873c-485f-bcf3-6ae83b918822">
+<common:shortDescription xml:lang="de">kg PO_(4)^(3)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.017</epd:amount>
+<epd:amount epd:module="A5">1.95E-06</epd:amount>
+<epd:amount epd:module="C3">9.64E-06</epd:amount>
+<epd:amount epd:module="C4">2.75E-05</epd:amount>
+<epd:amount epd:module="D">-0.00377</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/1e84a202-dae6-42aa-9e9d-71ea48b8be00.xml" type="LCIA method data set" refObjectId="1e84a202-dae6-42aa-9e9d-71ea48b8be00">
+<common:shortDescription xml:lang="de">Bildungspotential für troposphärisches Ozon (POCP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Formation potential of tropospheric ozone photochemical oxidants (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e.xml" type="unit group data set" refObjectId="01c26c17-9a76-406e-8295-f17b55fd909e">
+<common:shortDescription xml:lang="de">kg Ethen-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0182</epd:amount>
+<epd:amount epd:module="A5">7.7E-07</epd:amount>
+<epd:amount epd:module="C3">5.84E-06</epd:amount>
+<epd:amount epd:module="C4">1.57E-05</epd:amount>
+<epd:amount epd:module="D">-0.0131</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/f7c73bb9-ab1a-4249-9c6d-379a0de6f67e.xml" type="LCIA method data set" refObjectId="f7c73bb9-ab1a-4249-9c6d-379a0de6f67e">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for non fossil resources (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="de">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.000606</epd:amount>
+<epd:amount epd:module="A5">9.62E-09</epd:amount>
+<epd:amount epd:module="C3">1.48E-08</epd:amount>
+<epd:amount epd:module="C4">1.3E-08</epd:amount>
+<epd:amount epd:module="D">-0.000472</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/804ebcdf-309d-4098-8ed8-fdaf2f389981.xml" type="LCIA method data set" refObjectId="804ebcdf-309d-4098-8ed8-fdaf2f389981">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for fossil resources (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">648</epd:amount>
+<epd:amount epd:module="A5">0.0287</epd:amount>
+<epd:amount epd:module="C3">0.328</epd:amount>
+<epd:amount epd:module="C4">0.436</epd:amount>
+<epd:amount epd:module="D">-263</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>

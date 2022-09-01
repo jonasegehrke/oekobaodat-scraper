@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>023f3b97-976a-41c4-b0f1-5357b9dc5b3e</common:UUID>
+<name>
+<baseName xml:lang="de">Automatische Drehflügeltürantriebe ED 100 und ED 250</baseName>
+<baseName xml:lang="en">Automatic Swing Door Operators ED 100 and ED 250</baseName>
+<functionalUnitFlowProperties xml:lang="de" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+<common:class level="1" classId="7.7">Antriebssysteme</common:class>
+<common:class level="2" classId="7.7.02">elektrisch</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">02 Bauprodukte</common:class>
+<common:class level="1">Türen, Fenster, Beschläge und Zubehör</common:class>
+<common:class level="2">Antriebssysteme für Automatiktüren und -tore</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="de">Die automatischen Drehflügeltürantriebe von DORMA sind elektromechanische Drehflügeltür-antriebe, die für ein- oder zweiflügelige Drehflügel-türen konzipiert worden sind. Je nach Türflügel-breite und Gewicht wird der ED 100 oder der ED 250 benötigt. Beide Antriebe können drückend mit einem Normalgestänge und ziehend mit einer Gleitschiene montiert werden. Für zweiflügelige Antriebe steht neben der verlängerten Verkleidung eine integrierte Schließfolgeregelung zur Verfügung, die leicht eingebaut werden kann. Durch Einsatz der DORMA Upgrade Card kann der Funktionsumfang an viele Türsituationen angepasst werden.• Flexible Konfiguration nur der Funktionen, die auch tatsächlich benötigt werden.• Kostengünstiger Transport und leichte Montage durch reduziertes Gewicht.• Geräuscharm in der Anwendung durch Mehrstufengetriebe.• Elegante Optik: DORMA Contur Design mit nur 70 mm Antriebshöhe.Der Unterschied zwischen den beiden Varianten ED100 und ED250 macht insbesondere die Antriebseinheit der Drehflügeltürantriebe aus. Daher wurde der ED 250 bilanztechnisch berücksichtigt (Maximalausprägung eines Drehflügeltürantriebs). Nur die Durchschnittsbildung für den Energieverbrauch in der Nutzungsphase folgt dem arithmetischen Mittel. Die LCA-Ergebnisse werden anhand dieser konservativen Umsetzung als Durchschnitt für beide Drehflügeltürantriebe (ED100 / 250) ausgewiesen.</common:generalComment>
+<common:generalComment xml:lang="en">The automatic swing door operators manufactured by DORMA are electromechanical swing door operators designed for single- or double-leaf swing doors. Depending on the width and weight of the door leaf, the ED 100 or the ED 250 is required. Both operators can be mounted with standard arm as push-version and with sliding channel as pull-version. Apart from the extended cover, an integrated door coordinator is also available for double-leaf operators, which is also easily fitted. By using the DORMA Upgrade Card, the functional scope can be adapted to a variety of door situations. Flexible configuration of the functions actually required Inexpensive transport and easy assembly thanks to lower weights Low-noise application thanks to multi-stage gearElegant design: DORMA Contur Design with an operator height of only 70 mm The two ED 100 and ED 250 variants are particularly distinguished by their drive units. For this reason, the ED 250 was taken into consideration in the analysis (maximum characteristics of a swing door operator). Only formation of the average for energy consumption during the usage phase follows the arithmetic average. Using this conservative implementation method, the LCA results are indicated as averages for both swing door operators (ED100 / 250).</common:generalComment>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2016</common:referenceYear>
+<common:dataSetValidUntil>2021</common:dataSetValidUntil>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="DE" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="de">Die automatischen Drehflügeltürantriebe von DORMA sind elektromechanische Drehflügeltür-antriebe, die für ein- oder zweiflügelige Drehflügel-türen konzipiert worden sind. Je nach Türflügel-breite und Gewicht wird der ED 100 oder der ED 250 benötigt. Beide Antriebe können drückend mit einem Normalgestänge und ziehend mit einer Gleitschiene montiert werden. Für zweiflügelige Antriebe steht neben der verlängerten Verkleidung eine integrierte Schließfolgeregelung zur Verfügung, die leicht eingebaut werden kann. Durch Einsatz der DORMA Upgrade Card kann der Funktionsumfang an viele Türsituationen angepasst werden. • Flexible Konfiguration nur der Funktionen, die auch tatsächlich benötigt werden. • Kostengünstiger Transport und leichte Montage durch reduziertes Gewicht. • Geräuscharm in der Anwendung durch Mehrstufengetriebe. • Elegante Optik: DORMA Contur Design mit nur 70 mm Antriebshöhe. Der Unterschied zwischen den beiden Varianten ED100 und ED250 macht insbesondere die Antriebseinheit der Drehflügeltürantriebe aus. Daher wurde der ED 250 bilanztechnisch berücksichtigt (Maximalausprägung eines Drehflügeltürantriebs). Nur die Durchschnittsbildung für den Energieverbrauch in der Nutzungsphase folgt dem arithmetischen Mittel. Die LCA-Ergebnisse werden anhand dieser konservativen Umsetzung als Durchschnitt für beide Drehflügeltürantriebe (ED100 / 250) ausgewiesen. Die Drehflügeltürantriebe ED 100 und ED 250 bestehen jeweils aus einem Drehflügeltürantrieb, einem Gleitschienen Set und einer Verkleidung aus hochwertigem Aluminium. Die Einzelkomponenten aus Stählen und NE-Metallen werden größtenteils im Werk Ennepetal hergestellt. Die elektronischen Bauteile werden selbst gefertigt (u. a. Leiterplatinen) wie auch extern (u. a. Getriebemotor) zugekauft. In der Montage werden Drehflügeltürantrieb, Gleitschienen-Set und Verkleidung gesondert voneinander montiert, verpackt und eingelagert. Das zertifizierte Qualitätsmanagementsystem nach /DIN EN ISO 9001/ sichert den hohen Qualitätsstandard der DORMA Produkte für alle Standorte ab. 
+Deklarierte Einheit: 
+Die deklarierte Einheit ist der Durchschnitt für ein (1) Stück der automatischen Drehflügeltürantriebe ED 100 und ED 250 inkl. ED Gleitschienenset, ED Verkleidung BASIC und Verpackungsmaterialien. Zur Durchschnittsbildung wurde das arithmetische Mittel genutzt.</technologyDescriptionAndIncludedProcesses>
+<technologyDescriptionAndIncludedProcesses xml:lang="en">The automatic swing door operators manufactured by DORMA are electromechanical swing door operators designed for single- or double-leaf swing doors. Depending on the width and weight of the door leaf, the ED 100 or the ED 250 is required. Both operators can be mounted with standard arm as push-version and with sliding channel as pull-version. Apart from the extended cover, an integrated door coordinator is also available for double-leaf operators, which is also easily fitted. By using the DORMA Upgrade Card, the functional scope can be adapted to a variety of door situations.  Flexible configuration of the functions actually required  Inexpensive transport and easy assembly thanks to lower weights  Low-noise application thanks to multi-stage gear  Elegant design: DORMA Contur Design with an operator height of only 70 mm The two ED 100 and ED 250 variants are particularly distinguished by their drive units. For this reason, the ED 250 was taken into consideration in the analysis (maximum characteristics of a swing door operator). Only formation of the average for energy consumption during the usage phase follows the arithmetic average. Using this conservative implementation method, the LCA results are indicated as averages for both swing door operators (ED100 / 250). The ED 100 and ED 250 swing door operators each comprise a swing door operator, a slide channel set and a cover made of high-quality aluminium. The individual components made of steel and nonferrous metals are largely manufactured in the Ennepetal plant. Electronic components are selfproduced (incl. circuit boards) and bought in externally (incl. drive motors). During assembly, the swing door operator, the slide channel sets and covers are assembled, packaged and stored separately. The certified Quality Management System in accordance with /ISO 9001/ ensures the high quality standard of the DORMA products for all production sites. 
+Declared unit: 
+The declared unit is the average for one (1) ED 100 and ED 250 automatic swing door operator, incl. ED slide channel set, ED BASIC cover and packaging materials. For the calculation of the average the arithmetic mean was used.</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="de">Die Drehflügeltürantriebe von DORMA sind für viele Anwendungsbereiche geeignet:• Für ein- oder zweiflügelige Drehflügeltüren.• Montage an Rauch- und Feuerschutztüren in den Varianten ziehend mit Gleitschiene und drückend mit Normalgestänge.• Automatisierung sowohl mit niedriger Begehungsfrequenz in der Betriebsart Low-Energy (Niedrigenergieantrieb) als auch an stark frequentierten Türen in der Betriebsart Full-Energy.• Hohes Drehmoment für vollautomatisierte Drehflügeltüren, die mit Radarmeldern angesteuert werden.• Für Innen- und Außentüren geeignet.</technologicalApplicability>
+<technologicalApplicability xml:lang="en">DORMA swing door operators are suitable for various applications:For single- or double-leaf swing doors Assembly on smoke and fire doors:  as pull-version with slide channels and as push-version with standard arm Automation of doors with low traffic capacity  (Low-Energy Mode) and heavily frequented doors (Full-Energy Mode) High torque for full-automatic swing doors with radar detector control Suitable for internal and external doors</technologicalApplicability>
+<referenceToTechnologyFlowDiagrammOrPicture uri="../sources/cb348cf1-72ff-42a3-8df6-2efb66b216a1.xml" type="source data set" refObjectId="cb348cf1-72ff-42a3-8df6-2efb66b216a1">
+<common:shortDescription xml:lang="de">2.3 ED.png</common:shortDescription>
+</referenceToTechnologyFlowDiagrammOrPicture>
+<referenceToTechnologyFlowDiagrammOrPicture uri="../sources/feb62bc9-54dd-4e29-ae2d-10bac3dc5e93.xml" type="source data set" refObjectId="feb62bc9-54dd-4e29-ae2d-10bac3dc5e93">
+<common:shortDescription xml:lang="de">2.3 ED 2.png</common:shortDescription>
+</referenceToTechnologyFlowDiagrammOrPicture>
+<referenceToTechnologyFlowDiagrammOrPicture uri="../sources/8659d6b1-8023-4d12-9d6a-29d018d15eae.xml" type="source data set" refObjectId="8659d6b1-8023-4d12-9d6a-29d018d15eae">
+<common:shortDescription xml:lang="de">Deklarierte Einheit</common:shortDescription>
+</referenceToTechnologyFlowDiagrammOrPicture>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="eda7335c-b199-4eb9-92fc-1a44d8a1927a">
+<common:shortDescription xml:lang="de">Antriebssysteme für Automatiktüren und -tore.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">specific dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="b0c22940-2004-40b7-bd77-66bee75303ea">
+<common:shortDescription xml:lang="de">Automatische Drehflügeltürantriebe ED 100 und ED 250.pdf</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="28d74cc0-db8b-4d7e-bc44-5f6d56ce0c4a">
+<common:shortDescription xml:lang="de">GaBi Database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="176effc6-2e73-4419-be24-60b3399e91cf">
+<common:shortDescription xml:lang="de">GaBi database SP28 2015</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
+Die vorliegende EPD bezieht sich auf den berechneten Durchschnitt der DORMA Drehflügeltürantriebe ED 100 und ED 250. Die Abweichungen der Einzelprodukte zum berechneten Durchschnitt liegen signifikant unter 10%. Produktionsstandort beider Produkte ist der DORMA Standort Werk Ennepetal, Deutschland. Die Stoff- und Energieströme wurden entsprechend berücksichtigt. 
+Systemgrenze: 
+Typ der EPD: Wiege bis Werkstor mit Optionen (cradle to gate with options).Module A1-3, A4 und A5Das Produktstadium beginnt mit der Berücksichtigung der Produktion der notwendigen Rohstoffe inklusive aller entsprechenden Vorketten sowie der notwendigen Beschaffungstransporte. Daneben wurden ebenfalls die Distributionstransporte und die Installation auf der Baustelle berücksichtigt.Modul B6Der durchschnittliche Energieverbrauch für die beiden automatischen Drehflügeltürantriebe ED 100 und ED 250 wird in der Betriebsart Full-Energy anhand des arithmetischen Mittels dargestellt.Module C2-3Die Module beinhalten die Umweltwirkungen für die Abfallbehandlung am Ende des Produktlebenswegs und die zugehörigen Transporte.Modul D Die aus der Abfallbehandlung resultierenden Wertströme, die wiederum potenziell als energetischen (MVA-Route) oder werkstofflichen Input (Recycling) für ein nachgelagertes Produktsystem dienen, werden hier ausgewiesen.</useAdviceForDataSet>
+<useAdviceForDataSet xml:lang="en">Scope: 
+This EPD refers to the calculated average of DORMA ED 100 and ED 250 swing door operators. Deviations by the individual products from the calculated average are significantly below 10 %. The production location for both products is DORMA Ennepetal, Germany. The material and energy flows were taken into consideration accordingly. 
+System boundary: 
+Type of EPD: cradle to gate with options.Modules A1-3, A4 and A5The product stage commences with consideration of the material and energy flows required for manufacturing the product, including all of the associated upstream chains and requisite transport associated with procurement. Furthermore the whole production phase was mapped, including the treatment of production waste towards achieving the End-of-Waste status (EoW). Distribution transports and the installation into the building were considered as well.Module B6 Average energy consumption for the two ED 100 and ED 250 automatic swing door operators in Full-Energy Mode is depicted using the arithmetic average over the entire operating life time of 10 years.Modules C2-3 The modules include the environmental impacts of waste treatment at the end of the product life cycle as well as the transport associated with this.Module D Evidence of credits incurred by waste treatment as a result of energetic (MVA route) or material recycling (recycling route) of packaging (A5) and the product at the End-of-Life (C3).</useAdviceForDataSet>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">IBU</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+<common:referenceToCompleteReviewReport type="source data set" />
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">DIN EN 15804</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem type="source data set">
+<common:shortDescription xml:lang="de">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<dataEntryBy>
+<common:timeStamp>2016-04-29T12:23:10.631</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="de">ILCD Format 1.1</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/cba73800-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="cba73800-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToPersonOrEntityEnteringTheData uri="../contacts/6b539b8a-10e3-4004-8ccc-a79f169aa339.xml" type="contact data set" refObjectId="6b539b8a-10e3-4004-8ccc-a79f169aa339">
+<common:shortDescription xml:lang="de">brands and values GmbH</common:shortDescription>
+</common:referenceToPersonOrEntityEnteringTheData>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.03.000</common:dataSetVersion>
+<common:referenceToOwnershipOfDataSet uri="../contacts/0daab3af-429c-4564-a118-045543c24f59.xml" type="contact data set" refObjectId="0daab3af-429c-4564-a118-045543c24f59">
+<common:shortDescription xml:lang="de">DORMA Deutschland GmbH</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/7697fcab-f861-25a1-a48a-80f5fc19a91c.xml" type="flow data set" refObjectId="7697fcab-f861-25a1-a48a-80f5fc19a91c">
+<common:shortDescription xml:lang="de">ED 100 und ED 250 (ED 100 und ED 250)</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">334</epd:amount>
+<epd:amount epd:module="A4">0.417</epd:amount>
+<epd:amount epd:module="A5">0.075</epd:amount>
+<epd:amount epd:module="B6">1480</epd:amount>
+<epd:amount epd:module="C2">0.0211</epd:amount>
+<epd:amount epd:module="C3">1.35</epd:amount>
+<epd:amount epd:module="D">-212</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">12.2</epd:amount>
+<epd:amount epd:module="A4">4.4E-13</epd:amount>
+<epd:amount epd:module="A5">2.46E-12</epd:amount>
+<epd:amount epd:module="B6">4.14E-08</epd:amount>
+<epd:amount epd:module="C2">1.99E-14</epd:amount>
+<epd:amount epd:module="C3">1.32E-06</epd:amount>
+<epd:amount epd:module="D">-7.73</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">346</epd:amount>
+<epd:amount epd:module="A4">0.417</epd:amount>
+<epd:amount epd:module="A5">0.075</epd:amount>
+<epd:amount epd:module="B6">1480</epd:amount>
+<epd:amount epd:module="C2">0.0211</epd:amount>
+<epd:amount epd:module="C3">1.35</epd:amount>
+<epd:amount epd:module="D">-220</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1120</epd:amount>
+<epd:amount epd:module="A4">8.51</epd:amount>
+<epd:amount epd:module="A5">0.783</epd:amount>
+<epd:amount epd:module="B6">7020</epd:amount>
+<epd:amount epd:module="C2">0.377</epd:amount>
+<epd:amount epd:module="C3">39.5</epd:amount>
+<epd:amount epd:module="D">-664</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">7.1</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="B6">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">5.52E-11</epd:amount>
+<epd:amount epd:module="D">-4.2</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1130</epd:amount>
+<epd:amount epd:module="A4">8.51</epd:amount>
+<epd:amount epd:module="A5">0.783</epd:amount>
+<epd:amount epd:module="B6">7020</epd:amount>
+<epd:amount epd:module="C2">0.377</epd:amount>
+<epd:amount epd:module="C3">39.5</epd:amount>
+<epd:amount epd:module="D">-669</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">6.31</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="B6">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">5.6E-05</epd:amount>
+<epd:amount epd:module="A5">2.84E-05</epd:amount>
+<epd:amount epd:module="B6">0.0926</epd:amount>
+<epd:amount epd:module="C2">2.5E-06</epd:amount>
+<epd:amount epd:module="C3">0.000594</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0.000587</epd:amount>
+<epd:amount epd:module="A5">0.000131</epd:amount>
+<epd:amount epd:module="B6">0.967</epd:amount>
+<epd:amount epd:module="C2">2.62E-05</epd:amount>
+<epd:amount epd:module="C3">0.00456</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="de">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">464</epd:amount>
+<epd:amount epd:module="A4">0.0359</epd:amount>
+<epd:amount epd:module="A5">0.0697</epd:amount>
+<epd:amount epd:module="B6">1330</epd:amount>
+<epd:amount epd:module="C2">0.00169</epd:amount>
+<epd:amount epd:module="C3">1.86</epd:amount>
+<epd:amount epd:module="D">-539</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.902</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="B6">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">-0.00579</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">221</epd:amount>
+<epd:amount epd:module="A4">0.0305</epd:amount>
+<epd:amount epd:module="A5">0.158</epd:amount>
+<epd:amount epd:module="B6">1630</epd:amount>
+<epd:amount epd:module="C2">0.00142</epd:amount>
+<epd:amount epd:module="C3">2.63</epd:amount>
+<epd:amount epd:module="D">-77.2</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0582</epd:amount>
+<epd:amount epd:module="A4">1.15E-05</epd:amount>
+<epd:amount epd:module="A5">4.75E-05</epd:amount>
+<epd:amount epd:module="B6">1.05</epd:amount>
+<epd:amount epd:module="C2">5.15E-07</epd:amount>
+<epd:amount epd:module="C3">0.00126</epd:amount>
+<epd:amount epd:module="D">-0.0324</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="B6">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.347</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="B6">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">9.37</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">1.72</epd:amount>
+<epd:amount epd:module="B6">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">1.02</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">9.38</epd:amount>
+<epd:amount epd:module="B6">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">23.7</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">25.9</epd:amount>
+<epd:amount epd:module="B6">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="D">62</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/77e416eb-a363-4258-a04e-171d843a6460.xml" type="LCIA method data set" refObjectId="77e416eb-a363-4258-a04e-171d843a6460">
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial (GWP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="de">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">63.3</epd:amount>
+<epd:amount epd:module="A4">0.628</epd:amount>
+<epd:amount epd:module="A5">2.55</epd:amount>
+<epd:amount epd:module="B6">394</epd:amount>
+<epd:amount epd:module="C2">0.0274</epd:amount>
+<epd:amount epd:module="C3">4.29</epd:amount>
+<epd:amount epd:module="D">-52.5</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/06dcd26f-025f-401a-a7c1-5e457eb54637.xml" type="LCIA method data set" refObjectId="06dcd26f-025f-401a-a7c1-5e457eb54637">
+<common:shortDescription xml:lang="de">Abbau Potential der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512.xml" type="unit group data set" refObjectId="88054749-b0a6-47ea-a82b-dc5b29326512">
+<common:shortDescription xml:lang="de">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.87E-06</epd:amount>
+<epd:amount epd:module="A4">2.54E-12</epd:amount>
+<epd:amount epd:module="A5">1.21E-11</epd:amount>
+<epd:amount epd:module="B6">2.93E-07</epd:amount>
+<epd:amount epd:module="C2">1.12E-13</epd:amount>
+<epd:amount epd:module="C3">3.22E-08</epd:amount>
+<epd:amount epd:module="D">-1.16E-06</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/b4274add-93b7-4905-a5e4-2e878c4e4216.xml" type="LCIA method data set" refObjectId="b4274add-93b7-4905-a5e4-2e878c4e4216">
+<common:shortDescription xml:lang="de">Versauerungspotenzial von Boden und Wasser (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f.xml" type="unit group data set" refObjectId="bc50c624-a9bc-45b1-a9b0-e6b10d00476f">
+<common:shortDescription xml:lang="de">kg SO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.426</epd:amount>
+<epd:amount epd:module="A4">0.00612</epd:amount>
+<epd:amount epd:module="A5">0.00054</epd:amount>
+<epd:amount epd:module="B6">1.98</epd:amount>
+<epd:amount epd:module="C2">0.000174</epd:amount>
+<epd:amount epd:module="C3">0.00635</epd:amount>
+<epd:amount epd:module="D">-0.29</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/f58827d0-b407-4ec6-be75-8b69efb98a0f.xml" type="LCIA method data set" refObjectId="f58827d0-b407-4ec6-be75-8b69efb98a0f">
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial (EP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822.xml" type="unit group data set" refObjectId="67b5401d-873c-485f-bcf3-6ae83b918822">
+<common:shortDescription xml:lang="de">kg PO_(4)^(3)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.146</epd:amount>
+<epd:amount epd:module="A4">0.00116</epd:amount>
+<epd:amount epd:module="A5">9.49E-05</epd:amount>
+<epd:amount epd:module="B6">0.108</epd:amount>
+<epd:amount epd:module="C2">4.46E-05</epd:amount>
+<epd:amount epd:module="C3">0.000875</epd:amount>
+<epd:amount epd:module="D">-0.0158</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/1e84a202-dae6-42aa-9e9d-71ea48b8be00.xml" type="LCIA method data set" refObjectId="1e84a202-dae6-42aa-9e9d-71ea48b8be00">
+<common:shortDescription xml:lang="de">Bildungspotential für troposphärisches Ozon (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e.xml" type="unit group data set" refObjectId="01c26c17-9a76-406e-8295-f17b55fd909e">
+<common:shortDescription xml:lang="de">kg Ethen-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0804</epd:amount>
+<epd:amount epd:module="A4">-0.00128</epd:amount>
+<epd:amount epd:module="A5">3.92E-05</epd:amount>
+<epd:amount epd:module="B6">0.115</epd:amount>
+<epd:amount epd:module="C2">-7.15E-05</epd:amount>
+<epd:amount epd:module="C3">0.000557</epd:amount>
+<epd:amount epd:module="D">-0.0183</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/f7c73bb9-ab1a-4249-9c6d-379a0de6f67e.xml" type="LCIA method data set" refObjectId="f7c73bb9-ab1a-4249-9c6d-379a0de6f67e">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="de">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00949</epd:amount>
+<epd:amount epd:module="A4">2.34E-08</epd:amount>
+<epd:amount epd:module="A5">4.27E-08</epd:amount>
+<epd:amount epd:module="B6">6.24E-05</epd:amount>
+<epd:amount epd:module="C2">1.07E-09</epd:amount>
+<epd:amount epd:module="C3">3.27E-06</epd:amount>
+<epd:amount epd:module="D">-0.000515</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/804ebcdf-309d-4098-8ed8-fdaf2f389981.xml" type="LCIA method data set" refObjectId="804ebcdf-309d-4098-8ed8-fdaf2f389981">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">946</epd:amount>
+<epd:amount epd:module="A4">8.49</epd:amount>
+<epd:amount epd:module="A5">0.664</epd:amount>
+<epd:amount epd:module="B6">4390</epd:amount>
+<epd:amount epd:module="C2">0.376</epd:amount>
+<epd:amount epd:module="C3">36.5</epd:amount>
+<epd:amount epd:module="D">-586</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>a564fa56-4723-4123-bbbd-2a8780c8c899</common:UUID>
+<name>
+<baseName xml:lang="de">CLIMAFLEX® STABIL / EXENTROFLEX® COMPACT aus NMC NATUREFOAM®</baseName>
+<baseName xml:lang="en">CLIMAFLEX® STABIL / EXZENTROFLEX® COMPACT made of NMC NATUREFOAM®</baseName>
+<functionalUnitFlowProperties xml:lang="de" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="2">Dämmstoffe</common:class>
+<common:class level="1" classId="2.18">Polyethylen</common:class>
+<common:class level="2" classId="2.18.01">Schaum</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">02 Bauprodukte</common:class>
+<common:class level="1">Wärmedämmungsprodukte</common:class>
+<common:class level="2">Dämmstoffe aus Schaumkunststoffen</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="de">CLIMAFLEX® STABIL / EXZENTROFLEX® COMPACT aus NMC NATUREFOAM® ist die im Profibereich eingesetzte, auf Polyethylen basierende Rohrisolierung aus geschlossenzelligem Schaumstoff mit einer robusten PE-Schutzschicht zur dauerhaften Energieeinsparung und Veremeidung von Kondensation. CLIMAFLEX® STABIL NMC NATUREFOAM® hält Lösungen bereit, die alle notwendigen Richtlinien für jede Einbauart befolgen. EXZENTROFLEX® COMPACT NMC NATUREFOAM® mit der rechteckigen Form und dem kompakten Design wird auf dem Boden eingesetzt. Für die Vermarktung von Produkten in der Europäischen Union und der EFTA (Schweiz ausgenommen) gilt die Verordnung (EU) Nr. 305/2011 (Bauprodukteverordnung). Das Produkt benötigt eine Leistungserklärung (DoP), die die EN 14313: 2015 - Wärmedämmstoffe für die technische Gebäudeausrüstung und für betriebstechnische Anlagen in der Industrie werkmäßig hergestellte Produkte aus Polyethylenschaum (PEF) sowie die CE‑Kennzeichnung berücksichtigt. Es gelten für die Anwendung und den Gebrauch die jeweiligen nationalen Vorschriften.</common:generalComment>
+<common:generalComment xml:lang="en">CLIMAFLEX® STABIL / EXZENTROFLEX® COMPACT made of NMC NATUREFOAM® is the Professional Polyethylene-based closed-cell foam pipe insulation with a robust PE protective coating for continues energy saving and condensation control purposes. CLIMAFLEX® STABIL NMC NATUREFOAM® provides solutions that follow all necessary guidelines for any type of installation. EXZENTROFLEX® COMPACT NMC NATUREFOAM® With its rectangular and thin design, it is used in flooring.</common:generalComment>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2017</common:referenceYear>
+<common:dataSetValidUntil>2022</common:dataSetValidUntil>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="BE" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="de">Der Herstellungsprozess besteht aus einer kontinuierlichen Extrusion. Feste Thermoplast-Pellets werden einem Aufschmelzbereich zugeführt, wo das Harz geschmolzen wird, um eine flüssige Thermoplastmasse zu bilden. Die Thermoplastmasse wird dann in einen Mischbereich gefördert, wo die Thermoplastmasse gründlich mit einem Treibmittel unter Druck gemischt wird. Anschließend wird die Mischung aus Thermoplast-Harz und Treibmittel durch eine Druckgussform, die der Thermoplastmasse eine Form verleiht, in einen Bereich mit niedrigerem Druck wie Luftdruck gepresst. Das Treibmittel bläst sich auf und bildet die Schaumstoffzellen. Der Thermokunststoffschaum wird durch einen im Hauptstrom befindlichen Wasserkühler abgekühlt. Die als „Haut“ bezeichnete Schutzschicht wird durch Co‑Extrusion aufgetragen. Die Haut besteht aus festen Pellets mit Thermoplast-Harz und einigen Zusatzstoffen, die mit einem Extruder um den Schaum aufgetragen wird. Es gibt in diesem Fall kein Schaummittel. Die Druckgussform wird um den nackten Schaumstoff positioniert und hinterlässt eine dünne (± 0,1 mm) PE-Schicht auf dem Schaumstoff. Nach dem Prozess werden die Profile auf die vorgegebenen Maße zugeschnitten. Qualitätssicherung: Die Herstellung ist nach ISO 9001 für das Qualitätsmanagement zertifiziert. Das Produkt entspricht dem Produktstandard EN 14313 und verfügt über eine Leistungserklärung nach der CPR: DOP Nr. W1PEF300; W1PEF400 (siehe www.nmc.eu/dop). 
+Deklarierte Einheit: 
+Die Deklaration bezieht sich auf 1 m³ produzierte Rohrisolierung. Zur LCA-Berechnung wird, da das Produkt Schaum ist und Toleranzen hat, davon ausgegangen, dass die deklarierte Dichte den Durchschnitt in der Produktkategorien darstellt. Die Wärmeleitzahl (Lambda-Wert) und der R-Wert je 25 mm Stärke des Produkts sind unten als Zusatzinformation und als Hilfe für die Installateure angegeben.</technologyDescriptionAndIncludedProcesses>
+<technologyDescriptionAndIncludedProcesses xml:lang="en">The manufacturing process consists of a continuous extrusion. Solid pellets of thermoplastic resin are fed to a melting zone in which the resin is melted, to form a flowable thermoplastic mass. The thermoplastic mass is then metered to a mixing zone where the thermoplastic mass is thoroughly mixed with a blowing agent under pressure. The mixture of thermoplastic resin and blowing agent is then forced through a die, which imparts a shape to the thermoplastic mass, into a zone of lower pressure, such as atmospheric pressure. The blowing agent expands to form the cells of the foam and the thermoplastic foam is cooled trough an inline water cooler. The protection coating &quot;skin&quot; is applied by co-extrusion. The &quot;skin&quot; is made with solid pellets of thermoplastic resin and some additives, which is, with the help of an extruder, applied around the foam. There&apos;s no a foaming agent used in this case. The die is positioned around the &quot;naked&quot; foam and deposes a small thickness (± 0.1 mm) of PE film on the foam. At the end of this process the profiles are cut at dimension. Quality assurance : The manufacture is certified /ISO 9001/ for the quality management. The product corresponds to the product standard /EN 14313/ and have a Declaration of Performance according the /CPR/ : DOP no. W1PEF300 ; W1PEF400 (see www.nmc.eu/dop) 
+Declared unit: 
+The declaration refers to 1 m³ of produced insulation product. For the LCA calculations, as the product is foam and have some tolerances, the density declared is the average between the product categories. The thermal conductivity coefficient (Lambda-value) and R-value per 25 mm thickness per product brand is provided below as additional information and support for installers.</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="de">CLIMAFLEX® STABIL aus NMC NATUREFOAM® wird für die Isolierung von Heizungs- und Sanitärrohren verwendet. EXZENTROFLEX® COMPACT aus NMC NATUREFOAM® wird auf Böden eingesetzt.Polyethylenschaum ist ein kostengünstiges Material mit guten Isoliereigenschaften.Produkte aus PE-Schaum haben ein hervorragendes Preis-Leistungsverhältnis.Wärmedämmung und Schallschutz in Frisch- und Abwasser- sowie Heizungsanlagen</technologicalApplicability>
+<technologicalApplicability xml:lang="en">CLIMAFLEX® STABIL made of NMC NATUREFOAM® is used to insulate pipes for heating and plumbing. EXZENTROFLEX® COMPACT made of NMC NATUREFOAM® is used in flooring Polyethylene foam is a cost-efficient material with good insulating properties.Products made of PE foam yield an excellent cost/performance ratio.Heat loss control and noise reduction in fresh-and waste water and heating systems</technologicalApplicability>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="8cf2d54d-06fe-437b-807f-7204b3d151ba">
+<common:shortDescription xml:lang="de">Dämmstoffe aus Schaumkunststoffen.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">average dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="29001cf3-7baa-4083-874c-e10e8535c018">
+<common:shortDescription xml:lang="de">CLIMAFLEX® STABIL / EXENTROFLEX® COMPACT aus NMC NATUREFOAM®.pdf</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="28d74cc0-db8b-4d7e-bc44-5f6d56ce0c4a">
+<common:shortDescription xml:lang="de">GaBi Database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="8cb50bdc-0299-4a4c-9a4e-4c62917018c7">
+<common:shortDescription xml:lang="de">GaBi database SP29 2016</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
+Produktlinie CLIMAFLEX®STABIL/ EXZENTROFLEX®COMPACT aus NMC NATUREFOAM®Wärmedämmstoffe für die technische Gebäudeausrüstung und für betriebstechnische Anlagen in der Industrie aus auf Polyethylen basierender Rohrisolierung aus geschlossenzelligem Schaumstoff mit einer robusten Schutzschicht (PEF) gemäß EN 14313. Diese Deklaration ist eine Umwelt-Produktdeklaration gemäß ISO 14025 und beschreibt die Umweltwirkungen des in Belgien hergestellten Produktes. Der einzige Unterschied zwischen CLIMAFLEX® STABIL aus NMC NATUREFOAM® und EXZENTROFLEX® COMPACT aus NMC NATURE- FOAM® besteht in der Form, chemisch sind sie identisch. CLIMAFLEX® STABIL aus NMC NATUREFOAM® ist kreisförmig, während EXZENTROFLEX® COMPACT NMC NATUREFOAM® rechteckig ist, sodass sie sich besser für die Isolierung von Heizungsrohren auf einem Betonfußboden eignen.Bei diesem Dokument handelt es sich um eine vom Englischen ins Deutsche übersetzte Umwelt-Produktdeklaration. Grundlage ist die englische Ursprungsversion EPD-NMC-20170102-IBD3-EN. Der Verifizierer hat keinen Einfluss auf die Qualität der Übersetzung. 
+Systemgrenze: 
+Die Datenerfassung bezieht sich auf die Jahresproduktion von 2016.  Modul A1 bis A3: Die LCA-Berechnung umfasst die Produktion der Rohstoffe, deren Transport zum Werk, das Mischen der Rohstoffe nach den entsprechenden Rezepturen, die Herstellung des Schaums und die Verpackung für den Versand. Die gesamte Produktion findet ausschließlich in Eynatten, Belgien statt.Modul A4: Transport des Endprodukts zum Anwendungsort. Der durchschnittliche Transportweg wurde anhand eines gewichteten Wertes für die wichtigen NMC-Kunden berechnet, die mehr als 50 % des Absatzes in 2016 ausgemacht haben. Die Kapazitätsauslastung nach Volumen beträgt 100 %. In Anbetracht der geringen Produktdichte wurde jedoch die Kapazitätsauslastung nach Masse auf 10 % angenommen.  Modul A5: Die Produkte können bündig installiert werden; verbleibende Reststücke können in anderen Rohrbereichen verwendet werden. Die Berechnungen berücksichtigen keine Verluste durch Verschnitt. Der als Verpackung verwendete Karton wird einem Recyclingprozess zugeführt. Es wird angenommen, dass der verwendete Karton aus Altpapier hergestellt wurde. Somit werden die Umweltlasten für das Altpapierrecycling bereits in der Herstellungsphase A1-A3 berücksichtigt. Der Wert für die Umweltwirkungen in Modul A5 wird damit mit „0“ deklariert. Modul B1-B7: Die Dämmstoffe bedürfen während ihrer Nutzung keiner Wartung, keinem Austausch oder Sanierung. Die Informationsmodule B1 – B7 werden nicht deklariert. Die Verwendung von Dämmstoffen hat Einfluss auf den Energieverbrauch des gesamten Heiz- und Kühlsystems. Dieser Aspekt wird in dieser Produktdeklaration nicht mit eingebezogen. Modul C1: Der Rückbau erfolgt manuell. Daher sind damit keine Umweltlasten verbunden. Das Informationsmodul C1 wird nicht deklariert. Modul C2: Für den Transport im End-of-Life Szenario wird eine durchschnittliche Entfernung von 100 km bis zur Deponie angenommen. Modul C3: Mit dem gewählten End-of-life-Szenario von 100% Deponierung ist keine Vorbehandlung der Abfälle verbunden. Modul C3 wird nicht deklariert. Modul C4: Die Umweltlasten für das Szenario der Deponierung werden in C4 deklariert. Das Produkt enthält Rohstoffe aus nachwachsenden Ressourcen. Bei der Berechnung der Umweltlasten für die Herstellung des Produkts wird die Aufnahme von CO2 aus der Atmosphäre berücksichtigt. Die Auswirkungen von (Bio-)Kunstoffen auf einer Deponie in den nächsten 100 Jahren kann heute nicht vollständig vorhergesehen werden. In dieser Deklaration wird angenommen, dass das eingebundene CO2 in der festen Matrix eingebunden verbleibt. Modul D: Das End-of-life-Szenario des Verpackungsmaterials und des Produkts führt zu keinen Nutzen für das nachfolgende System. Recycling von Karton ist ein quasi geschlossener Kreislauf mit dem Herstellungsprozess. Das Produkt wird deponiert; Energie- oder Materialgewinne können nicht angenommen werden.</useAdviceForDataSet>
+<useAdviceForDataSet xml:lang="en">Scope: 
+Product line CLIMAFLEX® STABIL / EXZENTROFLEX® COMPACT made of NMC NATUREFOAM® Thermal insulation products for building equipment and industrial insulations made of Polyethylene-based, closed-cell foam pipe insulation with a robust protective coating (PEF) according to /EN14313/. This declaration is an Environmental Product Declaration according to /ISO14025/ describing the specific environmental performance of the product produced in Belgium. The only difference between the two CLIMAFLEX® STABIL made of NMC NATUREFOAM® and EXZENTROFLEX®  COMPACT made of NMC NATUREFOAM® is the shape chemically they are identical. CLIMAFLEX® STABIL made of NMC NATUREFOAM® has a circular shape while EXZENTROFLEX® COMPACT NMC NATUREFOAM® is rectangular and thus more suitable for the insulation of heating pipes in a concrete floor 
+System boundary: 
+The Data collection refers to the yearly production in 2016.   Module A1 to A3: The LCA calculation covers the production of the raw materials, transport of these to the plant, the mixing of raw materials according to the respective recipes, manufacturing of the foam product and packaging for dispatch. All production takes place exclusively in Eynatten, Belgium.  Module A4:  Transport of the final product to the application site. The average transport distance has been calculated based on a weighted value for NMC’s main customers representing more than 50% of the sales volume in 2016. Capacity utilisation by volume is 100%. However, given the low density of the product, capacity utilisation by mass has been estimated as 10%.Module A5: The products can be placed end to end and the remaining pieces can be reused on other pipes. The calculations do not contain any installation waste. Cardboard as packaging material is assumed to be recycled. As input material cardboard made of waste paper is considered. Thus, environmental burden for packaging material are considered already in A1-A3. The value of the environmental impact for A5 is declared as “0”. Module B1-B7:The foam insulation products do not require maintenance, replacement or refurbishment while in use. The information modules B1 – B7 are not declared. Using insulation material influences the energy consumption of the overall heating and cooling equipment. This is not taken into account, as the EPD refer to the product &apos;insulation material&apos;. Module C1:Disassembly is done manually. There are no impacts associated with C1. The information module is not declared. Module C2:For the transport at end-of-life stage an average distance to landfill is assumed to be 100 km. Module C3:The chosen scenario of 100% landfilling does not require any waste processing. Module C3 is not declared. Module C4: The environmental burden for the chosen scenario of 100% landfilling is declared in module C4. The product contains raw materials from renewable sources. By calculating the environmental burden for the production process the sequestration of CO2 from atmosphere has taken into account. The environmental effects of (bio-)plastic on a landfill site in the next 100 years cannot be foreseen as a full picture today. In this declaration it is assumed, that the sequestered CO2 is still integrated in a solid matrix. Module D: The end-of-life scenarios for packaging material and product do not deliver any benefits for the next system. Recycling of cardboard is a closed cycle with the production process. The product is landfilled; energy or material gain cannot be expected.</useAdviceForDataSet>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">DIN EN 15804</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/4f2eb655-6e44-4874-a95a-e28f5442cd4d.xml" type="source data set" refObjectId="4f2eb655-6e44-4874-a95a-e28f5442cd4d">
+<common:shortDescription xml:lang="de">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<dataEntryBy>
+<common:timeStamp>2017-09-07T00:00:00</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="de">ILCD Format 1.1</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/cba73800-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="cba73800-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToPersonOrEntityEnteringTheData uri="../contacts/83cdb7b4-53fa-4d27-bb04-ed23fd033e2c.xml" type="contact data set" refObjectId="83cdb7b4-53fa-4d27-bb04-ed23fd033e2c">
+<common:shortDescription xml:lang="de">NMC S.A.</common:shortDescription>
+</common:referenceToPersonOrEntityEnteringTheData>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.05.000</common:dataSetVersion>
+<common:referenceToRegistrationAuthority uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToRegistrationAuthority>
+<common:registrationNumber>EPD-NMC-20170102-IBD3-DE</common:registrationNumber>
+<common:referenceToOwnershipOfDataSet uri="../contacts/83cdb7b4-53fa-4d27-bb04-ed23fd033e2c.xml" type="contact data set" refObjectId="83cdb7b4-53fa-4d27-bb04-ed23fd033e2c">
+<common:shortDescription xml:lang="de">NMC S.A.</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/bf874af3-1581-5f27-8651-6af6d424608f.xml" type="flow data set" refObjectId="bf874af3-1581-5f27-8651-6af6d424608f">
+<common:shortDescription xml:lang="de">CLIMAFLEX® STABIL / EXZENTROFLEX® COMPACT aus NMC NATUREFOAM®/M³ (CLIMAFLEX® STABIL / EXZENTROFLEX® COMPACT aus NMC NATUREFOAM®/M³)</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy as energy carrier (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">2494.28793885692</epd:amount>
+<epd:amount epd:module="A4">4.89254336567763</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0.198352133310642</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">3.20406675975046</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy resources as material utilization (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">987.965939361244</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">-987.965939361244</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of renewable primary energy resources (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">3482.25387821816</epd:amount>
+<epd:amount epd:module="A4">4.89254336567763</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0.198352133310642</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">3.20406675975046</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as energy carrier (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1138.79502017988</epd:amount>
+<epd:amount epd:module="A4">95.2612589667542</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">3.86205548436589</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">43.7261025047208</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as material utilization (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">101.659504946026</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">-101.659504946026</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of non renewable primary energy resources (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1240.45452512591</epd:amount>
+<epd:amount epd:module="A4">95.2612589667542</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">3.86205548436589</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">43.7261025047208</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of secondary material (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">19.5</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of renewable secondary fuels (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of non renewable secondary fuels (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of net fresh water (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="de">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.379899784347959</epd:amount>
+<epd:amount epd:module="A4">0.0090529400525512</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0.000367021779460137</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0.000104672233477209</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Hazardous waste disposed (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.000627942435394473</epd:amount>
+<epd:amount epd:module="A4">4.96784628513066E-06</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">2.0140504334161E-07</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">1.6906792943186E-07</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non hazardous waste disposed (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">10.6044999154333</epd:amount>
+<epd:amount epd:module="A4">0.00754149713758086</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0.000305745280887884</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">40.8433414402556</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Radioactive waste disposed (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.167998026824565</epd:amount>
+<epd:amount epd:module="A4">0.000196919237076073</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">7.98344497832227E-06</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0.000662312478800331</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+<common:shortDescription xml:lang="en">Components for re-use (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for energy recovery (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported electrical energy (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported thermal energy (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<referencesToDataSource />
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/77e416eb-a363-4258-a04e-171d843a6460.xml" type="LCIA method data set" refObjectId="77e416eb-a363-4258-a04e-171d843a6460">
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial (GWP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Global warming potential (GWP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="de">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">-21.0775289347562</epd:amount>
+<epd:amount epd:module="A4">6.86867718065743</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0.278315194985045</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">2.93280326809283</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/06dcd26f-025f-401a-a7c1-5e457eb54637.xml" type="LCIA method data set" refObjectId="06dcd26f-025f-401a-a7c1-5e457eb54637">
+<common:shortDescription xml:lang="de">Abbau Potential der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Depletion potential of the stratospheric ozone layer (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512.xml" type="unit group data set" refObjectId="88054749-b0a6-47ea-a82b-dc5b29326512">
+<common:shortDescription xml:lang="de">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.03964824742723E-07</epd:amount>
+<epd:amount epd:module="A4">5.58913867734686E-12</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">2.26593306826463E-13</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">7.20168540185751E-12</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/b4274add-93b7-4905-a5e4-2e878c4e4216.xml" type="LCIA method data set" refObjectId="b4274add-93b7-4905-a5e4-2e878c4e4216">
+<common:shortDescription xml:lang="de">Versauerungspotenzial von Boden und Wasser (AP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Acidification potential of land and water (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f.xml" type="unit group data set" refObjectId="bc50c624-a9bc-45b1-a9b0-e6b10d00476f">
+<common:shortDescription xml:lang="de">kg SO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.22353865510057</epd:amount>
+<epd:amount epd:module="A4">0.0325326992504653</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0.00122356621678733</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0.00810257672575819</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/f58827d0-b407-4ec6-be75-8b69efb98a0f.xml" type="LCIA method data set" refObjectId="f58827d0-b407-4ec6-be75-8b69efb98a0f">
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial (EP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Eutrophication potential (EP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822.xml" type="unit group data set" refObjectId="67b5401d-873c-485f-bcf3-6ae83b918822">
+<common:shortDescription xml:lang="de">kg PO_(4)^(3)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.863831278322703</epd:amount>
+<epd:amount epd:module="A4">0.00816221602812247</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">0.000305722691518502</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0.00803133968705306</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/1e84a202-dae6-42aa-9e9d-71ea48b8be00.xml" type="LCIA method data set" refObjectId="1e84a202-dae6-42aa-9e9d-71ea48b8be00">
+<common:shortDescription xml:lang="de">Bildungspotential für troposphärisches Ozon (POCP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Formation potential of tropospheric ozone photochemical oxidants (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e.xml" type="unit group data set" refObjectId="01c26c17-9a76-406e-8295-f17b55fd909e">
+<common:shortDescription xml:lang="de">kg Ethen-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.244499270373183</epd:amount>
+<epd:amount epd:module="A4">-0.0134232376168282</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">-0.000496855093604911</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0.000924247849226974</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/f7c73bb9-ab1a-4249-9c6d-379a0de6f67e.xml" type="LCIA method data set" refObjectId="f7c73bb9-ab1a-4249-9c6d-379a0de6f67e">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for non fossil resources (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="de">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0470466439805756</epd:amount>
+<epd:amount epd:module="A4">6.21042683709293E-07</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">2.51781398719688E-08</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">6.06872399074072E-07</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../flows/804ebcdf-309d-4098-8ed8-fdaf2f389981.xml" type="LCIA method data set" refObjectId="804ebcdf-309d-4098-8ed8-fdaf2f389981">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for fossil resources (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">712.089538435117</epd:amount>
+<epd:amount epd:module="A4">94.7599325348227</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C2">3.84173084749988</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">42.0437505307796</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>

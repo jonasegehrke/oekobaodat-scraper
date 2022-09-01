@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:epd2="http://www.indata.network/EPD/2019" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" epd2:epd-version="1.2" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>5f6601cd-58c1-4d24-99d3-16d3a5913ada</common:UUID>
+<name>
+<baseName xml:lang="de">Schienensysteme</baseName>
+<baseName xml:lang="en">Channel systems</baseName>
+<functionalUnitFlowProperties xml:lang="de" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="4">Metalle</common:class>
+<common:class level="1" classId="4.2">Edelstahl</common:class>
+<common:class level="2" classId="4.2.04">Befestigungsmittel</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">02 Bauprodukte</common:class>
+<common:class level="1">Metallbauprodukte und Zubehör</common:class>
+<common:class level="2">Dünnwandige Profile und Profiltafeln aus Metall</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="de">Das Produktportfolio der JORDAHL Schienensysteme umfasst einzubetonierende Ankerschienen vom Typ JTA, JXA und JZA, sowie verschweiß-, bzw. verschraubbare Montageschienen vom Typ JM, JML, und JXM, in warmgewalzter sowie kaltgeformter Ausführung, inklusive den dazugehörigen Hammerkopf-, Hakenkopf-, und Zahnschrauben. Die JORDAHL Montage- bzw. Ankerschienen bestehen aus einer C-förmigen Schiene aus Stahl bzw./ oder nichtrostendem Stahl und passenden Spezialschrauben. Die JORDAHL Ankerschienen bestehen zusätzlich aus mindestens zwei, auf dem Profilrücken, unlösbar befestigten Ankern. Diese Anker sind als Rundanker bzw. I-Anker ausgeführt. Ankerschienen werden oberflächenbündig einbetoniert. Montageschienen werden direkt auf dem Untergrund verschweißt oder verschraubt. In den Schienen werden JORDAHL Spezialschrauben mit entsprechenden Sechskantmuttern und Unterlegscheiben befestigt. Die Montageschiene als deklariertes Produkt ist verfügbar in walzblankem und verzinktem Stahl sowie Edelstahl.Das deklarierte Produkt Ankerschiene ist verfügbar in verzinktem Stahl oder Edelstahl. Dabei unterscheidet man zwischen Montage-, bzw. Ankerschienen mit glatten Schienenlippen (JM, JML, JTA) und gezahnten Schienenlippen (JXM, JXA, JXA-PC, JZA). Sie übertragen hohe Lasten aus Zug- und Querzug- bzw. Längszugrichtung.  Für die Anwendung und Nutzung gelten die jeweiligen nationalen Vorschriften.JORDAHL Montage- bzw. Ankerschienen (ausgenommen Profil 41/27) werden bemessen nach:  EOTA TR 047 bzw.EOTA TR 050 oder EN 1992-4 undEuropäischen Technischen Bewertung ETA 15/0386 oder Europäisch Technische Bewertung ETA 09/0338 oderICC-ES ESR 2854 oderchinesische bauaufsichtliche Zulassung CABR-01-(2019)-003-02 oder Allgemeine bauaufsichtliche Zulassungen Z-21.4-741 und Z-21.4-1690 des Deutschen Instituts für Bautechnik (DIBt)</common:generalComment>
+<common:generalComment xml:lang="en">The product portfolio of JORDAHL channel systems includes cast-in anchor channels of the type JTA, JXA and JZA, as well as weldable or screwable mounting channels of the type JM, JML and JXM, in hot-rolled and cold-formed design, including the corresponding hammer-head, hook-head and toothed bolts. The JORDAHL cast-in anchor and mounting channels consist of a C-shaped profile made of steel or stainless steel and matching special bolts. The JORDAHL cast-in anchor channels additionally consist of at least two anchors permanently mounted on the back of the profile. These anchors are formed as round anchors or I-anchors. Cast-in anchor channels are set in concrete flush with the surface. Mounting rails are directly welded onto the substrate. JORDAHL special bolts are mounted in the profiles with corresponding hexagon nuts and washers. The mounting channels as declared are available in bright-rolled and galvanized steel as well as stainless steel. The cast-in anchor channel as declared product is available in galvanized or stainless steel. A distinction is made between mounting or cast-in anchor channels with smooth profile lips (JM, JML, JTA) and serrated profile lips (JXM, JXA, JXA-PC, JZA). They transfer high loads from tensile and transverse or longitudinal tension. For application and use the respective national regulations apply. JORDAHL mounting and cast-in anchor channel systems (exclude Profile 41/27) are designed in accordance with: EOTA TR 047, Design of anchor channels orEOTA TR 050, Calculation Method for the Performance of Anchor Cannels under fatigue loading or EN 1992-4, Eurocode 2: Design of concrete structures – Part 4: Design of fastenings for use in concrete andEuropean Technical Approval ETA 15/0386 orEuropean Technical Approval ETA 09/0338 orICC-ES ESR 2854 orChinese technical building approval CABR-01-(2019)-003-02 orNational technical building approvals Z-21.4-741 and Z-21.4-1690 from German Institute for Building Technology (DIBt)</common:generalComment>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2021</common:referenceYear>
+<common:dataSetValidUntil>2026</common:dataSetValidUntil>
+<common:other>
+<epd2:publicationDateOfEPD>2021-03-18</epd2:publicationDateOfEPD>
+</common:other>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="DE" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="de">Die C-Profile werden von qualifizierten Lieferanten als walzblanker Stahl oder Edelstahl bezogen. Nach der Anlieferung, werden JORDAHL Montage-, bzw. Ankerschienen aus kaltgeformten oder warmgewalzten Schienenprofilen weiterverarbeitet bzw. hergestellt. Durch Stanzen oder Nieten werden Anker auf den Schienenrücken angebracht oder die Schienenrücken werden gelocht. Anschließend werden die Schienen verzinkt. Der angefallene Metall-Verschnitt und Filterstaub wird in Behältern gelagert, durch einen Schrotthändler abgeholt und gemäß Vorschrift dem Recycling zugeführt. Die PE- bzw. PS-Füllung wird vor dem Verpacken im JORDAHL Werk eingebracht. 
+Technische Daten: 
+Es gelten die folgenden technischen Daten für JORDAHL Montage-, Ankerschienen. Die Prüfnorm ist bemessen für die JTA nach der Europäisch Technischen Bewertung (ETA) ETA 09/0338, 18.Juni 2018, JORDAHL-Ankerschiene JTA. Die Prüfnorm für die JM Montageschiene ist bemessen gemäß der Europäisch Technischen Bewertung (ETA) ETA 15/0386, 13.Januar 2017, JORDAHL Montageschienen JM. Die Prüfnorm für die JXA ist bemessen gemäß der allgemein bauaufsichtlichen Zulassung Z-21.4-1690 und für die JZA gemäß der allgemein bauaufsichtlichen Zulassung Z-21.4-741. Alle geometrischen Maße, produktspezifischen Parameter und die statischen Tragfähigkeiten der verschiedenen Montage- bzw. Ankerschienen JTA, JXA und JZA sind in den folgenden technischen Spezifikationen angegeben: JM, JTA-System:   ETA 15/0386 ETA 09/0338CABR-01-(2019)-003-02ICC-ES ESR 2854  JXA- und JZA-System: Z-21.4-741Z-21.4-1690 
+Deklarierte Einheit: 
+Die Deklaration bezieht sich auf die Herstellung von 1 m Schienensystem mit einem durchschnittlichen Gewicht von 2,668 kg/m.</technologyDescriptionAndIncludedProcesses>
+<technologyDescriptionAndIncludedProcesses xml:lang="en">The C-profiles are purchased from qualified vendors as bright-rolled steel or stainless steel. After delivery, JORDAHL mounting and cast-in anchor channels are further processed or manufactured from cold-formed or hot-rolled channel profiles. The anchors are attached to the C-profiles or backs of the channels by punching or riveting or channel backs are perforated. Afterwards the channels are galvanized. The accumulated metal scrap and filter dust are stored in containers, collected by a scrap dealer and disposed of in accordance with regulations. The finished channels are packed in cardboard boxes and loaded on pallets. 
+Technical data: 
+The following technical data apply to JORDAHL mounting and cast-in anchor channels. The test standard is dimensioned for the JTA according to the European Technical Assessment (ETA) ETA 09/0338, 18.June 2018, JORDAHL cast-in anchor channel JTA. The test standard is dimensioned for the JM according to the European Technical Assessment (ETA)  ETA 15/0386, 13.January 2017, JORDAHL mounting channel JM. The test standard for the JXA is dimensioned in accordance with the national technical building approval Z-21.4-1690 and for the JZA in accordance with the national technical building approval  Z-21.4-741. All geometrical dimensions, product-specific parameters and the static load capacities of the different channel systems JM, JTA, JXA and JZA are given in the following technical specifications:   JM, JTA system: ETA 15/0386ETA 09/0338CABR-01-(2019)-003-02ICC-ES ESR 2854 JXA and JZA system: Z-21.4-741Z-21.4-1690 
+Declared unit: 
+The declaration refers to the production of 1 m cast-in anchor channel with an average weight of 2.668 kg/m.</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="de">JORDAHL Montage-, bzw. Ankerschienen gewährleisten eine Übertragung hoher Lasten an Stahlkonstruktionen oder in bewehrte und unbewehrte Betonbauteile. Montageschienen können direkt an Bauteile geschweißt oder geschraubt werden.  Ankerschienen werden vor dem Betonguss im Bauteil positioniert und an der Schalung, der Bewehrung oder mithilfe einer geeigneten Hilfskonstruktion befestigt. JORDAHL Schienensysteme dienen der Fixierung von Anbauten an diversen Bauteilen. Darüber hinaus ist die JORDAHL Montage- bzw. Ankerschiene ein Produkt das wiederkehrende Anwendungen mittels JORDAHL Spezialschrauben ermöglicht. JORDAHL Schienenprofile sind dafür in verschiedenen Querschnittstypen erhältlich und unterscheiden sich in ihren Abmessungen und Anwendungsgebieten.  Beispiele sind:JTA W für Glasfassaden, Aufzugsführungs-schienen und -türen, Signal- und Lüftungsanlagen in Tunneln, schwere Stahlbaukonstruktionen und Verbindungen mit Lastwechseln (Wind, Verkehr, Vibration)JTA K für Fertigteilverbindungen, Geländer, Beleuchtungsanlagen, Gebäudeausstattung und StadionsitzeJM W für mittelschwere bis schwere Konstruktionen z.B Tragrahmen oder hochbelastete Schraubverbindungen mit hohen Anzugsdrehmomenten. Nachträglicher Einbau möglichJM K zur Befestigung von Ver-, Entsorgungsleitungen, Elektrokabeln, Kabelbahnen oder KlimakanälenJML K direkt anschraubbar, zur Befestigung von Rohren, Elektrokabeln sowie untergeordnete Befestigungen   JXA W für dynamische Lastverbindung in Tunneln, Kranbahnanlagenverankerungen, Fassadenverbindungen und hochbeanspruchte FertigteilverbindungenJXA-PC zur Überbrückung hoher zu erwartender Rissbreiten für sicherheits-relevante Bereiche wie KraftwerkeJZA zur Übertragung von Kräften in Schienenlängsrichtung insbesondere bei Kabeltragsystemen und anderen TGA-BefestigungenJXM W gewährleistet Planungsfreiheit durch nachträglichen Einbau. Zur Kraftübertragung in Schienenlängsrichtung</technologicalApplicability>
+<technologicalApplicability xml:lang="en">JORDAHL mounting or cast-in anchor channels ensure the transfer of high loads to steel structures or into reinforced and unreinforced concrete components. Mounting channels can be welded or screwed directly to components. Cast-in anchor channels are positioned in the component before the concrete is poured and mounted to the formwork, reinforcement or with the aid of a suitable auxiliary construction. JORDAHL channel systems are used for reliable and non-destructive fixing of attachments to various components. In addition, the JORDAHL mounting and cast-in anchor channel are durable products which allows recurring applications using JORDAHL special bolts. JORDAHL mounting and cast-in anchor channel profiles are available in different types of cross-sections and differ in their dimensions and areas of application.Examples are:  JTA W for glass facades, elevator guide rails and doors, signal and ventilation systems in tunnels, heavy steel structures and connections with load changes (wind, traffic, vibration)JTA K for precast connections, railings, lighting systems, building equipment and stadium seatsJM W for medium-heavy to heavy constructions e.g. supporting frames or highly loaded screw connections with high tightening torques. Subsequent installation possibleJM K for fastening supply and disposal lines, electric cables, cable trays or air conditioning ductsJML K can be screwed on directly, for fastening pipes, electric cables and subordinate fasteningsJXA W for dynamic load connection in tunnels, crane track system anchorages, facade connections and highly stressed precast element connections JXA-PC to bridge high expected crack widths for safety relevant areas like power plantsJZA for the transmission of forces in the longitudinal direction of channels, especially in cable support systems and other technical building equipment fixingsJXM W guarantees flexibility in planning through subsequent installation. For power transmission in longitudinal direction of the channel</technologicalApplicability>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="ce82219a-88cd-42e9-89f6-d3a56cd245a2">
+<common:shortDescription xml:lang="de">Dünnwandige Profile und Profiltafeln aus Metall.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">average dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="b497a91f-e14b-4b69-8f28-f50eb1576766">
+<common:shortDescription xml:lang="de">ecoinvent database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="766b9973-5ee8-48a2-8098-72c8e20b369f">
+<common:shortDescription xml:lang="de">ecoinvent 3.6 database</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
+Dieses Dokument bezieht sich auf Montage-, bzw. Ankerschienen der Firma Jordahl GmbH, hergestellt in Trebbin, Deutschland. Die deklarierte Einheit bezieht sich auf 1 Meter Ankerschiene. Das Produkt wird aus Edelstahl oder Stahl produziert und wird als Durchschnittsprodukt deklariert. Die Datenerhebung erfolgte werksspezifisch mit aktuellen Jahresdaten von 2019. Der Deklarationsinhaber ist verantwortlich für die zugrundeliegenden Daten und deren Verifizierung. 
+Systemgrenze: 
+Die Ökobilanz betrachtet die Systemgrenzen &quot;von der Wiege bis zum Werkstor - mit Optionen&quot; und folgt dem modularen Aufbau nach EN 15804. Die Ökobilanz berücksichtigt folgende Module:A1: Rohstoffgewinnung und -verarbeitung, Verarbeitungsprozesse, Stahlerzeugung,        -guss und -produktion; Aufbereitung von Recyclingmaterialien A2: Transport zum Hersteller: Transport der Rohstoffe zum Herstellungswerk A3: Herstellungsprozesse und                          -aufwendungen: Herstellung der SchienensystemeC2: Transport zur AbfallbewirtschaftungC3: Abfallbewirtschaftung zur Wiederverwendung, Rückgewinnung und/oder zum RecyclingC4: BeseitigungD: Wiederverwendungs-, Rückgewinnungs- oder Recyclingpotenzial als Nettoflüsse und Gutschriften bzw. Lasten für Stahl/ Edelstahl</useAdviceForDataSet>
+<useAdviceForDataSet xml:lang="en">Scope: 
+This document refers to the JORDAHL GmbH mounting and cast-in anchor channels, manufactured in Trebbin, Germany. The declared unit refers to 1 meter cast-in anchor channel. The product is made of stainless steel or steel and is declared as an average product. The data collection was collected on a plant-specific basis with current annual data from 2019. The declaration holder is responsible for the underlying data and its verification. 
+System boundary: 
+The Life Cycle Assessment considers the system boundaries &quot;cradle to gate - with options&quot; and follows the modular construction system described by EN 15804. The LCA takes into account the following modules:A1: Raw material supply: extraction of raw material, production of precursors, processing of secondary material A2: Transport: transport of raw materials to manufacturing plantA3: Manufacturing: production of cast-in anchor channelsC2: Transportation towards disposal: transport of discarded product as part of waste processingC3: Waste processing: Waste management for reuse, recovery and/or recycling C4: DisposalD: Reuse, recovery or recycling potential as net flows and credits (benefits) for stainless steel</useAdviceForDataSet>
+<common:other>
+<epd2:referenceToOriginalEPD type="source data set" refObjectId="f2107efa-eea1-40ff-8014-28df77f6eb9c">
+<common:shortDescription xml:lang="de">Schienensysteme.pdf</common:shortDescription>
+</epd2:referenceToOriginalEPD>
+</common:other>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml" type="source data set" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66">
+<common:shortDescription xml:lang="de">DIN EN 15804</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/4f2eb655-6e44-4874-a95a-e28f5442cd4d.xml" type="source data set" refObjectId="4f2eb655-6e44-4874-a95a-e28f5442cd4d">
+<common:shortDescription xml:lang="de">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<common:commissionerAndGoal>
+<common:referenceToCommissioner uri="../contacts/a7ad7f87-e229-43cf-a610-7667b1321a97.xml" type="contact data set" refObjectId="a7ad7f87-e229-43cf-a610-7667b1321a97">
+<common:shortDescription xml:lang="de">Jordahl GmbH</common:shortDescription>
+</common:referenceToCommissioner>
+</common:commissionerAndGoal>
+<dataGenerator>
+<common:referenceToPersonOrEntityGeneratingTheDataSet uri="../contacts/d468648c-aeca-4188-96d2-75f5e1a561aa.xml" type="contact data set" refObjectId="d468648c-aeca-4188-96d2-75f5e1a561aa">
+<common:shortDescription xml:lang="de">myclimate Deutschland gGmbH</common:shortDescription>
+</common:referenceToPersonOrEntityGeneratingTheDataSet>
+</dataGenerator>
+<dataEntryBy>
+<common:timeStamp>2021-03-18T17:48:39.271</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="de">ILCD Format</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml" type="source data set" refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+<common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+</common:referenceToDataSetFormat>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.02.000</common:dataSetVersion>
+<common:referenceToRegistrationAuthority uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToRegistrationAuthority>
+<common:registrationNumber>EPD-JDL-20200260-IBB1-DE</common:registrationNumber>
+<common:referenceToOwnershipOfDataSet uri="../contacts/a7ad7f87-e229-43cf-a610-7667b1321a97.xml" type="contact data set" refObjectId="a7ad7f87-e229-43cf-a610-7667b1321a97">
+<common:shortDescription xml:lang="de">Jordahl GmbH</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+<common:licenseType>Free of charge for all users and uses</common:licenseType>
+<common:accessRestrictions xml:lang="en">None</common:accessRestrictions>
+<common:other>
+<epd2:referenceToPublisher type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95" uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml">
+<common:shortDescription xml:lang="de">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</epd2:referenceToPublisher>
+</common:other>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/01ea91b9-6da1-d7c1-81ec-1d92b41b9b22.xml" type="flow data set" refObjectId="01ea91b9-6da1-d7c1-81ec-1d92b41b9b22">
+<common:shortDescription xml:lang="de">Montage- bzw. Ankerschiene (Montage- bzw. Ankerschiene)</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy as energy carrier (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.50538850558708</epd:amount>
+<epd:amount epd:module="C2">6.2880645944E-05</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">2.42159611296E-05</epd:amount>
+<epd:amount epd:module="D">-0.124183615444</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Renewable primary energy resources as material utilization (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of renewable primary energy resources (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.50538850558708</epd:amount>
+<epd:amount epd:module="C2">6.2880645944E-05</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">2.42159611296E-05</epd:amount>
+<epd:amount epd:module="D">-0.124183615444</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as energy carrier (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">44.027713500656</epd:amount>
+<epd:amount epd:module="C2">0.169805508324</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0.0094809450368</epd:amount>
+<epd:amount epd:module="D">-0.9239267992</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non renewable primary energy as material utilization (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+<common:shortDescription xml:lang="en">Total use of non renewable primary energy resources (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">44.027713500656</epd:amount>
+<epd:amount epd:module="C2">0.169805508324</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0.0094809450368</epd:amount>
+<epd:amount epd:module="D">-0.9239267992</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of secondary material (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">2.7401</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">-0.2055</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of renewable secondary fuels (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of non renewable secondary fuels (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+<common:shortDescription xml:lang="en">Use of net fresh water (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="de">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.86576548530772</epd:amount>
+<epd:amount epd:module="C2">-3.5288269984E-05</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">-1.16215115852E-05</epd:amount>
+<epd:amount epd:module="D">-0.03604468</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Hazardous waste disposed (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00172020675956968</epd:amount>
+<epd:amount epd:module="C2">4.2426490644E-07</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">2.26839226932E-08</epd:amount>
+<epd:amount epd:module="D">2.10249034648E-05</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Non hazardous waste disposed (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.19638971753481</epd:amount>
+<epd:amount epd:module="C2">6.6568665032E-06</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0.132439231856</epd:amount>
+<epd:amount epd:module="D">-0.4568340362</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+<common:shortDescription xml:lang="en">Radioactive waste disposed (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.000239049860274872</epd:amount>
+<epd:amount epd:module="C2">1.16136153724E-06</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">6.4553732736E-08</epd:amount>
+<epd:amount epd:module="D">-4.270522194E-06</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+<common:shortDescription xml:lang="en">Components for re-use (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">2.5346</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+<common:shortDescription xml:lang="en">Materials for energy recovery (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="de">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported electrical energy (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+<common:shortDescription xml:lang="en">Exported thermal energy (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D">0</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/77e416eb-a363-4258-a04e-171d843a6460.xml" type="LCIA method data set" refObjectId="77e416eb-a363-4258-a04e-171d843a6460">
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial (GWP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Global warming potential (GWP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="de">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">3.2801335215372</epd:amount>
+<epd:amount epd:module="C2">0.0114131621292</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0.00064626667852</epd:amount>
+<epd:amount epd:module="D">-0.092277392972</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/06dcd26f-025f-401a-a7c1-5e457eb54637.xml" type="LCIA method data set" refObjectId="06dcd26f-025f-401a-a7c1-5e457eb54637">
+<common:shortDescription xml:lang="de">Abbau Potential der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Depletion potential of the stratospheric ozone layer (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512.xml" type="unit group data set" refObjectId="88054749-b0a6-47ea-a82b-dc5b29326512">
+<common:shortDescription xml:lang="de">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">3.38816629941144E-07</epd:amount>
+<epd:amount epd:module="C2">2.07413673676E-09</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">1.12740867596E-10</epd:amount>
+<epd:amount epd:module="D">-1.48367730792E-09</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b4274add-93b7-4905-a5e4-2e878c4e4216.xml" type="LCIA method data set" refObjectId="b4274add-93b7-4905-a5e4-2e878c4e4216">
+<common:shortDescription xml:lang="de">Versauerungspotenzial von Boden und Wasser (AP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Acidification potential of land and water (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f.xml" type="unit group data set" refObjectId="bc50c624-a9bc-45b1-a9b0-e6b10d00476f">
+<common:shortDescription xml:lang="de">kg SO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.015562143492488</epd:amount>
+<epd:amount epd:module="C2">2.9620714956E-05</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">3.8869937256E-06</epd:amount>
+<epd:amount epd:module="D">-0.00094912600584</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/f58827d0-b407-4ec6-be75-8b69efb98a0f.xml" type="LCIA method data set" refObjectId="f58827d0-b407-4ec6-be75-8b69efb98a0f">
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial (EP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Eutrophication potential (EP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822.xml" type="unit group data set" refObjectId="67b5401d-873c-485f-bcf3-6ae83b918822">
+<common:shortDescription xml:lang="de">kg PO_(4)^(3)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00205673771618396</epd:amount>
+<epd:amount epd:module="C2">5.05179797E-06</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">8.1267394724E-07</epd:amount>
+<epd:amount epd:module="D">-5.2656731208E-05</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/1e84a202-dae6-42aa-9e9d-71ea48b8be00.xml" type="LCIA method data set" refObjectId="1e84a202-dae6-42aa-9e9d-71ea48b8be00">
+<common:shortDescription xml:lang="de">Bildungspotential für troposphärisches Ozon (POCP)</common:shortDescription>
+<common:shortDescription xml:lang="en">Formation potential of tropospheric ozone photochemical oxidants (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e.xml" type="unit group data set" refObjectId="01c26c17-9a76-406e-8295-f17b55fd909e">
+<common:shortDescription xml:lang="de">kg Ethen-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0009129923101544</epd:amount>
+<epd:amount epd:module="C2">1.08687748716E-06</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">1.3574701292E-07</epd:amount>
+<epd:amount epd:module="D">8.5814701908E-05</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/f7c73bb9-ab1a-4249-9c6d-379a0de6f67e.xml" type="LCIA method data set" refObjectId="f7c73bb9-ab1a-4249-9c6d-379a0de6f67e">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for non fossil resources (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="de">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0131720360918164</epd:amount>
+<epd:amount epd:module="C2">6.6786846068E-10</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">1.77146270204E-10</epd:amount>
+<epd:amount epd:module="D">-1.28750401696E-05</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/804ebcdf-309d-4098-8ed8-fdaf2f389981.xml" type="LCIA method data set" refObjectId="804ebcdf-309d-4098-8ed8-fdaf2f389981">
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+<common:shortDescription xml:lang="en">Abiotic depletion potential for fossil resources (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="de">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">40.48122615116</epd:amount>
+<epd:amount epd:module="C2">0.159924970524</epd:amount>
+<epd:amount epd:module="C3">0</epd:amount>
+<epd:amount epd:module="C4">0.008923518196</epd:amount>
+<epd:amount epd:module="D">-0.82449945704</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>

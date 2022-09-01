@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processDataSet xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns:epd2="http://www.indata.network/EPD/2019" xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/EPD_DataSet.xsd" epd2:epd-version="1.2" version="1.1" locations="../ILCDLocations.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Process">
+<processInformation>
+<dataSetInformation>
+<common:UUID>c93da4c3-94c9-4c86-b092-610cf1cf012f</common:UUID>
+<name>
+<baseName xml:lang="en">FOAMGLAS® T4+</baseName>
+<baseName xml:lang="de">FOAMGLAS® T4+</baseName>
+<functionalUnitFlowProperties xml:lang="en" />
+</name>
+<classificationInformation>
+<common:classification name="OEKOBAU.DAT">
+<common:class level="0" classId="2">Dämmstoffe</common:class>
+<common:class level="1" classId="2.6">Schaumglas</common:class>
+<common:class level="2" classId="2.6.01">Platten</common:class>
+</common:classification>
+<common:classification name="IBUCategories">
+<common:class level="0">02 Building products</common:class>
+<common:class level="1">Thermal insulation products</common:class>
+<common:class level="2">Mineral insulating materials</common:class>
+</common:classification>
+</classificationInformation>
+<common:generalComment xml:lang="en">FOAMGLAS® T4+ is an insulation product for buildings made of cellular glass. It is applied to the desired dimensions in the form of slabs, panels, or other specific elements. The FOAMGLAS® T4+ is in general unfaced as a slab. Further processing to fabricated ware is possible (eg PSG, PSH, PSQ,…). In some cases, depending on the end-use, the slabs can be faced with bitumen on the top with a PE-foil (e.g. READY, BOARDS) or a white mineral liner (ROOFBLOCK, ROOF BOARDS). Also, on the bottom, the white mineral liner can be applied (cf. BOARDS).The product is declared with a density of 110 kg/m³ (±15%) and is supplied in thicknesses of 40 mm to 200 mm.For the placing on the market of the product FOAMGLAS® T4+ in the European Union/European Free Trade Association (EU/EFTA) (with the exception of Switzerland) Construction Products Regulation (CPR) applies. The product declaration of performance (DOP) is taking into consideration EN 13167:2015 Thermal insulation products for buildings – Factory made cellular glass (CG) products – Specification but also EN14305:2013 Thermal insulation for building equipment and industrial installations - Factory made cellular glass (CG) products – Specification.In addition to the common applications, especially for loadbearing constructions and perimeter insulation, the product also complies with the characteristics declared in European Technical Assessment (ETA) 17/0903: 2017 Cellular glass boards as load bearing layer and thermal insulation outside the waterproofing and the CE-marking. For the application and use the respective national provisions apply.</common:generalComment>
+<common:generalComment xml:lang="de">Schaumglasplatten mittlerer Rohdichte</common:generalComment>
+<common:other>
+<epd:scenarios>
+<epd:scenario epd:name="S1">
+<epd:description xml:lang="en">Scenario 1</epd:description>
+<epd:description xml:lang="de">Szenario 1</epd:description>
+</epd:scenario>
+<epd:scenario epd:name="S2">
+<epd:description xml:lang="en">Scenario 2</epd:description>
+<epd:description xml:lang="de">Szenario 2</epd:description>
+</epd:scenario>
+<epd:scenario epd:name="S3">
+<epd:description xml:lang="en">Scenario 3</epd:description>
+<epd:description xml:lang="de">Szenario 3</epd:description>
+</epd:scenario>
+</epd:scenarios>
+</common:other>
+</dataSetInformation>
+<quantitativeReference>
+<referenceToReferenceFlow>0</referenceToReferenceFlow>
+</quantitativeReference>
+<time>
+<common:referenceYear>2021</common:referenceYear>
+<common:dataSetValidUntil>2026</common:dataSetValidUntil>
+<common:other>
+<epd2:publicationDateOfEPD>2021-03-15</epd2:publicationDateOfEPD>
+</common:other>
+</time>
+<geography>
+<locationOfOperationSupplyOrProduction location="RER" />
+</geography>
+<technology>
+<technologyDescriptionAndIncludedProcesses xml:lang="en">The product is made following the protocol of the company. All glass constituents (recycled glass, sand, sodium carbonate, feldspar, sodium sulfate, sodium nitrate, iron oxide, and FOAMGLAS®-scrap) are melted (at ca. 1250°C) in the furnace and drawn into the shape of a thin-walled tube to enable efficient grinding. Melted glass from the melter furnace is put in grinders to produce fine glass powder. In the grinding process, additives are added so that afterwards, glass foaming processes can be envisaged. In the foaming furnace, cellular glass blocks are made in moulds by heating (sintering towards ca 850°C) the glass powder after the grinding process. After the foaming process, the annealing process starts by moving the foamed blocks on the lehr where they cool according to a precisely determined curve. The cooled blocks are cut into rectangular blocks and if necessary, ground or cut to thinner sizes. The produced material is released, labelled, marked, and packed for commercialisation and various end-use applications (floor, roof, wall, façade and other construction elements). 1 Mixing and batching of the raw materials: Recycled glass, feldspar, sodium carbonate, iron oxide, manganese oxide, sodium sulphate, sodium nitrate. 2 The melting furnace has a constant temperature of 1250°C. 3 Molten glass is drawn out of the furnace. 4 Control room for monitoring the production. 5 The glass is drawn off and falls onto the conveyor band where it cools down before entering the ball mill. 6 Addition of &quot;carbon black&quot;. 7 Ball mill grinds all ingredients into a fine powder before putting them into stainless steel moulds. 8 The filled moulds pass through a cellulating oven (foaming furnace) with a temperature of 850°C. This is where the material gains its unique cell structure. 9 Energy recovery of heat. 10 The FOAMGLAS® blocks pass through an annealing oven to allow carefully controlled cooling without thermal stress. 11 The blocks are cut to size and sorted by batch. Production waste is recycled. 12 FOAMGLAS® slabs are then packaged, labelled and palletized. 13 Finished FOAMGLAS® products are stored and prepared for transport. Quality assurance Quality is assured through internal and external monitoring. The product complies with the Declaration of Performance. It also bears the CEN Keymark 
+Technical data: 
+The technical specifications of FOAMGLAS® T4+  within the scope of this EPD and within the CE marking is according to EN 13167, EN 14305 and ETA.In addition to the EN13167 declared values, the characteristics declared for service temperature (-265°C – 430°C), thermal conductivity ranges &amp; chloride content are in line with EN 14305. The same for the ETA declared values on the mechanical properities. Performance data of the product in accordance with the declaration of performance with respect to its essential characteristics according to EN 13167.Voluntary data: CEN KEYMARK certificate n°001-BK-516-001; ATG H539; KOMO-CTG100-9; SIA CH672-13; ACERMI16-023-1179; Natureplus n°Zt-PCE-0406-1101-101 
+Declared unit: 
+The Declaration refers to the life cycle of 1kg FOAMGLAS® T4+. The gross density of the product is 110 kg/m³ ± 15%.</technologyDescriptionAndIncludedProcesses>
+<technologyDescriptionAndIncludedProcesses xml:lang="de">Technische Daten: 
+Wärmeleitfähigkeit 0,041 W/m²K 
+Deklarierte Einheit: 
+1 kg FOAMGLAS® T4+</technologyDescriptionAndIncludedProcesses>
+<technologicalApplicability xml:lang="en">FOAMGLAS® T4+ products are used for roof, facades, interior, in contact with the ground, or specific insulation. FOAMGLAS® T4+ is also used for building equipment &amp; industrial installations, for which FOAMGLAS® ONE is an equivalent product.</technologicalApplicability>
+<technologicalApplicability xml:lang="de">Dämmstoff für die gesamte Gebäudehülle. Das Hauptanwendungsgebiet ist die Anwendung als Kompaktdach für langlebige Flachdachkonstruktionen.</technologicalApplicability>
+</technology>
+</processInformation>
+<modellingAndValidation>
+<LCIMethodAndAllocation>
+<typeOfDataSet>EPD</typeOfDataSet>
+<referenceToLCAMethodDetails type="source data set" refObjectId="e4940468-6568-49d2-91c2-e4098792e89f">
+<common:shortDescription xml:lang="en">Mineral insulating materials.pdf</common:shortDescription>
+</referenceToLCAMethodDetails>
+<common:other>
+<epd:subType xmlns="http://www.iai.kit.edu/EPD/2013">specific dataset</epd:subType>
+</common:other>
+</LCIMethodAndAllocation>
+<dataSourcesTreatmentAndRepresentativeness>
+<referenceToDataSource type="source data set" refObjectId="28d74cc0-db8b-4d7e-bc44-5f6d56ce0c4a">
+<common:shortDescription xml:lang="en">GaBi Database (all versions)</common:shortDescription>
+</referenceToDataSource>
+<referenceToDataSource type="source data set" refObjectId="0115289e-52f0-4920-bc7e-57b1c96aec8d">
+<common:shortDescription xml:lang="en">GaBi database SP40 2020</common:shortDescription>
+</referenceToDataSource>
+<useAdviceForDataSet xml:lang="en">Scope: 
+This document refers to the production of 1 kguncoated &quot;FOAMGLAS® T4+&quot; cellular glassmanufactured in Belgium at the Tessenderloand in Czech Republic at the Klasterec production facilities of Pittsburgh Corning Europe NV. The reference year of production is 2019. The environmental impacts of the coated product &quot;FOAMGLAS® T4+ in boards &amp; blocks &quot; are to be assessed with the help of a markup factor in the amount of 0.8% for Global Warming Potential.Besides FOAMGLAS® T4+, exclusively for building equipment and industrial applications FOAMGLAS® ONE has the same environmental impacts as FOAMGLAS® T4+. 
+System boundary: 
+Type of EPD: Cradle to Grave with options, modules C1-C4, and module D (A1-A3, C, D and additional modules)The LCA addresses the life cycle stage of production, installation, end-of-life (EoL) and potential benefits beyond the system boundaries.The product stage comprises of modules A1 (raw material supply), A2 (transport) and A3 (production). The following individual processes were included in the product stage A1- A3 of production:Processes for providing preliminary products and energyTransporting the raw materials and preliminary materials to the plantThe manufacturing process in the plant including energy-related expenses, disposal of residual materials and emissionsProduction of packagingModule A4 takes into account the transportation of product to the construction site. The treatment of the packaging materials is assigned to module A5. Module C1 takes into accounts the de-construction or demolition of the product before taking it for treatment / disposal through means of transportation (module C2). Module C3 is the waste processing of the product before recycling/recovery/reuse. Landfilling with residual materials is assigned to module C4. Module D accounts for the potential credits resulting from the thermal and electrical energy generated when burning packaging materials in module A5 (energy substitution).There are 3 EoL scenarios in the study: Landfill, Reuse and Recycling. Module D/2 takes into account potential credits for 100% reuse of material and module D/3 considers potential credits for replacing kaolin in the brick industry.</useAdviceForDataSet>
+<useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
+Dieses Dokument bezieht sich auf die Herstellung von
+1 kg unbeschichtetes Schaumglas „FOAMGLAS®
+T4+“ hergestellt in Belgien am Produktionsstandort
+Tessenderlo der Firma Pittsburgh Corning Europe NV sowie in Klasterec Tschechische Republik. 
+Systemgrenze: 
+Typ der EPD: Wiege-bis-Werkstor
+Die berechnete Ökobilanz adressiert das Lebenszyklusstadium
+der Produktherstellung. Aufwendungen für das Umschmelzen von End-of-Life
+Schrotten sowie Gutschriften für die im System
+anfallende Nettoschrottmenge und Gutschriften aus
+der thermischen Verwertung von Reststoffen sind dem
+Modul D zugeordnet.</useAdviceForDataSet>
+<common:other>
+<epd2:referenceToOriginalEPD type="source data set" refObjectId="5a41ebb3-852b-49ba-9508-312b55fe3e7b">
+<common:shortDescription xml:lang="en">FOAMGLAS® T4+.pdf</common:shortDescription>
+</epd2:referenceToOriginalEPD>
+</common:other>
+</dataSourcesTreatmentAndRepresentativeness>
+<validation>
+<review type="Accredited third party review">
+<common:referenceToNameOfReviewerAndInstitution uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="en">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToNameOfReviewerAndInstitution>
+</review>
+</validation>
+<complianceDeclarations>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/c0016b33-8cf7-415c-ac6e-deba0d21440d.xml" type="source data set" refObjectId="c0016b33-8cf7-415c-ac6e-deba0d21440d">
+<common:shortDescription xml:lang="en">DIN EN 15804+A2</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+<compliance>
+<common:referenceToComplianceSystem uri="../sources/4f2eb655-6e44-4874-a95a-e28f5442cd4d.xml" type="source data set" refObjectId="4f2eb655-6e44-4874-a95a-e28f5442cd4d">
+<common:shortDescription xml:lang="en">ISO 14025</common:shortDescription>
+</common:referenceToComplianceSystem>
+</compliance>
+</complianceDeclarations>
+</modellingAndValidation>
+<administrativeInformation>
+<common:commissionerAndGoal>
+<common:referenceToCommissioner uri="../contacts/7decf5ec-2592-44cc-b676-fa81bb05cf72.xml" type="contact data set" refObjectId="7decf5ec-2592-44cc-b676-fa81bb05cf72">
+<common:shortDescription xml:lang="en">Pittsburgh Corning Europe NV</common:shortDescription>
+</common:referenceToCommissioner>
+</common:commissionerAndGoal>
+<dataGenerator>
+<common:referenceToPersonOrEntityGeneratingTheDataSet uri="../contacts/623edf96-39d1-4e6f-9892-674c7228546b.xml" type="contact data set" refObjectId="623edf96-39d1-4e6f-9892-674c7228546b">
+<common:shortDescription xml:lang="en">Sphera Solutions GmbH</common:shortDescription>
+</common:referenceToPersonOrEntityGeneratingTheDataSet>
+</dataGenerator>
+<dataEntryBy>
+<common:timeStamp>2021-03-15T18:17:34.541</common:timeStamp>
+<common:referenceToDataSetFormat uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml" type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+<common:shortDescription xml:lang="en">ILCD Format</common:shortDescription>
+</common:referenceToDataSetFormat>
+<common:referenceToDataSetFormat uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml" type="source data set" refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde">
+<common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+<common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+</common:referenceToDataSetFormat>
+</dataEntryBy>
+<publicationAndOwnership>
+<common:dataSetVersion>00.10.000</common:dataSetVersion>
+<common:referenceToPrecedingDataSetVersion uri="../processes/55943b94-ad62-4372-9dfc-bc50e19e52c0.xml" type="process data set" refObjectId="55943b94-ad62-4372-9dfc-bc50e19e52c0">
+<common:shortDescription xml:lang="en">FOAMGLAS® T4+</common:shortDescription>
+</common:referenceToPrecedingDataSetVersion>
+<common:referenceToRegistrationAuthority uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml" type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95">
+<common:shortDescription xml:lang="en">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</common:referenceToRegistrationAuthority>
+<common:registrationNumber>EPD-PCE-20200299-IBB1-EN</common:registrationNumber>
+<common:referenceToOwnershipOfDataSet uri="../contacts/7decf5ec-2592-44cc-b676-fa81bb05cf72.xml" type="contact data set" refObjectId="7decf5ec-2592-44cc-b676-fa81bb05cf72">
+<common:shortDescription xml:lang="en">Pittsburgh Corning Europe NV</common:shortDescription>
+</common:referenceToOwnershipOfDataSet>
+<common:copyright>true</common:copyright>
+<common:licenseType>Free of charge for all users and uses</common:licenseType>
+<common:accessRestrictions xml:lang="en">None</common:accessRestrictions>
+<common:other>
+<epd2:referenceToPublisher type="contact data set" refObjectId="d111dbec-b024-4be5-86c5-752d6eb2cf95" uri="../contacts/d111dbec-b024-4be5-86c5-752d6eb2cf95.xml">
+<common:shortDescription xml:lang="en">Institut Bauen und Umwelt e. V.</common:shortDescription>
+</epd2:referenceToPublisher>
+</common:other>
+</publicationAndOwnership>
+</administrativeInformation>
+<exchanges>
+<exchange dataSetInternalID="0">
+<referenceToFlowDataSet uri="../flows/adeac8dc-45df-5c2f-dbd1-2914b76fbffc.xml" type="flow data set" refObjectId="adeac8dc-45df-5c2f-dbd1-2914b76fbffc">
+<common:shortDescription xml:lang="en">FOAMGLAS® T4+ (1 kg FOAMGLAS® T4+)</common:shortDescription>
+</referenceToFlowDataSet>
+<meanAmount>1</meanAmount>
+<referencesToDataSource />
+</exchange>
+<exchange dataSetInternalID="1">
+<referenceToFlowDataSet uri="../flows/20f32be5-0398-4288-9b6d-accddd195317.xml" type="flow data set" refObjectId="20f32be5-0398-4288-9b6d-accddd195317">
+<common:shortDescription xml:lang="en">Renewable primary energy as energy carrier (PERE)</common:shortDescription>
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie als Energieträger (PERE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">12.8</epd:amount>
+<epd:amount epd:module="A4">0.0211</epd:amount>
+<epd:amount epd:module="A5">0.728</epd:amount>
+<epd:amount epd:module="C1">0.000461</epd:amount>
+<epd:amount epd:module="C2">0.00167</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.0187</epd:amount>
+<epd:amount epd:module="C4">0.0261</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.168</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-12.8</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.118</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="2">
+<referenceToFlowDataSet uri="../flows/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml" type="flow data set" refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702">
+<common:shortDescription xml:lang="en">Renewable primary energy resources as material utilization (PERM)</common:shortDescription>
+<common:shortDescription xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.72</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">-0.72</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.72</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="3">
+<referenceToFlowDataSet uri="../flows/53f97275-fa8a-4cdd-9024-65936002acd0.xml" type="flow data set" refObjectId="53f97275-fa8a-4cdd-9024-65936002acd0">
+<common:shortDescription xml:lang="en">Total use of renewable primary energy resources (PERT)</common:shortDescription>
+<common:shortDescription xml:lang="de">Total erneuerbare Primärenergie (PERT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">13.52</epd:amount>
+<epd:amount epd:module="A4">0.0211</epd:amount>
+<epd:amount epd:module="A5">0.00800000000000001</epd:amount>
+<epd:amount epd:module="C1">0.000461</epd:amount>
+<epd:amount epd:module="C2">0.00167</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.0187</epd:amount>
+<epd:amount epd:module="C4">0.0261</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.168</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-13.52</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.118</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="4">
+<referenceToFlowDataSet uri="../flows/ac857178-2b45-46ec-892a-a9a4332f0372.xml" type="flow data set" refObjectId="ac857178-2b45-46ec-892a-a9a4332f0372">
+<common:shortDescription xml:lang="en">Non renewable primary energy as energy carrier (PENRE)</common:shortDescription>
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie als Energieträger (PENRE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">21.6</epd:amount>
+<epd:amount epd:module="A4">0.375</epd:amount>
+<epd:amount epd:module="A5">0.677</epd:amount>
+<epd:amount epd:module="C1">0.00821</epd:amount>
+<epd:amount epd:module="C2">0.0298</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.0421</epd:amount>
+<epd:amount epd:module="C4">0.199</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.81</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-21.6</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-2.91</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="5">
+<referenceToFlowDataSet uri="../flows/1421caa0-679d-4bf4-b282-0eb850ccae27.xml" type="flow data set" refObjectId="1421caa0-679d-4bf4-b282-0eb850ccae27">
+<common:shortDescription xml:lang="en">Non renewable primary energy as material utilization (PENRM)</common:shortDescription>
+<common:shortDescription xml:lang="de">Nicht-erneuerbare Primärenergie zur stofflichen Nutzung (PENRM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.64</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">-0.64</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.64</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="6">
+<referenceToFlowDataSet uri="../flows/06159210-646b-4c8d-8583-da9b3b95a6c1.xml" type="flow data set" refObjectId="06159210-646b-4c8d-8583-da9b3b95a6c1">
+<common:shortDescription xml:lang="en">Total use of non renewable primary energy resources (PENRT)</common:shortDescription>
+<common:shortDescription xml:lang="de">Total nicht erneuerbare Primärenergie (PENRT)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">22.24</epd:amount>
+<epd:amount epd:module="A4">0.375</epd:amount>
+<epd:amount epd:module="A5">0.037</epd:amount>
+<epd:amount epd:module="C1">0.00821</epd:amount>
+<epd:amount epd:module="C2">0.0298</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.0421</epd:amount>
+<epd:amount epd:module="C4">0.199</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.81</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-22.24</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-2.91</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="7">
+<referenceToFlowDataSet uri="../flows/c6a1f35f-2d09-4f54-8dfb-97e502e1ce92.xml" type="flow data set" refObjectId="c6a1f35f-2d09-4f54-8dfb-97e502e1ce92">
+<common:shortDescription xml:lang="en">Use of secondary material (SM)</common:shortDescription>
+<common:shortDescription xml:lang="de">Einsatz von Sekundärstoffen (SM)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.454</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="8">
+<referenceToFlowDataSet uri="../flows/64333088-a55f-4aa2-9a31-c10b07816787.xml" type="flow data set" refObjectId="64333088-a55f-4aa2-9a31-c10b07816787">
+<common:shortDescription xml:lang="en">Use of renewable secondary fuels (RSF)</common:shortDescription>
+<common:shortDescription xml:lang="de">Erneuerbare Sekundärbrennstoffe (RSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="9">
+<referenceToFlowDataSet uri="../flows/89def144-d39a-4287-b86f-efde453ddcb2.xml" type="flow data set" refObjectId="89def144-d39a-4287-b86f-efde453ddcb2">
+<common:shortDescription xml:lang="en">Use of non renewable secondary fuels (NRSF)</common:shortDescription>
+<common:shortDescription xml:lang="de">Nicht erneuerbare Sekundärbrennstoffe (NRSF)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="10">
+<referenceToFlowDataSet uri="../flows/3cf952c8-f3a4-461d-8c96-96456ca62246.xml" type="flow data set" refObjectId="3cf952c8-f3a4-461d-8c96-96456ca62246">
+<common:shortDescription xml:lang="en">Use of net fresh water (FW)</common:shortDescription>
+<common:shortDescription xml:lang="de">Einsatz von Süßwasserressourcen (FW)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Input</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504.xml" type="unit group data set" refObjectId="cd950537-0a98-4044-9ba7-9f9a68d0a504">
+<common:shortDescription xml:lang="en">m^3</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0313</epd:amount>
+<epd:amount epd:module="A4">2.44E-05</epd:amount>
+<epd:amount epd:module="A5">0.000299</epd:amount>
+<epd:amount epd:module="C1">5.34E-07</epd:amount>
+<epd:amount epd:module="C2">1.94E-06</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">2.16E-05</epd:amount>
+<epd:amount epd:module="C4">5.02E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.000195</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.0313</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.000139</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="11">
+<referenceToFlowDataSet uri="../flows/430f9e0f-59b2-46a0-8e0d-55e0e84948fc.xml" type="flow data set" refObjectId="430f9e0f-59b2-46a0-8e0d-55e0e84948fc">
+<common:shortDescription xml:lang="en">Hazardous waste disposed (HWD)</common:shortDescription>
+<common:shortDescription xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">6.03E-08</epd:amount>
+<epd:amount epd:module="A4">1.75E-08</epd:amount>
+<epd:amount epd:module="A5">8.76E-11</epd:amount>
+<epd:amount epd:module="C1">3.82E-10</epd:amount>
+<epd:amount epd:module="C2">1.39E-09</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">1.74E-11</epd:amount>
+<epd:amount epd:module="C4">3.03E-09</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-3.22E-10</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-6.03E-08</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-2.45E-09</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="12">
+<referenceToFlowDataSet uri="../flows/b29ef66b-e286-4afa-949f-62f1a7b4d7fa.xml" type="flow data set" refObjectId="b29ef66b-e286-4afa-949f-62f1a7b4d7fa">
+<common:shortDescription xml:lang="en">Non hazardous waste disposed (NHWD)</common:shortDescription>
+<common:shortDescription xml:lang="de">Entsorgter nicht gefährlicher Abfall (NHWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0409</epd:amount>
+<epd:amount epd:module="A4">5.74E-05</epd:amount>
+<epd:amount epd:module="A5">0.00508</epd:amount>
+<epd:amount epd:module="C1">1.26E-06</epd:amount>
+<epd:amount epd:module="C2">4.56E-06</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">2.99E-05</epd:amount>
+<epd:amount epd:module="C4">1</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.000364</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.0409</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.000772</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="13">
+<referenceToFlowDataSet uri="../flows/3449546e-52ad-4b39-b809-9fb77cea8ff6.xml" type="flow data set" refObjectId="3449546e-52ad-4b39-b809-9fb77cea8ff6">
+<common:shortDescription xml:lang="en">Radioactive waste disposed (RWD)</common:shortDescription>
+<common:shortDescription xml:lang="de">Entsorgter radioaktiver Abfall (RWD)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">9.95E-05</epd:amount>
+<epd:amount epd:module="A4">4.64E-07</epd:amount>
+<epd:amount epd:module="A5">1.73E-06</epd:amount>
+<epd:amount epd:module="C1">1.02E-08</epd:amount>
+<epd:amount epd:module="C2">3.68E-08</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">6.39E-06</epd:amount>
+<epd:amount epd:module="C4">2.26E-06</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-5.73E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-9.95E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-3.9E-05</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="14">
+<referenceToFlowDataSet uri="../flows/a2b32f97-3fc7-4af2-b209-525bc6426f33.xml" type="flow data set" refObjectId="a2b32f97-3fc7-4af2-b209-525bc6426f33">
+<common:shortDescription xml:lang="en">Components for re-use (CRU)</common:shortDescription>
+<common:shortDescription xml:lang="de">Komponenten für die Wiederverwendung (CRU)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">1</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="15">
+<referenceToFlowDataSet uri="../flows/d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae.xml" type="flow data set" refObjectId="d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae">
+<common:shortDescription xml:lang="en">Materials for recycling (MFR)</common:shortDescription>
+<common:shortDescription xml:lang="de">Stoffe zum Recycling (MFR)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.546</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="16">
+<referenceToFlowDataSet uri="../flows/59a9181c-3aaf-46ee-8b13-2b3723b6e447.xml" type="flow data set" refObjectId="59a9181c-3aaf-46ee-8b13-2b3723b6e447">
+<common:shortDescription xml:lang="en">Materials for energy recovery (MER)</common:shortDescription>
+<common:shortDescription xml:lang="de">Stoffe für die Energierückgewinnung (MER)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf.xml" type="unit group data set" refObjectId="ad38d542-3fe9-439d-9b95-2f5f7752acaf">
+<common:shortDescription xml:lang="en">kg</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.0618</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="17">
+<referenceToFlowDataSet uri="../flows/4da0c987-2b76-40d6-9e9e-82a017aaaf29.xml" type="flow data set" refObjectId="4da0c987-2b76-40d6-9e9e-82a017aaaf29">
+<common:shortDescription xml:lang="en">Exported electrical energy (EEE)</common:shortDescription>
+<common:shortDescription xml:lang="de">Exportierte elektrische Energie (EEE)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.192</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">0</epd:amount>
+</common:other>
+</exchange>
+<exchange dataSetInternalID="18">
+<referenceToFlowDataSet uri="../flows/98daf38a-7a79-46d3-9a37-2b7bd0955810.xml" type="flow data set" refObjectId="98daf38a-7a79-46d3-9a37-2b7bd0955810">
+<common:shortDescription xml:lang="en">Exported thermal energy (EET)</common:shortDescription>
+<common:shortDescription xml:lang="de">Exportierte thermische Energie (EET)</common:shortDescription>
+</referenceToFlowDataSet>
+<functionType>General reminder flow</functionType>
+<exchangeDirection>Output</exchangeDirection>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0</epd:amount>
+<epd:amount epd:module="A4">0</epd:amount>
+<epd:amount epd:module="A5">0.383</epd:amount>
+<epd:amount epd:module="C1">0</epd:amount>
+<epd:amount epd:module="C2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0</epd:amount>
+<epd:amount epd:module="C4">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">0</epd:amount>
+</common:other>
+</exchange>
+</exchanges>
+<LCIAResults>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/6a37f984-a4b3-458a-a20a-64418c145fa2.xml" type="LCIA method data set" refObjectId="6a37f984-a4b3-458a-a20a-64418c145fa2">
+<common:shortDescription xml:lang="en">Global Warming Potential total (GWP-total)</common:shortDescription>
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial total (GWP-total)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="en">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.43</epd:amount>
+<epd:amount epd:module="A4">0.0296</epd:amount>
+<epd:amount epd:module="A5">0.1211</epd:amount>
+<epd:amount epd:module="C1">0.000616</epd:amount>
+<epd:amount epd:module="C2">0.00235</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.00241</epd:amount>
+<epd:amount epd:module="C4">0.0153</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.0479</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-1.43</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.1773</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/5f635281-343e-44fb-83df-1971b155e6b6.xml" type="LCIA method data set" refObjectId="5f635281-343e-44fb-83df-1971b155e6b6">
+<common:shortDescription xml:lang="en">Global Warming Potential fossil fuels (GWP-fossil)</common:shortDescription>
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial fossil (GWP-fossil)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="en">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.49</epd:amount>
+<epd:amount epd:module="A4">0.028</epd:amount>
+<epd:amount epd:module="A5">0.0423</epd:amount>
+<epd:amount epd:module="C1">0.00064</epd:amount>
+<epd:amount epd:module="C2">0.00223</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.00239</epd:amount>
+<epd:amount epd:module="C4">0.0152</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.0478</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-1.49</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.177</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/2356e1ab-0185-4db5-86e5-16de51c7485c.xml" type="LCIA method data set" refObjectId="2356e1ab-0185-4db5-86e5-16de51c7485c">
+<common:shortDescription xml:lang="en">Global Warming Potential biogenic (GWP-biogenic)</common:shortDescription>
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial biogen (GWP-biogenic)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="en">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">-0.0562</epd:amount>
+<epd:amount epd:module="A4">0.00133</epd:amount>
+<epd:amount epd:module="A5">0.0788</epd:amount>
+<epd:amount epd:module="C1">1.93E-06</epd:amount>
+<epd:amount epd:module="C2">0.000106</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">2.11E-05</epd:amount>
+<epd:amount epd:module="C4">4.86E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.00011</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">0.0562</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.000279</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/4331bbdb-978a-490d-8707-eeb047f01a55.xml" type="LCIA method data set" refObjectId="4331bbdb-978a-490d-8707-eeb047f01a55">
+<common:shortDescription xml:lang="en">Global Warming Potential luluc (GWP-luluc)</common:shortDescription>
+<common:shortDescription xml:lang="de">Globales Erwärmungspotenzial luluc (GWP-luluc)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1.xml" type="unit group data set" refObjectId="1ebf3012-d0db-4de2-aefd-ef30cedb0be1">
+<common:shortDescription xml:lang="en">kg CO_(2)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0011</epd:amount>
+<epd:amount epd:module="A4">0.000228</epd:amount>
+<epd:amount epd:module="A5">3.16E-06</epd:amount>
+<epd:amount epd:module="C1">4.99E-06</epd:amount>
+<epd:amount epd:module="C2">1.81E-05</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">3.47E-06</epd:amount>
+<epd:amount epd:module="C4">4.37E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-3.18E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.0011</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-4.25E-05</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c629d6-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c629d6-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Depletion potential of the stratospheric ozone layer (ODP)</common:shortDescription>
+<common:shortDescription xml:lang="de">Abbau Potential der stratosphärischen Ozonschicht (ODP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/d9e957c9-7309-4474-bf3a-7777df6c4e5b.xml" type="unit group data set" refObjectId="d9e957c9-7309-4474-bf3a-7777df6c4e5b">
+<common:shortDescription xml:lang="en">kg CFC11-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">8.21E-14</epd:amount>
+<epd:amount epd:module="A4">3.38E-18</epd:amount>
+<epd:amount epd:module="A5">3.1E-17</epd:amount>
+<epd:amount epd:module="C1">7.41E-20</epd:amount>
+<epd:amount epd:module="C2">2.68E-19</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">5.27E-17</epd:amount>
+<epd:amount epd:module="C4">5.62E-17</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-4.73E-16</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-8.21E-14</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-3.23E-16</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c611c6-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c611c6-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Acidification potential of land and water (AP)</common:shortDescription>
+<common:shortDescription xml:lang="de">Versauerungspotenzial von Boden und Wasser (AP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/42e089ac-92bf-4bf2-8ca1-5fc40d18f2ed.xml" type="unit group data set" refObjectId="42e089ac-92bf-4bf2-8ca1-5fc40d18f2ed">
+<common:shortDescription xml:lang="en">mol H^(+)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00508</epd:amount>
+<epd:amount epd:module="A4">2.95E-05</epd:amount>
+<epd:amount epd:module="A5">2.02E-05</epd:amount>
+<epd:amount epd:module="C1">3.09E-06</epd:amount>
+<epd:amount epd:module="C2">7.17E-06</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">5.28E-06</epd:amount>
+<epd:amount epd:module="C4">0.000109</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-6.51E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.00508</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.000164</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b53ec18f-7377-4ad3-86eb-cc3f4f276b2b.xml" type="LCIA method data set" refObjectId="b53ec18f-7377-4ad3-86eb-cc3f4f276b2b">
+<common:shortDescription xml:lang="en">Eutrophication potential aquatic freshwater (EP-freshwater)</common:shortDescription>
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial Süßwasser (EP-freshwater)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/0429039d-a61d-4590-ba67-aa4a20a810a1.xml" type="unit group data set" refObjectId="0429039d-a61d-4590-ba67-aa4a20a810a1">
+<common:shortDescription xml:lang="en">kg PO_(4)-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">1.99E-05</epd:amount>
+<epd:amount epd:module="A4">8.56E-08</epd:amount>
+<epd:amount epd:module="A5">4.92E-09</epd:amount>
+<epd:amount epd:module="C1">1.87E-09</epd:amount>
+<epd:amount epd:module="C2">6.79E-09</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">6.39E-09</epd:amount>
+<epd:amount epd:module="C4">2.6E-08</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-5.86E-08</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-1.99E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-6.49E-08</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c619fa-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c619fa-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Eutrophication potential aquatic marine (EP-marine)</common:shortDescription>
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial Salzwasser (EP-marine)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/d05bb823-ecdf-4686-8c40-bf1d9257859f.xml" type="unit group data set" refObjectId="d05bb823-ecdf-4686-8c40-bf1d9257859f">
+<common:shortDescription xml:lang="en">kg N-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00167</epd:amount>
+<epd:amount epd:module="A4">8.75E-06</epd:amount>
+<epd:amount epd:module="A5">5.94E-06</epd:amount>
+<epd:amount epd:module="C1">1.44E-06</epd:amount>
+<epd:amount epd:module="C2">3.23E-06</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">1.17E-06</epd:amount>
+<epd:amount epd:module="C4">2.8E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-1.7E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.00167</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-5.89E-05</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c614d2-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c614d2-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Eutrophication potential terrestrial (EP-terrestrial)</common:shortDescription>
+<common:shortDescription xml:lang="de">Eutrophierungspotenzial Land (EP-terrestrial)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/71b4d617-0ec9-4d3f-b65e-e438940c2401.xml" type="unit group data set" refObjectId="71b4d617-0ec9-4d3f-b65e-e438940c2401">
+<common:shortDescription xml:lang="en">mol N-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.0185</epd:amount>
+<epd:amount epd:module="A4">0.000105</epd:amount>
+<epd:amount epd:module="A5">9.34E-05</epd:amount>
+<epd:amount epd:module="C1">1.59E-05</epd:amount>
+<epd:amount epd:module="C2">3.61E-05</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">1.23E-05</epd:amount>
+<epd:amount epd:module="C4">0.000308</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.000183</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.0185</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.000648</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c610fe-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c610fe-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Formation potential of tropospheric ozone photochemical oxidants (POCP)</common:shortDescription>
+<common:shortDescription xml:lang="de">Bildungspotential für troposphärisches Ozon (POCP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/d27c25f8-fbc1-44c6-b47b-4adbae4199c6.xml" type="unit group data set" refObjectId="d27c25f8-fbc1-44c6-b47b-4adbae4199c6">
+<common:shortDescription xml:lang="en">kg NMVOC-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.00393</epd:amount>
+<epd:amount epd:module="A4">2.4E-05</epd:amount>
+<epd:amount epd:module="A5">1.62E-05</epd:amount>
+<epd:amount epd:module="C1">4.03E-06</epd:amount>
+<epd:amount epd:module="C2">6.33E-06</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">3.22E-06</epd:amount>
+<epd:amount epd:module="C4">8.48E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-4.91E-05</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.00393</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.000178</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b2ad6494-c78d-11e6-9d9d-cec0c932ce01.xml" type="LCIA method data set" refObjectId="b2ad6494-c78d-11e6-9d9d-cec0c932ce01">
+<common:shortDescription xml:lang="en">Abiotic depletion potential for non fossil resources (ADPE)</common:shortDescription>
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau nicht fossiler Ressourcen (ADPE)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4.xml" type="unit group data set" refObjectId="54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4">
+<common:shortDescription xml:lang="en">kg Sb-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">2.18E-07</epd:amount>
+<epd:amount epd:module="A4">2.02E-09</epd:amount>
+<epd:amount epd:module="A5">4.48E-10</epd:amount>
+<epd:amount epd:module="C1">4.42E-11</epd:amount>
+<epd:amount epd:module="C2">1.6E-10</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">6.93E-10</epd:amount>
+<epd:amount epd:module="C4">1.36E-09</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-7.57E-09</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-2.18E-07</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-1.26E-08</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b2ad6110-c78d-11e6-9d9d-cec0c932ce01.xml" type="LCIA method data set" refObjectId="b2ad6110-c78d-11e6-9d9d-cec0c932ce01">
+<common:shortDescription xml:lang="en">Abiotic depletion potential for fossil resources (ADPF)</common:shortDescription>
+<common:shortDescription xml:lang="de">Potenzial für den abiotischen Abbau fossiler Brennstoffe (ADPF)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66.xml" type="unit group data set" refObjectId="93a60a57-a3c8-11da-a746-0800200c9a66">
+<common:shortDescription xml:lang="en">MJ</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">22.2</epd:amount>
+<epd:amount epd:module="A4">0.375</epd:amount>
+<epd:amount epd:module="A5">0.0372</epd:amount>
+<epd:amount epd:module="C1">0.0082</epd:amount>
+<epd:amount epd:module="C2">0.0297</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.0421</epd:amount>
+<epd:amount epd:module="C4">0.199</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.81</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-22.2</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-2.91</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b2ad66ce-c78d-11e6-9d9d-cec0c932ce01.xml" type="LCIA method data set" refObjectId="b2ad66ce-c78d-11e6-9d9d-cec0c932ce01">
+<common:shortDescription xml:lang="en">Water use (WDP)</common:shortDescription>
+<common:shortDescription xml:lang="de">Wassernutzung (WDP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/6ae2df01-888e-46c8-b17d-49fa3869b476.xml" type="unit group data set" refObjectId="6ae2df01-888e-46c8-b17d-49fa3869b476">
+<common:shortDescription xml:lang="en">m^(3) world-Äq. deprived</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.125</epd:amount>
+<epd:amount epd:module="A4">0.000252</epd:amount>
+<epd:amount epd:module="A5">0.0127</epd:amount>
+<epd:amount epd:module="C1">5.51E-06</epd:amount>
+<epd:amount epd:module="C2">2E-05</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.000522</epd:amount>
+<epd:amount epd:module="C4">0.00159</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.0047</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.125</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.00328</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c602c6-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c602c6-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Incidence of disease due to PM emissions (PM)</common:shortDescription>
+<common:shortDescription xml:lang="de">Auftreten von Krankheiten aufgrund von Feinstaubemissionen (PM)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/3883559b-648f-4afc-8ba2-0bd24f3affa3.xml" type="unit group data set" refObjectId="3883559b-648f-4afc-8ba2-0bd24f3affa3">
+<common:shortDescription xml:lang="en">Disease incidence</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">5.46E-08</epd:amount>
+<epd:amount epd:module="A4">1.73E-10</epd:amount>
+<epd:amount epd:module="A5">1.59E-10</epd:amount>
+<epd:amount epd:module="C1">3.47E-11</epd:amount>
+<epd:amount epd:module="C2">3.92E-11</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">4.43E-11</epd:amount>
+<epd:amount epd:module="C4">1.35E-09</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-5.54E-10</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-5.46E-08</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-8.8E-09</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b5c632be-def3-11e6-bf01-fe55135034f3.xml" type="LCIA method data set" refObjectId="b5c632be-def3-11e6-bf01-fe55135034f3">
+<common:shortDescription xml:lang="en">Human exposure efficiency relative to U235 (IR)</common:shortDescription>
+<common:shortDescription xml:lang="de">Wirkung durch Exposition des Menschen mit U235 (IR)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/456b05bf-1415-44a9-9993-02452f554c09.xml" type="unit group data set" refObjectId="456b05bf-1415-44a9-9993-02452f554c09">
+<common:shortDescription xml:lang="en">kBq U235-Äq.</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">0.014</epd:amount>
+<epd:amount epd:module="A4">6.71E-05</epd:amount>
+<epd:amount epd:module="A5">0.000225</epd:amount>
+<epd:amount epd:module="C1">1.47E-06</epd:amount>
+<epd:amount epd:module="C2">5.33E-06</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.00105</epd:amount>
+<epd:amount epd:module="C4">0.000232</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.00941</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-0.014</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.00636</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/ee1082d1-b0f7-43ca-a1f0-21e2a4a74511.xml" type="LCIA method data set" refObjectId="ee1082d1-b0f7-43ca-a1f0-21e2a4a74511">
+<common:shortDescription xml:lang="en">Comparative toxic unit for ecosystems (ETP-fw)</common:shortDescription>
+<common:shortDescription xml:lang="de">Toxizitätsvergleichseinheit für Ökosysteme (ETP-fw)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/aa959ded-f1eb-4efb-9c5c-2d60be36b3e6.xml" type="unit group data set" refObjectId="aa959ded-f1eb-4efb-9c5c-2d60be36b3e6">
+<common:shortDescription xml:lang="en">CTUe</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">43.3</epd:amount>
+<epd:amount epd:module="A4">0.265</epd:amount>
+<epd:amount epd:module="A5">0.0152</epd:amount>
+<epd:amount epd:module="C1">0.0058</epd:amount>
+<epd:amount epd:module="C2">0.021</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.018</epd:amount>
+<epd:amount epd:module="C4">0.114</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.166</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-43.3</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.16</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/2299222a-bbd8-474f-9d4f-4dd1f18aea7c.xml" type="LCIA method data set" refObjectId="2299222a-bbd8-474f-9d4f-4dd1f18aea7c">
+<common:shortDescription xml:lang="en">Comparative toxic unit for humans (carcinogenic) (HTP-c)</common:shortDescription>
+<common:shortDescription xml:lang="de">Toxizitätsvergleichseinheit für Menschen (krebserregend) (HTP-c)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/d4c9523e-2d7e-49fd-8469-998f547d3a70.xml" type="unit group data set" refObjectId="d4c9523e-2d7e-49fd-8469-998f547d3a70">
+<common:shortDescription xml:lang="en">CTUh</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">6.93E-10</epd:amount>
+<epd:amount epd:module="A4">5.55E-12</epd:amount>
+<epd:amount epd:module="A5">1.13E-12</epd:amount>
+<epd:amount epd:module="C1">1.21E-13</epd:amount>
+<epd:amount epd:module="C2">4.4E-13</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">4.97E-13</epd:amount>
+<epd:amount epd:module="C4">1.68E-11</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-7.47E-12</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-6.93E-10</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-2.18E-11</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/3af763a5-b7a1-48c9-9cee-1f223481fcef.xml" type="LCIA method data set" refObjectId="3af763a5-b7a1-48c9-9cee-1f223481fcef">
+<common:shortDescription xml:lang="en">Comparative toxic unit for humans (noncarcinogenic) (HTP-nc)</common:shortDescription>
+<common:shortDescription xml:lang="de">Toxizitätsvergleichseinheit für Menschen (nicht krebserregend) (HTP-nc)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/d4c9523e-2d7e-49fd-8469-998f547d3a70.xml" type="unit group data set" refObjectId="d4c9523e-2d7e-49fd-8469-998f547d3a70">
+<common:shortDescription xml:lang="en">CTUh</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">2.78E-08</epd:amount>
+<epd:amount epd:module="A4">2.87E-10</epd:amount>
+<epd:amount epd:module="A5">8.11E-11</epd:amount>
+<epd:amount epd:module="C1">7.28E-12</epd:amount>
+<epd:amount epd:module="C2">2.58E-11</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">1.83E-11</epd:amount>
+<epd:amount epd:module="C4">1.86E-09</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-2.78E-10</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-2.78E-08</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-8.34E-10</epd:amount>
+</common:other>
+</LCIAResult>
+<LCIAResult>
+<referenceToLCIAMethodDataSet uri="../lciamethods/b2ad6890-c78d-11e6-9d9d-cec0c932ce01.xml" type="LCIA method data set" refObjectId="b2ad6890-c78d-11e6-9d9d-cec0c932ce01">
+<common:shortDescription xml:lang="en">Soil quality index (SQP)</common:shortDescription>
+<common:shortDescription xml:lang="de">Bodenqualitätsindex (SQP)</common:shortDescription>
+</referenceToLCIAMethodDataSet>
+<common:other>
+<epd:referenceToUnitGroupDataSet uri="../unitgroups/f130951c-e67f-4f7f-8dd4-665de3974e18.xml" type="unit group data set" refObjectId="f130951c-e67f-4f7f-8dd4-665de3974e18">
+<common:shortDescription xml:lang="en">SQP</common:shortDescription>
+</epd:referenceToUnitGroupDataSet>
+<epd:amount epd:module="A1-A3">25</epd:amount>
+<epd:amount epd:module="A4">0.131</epd:amount>
+<epd:amount epd:module="A5">0.0107</epd:amount>
+<epd:amount epd:module="C1">0.00288</epd:amount>
+<epd:amount epd:module="C2">0.0104</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S2">0</epd:amount>
+<epd:amount epd:module="C3" epd:scenario="S3">0.0134</epd:amount>
+<epd:amount epd:module="C4">0.0415</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S0">-0.121</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S2">-25</epd:amount>
+<epd:amount epd:module="D" epd:scenario="S3">-0.0943</epd:amount>
+</common:other>
+</LCIAResult>
+</LCIAResults>
+</processDataSet>
