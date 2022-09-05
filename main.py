@@ -16,7 +16,7 @@ def get_data(xml):
 def get_meta_data(xml, stages):
     with open(xml,"r", errors='ignore') as fp:
         soup = BeautifulSoup(fp, 'xml')
-
+        if soup.find("baseName").get("xml:lang") == "de": return
         result = {}
         result["epdInfo"] = {}
         result["declaredUnit"] = {}
