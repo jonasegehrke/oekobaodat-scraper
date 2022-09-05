@@ -11,7 +11,7 @@ def get_data(xml):
   
   
   
-   ## TODO move to new function that takes care of "INFO"
+   
 
 def get_meta_data(xml, stages):
     with open(xml,"r", errors='ignore') as fp:
