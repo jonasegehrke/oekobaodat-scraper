@@ -80,7 +80,7 @@ def get_LCIA(xml):
 
     stages = []
     proceed = False
-    all_stage_enum = ["A1-A3","A1","A2","A3","A4","A5","B1","B2","B3","B4","B5","B&","B7","C1","C2","C3","C4","D"]
+    all_stage_enum = ["A1-A3","A1","A2","A3","A4","A5","B1","B2","B3","B4","B5","B6","B7","C1","C2","C3","C4","D"]
 
     for baseName in soup.find_all('baseName'):
         if baseName["xml:lang"] == "en":
@@ -103,18 +103,19 @@ def get_LCIA(xml):
                 key_elements = datapoint.find("referenceToLCIAMethodDataSet").find_all("common:shortDescription")
             if(datapoint.name == "exchange"):
                 key_elements = datapoint.find("referenceToFlowDataSet").find_all("common:shortDescription")
-
+            currentKey = ''
             for key_element in key_elements:
                 if '(' in key_element.text and ')' in key_element.text and key_element.get("xml:lang") == "en":
                     start = key_element.text.rfind('(') + 1
                     end = key_element.text.rfind(')')
                     currentKey = key_element.text[start:end]
+            if len(currentKey) <= 0:
+                continue
             all_amounts = datapoint.find_all('epd:amount')
             if "measures" not in stage_result:
                 stage_result["measures"] = {}
             for amount in all_amounts:
                 if stage_enum == amount['epd:module']:
-                    print(stage_enum)
                     stage_result["measures"][currentKey] = amount.text
                     break
                 else:
@@ -142,13 +143,12 @@ def runAll():
     all_xml = os.listdir(FOLDER_PATH)
     for FILE_NAME in all_xml:
         xml = os.path.join(FOLDER_PATH, FILE_NAME)
-        result = get_data(xml)
+        result = get_LCIA(xml)
         if result != None:
             results.append(result)
     return results
 
-result = runSingle("fc442d0a-fbc4-4304-ace8-24304756e2df.xml")
-
+result = runSingle("9099dfdd-22a6-4dee-9b60-0e90701e9d99.xml")
 
 #result = runAll()
 
