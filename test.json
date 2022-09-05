@@ -1,0 +1,42 @@
+{
+    "ownerId": "oekobaudat.id",
+    "custom": false,
+    "scraped": true,
+    "generic": true,
+    "expectedLifespan": null,
+    "shortName": "Automatic Sliding Door ST FLEX Green",
+    "longName": null,
+    "description": "The ST FLEX Green stands for an automatic sliding door system manufactured by DORMA. DORMA underlines its contribution to more energy efficiency and more sustainability with the sliding door ST FLEX Green. The automatic sliding door has a slim, thermal divided profile system on basis of the ST FLEX profile. Therefore, heat insulation is achieved without compromising in the slim profile. ST FLEX Green makes considerable savings of the running energy and heating costs possible, as well as a reduction in CO2-emissions for the entire use phase. To meet all requirements, the ST FLEX Green system is available with different ES 200 operator versions.",
+    "link": [
+      "https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?lang=en&uuid=284efda1-bb16-453a-bc32-070f3bab4cb3"
+    ],
+    "stages": [
+      {
+        "description": null,
+        "stageType": 0,
+        "stageStatus": null,
+        "measures": {
+          "additionalProp1": 0,
+          "additionalProp2": 0,
+          "additionalProp3": 0
+        }
+      }
+    ],
+    "declaredUnit": {
+      "declaredUnit": null,
+      "declaredValue": null,
+      "mass": null,
+      "massUnit": null
+    },
+    "epdInfo": {
+      "epdSpecificationForm": "EN 15804",
+      "epdProductIndustryType": null,
+      "issuedAt": "2017",
+      "validTo": "2022",
+      "dateRangeStart": null,
+      "dateRangeEnd": null
+    },
+    "tags": [
+      "The declared products are paving stones of various formats with a stone thickness of 6 cm. The surface weight is 135 kg / m² with a mixed-colored (mottled) surface, consisting of white and gray cement with sand components, but unprocessed. The concrete is made from aggregates (aggregates) cement, water, admixtures and additives. Only gray cement is used for the core concrete. In contrast, the intent contains due to the Black and white mottling partially white cement and additional gray cement with the addition of pigments. The life cycle assessment includes the production of the Concrete paving stone including raw material extraction, energy supply, raw material transport to the factory as well as expenses for the actual production."
+    ]
+  }
