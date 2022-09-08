@@ -1,138 +1,77 @@
 from bs4 import BeautifulSoup
 import os, io
 import json
-import re
-
-
-
-# def get_data(xml):
-#     with open(xml,"r", errors='ignore') as fp:
-#         soup = BeautifulSoup(fp, 'xml')
-        
-
-#     result = {}
-#     proceed = False
-#     currentKey = ""
-#     unit = ""
-#     for baseName in soup.find_all('baseName'):
-#         if baseName["xml:lang"] == "en":
-#             result["Title"] = baseName.text
-#             proceed = True
-
-#     if proceed == False:
-#         return
-
-#     all_lcia = soup.find_all('LCIAResult')
-#     for lcia in all_lcia:
-#         keys = lcia.find("referenceToLCIAMethodDataSet").find_all("common:shortDescription")
-#         units = lcia.find("epd:referenceToUnitGroupDataSet").find_all("common:shortDescription")
-#         for key in keys:
-#             if '(' in key.text and ')' in key.text and key.get("xml:lang") == "en":
-#                 start = key.text.rfind('(') + 1
-#                 end = key.text.rfind(')')
-#                 currentKey = key.text[start:end]
-#             elif key.get("xml:lang") == "en":
-#                 print(key)
-#         for u in units:
-#             if u.get("xml:lang") == "en":
-#                 unit = u.text
-#         if len(currentKey) > 0 and len(unit) > 0:
-#             values = lcia.find_all('epd:amount')
-#             result[currentKey] = {}
-#             result[currentKey]["Unit"] = unit
-                
-#             for value in values: 
-#                 result[currentKey][value['epd:module']] = value.text
-#             currentKey = ""
-#             unit = ""
-    
-#     all_exhanges = soup.find_all('exchange')
-#     for exchange in all_exhanges:
-#         if exchange.find('epd:amount'):
-#             keys = exchange.find("referenceToFlowDataSet").find_all('common:shortDescription')
-#             units = exchange.find("epd:referenceToUnitGroupDataSet").find_all('common:shortDescription')
-#             for key in keys:
-#                 if '(' in key.text and ')' in key.text and key.get("xml:lang") == "en":
-#                     start = key.text.rfind('(') + 1
-#                     end = key.text.rfind(')')
-#                     currentKey = key.text[start:end]
-#                 elif key.get("xml:lang") == "en":
-#                     print(key)
-#             for u in units:
-#                 if u.get("xml:lang") == "en":
-#                     unit = u.text
-#             if len(currentKey) > 0 and len(unit) > 0:
-#                 values = exchange.find_all('epd:amount')
-#                 result[currentKey] = {}
-#                 result[currentKey]["Unit"] = unit
-#                 for value in values:
-#                     result[currentKey][value['epd:module']] = value.text
-#                 currentKey = ""
-#                 unit = ""
-#     return result
 
 def get_meta_data(xml, stages):
     with open(xml,"r", errors='ignore') as fp:
         soup = BeautifulSoup(fp, 'xml')
         if soup.find("baseName").get("xml:lang") == "de": return
+        subType = soup.find("epd:subType") 
+        if subType == None: return
         result = {}
-        result["epdInfo"] = {}
-        result["declaredUnit"] = {}
-        result["link"] = []
+        if subType.text == "generic dataset":
+            
+            
+            result["epdInfo"] = {}
+            result["declaredUnit"] = {}
+            result["link"] = []
 
-        result["custom"] = False
-        result["scraped"] = True
+            result["custom"] = False
+            result["scraped"] = True
 
-        result["generic"] = True
-        result["expectedLifespan"] = None
+            result["generic"] = True
+            result["expectedLifespan"] = None
 
-        for baseName in soup.find_all('baseName'):
-            if baseName["xml:lang"] == "en":
-                result["shortName"] = baseName.text
+            for baseName in soup.find_all('baseName'):
+                if baseName["xml:lang"] == "en":
+                    result["shortName"] = baseName.text
+                    
+            
+            result["longName"] = None
+            product_description = soup.find("common:generalComment")
+            if product_description.get("xml:lang") == "en":
+                result["description"] = product_description.text
+
+            uuid = soup.find("dataSetInformation").find("common:UUID").text
+            result["link"] = "https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=" + uuid
+
+            if stages == None: return
+            result["stages"] = stages
+
+
+            
+            if soup.find("time") == None:
+                all_valid_until = None
+                all_reference_year = None
+            else:
+                all_valid_until = soup.find("time").find("common:dataSetValidUntil").text
+                all_reference_year = soup.find("time").find("common:referenceYear").text
+            
+            result["declaredUnit"]["declaredUnit"] = None
+            result["declaredUnit"]["declaredValue"] = None
+            result["declaredUnit"]["mass"] = None
+            result["declaredUnit"]["massUnit"] = None
+
+            result["epdInfo"]["issuedAt"] = all_reference_year
+            result["epdInfo"]["validTo"] = all_valid_until
+            result["epdInfo"]["dateRangeStart"] = None
+            result["epdInfo"]["dateRangeEnd"] = None
+            result["epdInfo"]["epdSpecificationForm"] = None
+            result["epdInfo"]["epdProductIndustryType"] = None
+            
                 
-        
-        result["longName"] = None
-        product_description = soup.find("common:generalComment")
-        if product_description.get("xml:lang") == "en":
-            result["description"] = product_description.text
+                
+            
+            # tags = soup.find("technologyDescriptionAndIncludedProcesses")
+            # if tags == None: return
+            # if tags.get("xml:lang") == "en":
+            #     tagArray = tags.text.split(" ")
+            #     result["tags"] = tagArray
+            # else:
+            #     result["tags"] = None
+            
 
-        uuid = soup.find("dataSetInformation").find("common:UUID").text
-        result["link"] = "https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=" + uuid
-
-        if stages == None: return
-        result["stages"] = stages
-
-
-        
-        if soup.find("time") == None:
-            all_valid_until = None
-            all_reference_year = None
-        else:
-            all_valid_until = soup.find("time").find("common:dataSetValidUntil").text
-            all_reference_year = soup.find("time").find("common:referenceYear").text
-        
-        result["declaredUnit"]["declaredUnit"] = None
-        result["declaredUnit"]["declaredValue"] = None
-        result["declaredUnit"]["mass"] = None
-        result["declaredUnit"]["massUnit"] = None
-
-        result["epdInfo"]["issuedAt"] = all_reference_year
-        result["epdInfo"]["validTo"] = all_valid_until
-        result["epdInfo"]["dateRangeStart"] = None
-        result["epdInfo"]["dateRangeEnd"] = None
-        result["epdInfo"]["epdSpecificationForm"] = None
-        result["epdInfo"]["epdProductIndustryType"] = None
-        
-        
-        tags = soup.find("technologyDescriptionAndIncludedProcesses")
-        if tags == None: return
-        if tags.get("xml:lang") == "en":
-            result["tags"] = tags.text
-        else:
-            result["tags"] = None
-        
-
-    return result
+        return result
 
         
 
@@ -197,7 +136,8 @@ def runSingle(file):
     FOLDER_PATH = r'/Users/andreasholmandersen/Documents/Capacit/oekobaodat-scraper/xml'
     FILE_NAME = file
     xml = os.path.join(FOLDER_PATH, FILE_NAME)
-    result = get_LCIA(xml)
+    stages = get_LCIA(xml)
+    result = get_meta_data(xml, stages)
     results.append(result)
     return results
 
