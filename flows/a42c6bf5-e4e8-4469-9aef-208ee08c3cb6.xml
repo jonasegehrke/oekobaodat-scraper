@@ -1,0 +1,137 @@
+<?xml-stylesheet version="1.0" href="../../stylesheets/flow2html.xsl" type="text/xsl"?>
+<flowDataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Flow" xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd" locations="../ILCDLocations.xml" version="1.1">
+  <flowInformation>
+    <dataSetInformation>
+      <common:UUID xmlns:common="http://lca.jrc.it/ILCD/Common">a42c6bf5-e4e8-4469-9aef-208ee08c3cb6</common:UUID>
+      <name>
+        <baseName xmlns:mm="http://www.matml.org/" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="en">Liquefied petroleum gas (LPG; 70% propane; 30% butane)</baseName>
+        <baseName xmlns:mm="http://www.matml.org/" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="de">Flüssiggas (LPG; 70 % Propan; 30 % Butan)</baseName>
+      </name>
+      <classificationInformation>
+        <common:elementaryFlowCategorization xmlns:common="http://lca.jrc.it/ILCD/Common" name="GaBiFlowCategorization" categories="../GaBiCategories.xml">
+          <common:category level="0" catId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:category>
+          <common:category level="1" catId="062d020f-bb4a-4d3d-938e-064d29048914">Energy carrier</common:category>
+          <common:category level="2" catId="a9e52661-bee7-4768-b55c-ae05922b7106">Fuels</common:category>
+          <common:category level="3" catId="5c7ae465-b752-4b66-9b31-86cb47df9c7c">Natural gas products</common:category>
+          <common:category level="4" catId="704c080b-c473-4dd1-8718-a65b62d1255c">LPG, at production</common:category>
+        </common:elementaryFlowCategorization>
+        <common:classification xmlns:common="http://lca.jrc.it/ILCD/Common" name="GaBiCategories" classes="../GaBiCategories.xml">
+          <common:class level="0" classId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:class>
+          <common:class level="1" classId="062d020f-bb4a-4d3d-938e-064d29048914">Energy carrier</common:class>
+          <common:class level="2" classId="a9e52661-bee7-4768-b55c-ae05922b7106">Fuels</common:class>
+          <common:class level="3" classId="5c7ae465-b752-4b66-9b31-86cb47df9c7c">Natural gas products</common:class>
+          <common:class level="4" classId="704c080b-c473-4dd1-8718-a65b62d1255c">LPG, at production</common:class>
+        </common:classification>
+      </classificationInformation>
+    </dataSetInformation>
+    <quantitativeReference>
+      <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+    </quantitativeReference>
+  </flowInformation>
+  <modellingAndValidation>
+    <LCIMethod>
+      <typeOfDataSet>Product flow</typeOfDataSet>
+    </LCIMethod>
+    <complianceDeclarations>
+      <compliance>
+        <common:referenceToComplianceSystem xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="9ba3ac1e-6797-4cc0-afd5-1b8f7bf28c6a" version="03.00.000" type="source data set" uri="../sources/9ba3ac1e-6797-4cc0-afd5-1b8f7bf28c6a.xml">
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">ILCD compliance 1.1</common:shortDescription>
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">ILCD compliance 1.1</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance xmlns:common="http://lca.jrc.it/ILCD/Common">Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+      <compliance>
+        <common:referenceToComplianceSystem xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66" version="02.00.000" type="source data set" uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml">
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">DIN EN 15804</common:shortDescription>
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">DIN EN 15804</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance xmlns:common="http://lca.jrc.it/ILCD/Common">Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+    </complianceDeclarations>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp xmlns:common="http://lca.jrc.it/ILCD/Common">2019-02-01T00:00:00+01:00</common:timeStamp>
+      <common:referenceToDataSetFormat xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="03.00.000" type="source data set" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">ILCD format 1.1</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">ILCD format 1.1</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToDataSetFormat xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="cba73800-7874-11e3-981f-0800200c9a66" version="02.00.000" type="source data set" uri="../sources/cba73800-7874-11e3-981f-0800200c9a66.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">EPD Data Format Extensions</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">EPD-Datenformaterweiterungen</common:shortDescription>
+      </common:referenceToDataSetFormat>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dataSetVersion xmlns:common="http://lca.jrc.it/ILCD/Common">39.00.000</common:dataSetVersion>
+      <common:referenceToOwnershipOfDataSet xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="623edf96-39d1-4e6f-9892-674c7228546b" version="02.00.000" type="contact data set" uri="../contacts/623edf96-39d1-4e6f-9892-674c7228546b.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">thinkstep</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">thinkstep</common:shortDescription>
+      </common:referenceToOwnershipOfDataSet>
+    </publicationAndOwnership>
+  </administrativeInformation>
+  <flowProperties>
+    <flowProperty dataSetInternalID="0">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-11da-a746-0800200b9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Mass</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Masse</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1</meanValue>
+    </flowProperty>
+    <flowProperty dataSetInternalID="1">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-14da-a746-0800200c9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-14da-a746-0800200c9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Energy (gross calorific value)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Energie (oberer Heizwert)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>50.13</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="2">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-11da-a746-0800200c9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Energy (net calorific value)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Energie (unterer Heizwert)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>46.16</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="3">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-13da-a746-0800200c9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-13da-a746-0800200c9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Standard volume</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Normvolumen</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.458589379069981</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="4">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-22da-a746-0800200c9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Volume</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Volumen</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.001892</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="5">
+      <referenceToFlowPropertyDataSet refObjectId="f138e814-c15d-42b0-8cd2-bdef72e6ac59" version="39.00.000" type="flow property data set" uri="../flowproperties/f138e814-c15d-42b0-8cd2-bdef72e6ac59.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">US market price 2002</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">US Marktpreis 2002</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.157381826</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="6">
+      <referenceToFlowPropertyDataSet refObjectId="fc0bbe37-85c6-4aea-8319-6dc1a13322a8" version="39.00.000" type="flow property data set" uri="../flowproperties/fc0bbe37-85c6-4aea-8319-6dc1a13322a8.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">C3H8_Vol</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">C3H8_Vol</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.321016982</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="7">
+      <referenceToFlowPropertyDataSet refObjectId="9eec6dc9-269d-4ed9-bff1-0170e3985383" version="39.00.000" type="flow property data set" uri="../flowproperties/9eec6dc9-269d-4ed9-bff1-0170e3985383.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">C4H10_Vol</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">C4H10_Vol</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.137579968</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+  </flowProperties>
+</flowDataSet>

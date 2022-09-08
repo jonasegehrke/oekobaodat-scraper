@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet version="1.0" href="../../stylesheets/flow2html.xsl" type="text/xsl"?>
+<flowDataSet xmlns="http://lca.jrc.it/ILCD/Flow" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd" locations="../ILCDLocations.xml" version="1.1" xmlns:mm="http://www.matml.org/">
+  <flowInformation>
+    <dataSetInformation>
+      <common:UUID>d94d2efe-7536-44b1-a3e8-f854fab1a2a7</common:UUID>
+      <name>
+        <baseName xml:lang="en">Coating powder</baseName>
+        <baseName xml:lang="de">Coating powder</baseName>
+      </name>
+      <classificationInformation>
+        <common:elementaryFlowCategorization name="GaBiFlowCategorization" categories="../GaBiCategories.xml">
+          <common:category level="0" catId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:category>
+          <common:category level="1" catId="b9671266-d655-43df-adbe-87b6edb87b20">Materials</common:category>
+          <common:category level="2" catId="4769d604-7943-4608-9095-044079bd5ab0">Paints</common:category>
+        </common:elementaryFlowCategorization>
+        <common:classification name="GaBiCategories" classes="../GaBiCategories.xml">
+          <common:class level="0" classId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:class>
+          <common:class level="1" classId="b9671266-d655-43df-adbe-87b6edb87b20">Materials</common:class>
+          <common:class level="2" classId="4769d604-7943-4608-9095-044079bd5ab0">Paints</common:class>
+        </common:classification>
+      </classificationInformation>
+    </dataSetInformation>
+    <quantitativeReference>
+      <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+    </quantitativeReference>
+  </flowInformation>
+  <modellingAndValidation>
+    <LCIMethod>
+      <typeOfDataSet>Product flow</typeOfDataSet>
+    </LCIMethod>
+    <complianceDeclarations>
+      <compliance>
+        <common:referenceToComplianceSystem refObjectId="c0016b33-8cf7-415c-ac6e-deba0d21440d" version="00.01.000" type="source data set" uri="../sources/c0016b33-8cf7-415c-ac6e-deba0d21440d.xml">
+          <common:shortDescription xml:lang="de">EN 15804+A2</common:shortDescription>
+          <common:shortDescription xml:lang="en">EN 15804+A2</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance>Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+    </complianceDeclarations>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp>2021-03-30T19:00:10+01:00</common:timeStamp>
+      <common:referenceToDataSetFormat refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.00.000" type="source data set" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+        <common:shortDescription xml:lang="de">ILCD format 1.1</common:shortDescription>
+        <common:shortDescription xml:lang="en">ILCD format 1.1</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToDataSetFormat refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde" version="00.01.000" type="source data set" uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml">
+        <common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+        <common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+      </common:referenceToDataSetFormat>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dataSetVersion>21.01.000</common:dataSetVersion>
+    </publicationAndOwnership>
+  </administrativeInformation>
+  <flowProperties>
+    <flowProperty dataSetInternalID="0">
+      <referenceToFlowPropertyDataSet refObjectId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" version="02.00.000" type="flow property data set" uri="../flowproperties/7e18d0ad-e78e-47a0-8e96-1c0a581902e2.xml">
+        <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+        <common:shortDescription xml:lang="de">Masse</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1</meanValue>
+    </flowProperty>
+    <flowProperty dataSetInternalID="1">
+      <referenceToFlowPropertyDataSet refObjectId="62e503ce-544a-4599-b2ad-bcea15a7bf20" version="21.01.000" type="flow property data set" uri="../flowproperties/62e503ce-544a-4599-b2ad-bcea15a7bf20.xml">
+        <common:shortDescription xml:lang="en">Biogenic carbon content in product (Biog. C in product)</common:shortDescription>
+        <common:shortDescription xml:lang="de">Biogener Kohlenstoffgehalt im Produkt (Biog. C in product)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="2">
+      <referenceToFlowPropertyDataSet refObjectId="262a541b-209e-44cc-a426-33bce30de7b1" version="21.01.000" type="flow property data set" uri="../flowproperties/262a541b-209e-44cc-a426-33bce30de7b1.xml">
+        <common:shortDescription xml:lang="en">Biogenic carbon content in accompanying packaging (Biog. C in packaging)</common:shortDescription>
+        <common:shortDescription xml:lang="de">Biogener Kohlenstoffgehalt in der zugehörigen Verpackung (Biog. C in packaging)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+  </flowProperties>
+</flowDataSet>

@@ -1,0 +1,140 @@
+<?xml-stylesheet version="1.0" href="../../stylesheets/flow2html.xsl" type="text/xsl"?>
+<flowDataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Flow" xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd" locations="../ILCDLocations.xml" version="1.1">
+  <flowInformation>
+    <dataSetInformation>
+      <common:UUID xmlns:common="http://lca.jrc.it/ILCD/Common">7fbe7537-71b7-4813-953e-786630585a67</common:UUID>
+      <name>
+        <baseName xmlns:mm="http://www.matml.org/" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="en">Gypsum fibre board (m2)</baseName>
+        <baseName xmlns:mm="http://www.matml.org/" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="de">Gipsfaserplatte (m2)</baseName>
+      </name>
+      <classificationInformation>
+        <common:elementaryFlowCategorization xmlns:common="http://lca.jrc.it/ILCD/Common" name="GaBiFlowCategorization" categories="../GaBiCategories.xml">
+          <common:category level="0" catId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:category>
+          <common:category level="1" catId="1a2515e3-7bbc-45f7-bf6b-22eff1dffcf3">Systems</common:category>
+          <common:category level="2" catId="69bd6dcb-8591-4e6a-af36-cf5392eafa4a">Parts</common:category>
+          <common:category level="3" catId="2302dcf6-78ec-4265-81ff-f0b45a3ef350">Other parts</common:category>
+        </common:elementaryFlowCategorization>
+        <common:classification xmlns:common="http://lca.jrc.it/ILCD/Common" name="GaBiCategories" classes="../GaBiCategories.xml">
+          <common:class level="0" classId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:class>
+          <common:class level="1" classId="1a2515e3-7bbc-45f7-bf6b-22eff1dffcf3">Systems</common:class>
+          <common:class level="2" classId="69bd6dcb-8591-4e6a-af36-cf5392eafa4a">Parts</common:class>
+          <common:class level="3" classId="2302dcf6-78ec-4265-81ff-f0b45a3ef350">Other parts</common:class>
+        </common:classification>
+      </classificationInformation>
+      <common:other xmlns:common="http://lca.jrc.it/ILCD/Common" xsi:schemaLocation="http://www.matml.org/ ../../schemas/matml31.xsd">
+        <mm:MatML_Doc xmlns:mm="http://www.matml.org/">
+          <Material xmlns="http://www.matml.org/">
+            <BulkDetails>
+              <Name>Gypsum fibre board (m2)</Name>
+              <PropertyData property="pr1">
+                <Data format="float">10</Data>
+              </PropertyData>
+            </BulkDetails>
+          </Material>
+          <mm:Metadata>
+            <PropertyDetails xmlns="http://www.matml.org/" id="pr1">
+              <Name>grammage</Name>
+              <Units name="kg/m^2">
+                <Unit power="1">
+                  <Name>kg</Name>
+                </Unit>
+                <Unit power="-2">
+                  <Name>m</Name>
+                </Unit>
+              </Units>
+            </PropertyDetails>
+          </mm:Metadata>
+        </mm:MatML_Doc>
+      </common:other>
+    </dataSetInformation>
+    <quantitativeReference>
+      <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+    </quantitativeReference>
+  </flowInformation>
+  <modellingAndValidation>
+    <LCIMethod>
+      <typeOfDataSet>Product flow</typeOfDataSet>
+    </LCIMethod>
+    <complianceDeclarations>
+      <compliance>
+        <common:referenceToComplianceSystem xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="9ba3ac1e-6797-4cc0-afd5-1b8f7bf28c6a" version="03.00.000" type="source data set" uri="../sources/9ba3ac1e-6797-4cc0-afd5-1b8f7bf28c6a.xml">
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">ILCD compliance 1.1</common:shortDescription>
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">ILCD compliance 1.1</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance xmlns:common="http://lca.jrc.it/ILCD/Common">Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+      <compliance>
+        <common:referenceToComplianceSystem xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66" version="02.00.000" type="source data set" uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml">
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">DIN EN 15804</common:shortDescription>
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">DIN EN 15804</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance xmlns:common="http://lca.jrc.it/ILCD/Common">Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+    </complianceDeclarations>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp xmlns:common="http://lca.jrc.it/ILCD/Common">2019-11-13T14:25:59+01:00</common:timeStamp>
+      <common:referenceToDataSetFormat xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="03.00.000" type="source data set" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">ILCD format 1.1</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">ILCD format 1.1</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToDataSetFormat xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="cba73800-7874-11e3-981f-0800200c9a66" version="02.00.000" type="source data set" uri="../sources/cba73800-7874-11e3-981f-0800200c9a66.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">EPD Data Format Extensions</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">EPD-Datenformaterweiterungen</common:shortDescription>
+      </common:referenceToDataSetFormat>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dataSetVersion xmlns:common="http://lca.jrc.it/ILCD/Common">39.00.000</common:dataSetVersion>
+    </publicationAndOwnership>
+  </administrativeInformation>
+  <flowProperties>
+    <flowProperty dataSetInternalID="0">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-19da-a746-0800200c9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-19da-a746-0800200c9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Area</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Fläche</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1</meanValue>
+    </flowProperty>
+    <flowProperty dataSetInternalID="1">
+      <referenceToFlowPropertyDataSet refObjectId="4cb42c14-00e2-425c-ad3c-e5093beeeea2" version="39.00.000" type="flow property data set" uri="../flowproperties/4cb42c14-00e2-425c-ad3c-e5093beeeea2.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">02 EN15804+A2 Primary energy resources used as raw materials (PERM)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">02 EN15804+A2 Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>15</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="2">
+      <referenceToFlowPropertyDataSet refObjectId="f9369d6b-fc8f-4275-b6d7-578a0c8ac8a7" version="39.00.000" type="flow property data set" uri="../flowproperties/f9369d6b-fc8f-4275-b6d7-578a0c8ac8a7.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Primary energy resources used as raw materials (PERM)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>15</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="3">
+      <referenceToFlowPropertyDataSet refObjectId="fb3ec0de-548d-4508-aea5-00b73bf6f702" version="39.00.000" type="flow property data set" uri="../flowproperties/fb3ec0de-548d-4508-aea5-00b73bf6f702.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Primary energy resources used as raw materials (PERM)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Erneuerbare Primärenergie zur stofflichen Nutzung (PERM)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>15</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="4">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-11da-a746-0800200b9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Mass</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Masse</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>10</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="5">
+      <referenceToFlowPropertyDataSet refObjectId="6b2d044b-73e8-49e9-a6b9-3c0e1a950f2f" version="39.00.000" type="flow property data set" uri="../flowproperties/6b2d044b-73e8-49e9-a6b9-3c0e1a950f2f.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Other materials and material compounds (unspecified)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Sonstige Werkstoffe und Werkstoffverbunde (unspezifisch)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>24.1</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+  </flowProperties>
+</flowDataSet>

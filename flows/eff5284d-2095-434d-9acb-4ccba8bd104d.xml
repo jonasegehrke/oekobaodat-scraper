@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>eff5284d-2095-434d-9acb-4ccba8bd104d</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="de">Tor - EFAFLEX Tor- und Sicherheitssysteme GmbH &amp; Co. KG - Schnelllauf-Turbotor STT</f:baseName>
+            </f:name>
+            <common:synonyms xml:lang="de">Schnelllauf; Turbotor; EFA-SST; EFA-CLEAR</common:synonyms>
+            <f:classificationInformation>
+                <common:classification name="OEKOBAU.DAT">
+                    <common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="7.6">Türen und Tore</common:class>
+                    <common:class level="2" classId="7.6.02">Aluminium</common:class>
+                </common:classification>
+            </f:classificationInformation>
+            <common:other>
+                <mat:MatML_Doc xmlns:mat="http://www.matml.org/">
+                    <mat:Material>
+                        <mat:BulkDetails>
+                            <mat:Name>Tor - EFAFLEX Tor- und Sicherheitssysteme GmbH &amp; Co. KG - Schnelllauf-Turbotor STT</mat:Name>
+                            <mat:PropertyData property="pr5">
+<mat:Data format="float">15.2</mat:Data>
+                            </mat:PropertyData>
+                            <mat:PropertyData property="pr2">
+<mat:Data format="float">85.08</mat:Data>
+                            </mat:PropertyData>
+                        </mat:BulkDetails>
+                    </mat:Material>
+                    <mat:Metadata>
+                        <mat:PropertyDetails id="pr5">
+                            <mat:Name>productiveness</mat:Name>
+                            <mat:Units description="square metres" name="m^2">
+<mat:Unit>
+    <mat:Name>m^2</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                        <mat:PropertyDetails id="pr2">
+                            <mat:Name>grammage</mat:Name>
+                            <mat:Units description="kilograms per square metre" name="kg/m^2">
+<mat:Unit>
+    <mat:Name>kg/m^2</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                    </mat:Metadata>
+                </mat:MatML_Doc>
+            </common:other>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Product flow</f:typeOfDataSet>
+            <common:other>
+                <epd:vendorSpecificProduct xmlns:epd="http://www.iai.kit.edu/EPD/2013">true</epd:vendorSpecificProduct>
+                <epd:referenceToVendor xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="c7d74963-279d-43f6-b4a4-cc15fc60248d" type="contact data set" uri="../contacts/c7d74963-279d-43f6-b4a4-cc15fc60248d" xml:lang="">
+                    <common:shortDescription>EFAFLEX Tor- und Sicherheitssysteme GmbH Co. KG</common:shortDescription>
+                </epd:referenceToVendor>
+                <epd:referenceToSource xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="626b88c8-0808-4c9a-a9ea-3da6594a7b26" type="source data set" uri="../sources/626b88c8-0808-4c9a-a9ea-3da6594a7b26" xml:lang="">
+                    <common:shortDescription>EPD Schnellauf-Spiraltor und -Turbotor</common:shortDescription>
+                </epd:referenceToSource>
+            </common:other>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2020-01-27T09:25:40.794+01:00</common:timeStamp>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>00.01.002</common:dataSetVersion>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="93a60a56-a3c8-19da-a746-0800200c9a66" version="03.00.000">
+                <common:shortDescription xml:lang="de">Fläche</common:shortDescription>
+                <common:shortDescription xml:lang="en">Area</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>

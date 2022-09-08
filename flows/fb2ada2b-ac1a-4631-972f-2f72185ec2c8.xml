@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>fb2ada2b-ac1a-4631-972f-2f72185ec2c8</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="de">Tür - Hörmann KG Eckelhausen - Haustür</f:baseName>
+            </f:name>
+            <common:synonyms xml:lang="de">Haustür-Konstruktion</common:synonyms>
+            <f:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="7.6">Türen und Tore</common:class>
+                    <common:class level="2" classId="acf68cfd-f546-40c5-bbf2-e4d7a8228ef1">Aluminium</common:class>
+                </common:classification>
+                <common:classification name="OEKOBAU.DAT">
+                    <common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="7.6">Türen und Tore</common:class>
+                    <common:class level="2" classId="7.6.02">Aluminium</common:class>
+                </common:classification>
+            </f:classificationInformation>
+            <common:other>
+                <mat:MatML_Doc xmlns:mat="http://www.matml.org/">
+                    <mat:Material>
+                        <mat:BulkDetails>
+                            <mat:Name>Tür - Hörmann KG Eckelhausen - Haustür</mat:Name>
+                            <mat:PropertyData property="pr2">
+<mat:Data format="float">47.0</mat:Data>
+                            </mat:PropertyData>
+                        </mat:BulkDetails>
+                    </mat:Material>
+                    <mat:Metadata>
+                        <mat:PropertyDetails id="pr2">
+                            <mat:Name>grammage</mat:Name>
+                            <mat:Units description="kilograms per square metre" name="kg/m^2">
+<mat:Unit>
+    <mat:Name>kg/m^2</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                    </mat:Metadata>
+                </mat:MatML_Doc>
+            </common:other>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Product flow</f:typeOfDataSet>
+            <common:other>
+                <epd:vendorSpecificProduct xmlns:epd="http://www.iai.kit.edu/EPD/2013">true</epd:vendorSpecificProduct>
+                <epd:referenceToVendor xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="d8058e90-3e48-4633-8ca5-71dc8453e982" type="contact data set" uri="../contacts/d8058e90-3e48-4633-8ca5-71dc8453e982" xml:lang="">
+                    <common:shortDescription>Hörmann KG Eckelhausen</common:shortDescription>
+                </epd:referenceToVendor>
+                <epd:referenceToSource xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="bf03aaad-7607-46cc-8405-e2f9d11d1571" type="source data set" uri="../sources/bf03aaad-7607-46cc-8405-e2f9d11d1571" xml:lang="">
+                    <common:shortDescription>EPD Haustüren</common:shortDescription>
+                </epd:referenceToSource>
+            </common:other>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2019-05-13T12:01:00.064+02:00</common:timeStamp>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>00.01.001</common:dataSetVersion>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="93a60a56-a3c8-19da-a746-0800200c9a66" version="03.00.000">
+                <common:shortDescription xml:lang="de">Fläche</common:shortDescription>
+                <common:shortDescription xml:lang="en">Area</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>

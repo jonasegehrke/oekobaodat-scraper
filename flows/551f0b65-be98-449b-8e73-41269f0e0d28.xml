@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>551f0b65-be98-449b-8e73-41269f0e0d28</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="de">Gussglas - Glasfabrik Lamberts GmbH &amp; Co. KG - LINIT Profilbauglas, veredelt</f:baseName>
+            </f:name>
+            <common:synonyms xml:lang="de">thermisch vorgespannt; farbemailliert; sandgestrahlt; U-Form; Glas</common:synonyms>
+            <f:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="cae15de9-ddb9-4edf-b2ed-24292a992473">Füllungen</common:class>
+                    <common:class level="2" classId="85172eb2-b992-4702-b1c5-7fb7139bcc4a">Transparente Füllungen</common:class>
+                </common:classification>
+                <common:classification name="OEKOBAU.DAT">
+                    <common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="7.2">Füllungen</common:class>
+                    <common:class level="2" classId="7.2.01">Transparente Füllungen</common:class>
+                </common:classification>
+            </f:classificationInformation>
+            <common:other>
+                <mat:MatML_Doc xmlns:mat="http://www.matml.org/">
+                    <mat:Material>
+                        <mat:BulkDetails>
+                            <mat:Name>Gussglas - Glasfabrik Lamberts GmbH &amp; Co. KG - LINIT Profilbauglas, veredelt</mat:Name>
+                            <mat:PropertyData property="pr2">
+<mat:Data format="float">25.5</mat:Data>
+                            </mat:PropertyData>
+                            <mat:PropertyData property="pr3">
+<mat:Data format="float">2500.0</mat:Data>
+                            </mat:PropertyData>
+                            <mat:PropertyData property="pr4">
+<mat:Data format="float">0.007</mat:Data>
+                            </mat:PropertyData>
+                        </mat:BulkDetails>
+                    </mat:Material>
+                    <mat:Metadata>
+                        <mat:PropertyDetails id="pr2">
+                            <mat:Name>grammage</mat:Name>
+                            <mat:Units description="kilograms per square metre" name="kg/m^2">
+<mat:Unit>
+    <mat:Name>kg/m^2</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                        <mat:PropertyDetails id="pr3">
+                            <mat:Name>gross density</mat:Name>
+                            <mat:Units description="kilograms per cubic metre" name="kg/m^3">
+<mat:Unit>
+    <mat:Name>kg/m^3</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                        <mat:PropertyDetails id="pr4">
+                            <mat:Name>layer thickness</mat:Name>
+                            <mat:Units description="metres" name="m">
+<mat:Unit>
+    <mat:Name>m</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                    </mat:Metadata>
+                </mat:MatML_Doc>
+            </common:other>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Product flow</f:typeOfDataSet>
+            <common:other>
+                <epd:vendorSpecificProduct xmlns:epd="http://www.iai.kit.edu/EPD/2013">true</epd:vendorSpecificProduct>
+                <epd:referenceToVendor xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="5d42fbab-9330-4be9-96e5-b15c08a6ab12" type="contact data set" uri="../contacts/5d42fbab-9330-4be9-96e5-b15c08a6ab12" xml:lang="">
+                    <common:shortDescription>Glasfabrik Lamberts GmbH &amp; Co. KG</common:shortDescription>
+                </epd:referenceToVendor>
+                <epd:referenceToSource xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="a5ecfd78-a4cd-49ee-8dc4-da320d450b0f" type="source data set" uri="../sources/a5ecfd78-a4cd-49ee-8dc4-da320d450b0f" xml:lang="">
+                    <common:shortDescription>EPD Ornament-, Draht-, Solar- und Profilbauglas</common:shortDescription>
+                </epd:referenceToSource>
+            </common:other>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2020-01-24T12:02:57.638+01:00</common:timeStamp>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>00.01.004</common:dataSetVersion>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="93a60a56-a3c8-19da-a746-0800200c9a66" version="03.00.000">
+                <common:shortDescription xml:lang="de">Fläche</common:shortDescription>
+                <common:shortDescription xml:lang="en">Area</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>

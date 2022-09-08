@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+            <?xml-stylesheet version='1.0' href='../../stylesheets/flow2html.xsl' type='text/xsl'?>
+            <flowDataSet xmlns:epd='http://www.iai.kit.edu/EPD/2013' xmlns:common='http://lca.jrc.it/ILCD/Common' xmlns='http://lca.jrc.it/ILCD/Flow' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' version='1.1' locations='../ILCDLocations.xml' xsi:schemaLocation='http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd'>
+              <flowInformation>
+                <dataSetInformation>
+                  <common:UUID>daf6d727-c2b8-2f56-f785-57bc6af431e2</common:UUID>
+                  <name>
+                      <baseName xml:lang='en'>heterogeneous polyvinyl chloride floor covering (2.75 kg/m²)</baseName>
+                  </name>
+                  <classificationInformation>
+                    <common:classification name='OEKOBAU.DAT'>
+                      <common:class level='0' classId='6'>Kunststoffe</common:class>
+                      <common:class level='1' classId='6.2'>Bodenbeläge</common:class>
+                      <common:class level='2' classId='6.2.01'>PVC-Bodenbeläge</common:class>
+                    </common:classification>
+                  </classificationInformation>
+                  <common:other xmlns='http://www.matml.org/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.matml.org/ ../../schemas/matml31.xsd'>
+                    <MatML_Doc>
+                      <Material>
+                        <BulkDetails>
+                          <Name>Material</Name>
+                          <PropertyData property='pr2'>
+                            <Data format='float'>2.75</Data>
+                          </PropertyData>
+                          <PropertyData property='pr3'>
+                            <Data format='float'>2.75</Data>
+                          </PropertyData>
+                          <PropertyData property='pr4'>
+                            <Data format='float'>0.0021</Data>
+                          </PropertyData>
+                        </BulkDetails>
+                      </Material>
+                      <Metadata>
+                        <PropertyDetails id='pr2'>
+                          <Name>Conversion factor to 1 kg</Name>
+                          <Units name='-' description='Without unit'>
+                            <Unit>
+                              <Name>-</Name>
+                            </Unit>
+                          </Units>
+                        </PropertyDetails>
+                        <PropertyDetails id='pr3'>
+                          <Name>Grammage</Name>
+                          <Units name='kg/m^2' description='Kilogram per square meter'>
+                            <Unit>
+                              <Name>kg/m^2</Name>
+                            </Unit>
+                          </Units>
+                        </PropertyDetails>
+                        <PropertyDetails id='pr4'>
+                          <Name>Layer thickness</Name>
+                          <Units name='m' description='Length'>
+                            <Unit>
+                              <Name>m</Name>
+                            </Unit>
+                          </Units>
+                        </PropertyDetails>
+                      </Metadata>
+                    </MatML_Doc>
+                  </common:other>
+                </dataSetInformation>
+                <quantitativeReference>
+                  <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+                </quantitativeReference>
+              </flowInformation>
+              <modellingAndValidation>
+                <LCIMethod>
+                  <typeOfDataSet>Product flow</typeOfDataSet>
+                  <common:other>
+                    <epd:vendorSpecificProduct>false</epd:vendorSpecificProduct>
+                  </common:other>
+                </LCIMethod>
+              </modellingAndValidation>
+              <administrativeInformation>
+                <dataEntryBy>
+                  <common:timeStamp>2020-12-15T14:41:45.4063605+01:00</common:timeStamp>
+                </dataEntryBy>
+                <publicationAndOwnership>
+                  <common:dataSetVersion>00.03.000</common:dataSetVersion>
+                </publicationAndOwnership>
+              </administrativeInformation>
+              <flowProperties>
+                <flowProperty dataSetInternalID='0'>
+                  <referenceToFlowPropertyDataSet refObjectId='93a60a56-a3c8-19da-a746-0800200c9a66'
+                                                  type='flow property data set'
+                                                  uri='../flowproperties/93a60a56-a3c8-19da-a746-0800200c9a66.xml'>
+                    <common:shortDescription xml:lang='en'>Area</common:shortDescription>
+                  </referenceToFlowPropertyDataSet>
+                  <meanValue>1</meanValue>
+                </flowProperty>
+              </flowProperties>
+            </flowDataSet>
+        

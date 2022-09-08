@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet version="1.0" href="../../stylesheets/flow2html.xsl" type="text/xsl"?>
+<flowDataSet xmlns="http://lca.jrc.it/ILCD/Flow" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd" locations="../ILCDLocations.xml" version="1.1" xmlns:mm="http://www.matml.org/">
+  <flowInformation>
+    <dataSetInformation>
+      <common:UUID>e1aa85fe-c4aa-47f2-a63c-2e70f97a4454</common:UUID>
+      <name>
+        <baseName xml:lang="en">Reinforcing mortar</baseName>
+        <baseName xml:lang="de">Reinforcing mortar</baseName>
+      </name>
+      <classificationInformation>
+        <common:elementaryFlowCategorization name="GaBiFlowCategorization" categories="../GaBiCategories.xml">
+          <common:category level="0" catId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:category>
+          <common:category level="1" catId="b9671266-d655-43df-adbe-87b6edb87b20">Materials</common:category>
+          <common:category level="2" catId="945a7f03-8ddf-4e38-934a-5b467a7a955b">Minerals</common:category>
+        </common:elementaryFlowCategorization>
+        <common:classification name="GaBiCategories" classes="../GaBiCategories.xml">
+          <common:class level="0" classId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:class>
+          <common:class level="1" classId="b9671266-d655-43df-adbe-87b6edb87b20">Materials</common:class>
+          <common:class level="2" classId="945a7f03-8ddf-4e38-934a-5b467a7a955b">Minerals</common:class>
+        </common:classification>
+      </classificationInformation>
+      <common:other xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.matml.org/ ../../schemas/matml31.xsd">
+        <mm:MatML_Doc>
+          <Material xmlns="http://www.matml.org/">
+            <BulkDetails>
+              <Name>Reinforcing mortar</Name>
+              <PropertyData property="pr1">
+                <Data format="float">1550</Data>
+              </PropertyData>
+            </BulkDetails>
+          </Material>
+          <mm:Metadata>
+            <PropertyDetails xmlns="http://www.matml.org/" id="pr1">
+              <Name>gross density</Name>
+              <Units name="kg/m^3">
+                <Unit power="1">
+                  <Name>kg</Name>
+                </Unit>
+                <Unit power="-3">
+                  <Name>m</Name>
+                </Unit>
+              </Units>
+            </PropertyDetails>
+          </mm:Metadata>
+        </mm:MatML_Doc>
+      </common:other>
+    </dataSetInformation>
+    <quantitativeReference>
+      <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+    </quantitativeReference>
+  </flowInformation>
+  <modellingAndValidation>
+    <LCIMethod>
+      <typeOfDataSet>Product flow</typeOfDataSet>
+    </LCIMethod>
+    <complianceDeclarations>
+      <compliance>
+        <common:referenceToComplianceSystem refObjectId="c0016b33-8cf7-415c-ac6e-deba0d21440d" version="00.01.000" type="source data set" uri="../sources/c0016b33-8cf7-415c-ac6e-deba0d21440d.xml">
+          <common:shortDescription xml:lang="de">EN 15804+A2</common:shortDescription>
+          <common:shortDescription xml:lang="en">EN 15804+A2</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance>Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+    </complianceDeclarations>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp>2021-03-30T18:56:23+01:00</common:timeStamp>
+      <common:referenceToDataSetFormat refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.00.000" type="source data set" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+        <common:shortDescription xml:lang="de">ILCD format 1.1</common:shortDescription>
+        <common:shortDescription xml:lang="en">ILCD format 1.1</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToDataSetFormat refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde" version="00.01.000" type="source data set" uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml">
+        <common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+        <common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+      </common:referenceToDataSetFormat>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dataSetVersion>21.01.000</common:dataSetVersion>
+      <common:referenceToOwnershipOfDataSet refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="21.01.000" type="contact data set" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010.xml">
+        <common:shortDescription xml:lang="en">Sphera Solutions GmbH</common:shortDescription>
+      </common:referenceToOwnershipOfDataSet>
+    </publicationAndOwnership>
+  </administrativeInformation>
+  <flowProperties>
+    <flowProperty dataSetInternalID="0">
+      <referenceToFlowPropertyDataSet refObjectId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" version="02.00.000" type="flow property data set" uri="../flowproperties/7e18d0ad-e78e-47a0-8e96-1c0a581902e2.xml">
+        <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+        <common:shortDescription xml:lang="de">Masse</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1</meanValue>
+    </flowProperty>
+  </flowProperties>
+</flowDataSet>

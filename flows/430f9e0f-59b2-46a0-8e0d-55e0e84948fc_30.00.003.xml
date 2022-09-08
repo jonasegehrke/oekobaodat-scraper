@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1" locations="../ILCDLocations.xml">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>430f9e0f-59b2-46a0-8e0d-55e0e84948fc</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="en">Hazardous waste disposed (HWD)</f:baseName>
+                <f:baseName xml:lang="de">Gefährlicher Abfall zur Deponie (HWD)</f:baseName>
+                <f:baseName xml:lang="es">Residuos peligrosos eliminados (HWD)</f:baseName>
+            </f:name>
+            <f:classificationInformation>
+                <common:classification name="GaBiCategories" classes="../GaBiCategories.xml">
+                    <common:class level="0" classId="f9ec79e6-9fdd-4691-9c05-04e9fa45fb14">Größen</common:class>
+                    <common:class level="1" classId="34390d09-b09f-4f90-9b44-f5967461e18c">Umweltliche Größen</common:class>
+                    <common:class level="2" classId="66999bad-2002-445f-bc89-8230780f539a">EPD EN 15804</common:class>
+                    <common:class level="3" classId="c3bb7da8-448e-496f-8185-7e1c5ce9908d">LCI Indikatoren</common:class>
+                </common:classification>
+            </f:classificationInformation>
+            <common:generalComment xml:lang="en">according to EN 15804</common:generalComment>
+            <common:generalComment xml:lang="de">Größe nach EN 15804</common:generalComment>
+            <common:generalComment xml:lang="es">conforme a EN 15804</common:generalComment>
+        </f:dataSetInformation>
+        <f:quantitativeReference/>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Other flow</f:typeOfDataSet>
+            <common:other>
+                <epd:vendorSpecificProduct xmlns:epd="http://www.iai.kit.edu/EPD/2013">false</epd:vendorSpecificProduct>
+            </common:other>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2020-10-08T22:40:20.243+02:00</common:timeStamp>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>30.00.003</common:dataSetVersion>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+</f:flowDataSet>

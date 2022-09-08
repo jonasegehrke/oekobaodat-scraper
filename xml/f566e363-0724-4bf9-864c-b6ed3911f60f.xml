@@ -20,8 +20,23 @@
 <common:class level="2">Antriebssysteme für Automatiktüren und -tore</common:class>
 </common:classification>
 </classificationInformation>
-<common:generalComment xml:lang="de">Das innovative Schiebetür-Antriebssystem ES 200 bietet passgenaue Lösungen für alle Anwendungsgebiete und Einsatzbereiche. Mit dem ES 200 bietet DORMA ein Antriebssystem, das durch den modularen Aufbau mit einer geringen Anzahl von Komponenten alle Anwendungsbereiche abdeckt. Das modulare und flexible Antriebssystem steht in den nachfolgenden Varianten zur Verfügung:ES 200 StandardES 200 2DES 200 EASYES 200 EASYplusDie Produktfamilie des modularen automatischen Antriebssystems ES 200 steht stellvertretend für alle oben genannten Varianten. Die gewichtete Durchschnittsbildung (Stoff- und Energieströme) erfolgt anhand der im Bezugszeitraum anteilig verkauften Menge der analysierten ES 200 Varianten.</common:generalComment>
-<common:generalComment xml:lang="en">The innovative automatic drive system ES 200 for sliding doors is a solution for any fields of application and scope of operation. The ES 200 allows DORMA to supply a drive system that covers all applications due to its modular construction with a low number of components. The modular and flexible drive system is available in the following variants: ES 200 StandardES 200 2DES 200 EASYES 200 EASYplus.The product family of the modular automatic ES 200 drive system covers all above mentioned drive systems. Average values (material and energy flows) are based on the volumes of ES 200 variants sold during the reference period.</common:generalComment>
+<common:generalComment xml:lang="de">Das innovative Schiebetür-Antriebssystem ES 200 bietet passgenaue Lösungen für alle Anwendungsgebiete und Einsatzbereiche. Mit dem ES 200 bietet DORMA ein Antriebssystem, das durch den modularen Aufbau mit einer geringen Anzahl von Komponenten alle Anwendungsbereiche abdeckt. Das modulare und flexible Antriebssystem steht in den nachfolgenden Varianten zur Verfügung:
+
+ES 200 Standard
+ES 200 2D
+ES 200 EASY
+ES 200 EASYplus
+
+
+Die Produktfamilie des modularen automatischen Antriebssystems ES 200 steht stellvertretend für alle oben genannten Varianten. Die gewichtete Durchschnittsbildung (Stoff- und Energieströme) erfolgt anhand der im Bezugszeitraum anteilig verkauften Menge der analysierten ES 200 Varianten.</common:generalComment>
+<common:generalComment xml:lang="en">The innovative automatic drive system ES 200 for sliding doors is a solution for any fields of application and scope of operation. The ES 200 allows DORMA to supply a drive system that covers all applications due to its modular construction with a low number of components. The modular and flexible drive system is available in the following variants: 
+
+ES 200 Standard
+ES 200 2D
+ES 200 EASY
+ES 200 EASYplus.
+
+The product family of the modular automatic ES 200 drive system covers all above mentioned drive systems. Average values (material and energy flows) are based on the volumes of ES 200 variants sold during the reference period.</common:generalComment>
 </dataSetInformation>
 <quantitativeReference>
 <referenceToReferenceFlow>0</referenceToReferenceFlow>
@@ -41,12 +56,24 @@
 Technische Daten: 
 Folgende technische Daten sind für die Ökobilanz relevant: 
 Deklarierte Einheit: 
-Die deklarierte Einheit ist der Durchschnitt für ein (1) Stück des modularen Automatikantriebsystems für Schiebetüren, gemittelt aus den Vertriebsmengen der Varianten:ES 200 StandardES 200-2DES 200 EASYES 200 EASYplusinklusive der jeweiligen Verpackungsmaterialien.</technologyDescriptionAndIncludedProcesses>
+Die deklarierte Einheit ist der Durchschnitt für ein (1) Stück des modularen Automatikantriebsystems für Schiebetüren, gemittelt aus den Vertriebsmengen der Varianten:
+
+ES 200 Standard
+ES 200-2D
+ES 200 EASY
+ES 200 EASYplusinklusive der jeweiligen Verpackungsmaterialien.</technologyDescriptionAndIncludedProcesses>
 <technologyDescriptionAndIncludedProcesses xml:lang="en">The innovative automatic drive system ES 200 for sliding doors is a solution for any fields of application and scope of operation. The ES 200 allows DORMA to supply a drive system that covers all applications due to its modular construction with a low number of components. The modular and flexible drive system is available in the following variants:  ES 200 Standard  ES 200 2D  ES 200 EASY  ES 200 EASYplus. The product family of the modular automatic ES 200 drive system covers all above mentioned drive systems. Average values (material and energy flows) are based on the volumes of ES 200 variants sold during the reference period. The drive units and requisite circuit boards of the ES 200 product family are manufactured at DORMA. The certified Quality Management system in accordance with /DIN EN ISO 9001/ safeguards the high quality standard of DORMA products. It guarantees continuous improvement of the overall processes and product quality at the DORMA locations. 
 Technical data: 
 The following technical data is of relevance for the LCA: 
 Declared unit: 
-The declared unit is the average for one (1) modular automatic drive system for sliding doors as sales averages of the ES 200 StandardES 200-2D ES 200 EASYES 200 EASYplusincluding the respective packaging materials.</technologyDescriptionAndIncludedProcesses>
+The declared unit is the average for one (1) modular automatic drive system for sliding doors as sales averages of the 
+
+ES 200 Standard
+ES 200-2D 
+ES 200 EASY
+ES 200 EASYplus
+
+including the respective packaging materials.</technologyDescriptionAndIncludedProcesses>
 <technologicalApplicability xml:lang="de">Das automatische Antriebssystem ES 200 wird als automatischer Antrieb zur Automatisierung von Schiebetüranlagen sowie zur Automatisierung von Flucht- und Rettungswegen wie folgt eingesetzt:</technologicalApplicability>
 <technologicalApplicability xml:lang="en">The automatic ES 200 drive system is used as a drive for automating sliding door systems as well as escape and rescue routes:</technologicalApplicability>
 <referenceToTechnologyFlowDiagrammOrPicture uri="../sources/cac1148a-3f7f-4f0b-a1fe-f6b2054cc7d1.xml" type="source data set" refObjectId="cac1148a-3f7f-4f0b-a1fe-f6b2054cc7d1">
@@ -72,13 +99,62 @@ The declared unit is the average for one (1) modular automatic drive system for 
 <common:shortDescription xml:lang="de">GaBi database SP28 2015</common:shortDescription>
 </referenceToDataSource>
 <useAdviceForDataSet xml:lang="de">Gültigkeitsbereich: 
-Die EPD bezieht sich auf den gesamten Lebensweg eines durchschnittlichen ES 200 Antriebsystems. Die unterschiedlichen technischen Eigenschaften werden in Kapitel 2.3 dargestellt. Produktionsstandort des Produkts ist der DORMA Produktionsstandort Ennepetal, Deutschland. Daneben werden Produktkomponenten von dem DORMA Standort Bonn bezogen. Die Stoff- und Energieströme wurden entsprechend berücksichtigt. 
+Die EPD bezieht sich auf den gesamten Lebensweg eines durchschnittlichen ES 200 Antriebsystems. Die unterschiedlichen technischen Eigenschaften werden in Kapitel 2.3 dargestellt. 
+
+Produktionsstandort des Produkts ist der DORMA Produktionsstandort Ennepetal, Deutschland. Daneben werden Produktkomponenten von dem DORMA Standort Bonn bezogen. Die Stoff- und Energieströme wurden entsprechend berücksichtigt. 
 Systemgrenze: 
-Typ der EPD: Wiege bis Bahre (mit Optionen) Berücksichtigt werden gemäß /DIN EN 15804/ folgende Module:Module A1-3, A4 und A5 Das Produktstadium beginnt mit der Berücksichtigung der Gewinnung notwendiger Rohstoffe, sowie Energien inklusive aller entsprechenden Vorketten. Dies umfasst ebenfalls die Berücksichtigung entsprechender Beschaffungstransporte. Weiterhin wurde die gesamte Herstellungsphase am Produktionsstandort Ennepetal abgebildet, inkl. der Behandlung von Produktionsabfällen bis zum Erreichen des End-of-Waste Status (EoW). Zudem wurden ebenfalls die Distributionstransporte und der Einbau ins Gebäude über die Verwertung der Verpackungsabfälle berücksichtigt. Modul B3 Das Modul beinhaltet das Auswechseln von Verschleißteilen über die gesamte Nutzungsdauer von 10 Jahren. Modul B6 Das Modul beinhaltet den Energieverbrauch für den Betrieb der deklarierten ES 200 Antriebseinheiten über die gesamte Nutzungsdauer von 10 Jahren. Module C2-3 Die Module beinhalten die Umweltwirkungen für die Behandlung der Abfallfraktionen bis zum Erreichen des End-of-Waste Status (EoW) inklusive der zugehörigen Transporte am Ende des Produktlebenswegs. Modul D Ausweis der aus der Abfallbehandlung resultierenden Gutschriften, resultierend aus einer energetischen (MVA-Route) oder werkstofflichen Verwertung (Recycling-Route) von Verpackungen (A5), der Ersatzteile (B3) und des Produktes im End of Life (C3).</useAdviceForDataSet>
+Typ der EPD: Wiege bis Bahre (mit Optionen) 
+
+Berücksichtigt werden gemäß /DIN EN 15804/ folgende Module:
+
+
+Module A1-3, A4 und A5 Das Produktstadium beginnt mit der Berücksichtigung der Gewinnung notwendiger Rohstoffe, sowie Energien inklusive aller entsprechenden Vorketten. Dies umfasst ebenfalls die Berücksichtigung entsprechender Beschaffungstransporte. Weiterhin wurde die gesamte Herstellungsphase am Produktionsstandort Ennepetal abgebildet, inkl. der Behandlung von Produktionsabfällen bis zum Erreichen des End-of-Waste Status (EoW). Zudem wurden ebenfalls die Distributionstransporte und der Einbau ins Gebäude über die Verwertung der Verpackungsabfälle berücksichtigt. 
+
+Modul B3 
+
+Das Modul beinhaltet das Auswechseln von Verschleißteilen über die gesamte Nutzungsdauer von 10 Jahren. 
+
+Modul B6 
+
+Das Modul beinhaltet den Energieverbrauch für den Betrieb der deklarierten ES 200 Antriebseinheiten über die gesamte Nutzungsdauer von 10 Jahren. 
+
+Module C2-3 
+
+Die Module beinhalten die Umweltwirkungen für die Behandlung der Abfallfraktionen bis zum Erreichen des End-of-Waste Status (EoW) inklusive der zugehörigen Transporte am Ende des Produktlebenswegs. 
+
+Modul D 
+
+Ausweis der aus der Abfallbehandlung resultierenden Gutschriften, resultierend aus einer energetischen (MVA-Route) oder werkstofflichen Verwertung (Recycling-Route) von Verpackungen (A5), der Ersatzteile (B3) und des Produktes im End of Life (C3).</useAdviceForDataSet>
 <useAdviceForDataSet xml:lang="en">Scope: 
-This EPD refers to the entire life cycle of an average ES 200 drive system. The various technical characteristics are depicted in section 2.3.  The production location is the DORMA production site in Ennepetal, Germany. Product components are also procured from the DORMA location in Bonn. The material and energy flows were taken into consideration accordingly. 
+This EPD refers to the entire life cycle of an average ES 200 drive system. 
+
+The various technical characteristics are depicted in section 2.3.  
+
+The production location is the DORMA production site in Ennepetal, Germany. Product components are also procured from the DORMA location in Bonn. The material and energy flows were taken into consideration accordingly. 
 System boundary: 
-Type of EPD: cradle to grave (with options) The following modules are considered in accordance with /EN 15804/: Modules A1-3, A4, A5 The product stage commences with consideration of the material and energy flows required for manufacturing the product, including all of the associated upstream chains and requisite transport associated with procurement. Furthermore the whole production phase at the production site Ennepetal was mapped, including the treatment of production waste towards achieving the End-of-Waste status (EoW). Distribution transports and the installation into the building were considered as well.   Module B3 This module covers the replacement of expendable parts over the entire operating life of 10 years. Module B6 This module includes the energy consumption for operating the declared drive units including the stand-by modus over the entire operating life time of 10 years. Modules C2-3 These modules include the environmental impact associated with waste treatment until reaching the End-of-Waste status (EoW) including the associated transport at the end of the product&apos;s life circle. Module D Evidence of credits incurred by waste treatment as a result of energetic (MVA route) or material recycling (recycling route) of packaging (A5), spare parts (B3) and the product at the End-of-Life (C3).</useAdviceForDataSet>
+Type of EPD: cradle to grave (with options) 
+
+The following modules are considered in accordance with /EN 15804/: 
+
+Modules A1-3, A4, A5 
+
+The product stage commences with consideration of the material and energy flows required for manufacturing the product, including all of the associated upstream chains and requisite transport associated with procurement. Furthermore the whole production phase at the production site Ennepetal was mapped, including the treatment of production waste towards achieving the End-of-Waste status (EoW). Distribution transports and the installation into the building were considered as well.   
+
+Module B3 
+
+This module covers the replacement of expendable parts over the entire operating life of 10 years. 
+
+Module B6 
+
+This module includes the energy consumption for operating the declared drive units including the stand-by modus over the entire operating life time of 10 years. 
+
+Modules C2-3 
+
+These modules include the environmental impact associated with waste treatment until reaching the End-of-Waste status (EoW) including the associated transport at the end of the product&apos;s life circle. 
+
+Module D 
+
+Evidence of credits incurred by waste treatment as a result of energetic (MVA route) or material recycling (recycling route) of packaging (A5), spare parts (B3) and the product at the End-of-Life (C3).</useAdviceForDataSet>
 <common:other>
 <epd2:referenceToOriginalEPD type="source data set" refObjectId="e09ac126-796b-4055-b871-7be55bb9324e">
 <common:shortDescription xml:lang="de">Modulares Automatik-Antriebssystem für Schiebetüren ES 200 Produktfamilie .pdf</common:shortDescription>

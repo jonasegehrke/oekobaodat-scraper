@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+            <?xml-stylesheet version='1.0' href='../../stylesheets/flow2html.xsl' type='text/xsl'?>
+            <flowDataSet xmlns:epd='http://www.iai.kit.edu/EPD/2013' xmlns:common='http://lca.jrc.it/ILCD/Common' xmlns='http://lca.jrc.it/ILCD/Flow' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' version='1.1' locations='../ILCDLocations.xml' xsi:schemaLocation='http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd'>
+              <flowInformation>
+                <dataSetInformation>
+                  <common:UUID>8bf9ba51-c280-d540-f69a-b71b08bdbc64</common:UUID>
+                  <name>
+                      <baseName xml:lang='de'>Schüco FWS 50 B x H: 3050 mm x 3050 mm</baseName>
+                  </name>
+                  <classificationInformation>
+                    <common:classification name='OEKOBAU.DAT'>
+                      <common:class level='0' classId='7'>Komponenten von Fenstern und Vorhangfassaden</common:class>
+                      <common:class level='1' classId='7.1'>Rahmen / Profile</common:class>
+                      <common:class level='2' classId='7.1.05'>Aluminium</common:class>
+                    </common:classification>
+                  </classificationInformation>
+                </dataSetInformation>
+              </flowInformation>
+              <modellingAndValidation>
+                <LCIMethod>
+                  <typeOfDataSet>Product flow</typeOfDataSet>
+                  <common:other>
+                    <epd:vendorSpecificProduct>true</epd:vendorSpecificProduct>
+                  </common:other>
+                </LCIMethod>
+              </modellingAndValidation>
+              <administrativeInformation>
+                <dataEntryBy>
+                  <common:timeStamp>2017-07-28T11:48:28.2353983+02:00</common:timeStamp>
+                </dataEntryBy>
+                <publicationAndOwnership>
+                  <common:dataSetVersion>00.02.000</common:dataSetVersion>
+                </publicationAndOwnership>
+              </administrativeInformation>
+            </flowDataSet>
+        

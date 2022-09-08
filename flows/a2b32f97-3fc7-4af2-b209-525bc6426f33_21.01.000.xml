@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet version="1.0" href="../../stylesheets/flow2html.xsl" type="text/xsl"?>
+<flowDataSet xmlns="http://lca.jrc.it/ILCD/Flow" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd" locations="../ILCDLocations.xml" version="1.1" xmlns:mm="http://www.matml.org/">
+  <flowInformation>
+    <dataSetInformation>
+      <common:UUID>a2b32f97-3fc7-4af2-b209-525bc6426f33</common:UUID>
+      <name>
+        <baseName xml:lang="en">Components for re-use (CRU)</baseName>
+        <baseName xml:lang="de">Komponenten für die Wiederverwendung (CRU)</baseName>
+      </name>
+      <classificationInformation>
+        <common:classification name="GaBiCategories" classes="../GaBiCategories.xml">
+          <common:class level="0" classId="f9ec79e6-9fdd-4691-9c05-04e9fa45fb14">Quantities</common:class>
+          <common:class level="1" classId="34390d09-b09f-4f90-9b44-f5967461e18c">Environmental quantities</common:class>
+          <common:class level="2" classId="d8ff1b08-ac1f-4ddd-b667-936ef756b6cd">EN 15804 +A2</common:class>
+          <common:class level="3" classId="0c138fa0-cff0-486b-8ed9-4c0a254f28a0">3. Output flows and waste categories</common:class>
+        </common:classification>
+      </classificationInformation>
+    </dataSetInformation>
+  </flowInformation>
+  <modellingAndValidation>
+    <LCIMethod>
+      <typeOfDataSet>Other flow</typeOfDataSet>
+    </LCIMethod>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp>2021-02-01T00:00:00+01:00</common:timeStamp>
+      <common:referenceToDataSetFormat refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.00.000" type="source data set" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+        <common:shortDescription xml:lang="de">ILCD format 1.1</common:shortDescription>
+        <common:shortDescription xml:lang="en">ILCD format 1.1</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToDataSetFormat refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde" version="00.01.000" type="source data set" uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml">
+        <common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+        <common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+      </common:referenceToDataSetFormat>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dataSetVersion>21.01.000</common:dataSetVersion>
+    </publicationAndOwnership>
+  </administrativeInformation>
+</flowDataSet>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet version="1.0" href="../../stylesheets/flow2html.xsl" type="text/xsl"?>
+<flowDataSet xmlns="http://lca.jrc.it/ILCD/Flow" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd" locations="../ILCDLocations.xml" version="1.1" xmlns:mm="http://www.matml.org/">
+  <flowInformation>
+    <dataSetInformation>
+      <common:UUID>b828a84e-f0a4-4ca4-9b3f-9d69910bddcf</common:UUID>
+      <name>
+        <baseName xml:lang="en">Pellet boiler &lt; 20 kW piece</baseName>
+        <baseName xml:lang="de">Pellet boiler &lt; 20 kW piece</baseName>
+      </name>
+      <classificationInformation>
+        <common:elementaryFlowCategorization name="GaBiFlowCategorization" categories="../GaBiCategories.xml">
+          <common:category level="0" catId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:category>
+          <common:category level="1" catId="1a2515e3-7bbc-45f7-bf6b-22eff1dffcf3">Systems</common:category>
+          <common:category level="2" catId="53362c09-903c-4416-b3b5-c696e2481c42">Assemblies</common:category>
+          <common:category level="3" catId="df2cc601-51e9-4b71-93e6-c9706562dd2b">Heatings</common:category>
+        </common:elementaryFlowCategorization>
+        <common:classification name="GaBiCategories" classes="../GaBiCategories.xml">
+          <common:class level="0" classId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:class>
+          <common:class level="1" classId="1a2515e3-7bbc-45f7-bf6b-22eff1dffcf3">Systems</common:class>
+          <common:class level="2" classId="53362c09-903c-4416-b3b5-c696e2481c42">Assemblies</common:class>
+          <common:class level="3" classId="df2cc601-51e9-4b71-93e6-c9706562dd2b">Heatings</common:class>
+        </common:classification>
+      </classificationInformation>
+      <common:other xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.matml.org/ ../../schemas/matml31.xsd">
+        <mm:MatML_Doc>
+          <Material xmlns="http://www.matml.org/">
+            <BulkDetails>
+              <Name>Pellet boiler &lt; 20 kW piece</Name>
+              <PropertyData property="pr1">
+                <Data format="float">335</Data>
+              </PropertyData>
+            </BulkDetails>
+          </Material>
+          <mm:Metadata>
+            <PropertyDetails xmlns="http://www.matml.org/" id="pr1">
+              <Name>weight per unit</Name>
+              <Units name="kg/Stk">
+                <Unit power="1">
+                  <Name>kg</Name>
+                </Unit>
+                <Unit power="-1">
+                  <Name>Stk</Name>
+                </Unit>
+              </Units>
+            </PropertyDetails>
+          </mm:Metadata>
+        </mm:MatML_Doc>
+      </common:other>
+    </dataSetInformation>
+    <quantitativeReference>
+      <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+    </quantitativeReference>
+  </flowInformation>
+  <modellingAndValidation>
+    <LCIMethod>
+      <typeOfDataSet>Product flow</typeOfDataSet>
+    </LCIMethod>
+    <complianceDeclarations>
+      <compliance>
+        <common:referenceToComplianceSystem refObjectId="c0016b33-8cf7-415c-ac6e-deba0d21440d" version="00.01.000" type="source data set" uri="../sources/c0016b33-8cf7-415c-ac6e-deba0d21440d.xml">
+          <common:shortDescription xml:lang="de">EN 15804+A2</common:shortDescription>
+          <common:shortDescription xml:lang="en">EN 15804+A2</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance>Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+    </complianceDeclarations>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp>2021-03-30T19:00:11+01:00</common:timeStamp>
+      <common:referenceToDataSetFormat refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.00.000" type="source data set" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+        <common:shortDescription xml:lang="de">ILCD format 1.1</common:shortDescription>
+        <common:shortDescription xml:lang="en">ILCD format 1.1</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToDataSetFormat refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde" version="00.01.000" type="source data set" uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml">
+        <common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+        <common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+      </common:referenceToDataSetFormat>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dataSetVersion>21.01.000</common:dataSetVersion>
+    </publicationAndOwnership>
+  </administrativeInformation>
+  <flowProperties>
+    <flowProperty dataSetInternalID="0">
+      <referenceToFlowPropertyDataSet refObjectId="01846770-4cfe-4a25-8ad9-919d8d378345" version="02.00.000" type="flow property data set" uri="../flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345.xml">
+        <common:shortDescription xml:lang="en">Number of pieces</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1</meanValue>
+    </flowProperty>
+    <flowProperty dataSetInternalID="1">
+      <referenceToFlowPropertyDataSet refObjectId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" version="02.00.000" type="flow property data set" uri="../flowproperties/7e18d0ad-e78e-47a0-8e96-1c0a581902e2.xml">
+        <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+        <common:shortDescription xml:lang="de">Masse</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>335</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="2">
+      <referenceToFlowPropertyDataSet refObjectId="62e503ce-544a-4599-b2ad-bcea15a7bf20" version="21.01.000" type="flow property data set" uri="../flowproperties/62e503ce-544a-4599-b2ad-bcea15a7bf20.xml">
+        <common:shortDescription xml:lang="en">Biogenic carbon content in product (Biog. C in product)</common:shortDescription>
+        <common:shortDescription xml:lang="de">Biogener Kohlenstoffgehalt im Produkt (Biog. C in product)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="3">
+      <referenceToFlowPropertyDataSet refObjectId="262a541b-209e-44cc-a426-33bce30de7b1" version="21.01.000" type="flow property data set" uri="../flowproperties/262a541b-209e-44cc-a426-33bce30de7b1.xml">
+        <common:shortDescription xml:lang="en">Biogenic carbon content in accompanying packaging (Biog. C in packaging)</common:shortDescription>
+        <common:shortDescription xml:lang="de">Biogener Kohlenstoffgehalt in der zugehörigen Verpackung (Biog. C in packaging)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+  </flowProperties>
+</flowDataSet>

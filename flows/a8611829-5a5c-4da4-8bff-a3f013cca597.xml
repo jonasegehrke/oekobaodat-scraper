@@ -1,0 +1,301 @@
+<?xml-stylesheet version="1.0" href="../../stylesheets/flow2html.xsl" type="text/xsl"?>
+<flowDataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Flow" xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd" locations="../ILCDLocations.xml" version="1.1">
+  <flowInformation>
+    <dataSetInformation>
+      <common:UUID xmlns:common="http://lca.jrc.it/ILCD/Common">a8611829-5a5c-4da4-8bff-a3f013cca597</common:UUID>
+      <name>
+        <baseName xmlns:mm="http://www.matml.org/" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="en">Wood pellets (5.8% H2O content)</baseName>
+        <baseName xmlns:mm="http://www.matml.org/" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="de">Wood pellets (5.8% H2O content)</baseName>
+      </name>
+      <classificationInformation>
+        <common:elementaryFlowCategorization xmlns:common="http://lca.jrc.it/ILCD/Common" name="GaBiFlowCategorization" categories="../GaBiCategories.xml">
+          <common:category level="0" catId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:category>
+          <common:category level="1" catId="b9671266-d655-43df-adbe-87b6edb87b20">Materials</common:category>
+          <common:category level="2" catId="35eb1f82-af16-4a15-8719-a3f28e5e2d69">Renewable primary products</common:category>
+        </common:elementaryFlowCategorization>
+        <common:classification xmlns:common="http://lca.jrc.it/ILCD/Common" name="GaBiCategories" classes="../GaBiCategories.xml">
+          <common:class level="0" classId="4a938ffe-59f7-4b32-a12f-cb240e413585">Valuable substances</common:class>
+          <common:class level="1" classId="b9671266-d655-43df-adbe-87b6edb87b20">Materials</common:class>
+          <common:class level="2" classId="35eb1f82-af16-4a15-8719-a3f28e5e2d69">Renewable primary products</common:class>
+        </common:classification>
+      </classificationInformation>
+    </dataSetInformation>
+    <quantitativeReference>
+      <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+    </quantitativeReference>
+  </flowInformation>
+  <modellingAndValidation>
+    <LCIMethod>
+      <typeOfDataSet>Product flow</typeOfDataSet>
+    </LCIMethod>
+    <complianceDeclarations>
+      <compliance>
+        <common:referenceToComplianceSystem xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="9ba3ac1e-6797-4cc0-afd5-1b8f7bf28c6a" version="03.00.000" type="source data set" uri="../sources/9ba3ac1e-6797-4cc0-afd5-1b8f7bf28c6a.xml">
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">ILCD compliance 1.1</common:shortDescription>
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">ILCD compliance 1.1</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance xmlns:common="http://lca.jrc.it/ILCD/Common">Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+      <compliance>
+        <common:referenceToComplianceSystem xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66" version="02.00.000" type="source data set" uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml">
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">DIN EN 15804</common:shortDescription>
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">DIN EN 15804</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance xmlns:common="http://lca.jrc.it/ILCD/Common">Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+    </complianceDeclarations>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp xmlns:common="http://lca.jrc.it/ILCD/Common">2019-02-01T00:00:00+01:00</common:timeStamp>
+      <common:referenceToDataSetFormat xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="03.00.000" type="source data set" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">ILCD format 1.1</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">ILCD format 1.1</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToDataSetFormat xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="cba73800-7874-11e3-981f-0800200c9a66" version="02.00.000" type="source data set" uri="../sources/cba73800-7874-11e3-981f-0800200c9a66.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">EPD Data Format Extensions</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">EPD-Datenformaterweiterungen</common:shortDescription>
+      </common:referenceToDataSetFormat>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dataSetVersion xmlns:common="http://lca.jrc.it/ILCD/Common">39.00.000</common:dataSetVersion>
+      <common:referenceToOwnershipOfDataSet xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="623edf96-39d1-4e6f-9892-674c7228546b" version="02.00.000" type="contact data set" uri="../contacts/623edf96-39d1-4e6f-9892-674c7228546b.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">thinkstep</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">thinkstep</common:shortDescription>
+      </common:referenceToOwnershipOfDataSet>
+    </publicationAndOwnership>
+  </administrativeInformation>
+  <flowProperties>
+    <flowProperty dataSetInternalID="0">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-11da-a746-0800200b9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Mass</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Masse</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1</meanValue>
+    </flowProperty>
+    <flowProperty dataSetInternalID="1">
+      <referenceToFlowPropertyDataSet refObjectId="4377c59d-d0ad-4236-9333-035e95fcbe82" version="39.00.000" type="flow property data set" uri="../flowproperties/4377c59d-d0ad-4236-9333-035e95fcbe82.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Modified organic natural materials (unspecified)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Modifizierte organische Naturwerkstoffe (unspezifisch)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="2">
+      <referenceToFlowPropertyDataSet refObjectId="88de7063-fd9e-47d2-b182-1960dbaec530" version="39.00.000" type="flow property data set" uri="../flowproperties/88de7063-fd9e-47d2-b182-1960dbaec530.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">C_total_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">C_total_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.4696</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="3">
+      <referenceToFlowPropertyDataSet refObjectId="b305017e-da55-4a11-be5c-d235d4baf102" version="39.00.000" type="flow property data set" uri="../flowproperties/b305017e-da55-4a11-be5c-d235d4baf102.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Water_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Wasser_gew</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.058</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="4">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-14da-a746-0800200c9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-14da-a746-0800200c9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Energy (gross calorific value)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Energie (oberer Heizwert)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>20.3</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="5">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-11da-a746-0800200c9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-11da-a746-0800200c9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Energy (net calorific value)</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Energie (unterer Heizwert)</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>18.98</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="6">
+      <referenceToFlowPropertyDataSet refObjectId="a1d0f976-5add-4eed-b378-fc6cef38b5a8" version="39.00.000" type="flow property data set" uri="../flowproperties/a1d0f976-5add-4eed-b378-fc6cef38b5a8.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">C_biogen_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">C_biogen_gew</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.4696</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="7">
+      <referenceToFlowPropertyDataSet refObjectId="47aa66d8-02ad-40a1-a1e2-b250226897e5" version="39.00.000" type="flow property data set" uri="../flowproperties/47aa66d8-02ad-40a1-a1e2-b250226897e5.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Mo_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Mo_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1E-7</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="8">
+      <referenceToFlowPropertyDataSet refObjectId="72a72642-9e98-414f-bea7-5652850d0b8c" version="39.00.000" type="flow property data set" uri="../flowproperties/72a72642-9e98-414f-bea7-5652850d0b8c.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">H_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">H_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.0645</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="9">
+      <referenceToFlowPropertyDataSet refObjectId="b6acd765-b702-418c-86f6-d180e1b9d73d" version="39.00.000" type="flow property data set" uri="../flowproperties/b6acd765-b702-418c-86f6-d180e1b9d73d.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Cr_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Cr_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1E-6</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="10">
+      <referenceToFlowPropertyDataSet refObjectId="37ea4331-3a64-4286-84d3-a7be6f4f66b1" version="39.00.000" type="flow property data set" uri="../flowproperties/37ea4331-3a64-4286-84d3-a7be6f4f66b1.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Ni_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Ni_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>2.5E-6</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="11">
+      <referenceToFlowPropertyDataSet refObjectId="ab4928d4-ee85-42d8-adc1-c8b7b07d78b7" version="39.00.000" type="flow property data set" uri="../flowproperties/ab4928d4-ee85-42d8-adc1-c8b7b07d78b7.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Cl_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Cl_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>4.9E-5</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="12">
+      <referenceToFlowPropertyDataSet refObjectId="2656c4ef-eaee-4315-a7d2-ed80a7634f7e" version="39.00.000" type="flow property data set" uri="../flowproperties/2656c4ef-eaee-4315-a7d2-ed80a7634f7e.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">P_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">P_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.0002</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="13">
+      <referenceToFlowPropertyDataSet refObjectId="7875b92b-25e2-44b3-96b5-a917287d09d9" version="39.00.000" type="flow property data set" uri="../flowproperties/7875b92b-25e2-44b3-96b5-a917287d09d9.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Cd_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Cd_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1.6E-7</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="14">
+      <referenceToFlowPropertyDataSet refObjectId="e4baa1ee-2b9d-472d-b344-41731fa35818" version="39.00.000" type="flow property data set" uri="../flowproperties/e4baa1ee-2b9d-472d-b344-41731fa35818.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Cu_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Cu_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1.14E-6</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="15">
+      <referenceToFlowPropertyDataSet refObjectId="fd4bd419-229d-47e6-9c65-9224d4f6d7d4" version="39.00.000" type="flow property data set" uri="../flowproperties/fd4bd419-229d-47e6-9c65-9224d4f6d7d4.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">O_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">O_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.4602</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="16">
+      <referenceToFlowPropertyDataSet refObjectId="e37ac184-9b5b-484c-b23d-ccc17ade3bf1" version="39.00.000" type="flow property data set" uri="../flowproperties/e37ac184-9b5b-484c-b23d-ccc17ade3bf1.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Hg_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Hg_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1E-8</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="17">
+      <referenceToFlowPropertyDataSet refObjectId="9089b6c3-f8fc-48d3-94e1-5585bcffe6ce" version="39.00.000" type="flow property data set" uri="../flowproperties/9089b6c3-f8fc-48d3-94e1-5585bcffe6ce.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Mg_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Mg_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.0004</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="18">
+      <referenceToFlowPropertyDataSet refObjectId="1c00f37c-58ec-4911-985d-82ce3573a98f" version="39.00.000" type="flow property data set" uri="../flowproperties/1c00f37c-58ec-4911-985d-82ce3573a98f.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Co_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Co_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>2.8E-7</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="19">
+      <referenceToFlowPropertyDataSet refObjectId="cfb4440c-6a6a-49b7-9dc2-c497878ace37" version="39.00.000" type="flow property data set" uri="../flowproperties/cfb4440c-6a6a-49b7-9dc2-c497878ace37.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">K_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">K_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.001</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="20">
+      <referenceToFlowPropertyDataSet refObjectId="9c7f47d8-a8a2-4b1d-8fda-54e078f2da98" version="39.00.000" type="flow property data set" uri="../flowproperties/9c7f47d8-a8a2-4b1d-8fda-54e078f2da98.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Ca_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Ca_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.002</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="21">
+      <referenceToFlowPropertyDataSet refObjectId="d3fff1e1-2d55-4baa-9e76-cd65a0070ce1" version="39.00.000" type="flow property data set" uri="../flowproperties/d3fff1e1-2d55-4baa-9e76-cd65a0070ce1.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Na_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Na_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.00015</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="22">
+      <referenceToFlowPropertyDataSet refObjectId="651f0a05-9e42-4bb2-b174-cea7b0b5150a" version="39.00.000" type="flow property data set" uri="../flowproperties/651f0a05-9e42-4bb2-b174-cea7b0b5150a.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Pb_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Pb_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>3.9E-7</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="23">
+      <referenceToFlowPropertyDataSet refObjectId="b4b5b365-60c9-4bcb-9ef6-e93e1de3b509" version="39.00.000" type="flow property data set" uri="../flowproperties/b4b5b365-60c9-4bcb-9ef6-e93e1de3b509.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Ash_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Ash_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.0027</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="24">
+      <referenceToFlowPropertyDataSet refObjectId="a515a876-49fd-4d21-9627-6d8c127245fc" version="39.00.000" type="flow property data set" uri="../flowproperties/a515a876-49fd-4d21-9627-6d8c127245fc.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">N_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">N_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.0008</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="25">
+      <referenceToFlowPropertyDataSet refObjectId="b05ba777-249f-4d8e-95b6-6d7db268986a" version="39.00.000" type="flow property data set" uri="../flowproperties/b05ba777-249f-4d8e-95b6-6d7db268986a.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">As_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">As_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>5E-8</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="26">
+      <referenceToFlowPropertyDataSet refObjectId="83219155-caeb-4e32-bc0e-f530d742f4f4" version="39.00.000" type="flow property data set" uri="../flowproperties/83219155-caeb-4e32-bc0e-f530d742f4f4.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">S_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">S_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.000159</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="27">
+      <referenceToFlowPropertyDataSet refObjectId="8993daa2-a866-4e7d-ad44-7e057cc6f8a8" version="39.00.000" type="flow property data set" uri="../flowproperties/8993daa2-a866-4e7d-ad44-7e057cc6f8a8.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Zn_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Zn_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1.117E-5</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+    <flowProperty dataSetInternalID="28">
+      <referenceToFlowPropertyDataSet refObjectId="ccb07055-c185-4eb5-889b-5c4d57d7aebf" version="39.00.000" type="flow property data set" uri="../flowproperties/ccb07055-c185-4eb5-889b-5c4d57d7aebf.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Mn_wt</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Mn_wt</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>0.000216</meanValue>
+      <relativeStandardDeviation95In>0.000</relativeStandardDeviation95In>
+    </flowProperty>
+  </flowProperties>
+</flowDataSet>

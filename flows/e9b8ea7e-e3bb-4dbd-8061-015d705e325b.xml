@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>e9b8ea7e-e3bb-4dbd-8061-015d705e325b</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="de">Abstandhalter - Ensinger GmbH - Thermix Low Psi RE</f:baseName>
+            </f:name>
+            <common:synonyms xml:lang="de">Profil; PP; Polypropylen; GF; Glasfaser; Low Psi Profil; aus recycelten Material; Rezyklat</common:synonyms>
+            <f:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="7.3">Dichtungskomponenten / -materialien</common:class>
+                    <common:class level="2" classId="7.3.01">Dichtprofile</common:class>
+                </common:classification>
+                <common:classification name="OEKOBAU.DAT">
+                    <common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="7.3">Dichtungskomponenten / -materialien</common:class>
+                    <common:class level="2" classId="7.3.01">Dichtprofile</common:class>
+                </common:classification>
+            </f:classificationInformation>
+            <common:other>
+                <mat:MatML_Doc xmlns:mat="http://www.matml.org/">
+                    <mat:Material>
+                        <mat:BulkDetails>
+                            <mat:Name>Abstandhalter - Ensinger GmbH - Thermix Low Psi RE</mat:Name>
+                            <mat:PropertyData property="pr6">
+<mat:Data format="float">0.052</mat:Data>
+                            </mat:PropertyData>
+                            <mat:PropertyData property="pr3">
+<mat:Data format="float">1205.2</mat:Data>
+                            </mat:PropertyData>
+                        </mat:BulkDetails>
+                    </mat:Material>
+                    <mat:Metadata>
+                        <mat:PropertyDetails id="pr6">
+                            <mat:Name>linear density</mat:Name>
+                            <mat:Units description="kilograms per metre" name="kg/m">
+<mat:Unit>
+    <mat:Name>kg/m</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                        <mat:PropertyDetails id="pr3">
+                            <mat:Name>gross density</mat:Name>
+                            <mat:Units description="kilograms per cubic metre" name="kg/m^3">
+<mat:Unit>
+    <mat:Name>kg/m^3</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                    </mat:Metadata>
+                </mat:MatML_Doc>
+            </common:other>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Product flow</f:typeOfDataSet>
+            <common:other>
+                <epd:vendorSpecificProduct xmlns:epd="http://www.iai.kit.edu/EPD/2013">true</epd:vendorSpecificProduct>
+                <epd:referenceToVendor xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="a699dd47-f1cc-4b83-93d2-5496d31f7bba" type="contact data set" uri="../contacts/a699dd47-f1cc-4b83-93d2-5496d31f7bba" xml:lang="">
+                    <common:shortDescription>Ensinger GmbH</common:shortDescription>
+                </epd:referenceToVendor>
+                <epd:referenceToSource xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="78bddeff-4a50-482c-b2db-ce9875fb4da6" type="source data set" uri="../sources/78bddeff-4a50-482c-b2db-ce9875fb4da6" xml:lang="">
+                    <common:shortDescription>EPD Thermix TX Pro und Thermix Low Psi</common:shortDescription>
+                </epd:referenceToSource>
+            </common:other>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2019-11-12T11:02:12.542+01:00</common:timeStamp>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>00.01.001</common:dataSetVersion>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="93a60a56-a3c8-11da-a746-0800200b9a66" version="03.00.000">
+                <common:shortDescription xml:lang="de">Masse</common:shortDescription>
+                <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>

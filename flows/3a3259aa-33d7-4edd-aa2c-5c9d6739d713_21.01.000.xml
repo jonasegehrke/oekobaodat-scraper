@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet version="1.0" href="../../stylesheets/flow2html.xsl" type="text/xsl"?>
+<flowDataSet xmlns="http://lca.jrc.it/ILCD/Flow" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd" locations="../ILCDLocations.xml" version="1.1" xmlns:mm="http://www.matml.org/">
+  <flowInformation>
+    <dataSetInformation>
+      <common:UUID>3a3259aa-33d7-4edd-aa2c-5c9d6739d713</common:UUID>
+      <name>
+        <baseName xml:lang="en">Stainless steel scrap</baseName>
+        <baseName xml:lang="de">Stainless steel scrap</baseName>
+      </name>
+      <classificationInformation>
+        <common:elementaryFlowCategorization name="GaBiFlowCategorization" categories="../GaBiCategories.xml">
+          <common:category level="0" catId="81f528dc-d8f6-4419-80e5-548ca1a3228b">Production residues in life cycle</common:category>
+          <common:category level="1" catId="7ef2b3a3-7bbf-4879-beba-f383465c7776">Waste for recovery</common:category>
+        </common:elementaryFlowCategorization>
+        <common:classification name="GaBiCategories" classes="../GaBiCategories.xml">
+          <common:class level="0" classId="81f528dc-d8f6-4419-80e5-548ca1a3228b">Production residues in life cycle</common:class>
+          <common:class level="1" classId="7ef2b3a3-7bbf-4879-beba-f383465c7776">Waste for recovery</common:class>
+        </common:classification>
+      </classificationInformation>
+    </dataSetInformation>
+    <quantitativeReference>
+      <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+    </quantitativeReference>
+  </flowInformation>
+  <modellingAndValidation>
+    <LCIMethod>
+      <typeOfDataSet>Product flow</typeOfDataSet>
+    </LCIMethod>
+    <complianceDeclarations>
+      <compliance>
+        <common:referenceToComplianceSystem refObjectId="c0016b33-8cf7-415c-ac6e-deba0d21440d" version="00.01.000" type="source data set" uri="../sources/c0016b33-8cf7-415c-ac6e-deba0d21440d.xml">
+          <common:shortDescription xml:lang="de">EN 15804+A2</common:shortDescription>
+          <common:shortDescription xml:lang="en">EN 15804+A2</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance>Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+    </complianceDeclarations>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp>2021-02-01T00:00:00+01:00</common:timeStamp>
+      <common:referenceToDataSetFormat refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.00.000" type="source data set" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+        <common:shortDescription xml:lang="de">ILCD format 1.1</common:shortDescription>
+        <common:shortDescription xml:lang="en">ILCD format 1.1</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToDataSetFormat refObjectId="a29449fd-aa2f-4de8-b5d7-4b06b43c6fde" version="00.01.000" type="source data set" uri="../sources/a29449fd-aa2f-4de8-b5d7-4b06b43c6fde.xml">
+        <common:shortDescription xml:lang="de">EPD-Datenformaterweiterungen v1.2</common:shortDescription>
+        <common:shortDescription xml:lang="en">EPD Data Format Extensions v1.2</common:shortDescription>
+      </common:referenceToDataSetFormat>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dataSetVersion>21.01.000</common:dataSetVersion>
+      <common:referenceToOwnershipOfDataSet refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="21.01.000" type="contact data set" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010.xml">
+        <common:shortDescription xml:lang="en">Sphera Solutions GmbH</common:shortDescription>
+      </common:referenceToOwnershipOfDataSet>
+    </publicationAndOwnership>
+  </administrativeInformation>
+  <flowProperties>
+    <flowProperty dataSetInternalID="0">
+      <referenceToFlowPropertyDataSet refObjectId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" version="02.00.000" type="flow property data set" uri="../flowproperties/7e18d0ad-e78e-47a0-8e96-1c0a581902e2.xml">
+        <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+        <common:shortDescription xml:lang="de">Masse</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1</meanValue>
+    </flowProperty>
+  </flowProperties>
+</flowDataSet>

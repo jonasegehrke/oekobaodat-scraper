@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+            <?xml-stylesheet version='1.0' href='../../stylesheets/flow2html.xsl' type='text/xsl'?>
+            <flowDataSet xmlns:epd='http://www.iai.kit.edu/EPD/2013' xmlns:common='http://lca.jrc.it/ILCD/Common' xmlns='http://lca.jrc.it/ILCD/Flow' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' version='1.1' locations='../ILCDLocations.xml' xsi:schemaLocation='http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd'>
+              <flowInformation>
+                <dataSetInformation>
+                  <common:UUID>0099f6fa-38e3-527c-5dfe-e975d9d49e84</common:UUID>
+                  <name>
+                      <baseName xml:lang='de'>1 Stück Brandschutzklappe FR90 mit 6,74 kg/Stück</baseName>
+                  </name>
+                  <classificationInformation>
+                    <common:classification name='OEKOBAU.DAT'>
+                      <common:class level='0' classId='8'>Gebäudetechnik</common:class>
+                      <common:class level='1' classId='8.2'>Klimatisierung und Lüftung</common:class>
+                      <common:class level='2' classId='8.2.01'>Lüftungsanlagen</common:class>
+                    </common:classification>
+                  </classificationInformation>
+                  <common:other xmlns='http://www.matml.org/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.matml.org/ ../../schemas/matml31.xsd'>
+                    <MatML_Doc>
+                      <Material>
+                        <BulkDetails>
+                          <Name>Material</Name>
+                          <PropertyData property='pr2'>
+                            <Data format='float'>6.41</Data>
+                          </PropertyData>
+                          <PropertyData property='pr3'>
+                            <Data format='float'>6.41</Data>
+                          </PropertyData>
+                        </BulkDetails>
+                      </Material>
+                      <Metadata>
+                        <PropertyDetails id='pr2'>
+                          <Name>Mass reference</Name>
+                          <Units name='kg/pce' description='Weight per unit'>
+                            <Unit>
+                              <Name>kg/pce</Name>
+                            </Unit>
+                          </Units>
+                        </PropertyDetails>
+                        <PropertyDetails id='pr3'>
+                          <Name>conversion factor [Mass/Declared Unit]</Name>
+                          <Units name='-' description='Without unit'>
+                            <Unit>
+                              <Name>-</Name>
+                            </Unit>
+                          </Units>
+                        </PropertyDetails>
+                      </Metadata>
+                    </MatML_Doc>
+                  </common:other>
+                </dataSetInformation>
+                <quantitativeReference>
+                  <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+                </quantitativeReference>
+              </flowInformation>
+              <modellingAndValidation>
+                <LCIMethod>
+                  <typeOfDataSet>Product flow</typeOfDataSet>
+                  <common:other>
+                    <epd:vendorSpecificProduct>false</epd:vendorSpecificProduct>
+                  </common:other>
+                </LCIMethod>
+              </modellingAndValidation>
+              <administrativeInformation>
+                <dataEntryBy>
+                  <common:timeStamp>2021-01-28T13:34:49.2588738+01:00</common:timeStamp>
+                </dataEntryBy>
+                <publicationAndOwnership>
+                  <common:dataSetVersion>00.03.000</common:dataSetVersion>
+                </publicationAndOwnership>
+              </administrativeInformation>
+              <flowProperties>
+                <flowProperty dataSetInternalID='0'>
+                  <referenceToFlowPropertyDataSet refObjectId='01846770-4cfe-4a25-8ad9-919d8d378345'
+                                                  type='flow property data set'
+                                                  uri='../flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345.xml'>
+                    <common:shortDescription xml:lang='de'>Stück</common:shortDescription>
+                  </referenceToFlowPropertyDataSet>
+                  <meanValue>1</meanValue>
+                </flowProperty>
+              </flowProperties>
+            </flowDataSet>
+        

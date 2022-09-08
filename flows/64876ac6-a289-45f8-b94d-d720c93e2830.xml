@@ -1,0 +1,75 @@
+<?xml-stylesheet version="1.0" href="../../stylesheets/flow2html.xsl" type="text/xsl"?>
+<flowDataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://lca.jrc.it/ILCD/Flow" xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd" locations="../ILCDLocations.xml" version="1.1">
+  <flowInformation>
+    <dataSetInformation>
+      <common:UUID xmlns:common="http://lca.jrc.it/ILCD/Common">64876ac6-a289-45f8-b94d-d720c93e2830</common:UUID>
+      <name>
+        <baseName xmlns:mm="http://www.matml.org/" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="en">Incineration good</baseName>
+        <baseName xmlns:mm="http://www.matml.org/" xmlns:common="http://lca.jrc.it/ILCD/Common" xml:lang="de">Verbrennungsgut</baseName>
+      </name>
+      <classificationInformation>
+        <common:elementaryFlowCategorization xmlns:common="http://lca.jrc.it/ILCD/Common" name="GaBiFlowCategorization" categories="../GaBiCategories.xml">
+          <common:category level="0" catId="81f528dc-d8f6-4419-80e5-548ca1a3228b">Production residues in life cycle</common:category>
+          <common:category level="1" catId="51e8bac8-5f01-4e48-a362-b6af2c19536f">Waste for disposal</common:category>
+        </common:elementaryFlowCategorization>
+        <common:classification xmlns:common="http://lca.jrc.it/ILCD/Common" name="GaBiCategories" classes="../GaBiCategories.xml">
+          <common:class level="0" classId="81f528dc-d8f6-4419-80e5-548ca1a3228b">Production residues in life cycle</common:class>
+          <common:class level="1" classId="51e8bac8-5f01-4e48-a362-b6af2c19536f">Waste for disposal</common:class>
+        </common:classification>
+      </classificationInformation>
+    </dataSetInformation>
+    <quantitativeReference>
+      <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+    </quantitativeReference>
+  </flowInformation>
+  <modellingAndValidation>
+    <LCIMethod>
+      <typeOfDataSet>Product flow</typeOfDataSet>
+    </LCIMethod>
+    <complianceDeclarations>
+      <compliance>
+        <common:referenceToComplianceSystem xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="9ba3ac1e-6797-4cc0-afd5-1b8f7bf28c6a" version="03.00.000" type="source data set" uri="../sources/9ba3ac1e-6797-4cc0-afd5-1b8f7bf28c6a.xml">
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">ILCD compliance 1.1</common:shortDescription>
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">ILCD compliance 1.1</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance xmlns:common="http://lca.jrc.it/ILCD/Common">Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+      <compliance>
+        <common:referenceToComplianceSystem xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="b00f9ec0-7874-11e3-981f-0800200c9a66" version="02.00.000" type="source data set" uri="../sources/b00f9ec0-7874-11e3-981f-0800200c9a66.xml">
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">DIN EN 15804</common:shortDescription>
+          <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">DIN EN 15804</common:shortDescription>
+        </common:referenceToComplianceSystem>
+        <common:approvalOfOverallCompliance xmlns:common="http://lca.jrc.it/ILCD/Common">Fully compliant</common:approvalOfOverallCompliance>
+      </compliance>
+    </complianceDeclarations>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp xmlns:common="http://lca.jrc.it/ILCD/Common">2012-10-31T23:00:00+01:00</common:timeStamp>
+      <common:referenceToDataSetFormat xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="03.00.000" type="source data set" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">ILCD format 1.1</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">ILCD format 1.1</common:shortDescription>
+      </common:referenceToDataSetFormat>
+      <common:referenceToDataSetFormat xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="cba73800-7874-11e3-981f-0800200c9a66" version="02.00.000" type="source data set" uri="../sources/cba73800-7874-11e3-981f-0800200c9a66.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">EPD Data Format Extensions</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">EPD-Datenformaterweiterungen</common:shortDescription>
+      </common:referenceToDataSetFormat>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dataSetVersion xmlns:common="http://lca.jrc.it/ILCD/Common">39.00.000</common:dataSetVersion>
+      <common:referenceToOwnershipOfDataSet xmlns:common="http://lca.jrc.it/ILCD/Common" refObjectId="623edf96-39d1-4e6f-9892-674c7228546b" version="02.00.000" type="contact data set" uri="../contacts/623edf96-39d1-4e6f-9892-674c7228546b.xml">
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="en">thinkstep</common:shortDescription>
+        <common:shortDescription xmlns:mm="http://www.matml.org/" xml:lang="de">thinkstep</common:shortDescription>
+      </common:referenceToOwnershipOfDataSet>
+    </publicationAndOwnership>
+  </administrativeInformation>
+  <flowProperties>
+    <flowProperty dataSetInternalID="0">
+      <referenceToFlowPropertyDataSet refObjectId="93a60a56-a3c8-11da-a746-0800200b9a66" version="03.00.000" type="flow property data set" uri="../flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66.xml">
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="en">Mass</common:shortDescription>
+        <common:shortDescription xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:mm="http://www.matml.org/" xml:lang="de">Masse</common:shortDescription>
+      </referenceToFlowPropertyDataSet>
+      <meanValue>1</meanValue>
+    </flowProperty>
+  </flowProperties>
+</flowDataSet>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>a847c8d7-1611-4bd1-a302-091dee6a3ba0</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="de">Zargen - rema AG / spa - Zargen für Drehtüren</f:baseName>
+            </f:name>
+            <common:synonyms xml:lang="de">Stahlzargen; Edelstahlzargen; einteilige Zargen; zweiteilige Zargen; mehrteilige Zargen; Typ 1A; Typ 2A; Typ 1C/2C; Typ 1F/2F; Typ 1E/2E; Typ 12A; Typ 10A/11A</common:synonyms>
+            <f:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="7.1">Rahmen / Profile</common:class>
+                    <common:class level="2" classId="7.1.07">Stahl</common:class>
+                </common:classification>
+            </f:classificationInformation>
+            <common:other>
+                <mat:MatML_Doc xmlns:mat="http://www.matml.org/">
+                    <mat:Material>
+                        <mat:BulkDetails>
+                            <mat:Name>Zargen - rema AG / spa - Zargen für Drehtüren</mat:Name>
+                            <mat:PropertyData property="pr4">
+<mat:Data format="float">0.15</mat:Data>
+                            </mat:PropertyData>
+                            <mat:PropertyData property="pr2">
+<mat:Data format="float">10.11</mat:Data>
+                            </mat:PropertyData>
+                        </mat:BulkDetails>
+                    </mat:Material>
+                    <mat:Metadata>
+                        <mat:PropertyDetails id="pr4">
+                            <mat:Name>layer thickness</mat:Name>
+                            <mat:Units description="metres" name="m">
+<mat:Unit>
+    <mat:Name>m</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                        <mat:PropertyDetails id="pr2">
+                            <mat:Name>grammage</mat:Name>
+                            <mat:Units description="kilograms per square metre" name="kg/m^2">
+<mat:Unit>
+    <mat:Name>kg/m^2</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                    </mat:Metadata>
+                </mat:MatML_Doc>
+            </common:other>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Product flow</f:typeOfDataSet>
+            <common:other>
+                <epd:vendorSpecificProduct xmlns:epd="http://www.iai.kit.edu/EPD/2013">true</epd:vendorSpecificProduct>
+                <epd:referenceToVendor xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="13f5329b-9519-48dc-8a72-a449edf71a43" type="contact data set" uri="../contacts/13f5329b-9519-48dc-8a72-a449edf71a43" xml:lang="de">
+                    <common:shortDescription>rema AG / spa</common:shortDescription>
+                </epd:referenceToVendor>
+                <epd:referenceToSource xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="efaff3c8-e10b-4f75-b345-405f2c9500c4" type="source data set" uri="../sources/efaff3c8-e10b-4f75-b345-405f2c9500c4" xml:lang="de">
+                    <common:shortDescription>EPD Stahl- und Edelstahlzargen - rema</common:shortDescription>
+                </epd:referenceToSource>
+            </common:other>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2021-07-07T15:43:00.882+02:00</common:timeStamp>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>00.00.002</common:dataSetVersion>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="93a60a56-a3c8-19da-a746-0800200c9a66" version="03.00.001">
+                <common:shortDescription xml:lang="de">Fläche</common:shortDescription>
+                <common:shortDescription xml:lang="en">Area</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>

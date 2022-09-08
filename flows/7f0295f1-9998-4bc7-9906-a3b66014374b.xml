@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>7f0295f1-9998-4bc7-9906-a3b66014374b</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="de">Isolierprofil - Technoform Bautec Kunststoffprodukte GmbH - Isoliersteg Low Lambda PA66 GF25</f:baseName>
+            </f:name>
+            <common:synonyms xml:lang="de">Profil; PA; Polyamid; GF; Glasfaser; Low Lambda Profil</common:synonyms>
+            <f:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="9a36676f-d1f7-3386-8bd3-01f0093e9ca8">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="af3d40a0-c3c3-32a8-9250-7ca6b8fd44b3">Dichtungskomponenten / -materialien</common:class>
+                    <common:class level="2" classId="1f9b3d5d-219c-3995-9ec6-e26e341afb2e">Dichtprofile</common:class>
+                </common:classification>
+                <common:classification name="OEKOBAU.DAT">
+                    <common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="7.3">Dichtungskomponenten / -materialien</common:class>
+                    <common:class level="2" classId="7.3.01">Dichtprofile</common:class>
+                </common:classification>
+            </f:classificationInformation>
+            <common:generalComment xml:lang="de"></common:generalComment>
+            <common:other>
+                <mat:MatML_Doc xmlns:mat="http://www.matml.org/">
+                    <mat:Material>
+                        <mat:BulkDetails>
+                            <mat:Name>Isolierprofil - Technoform Bautec Kunststoffprodukte GmbH - Isoliersteg Low Lambda PA66 GF25</mat:Name>
+                            <mat:PropertyData property="pr2">
+<mat:Data format="float">1000.0</mat:Data>
+                            </mat:PropertyData>
+                        </mat:BulkDetails>
+                    </mat:Material>
+                    <mat:Metadata>
+                        <mat:PropertyDetails id="pr2">
+                            <mat:Name>gross density</mat:Name>
+                            <mat:Units description="kilograms per cubic metre" name="kg/m^3">
+<mat:Unit>
+    <mat:Name>kg/m^3</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                    </mat:Metadata>
+                </mat:MatML_Doc>
+            </common:other>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Product flow</f:typeOfDataSet>
+            <common:other>
+                <epd:vendorSpecificProduct xmlns:epd="http://www.iai.kit.edu/EPD/2013" xmlns="http://lca.jrc.it/ILCD/Common" xmlns:ns2="http://lca.jrc.it/ILCD/Flow" xmlns:ns3="http://lca.jrc.it/ILCD/Contact" xmlns:ns4="http://lca.jrc.it/ILCD/FlowProperty" xmlns:ns5="http://lca.jrc.it/ILCD/Process" xmlns:ns6="http://lca.jrc.it/ILCD/Source" xmlns:ns7="http://lca.jrc.it/ILCD/UnitGroup" xmlns:ns8="http://lca.jrc.it/ILCD/Wrapper">true</epd:vendorSpecificProduct>
+                <epd:referenceToVendor xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="c2c59299-ef29-4110-8815-5b1f93cb528b" type="contact data set" uri="../contacts/c2c59299-ef29-4110-8815-5b1f93cb528b" xml:lang="">
+                    <common:shortDescription>Technoform Bautec Kunststoffprodukte GmbH</common:shortDescription>
+                </epd:referenceToVendor>
+                <epd:referenceToSource xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="3abb0036-a138-447d-b4f4-209c4129bc98" type="source data set" uri="../sources/3abb0036-a138-447d-b4f4-209c4129bc98" xml:lang="">
+                    <common:shortDescription>EPD Isolierstege aus Low Lambda PA66 GF25</common:shortDescription>
+                </epd:referenceToSource>
+            </common:other>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2020-02-18T09:58:49.545+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="03.00.000" uri="http://lca.jrc.ec.europa.eu/lcainfohub/datasets/ilcd/sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>01.03.002</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/flows/7f0295f1-9998-4bc7-9906-a3b66014374b</common:permanentDataSetURI>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="93a60a56-a3c8-11da-a746-0800200b9a66" version="03.00.000">
+                <common:shortDescription xml:lang="de">Masse</common:shortDescription>
+                <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>

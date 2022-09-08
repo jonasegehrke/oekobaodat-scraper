@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>bf406179-fa4b-4214-aa64-59d2d18ab40c</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="de">Rahmenprofile für Türen - heroal-Johann Henkenjohann GmbH &amp; Co. KG - Tür</f:baseName>
+                <f:baseName xml:lang="en">Frame Profiles for Doors - heroal-Johann Henkenjohann GmbH &amp; Co. KG - door</f:baseName>
+            </f:name>
+            <common:synonyms xml:lang="de">Aluminium-Türsysteme; Haustür; Objekttür; Brandschutztür; D65; D72; D82 SP/FP; D93 SP/FP</common:synonyms>
+            <common:synonyms xml:lang="en">Aluminium door systems; front door; commercial door; fire door; D65; D72; D82 SP/FP; D93 SP/FP</common:synonyms>
+            <f:classificationInformation>
+                <common:classification name="OEKOBAU.DAT">
+                    <common:class level="0" classId="7">Komponenten von Fenstern und Vorhangfassaden</common:class>
+                    <common:class level="1" classId="7.1">Rahmen / Profile</common:class>
+                    <common:class level="2" classId="7.1.06">Aluminium thermisch getrennt</common:class>
+                </common:classification>
+            </f:classificationInformation>
+            <common:other>
+                <mat:MatML_Doc xmlns:mat="http://www.matml.org/">
+                    <mat:Material>
+                        <mat:BulkDetails>
+                            <mat:Name>Frame Profiles for Doors - heroal-Johann Henkenjohann GmbH &amp; Co. KG - door</mat:Name>
+                            <mat:PropertyData property="pr6">
+<mat:Data format="float">4.63</mat:Data>
+                            </mat:PropertyData>
+                        </mat:BulkDetails>
+                    </mat:Material>
+                    <mat:Metadata>
+                        <mat:PropertyDetails id="pr6">
+                            <mat:Name>linear density</mat:Name>
+                            <mat:Units description="kilograms per metre" name="kg/m">
+<mat:Unit>
+    <mat:Name>kg/m</mat:Name>
+</mat:Unit>
+                            </mat:Units>
+                        </mat:PropertyDetails>
+                    </mat:Metadata>
+                </mat:MatML_Doc>
+            </common:other>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Product flow</f:typeOfDataSet>
+            <common:other>
+                <epd:vendorSpecificProduct xmlns:epd="http://www.iai.kit.edu/EPD/2013">true</epd:vendorSpecificProduct>
+                <epd:referenceToVendor xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="ede7e0ab-d256-4e23-96d4-3fd10219d5c0" type="contact data set" uri="../contacts/ede7e0ab-d256-4e23-96d4-3fd10219d5c0" xml:lang="">
+                    <common:shortDescription>heroal-Johann Henkenjohann GmbH &amp; Co. KG</common:shortDescription>
+                </epd:referenceToVendor>
+                <epd:referenceToSource xmlns:epd="http://www.iai.kit.edu/EPD/2013" refObjectId="db6637e6-2324-4ff0-b847-4a3fb2534c95" type="source data set" uri="../sources/db6637e6-2324-4ff0-b847-4a3fb2534c95" xml:lang="">
+                    <common:shortDescription>EPD Rahmenprofile für Fenster und Türen (heroal)</common:shortDescription>
+                </epd:referenceToSource>
+            </common:other>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2021-06-15T11:08:37.437+02:00</common:timeStamp>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>00.00.005</common:dataSetVersion>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="838aaa23-0117-11db-92e3-0800200c9a66" version="03.00.000" uri="http://lca.jrc.ec.europa.eu/lcainfohub/datasets/ilcd/flowproperties/838aaa23-0117-11db-92e3-0800200c9a66.xml">
+                <common:shortDescription xml:lang="de">Länge</common:shortDescription>
+                <common:shortDescription xml:lang="en">Length</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>
