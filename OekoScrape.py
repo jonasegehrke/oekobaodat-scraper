@@ -81,6 +81,8 @@ def get_meta_data(xml, stages):
         result["epdInfo"] = {}
         result["declaredUnit"] = {}
         result["link"] = []
+        result["additionalSources"] = []
+        result["ownerId"] = "8bbaefca-6833-4a6d-93ab-3e8b27a060a7"
         result["custom"] = False
         result["scraped"] = True
         result["generic"] = True
@@ -124,7 +126,7 @@ def get_meta_data(xml, stages):
             if internalId == dataSetId:
                 result["declaredUnit"]["declaredValue"] = exchange.find("meanAmount").text
                 refObjectId = exchange.find("referenceToFlowDataSet").get("refObjectId")
-                FOLDER_PATH = r'C:\\Users\\jonas\\capacit\\oekobaodat-scraper\\flows'
+                FOLDER_PATH = r'C:\\Users\\jonas\\vscode\\capacit\\oekobaodat-scraper\\flows'
                 FILE_NAME = "{}.xml".format(refObjectId)
                 unit_xml = os.path.join(FOLDER_PATH, FILE_NAME)
                 with open(unit_xml,"r", errors='ignore') as fp:
@@ -146,17 +148,19 @@ def get_meta_data(xml, stages):
                                 { "text": "M^3", "value": 5 },
                                 { "text": "STK", "value": 6 },
                                 { "text": "MJ", "value": 7 },
-                                { "text": "A", "value": 8 },
-                                { "text": "KGKM", "value": 9 },
+                                { "text": "KGKM", "value": 8 },
+                                { "text": "A", "value": 9 },
+                                
                             ]
                         mass_unit_enums = [
                                 { "text": "KG/M", "value": 0 },
                                 { "text": "KG/M^2", "value": 1 },
                                 { "text": "KG/M^3", "value": 2 },
-                                { "text": "T/M", "value": 3 },
-                                { "text": "T/M^2", "value": 4 },
-                                { "text": "T/M^3", "value": 5 },
-                                { "text": "KG/STK", "value": 6 },
+                                { "text": "KG/STK", "value": 3 },
+                                { "text": "T/M", "value": 4 },
+                                { "text": "T/M^2", "value": 5 },
+                                { "text": "T/M^3", "value": 6 },
+                                { "text": "T/STK", "value": 7 },
                             ]
 
                         result["declaredUnit"]["mass"] = mass
@@ -168,21 +172,22 @@ def get_meta_data(xml, stages):
                         if "ENERGY" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
                             result["declaredUnit"]["declaredUnit"] = 7
                         elif "LENGTH" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
-                            result["declaredUnit"]["declaredUnit"] = 3 
+                            result["declaredUnit"]["declaredUnit"] = 3
                         elif "MASS" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
                             result["declaredUnit"]["declaredUnit"] = 1
                         elif "AREA" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
                             result["declaredUnit"]["declaredUnit"] = 4
                         elif "TIME" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
-                            result["declaredUnit"]["declaredUnit"] = 8
-                        elif "KGKM" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
                             result["declaredUnit"]["declaredUnit"] = 9
+                        elif "KGKM" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
+                            result["declaredUnit"]["declaredUnit"] = 8
                         elif "VOLUME" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
                             result["declaredUnit"]["declaredUnit"] = 5
                         else:
                             print(unitSoup.find("flowProperty").find("common:shortDescription").text)
                             print("UNKNOWN:" , uuid)
-                
+
+
             
 
 
@@ -232,6 +237,7 @@ def get_LCIA(xml):
     for index, stage_enum in enumerate(all_stage_enum):
         stage_result = {}
         stage_result['stageType'] = index
+        stage_result['stageStatus'] = 2
         for datapoint in all_datapoints:
             if(datapoint.name == "LCIAResult"):
                 key_elements = datapoint.find("referenceToLCIAMethodDataSet").find_all("common:shortDescription")
@@ -264,7 +270,7 @@ def get_LCIA(xml):
 
 def runSingle(file):
     results = []
-    FOLDER_PATH = r'C:\\Users\\jonas\\capacit\\oekobaodat-scraper\\xml'
+    FOLDER_PATH = r'C:\\Users\\jonas\\vscode\\capacit\\oekobaodat-scraper\\xml'
     FILE_NAME = file
     xml = os.path.join(FOLDER_PATH, FILE_NAME)
     stages = get_LCIA(xml)
@@ -276,7 +282,7 @@ def runSingle(file):
 
 def runAll():
     results = []
-    FOLDER_PATH = r'C:\\Users\\jonas\\capacit\\oekobaodat-scraper\\xml'
+    FOLDER_PATH = r'C:\\Users\\jonas\\vscode\\capacit\\oekobaodat-scraper\\xml'
     all_xml = os.listdir(FOLDER_PATH)
     for FILE_NAME in all_xml:
         stages = {}
@@ -294,7 +300,7 @@ result = runAll()
 
 
 final = json.dumps(result, indent=2)
-with open("all-resultsv3.json", "w") as outfile:
+with open("final-result.json", "w") as outfile:
     outfile.write(final) 
 
 
