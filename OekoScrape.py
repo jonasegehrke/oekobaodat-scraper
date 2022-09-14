@@ -295,7 +295,8 @@ result = runAll()
 
 final = json.dumps(result, indent=2)
 with open("all-resultsv3.json", "w") as outfile:
-    outfile.write(final) 
+    
+        outfile.write(final) 
 
 
 
