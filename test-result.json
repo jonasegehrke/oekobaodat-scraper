@@ -1,0 +1,148 @@
+[
+  {
+    "epdInfo": {
+      "issuedAt": "2018",
+      "validTo": "2022",
+      "epdSpecificationForm": 0
+    },
+    "declaredUnit": {
+      "declaredValue": "3.5999712002304",
+      "mass": "1",
+      "massUnit": null,
+      "declaredUnit": 7
+    },
+    "link": [
+      "https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=1504d42a-c5bb-4799-bd59-5b7fe07ddda7"
+    ],
+    "additionalSources": [],
+    "ownerId": "8bbaefca-6833-4a6d-93ab-3e8b27a060a7",
+    "custom": false,
+    "scraped": true,
+    "generic": true,
+    "shortName": "Usage - electric heat pump brine-water (5/55)",
+    "description": "This data set has been modeled according to the European Standard EN 15804 for Sustainable Building. Results are depicted in modules that allow the structured expression of results over the entire life cycle.",
+    "stages": [
+      {
+        "stageType": 0,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 1,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 2,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 3,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 4,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 5,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 6,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 7,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 8,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 9,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 10,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 11,
+        "stageStatus": 2,
+        "measures": {
+          "GWP": "0.226393900615323",
+          "ODP": "1.05872516525595E-14",
+          "AP": "0.000267115172689803",
+          "EP": "5.30603933384661E-5",
+          "POCP": "2.2139860361517E-5",
+          "ADPE": "1.00175863029618E-7",
+          "ADPF": "2.26859329858693",
+          "PERE": "5.50981702592719",
+          "PERM": "0",
+          "PERT": "5.50981702592719",
+          "PENRE": "2.85190705390053",
+          "PENRM": "0",
+          "PENRT": "2.85190705390053",
+          "SM": "0",
+          "RSF": "0",
+          "NRSF": "0",
+          "FW": "0.00088305958646861",
+          "HWD": "1.95584860746197E-9",
+          "NHWD": "0.00222028002409753",
+          "RWD": "0.000231072190075086",
+          "CRU": "0",
+          "MFR": "0",
+          "MER": "0",
+          "EEE": "0",
+          "EET": "0"
+        }
+      },
+      {
+        "stageType": 12,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 13,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 14,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 15,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 16,
+        "stageStatus": 2,
+        "measures": {}
+      },
+      {
+        "stageType": 17,
+        "stageStatus": 2,
+        "measures": {}
+      }
+    ],
+    "tags": [
+      "Bygningsteknik",
+      "brug",
+      "brugafvarmegeneratorer"
+    ]
+  }
+]

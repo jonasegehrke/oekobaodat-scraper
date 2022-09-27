@@ -48,21 +48,6 @@ a2 = a2.json()
 
 response = a1["data"] + a2["data"]
 
-
-
-"""
-notes:
-compliance: c0016b33-8cf7-415c-ac6e-deba0d21440d === +A2
-compliance: b00f9ec0-7874-11e3-981f-0800200c9a66 === +A1
-"""
-
-"""
-TODO
-owners - thinkstep & sephera = should be the same
-get units
-search up against lca
-"""
-
 def get_meta_data(xml, stages):
     with open(xml,"r", errors='ignore') as fp:
         soup = BeautifulSoup(fp, 'xml')
@@ -86,7 +71,6 @@ def get_meta_data(xml, stages):
         result["custom"] = False
         result["scraped"] = True
         result["generic"] = True
-        result["expectedLifespan"] = None
 
         for baseName in soup.find_all('baseName'):
             if baseName["xml:lang"] == "en":
@@ -113,12 +97,8 @@ def get_meta_data(xml, stages):
         else:
             all_valid_until = soup.find("time").find("common:dataSetValidUntil").text
             all_reference_year = soup.find("time").find("common:referenceYear").text
-            
-        #TODO get these
+    
 
-
-
-        # doing
         dataSetId = soup.find("referenceToReferenceFlow").text
         all_exchanges = soup.find_all('exchange')
         for exchange in all_exchanges:
@@ -126,7 +106,7 @@ def get_meta_data(xml, stages):
             if internalId == dataSetId:
                 result["declaredUnit"]["declaredValue"] = exchange.find("meanAmount").text
                 refObjectId = exchange.find("referenceToFlowDataSet").get("refObjectId")
-                FOLDER_PATH = r'C:\\Users\\jonas\\vscode\\capacit\\oekobaodat-scraper\\flows'
+                FOLDER_PATH = r'C:\\Users\\jonas\\Capacit\\abc-carbon\\oekobaodat-scraper\\flows'
                 FILE_NAME = "{}.xml".format(refObjectId)
                 unit_xml = os.path.join(FOLDER_PATH, FILE_NAME)
                 with open(unit_xml,"r", errors='ignore') as fp:
@@ -193,7 +173,6 @@ def get_meta_data(xml, stages):
 
         result["epdInfo"]["issuedAt"] = all_reference_year
         result["epdInfo"]["validTo"] = all_valid_until
-        result["epdInfo"]["epdProductIndustryType"] = None #usikkerhedsfaktor 1,3
         
 
         resource = next(element for element in response if element["uuid"] == uuid)
@@ -258,8 +237,8 @@ def get_LCIA(xml):
                 if stage_enum == amount['epd:module']:
                     stage_result["measures"][currentKey] = amount.text
                     break
-                else:
-                    stage_result["measures"][currentKey] = None
+                """ else:
+                    stage_result["stageStatus"] = 1 """ #TODO discuess stagestatus when no value is found in stage
             currentKey = ''
         stages.append(stage_result)    
     return stages
@@ -270,7 +249,7 @@ def get_LCIA(xml):
 
 def runSingle(file):
     results = []
-    FOLDER_PATH = r'C:\\Users\\jonas\\vscode\\capacit\\oekobaodat-scraper\\xml'
+    FOLDER_PATH = r'C:\\Users\\jonas\\Capacit\\abc-carbon\\oekobaodat-scraper\\xml'
     FILE_NAME = file
     xml = os.path.join(FOLDER_PATH, FILE_NAME)
     stages = get_LCIA(xml)
@@ -282,7 +261,7 @@ def runSingle(file):
 
 def runAll():
     results = []
-    FOLDER_PATH = r'C:\\Users\\jonas\\vscode\\capacit\\oekobaodat-scraper\\xml'
+    FOLDER_PATH = r'C:\\Users\\jonas\\Capacit\\abc-carbon\\oekobaodat-scraper\\xml'
     all_xml = os.listdir(FOLDER_PATH)
     for FILE_NAME in all_xml:
         stages = {}
@@ -293,14 +272,14 @@ def runAll():
             results.append(result)
     return results
 
-#result = runSingle("1504d42a-c5bb-4799-bd59-5b7fe07ddda7.xml")
+result = runSingle("1504d42a-c5bb-4799-bd59-5b7fe07ddda7.xml")
 #fc442d0a-fbc4-4304-ace8-24304756e2df
 
-result = runAll()
+#result = runAll()
 
 
 final = json.dumps(result, indent=2)
-with open("final-result.json", "w") as outfile:
+with open("test-result.json", "w") as outfile:
     outfile.write(final) 
 
 
