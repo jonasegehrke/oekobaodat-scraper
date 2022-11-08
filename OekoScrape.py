@@ -3,6 +3,7 @@ import os, io
 import json
 import requests
 from deep_translator import GoogleTranslator
+from progress.bar import Bar
 
 url = "https://oekobaudat.de/OEKOBAU.DAT/resource/datastocks/cd2bda71-760b-4fcc-8a0b-3877c10000a8/processes?format=json&search=true&startIndex=0&pageSize=2000&sortOrder=true&sortBy=name&lang=en&langFallback=false&subType=GENERIC_DATASET&dataSource=b497a91f-e14b-4b69-8f28-f50eb1576766&dataSourceMode=NOT&compliance=b00f9ec0-7874-11e3-981f-0800200c9a66"
 
@@ -137,10 +138,13 @@ def get_meta_data(xml, stages):
                                 { "text": "KG/M^2", "value": 1 },
                                 { "text": "KG/M^3", "value": 2 },
                                 { "text": "KG/STK", "value": 3 },
-                                { "text": "T/M", "value": 4 },
-                                { "text": "T/M^2", "value": 5 },
-                                { "text": "T/M^3", "value": 6 },
-                                { "text": "T/STK", "value": 7 },
+                                { "text": "KG/KG", "value": 4 },
+                                { "text": "T/M", "value": 5 },
+                                { "text": "T/M^2", "value": 6 },
+                                { "text": "T/M^3", "value": 7 },
+                                { "text": "T/STK", "value": 8 },
+                                { "text": "KG/DM^3", "value": 9 },
+                                { "text": "Other", "value": 10 },
                             ]
 
                         result["declaredUnit"]["mass"] = mass
@@ -148,7 +152,7 @@ def get_meta_data(xml, stages):
                         result["declaredUnit"]["massUnit"] = next(enum for enum in mass_unit_enums if enum["text"] == massUnit.upper())["value"]
                     else:
                         result["declaredUnit"]["mass"] = "1" 
-                        result["declaredUnit"]["massUnit"] = None #TODO discuss massunit when its not a mass and not defined
+                        result["declaredUnit"]["massUnit"] = 10 #TODO discuss massunit when its not a mass and not defined
                         if "ENERGY" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
                             result["declaredUnit"]["declaredUnit"] = 7
                         elif "LENGTH" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
@@ -263,6 +267,7 @@ def runAll():
     results = []
     FOLDER_PATH = r'C:\\Users\\jonas\\Capacit\\abc-carbon\\oekobaodat-scraper\\xml'
     all_xml = os.listdir(FOLDER_PATH)
+    bar = Bar('processing', max=len(all_xml))
     for FILE_NAME in all_xml:
         stages = {}
         xml = os.path.join(FOLDER_PATH, FILE_NAME)
@@ -270,7 +275,9 @@ def runAll():
         result = get_meta_data(xml, stages)
         if result != None:
             results.append(result)
+        bar.next()
     return results
+    bar.finish()
 
 #result = runSingle("1504d42a-c5bb-4799-bd59-5b7fe07ddda7.xml")
 #fc442d0a-fbc4-4304-ace8-24304756e2df
@@ -279,7 +286,7 @@ result = runAll()
 
 
 final = json.dumps(result, indent=2)
-with open("test-result.json", "w") as outfile:
+with open("v2/test1.json", "w") as outfile:
     outfile.write(final) 
 
 
