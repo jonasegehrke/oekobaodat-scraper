@@ -66,7 +66,6 @@ def get_meta_data(xml, stages):
         result["epdInfo"] = {}
         result["declaredUnit"] = {}
         result["link"] = []
-        result["additionalSources"] = []
         result["ownerId"] = "8bbaefca-6833-4a6d-93ab-3e8b27a060a7"
         result["custom"] = False
         result["scraped"] = True
@@ -86,7 +85,8 @@ def get_meta_data(xml, stages):
         uuid = soup.find("dataSetInformation").find("common:UUID").text
         if uuid == "41c5627a-4a1d-4e12-ac62-c1d4f1560fb9":
             return None #remove an old faulty dataset https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=41c5627a-4a1d-4e12-ac62-c1d4f1560fb9
-        result["link"] = ["https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=" + uuid]
+        result["link"] = []
+        result["additionalSources"] = ["https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=" + uuid]
 
         if stages == None: return
         result["stages"] = stages
@@ -272,10 +272,10 @@ def runAll():
             results.append(result)
     return results
 
-result = runSingle("1504d42a-c5bb-4799-bd59-5b7fe07ddda7.xml")
+#result = runSingle("1504d42a-c5bb-4799-bd59-5b7fe07ddda7.xml")
 #fc442d0a-fbc4-4304-ace8-24304756e2df
 
-#result = runAll()
+result = runAll()
 
 
 final = json.dumps(result, indent=2)

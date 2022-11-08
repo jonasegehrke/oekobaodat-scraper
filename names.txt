@@ -1,0 +1,1 @@
+{'SQP', 'PM', 'EEE', 'PERE', 'ADPF', 'CRU', 'HTP-c', 'PERT', 'GWP', 'RSF', 'GWP-fossil', 'IRP', 'HWD', 'ADPE', 'ODP', 'SF', 'EP', 'EP-terrestrial', 'MFR', 'NHWD', 'PENRT', 'FW', 'POCP', 'AP', 'GWP-biogenic', 'GWP-luluc', 'WDP', 'PENRE', 'PERM', 'PENRM', 'EP-marine', 'GWP-total', 'NRSF', 'SM', 'MER', 'ETP-fw', 'EP-freshwater', 'HTP-nc', 'EET', 'RWD'}
