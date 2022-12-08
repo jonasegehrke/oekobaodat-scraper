@@ -67,7 +67,7 @@ def get_meta_data(xml, stages):
         result["epdInfo"] = {}
         result["declaredUnit"] = {}
         result["fileIds"] = []
-        result["ownerId"] = "8bbaefca-6833-4a6d-93ab-3e8b27a060a7"
+        result["ownerId"] = "d93b7613-fdbf-453e-9d36-33fbc3eba4e3"
         result["custom"] = False
         result["scraped"] = True
         result["generic"] = True
@@ -174,9 +174,13 @@ def get_meta_data(xml, stages):
 
             
 
-
-        result["epdInfo"]["issuedAt"] = "01-01-" + all_reference_year
-        result["epdInfo"]["validTo"] = "01-01-" + all_valid_until
+   
+        if(all_reference_year == None):
+            return None
+        if(all_valid_until == None):
+            return None
+        result["epdInfo"]["issuedAt"] =  all_reference_year + "-01-01"
+        result["epdInfo"]["validTo"] = all_valid_until + "-01-01"
         
 
         resource = next(element for element in response if element["uuid"] == uuid)
@@ -281,7 +285,7 @@ def runAll():
     return results
     bar.finish()
 
-#result = runSingle("0cc9aee8-95a6-45bf-b581-1d982e593703.xml")
+#result = runSingle("1d0124d4-5a30-4501-a8dd-dbddbb1f8ec7.xml")
 #fc442d0a-fbc4-4304-ace8-24304756e2df
 #0cc9aee8-95a6-45bf-b581-1d982e593703.xml
 
