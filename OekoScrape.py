@@ -66,11 +66,12 @@ def get_meta_data(xml, stages):
     if subType.text == "generic dataset":
         result["epdInfo"] = {}
         result["declaredUnit"] = {}
-        result["link"] = []
+        result["fileIds"] = []
         result["ownerId"] = "8bbaefca-6833-4a6d-93ab-3e8b27a060a7"
         result["custom"] = False
         result["scraped"] = True
         result["generic"] = True
+        result["isPublic"] = True
 
         for baseName in soup.find_all('baseName'):
             if baseName["xml:lang"] == "en":
@@ -86,7 +87,6 @@ def get_meta_data(xml, stages):
         uuid = soup.find("dataSetInformation").find("common:UUID").text
         if uuid == "41c5627a-4a1d-4e12-ac62-c1d4f1560fb9":
             return None #remove an old faulty dataset https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=41c5627a-4a1d-4e12-ac62-c1d4f1560fb9
-        result["link"] = []
         result["additionalSources"] = ["https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=" + uuid]
 
         if stages == None: return
@@ -105,9 +105,9 @@ def get_meta_data(xml, stages):
         for exchange in all_exchanges:
             internalId = exchange.get('dataSetInternalID')
             if internalId == dataSetId:
-                result["declaredUnit"]["declaredValue"] = exchange.find("meanAmount").text
+                result["declaredUnit"]["declaredValue"] = float(exchange.find("meanAmount").text)
                 refObjectId = exchange.find("referenceToFlowDataSet").get("refObjectId")
-                FOLDER_PATH = r'C:\\Users\\jonas\\Capacit\\abc-carbon\\oekobaodat-scraper\\flows'
+                FOLDER_PATH = r'/Users/jonasegehrke/Documents/capacit/gaiup/oekobaodat-scraper/flows'
                 FILE_NAME = "{}.xml".format(refObjectId)
                 unit_xml = os.path.join(FOLDER_PATH, FILE_NAME)
                 with open(unit_xml,"r", errors='ignore') as fp:
@@ -147,11 +147,11 @@ def get_meta_data(xml, stages):
                                 { "text": "Other", "value": 10 },
                             ]
 
-                        result["declaredUnit"]["mass"] = mass
+                        result["declaredUnit"]["mass"] = float(mass)
                         result["declaredUnit"]["declaredUnit"] = next(enum for enum in declared_unit_enums if enum["text"] == declaredUnit.upper())["value"]
                         result["declaredUnit"]["massUnit"] = next(enum for enum in mass_unit_enums if enum["text"] == massUnit.upper())["value"]
                     else:
-                        result["declaredUnit"]["mass"] = "1" 
+                        result["declaredUnit"]["mass"] = 1 
                         result["declaredUnit"]["massUnit"] = 10 #TODO discuss massunit when its not a mass and not defined
                         if "ENERGY" in unitSoup.find("flowProperty").find("common:shortDescription").text.upper():
                             result["declaredUnit"]["declaredUnit"] = 7
@@ -175,8 +175,8 @@ def get_meta_data(xml, stages):
             
 
 
-        result["epdInfo"]["issuedAt"] = all_reference_year
-        result["epdInfo"]["validTo"] = all_valid_until
+        result["epdInfo"]["issuedAt"] = "01-01-" + all_reference_year
+        result["epdInfo"]["validTo"] = "01-01-" + all_valid_until
         
 
         resource = next(element for element in response if element["uuid"] == uuid)
@@ -239,10 +239,11 @@ def get_LCIA(xml):
                 stage_result["measures"] = {}
             for amount in all_amounts:
                 if stage_enum == amount['epd:module']:
-                    stage_result["measures"][currentKey] = amount.text
+                    if(amount.text != ''):
+                        stage_result["measures"][currentKey] = float(amount.text)
                     break
-                """ else:
-                    stage_result["stageStatus"] = 1 """ #TODO discuess stagestatus when no value is found in stage
+                else:
+                    stage_result["stageStatus"] = 1 #TODO discuess stagestatus when no value is found in stage
             currentKey = ''
         stages.append(stage_result)    
     return stages
@@ -253,7 +254,7 @@ def get_LCIA(xml):
 
 def runSingle(file):
     results = []
-    FOLDER_PATH = r'C:\\Users\\jonas\\Capacit\\abc-carbon\\oekobaodat-scraper\\xml'
+    FOLDER_PATH = r'/Users/jonasegehrke/Documents/capacit/gaiup/oekobaodat-scraper/xml'
     FILE_NAME = file
     xml = os.path.join(FOLDER_PATH, FILE_NAME)
     stages = get_LCIA(xml)
@@ -265,10 +266,11 @@ def runSingle(file):
 
 def runAll():
     results = []
-    FOLDER_PATH = r'C:\\Users\\jonas\\Capacit\\abc-carbon\\oekobaodat-scraper\\xml'
+    FOLDER_PATH = r'/Users/jonasegehrke/Documents/capacit/gaiup/oekobaodat-scraper/xml'
     all_xml = os.listdir(FOLDER_PATH)
     bar = Bar('processing', max=len(all_xml))
     for FILE_NAME in all_xml:
+        print(FILE_NAME)
         stages = {}
         xml = os.path.join(FOLDER_PATH, FILE_NAME)
         stages = get_LCIA(xml)
@@ -279,8 +281,9 @@ def runAll():
     return results
     bar.finish()
 
-#result = runSingle("1504d42a-c5bb-4799-bd59-5b7fe07ddda7.xml")
+#result = runSingle("0cc9aee8-95a6-45bf-b581-1d982e593703.xml")
 #fc442d0a-fbc4-4304-ace8-24304756e2df
+#0cc9aee8-95a6-45bf-b581-1d982e593703.xml
 
 result = runAll()
 

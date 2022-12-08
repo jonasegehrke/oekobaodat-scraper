@@ -1,0 +1,227 @@
+[
+  {
+    "isPublic": true,
+    "epdInfo": {
+      "issuedAt": "2018",
+      "validTo": "2022",
+      "epdSpecificationForm": 0
+    },
+    "declaredUnit": {
+      "declaredValue": "1",
+      "mass": "1",
+      "massUnit": null,
+      "declaredUnit": 1
+    },
+    "fileIds": [],
+    "additionalSources": [
+      "https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=0cc9aee8-95a6-45bf-b581-1d982e593703"
+    ],
+    "ownerId": "8bbaefca-6833-4a6d-93ab-3e8b27a060a7",
+    "custom": false,
+    "scraped": true,
+    "generic": true,
+    "shortName": "Red brass part",
+    "description": "This data set has been modeled according to the European Standard EN 15804 for Sustainable Building. Results are depicted in modules that allow the structured expression of results over the entire life cycle.",
+    "stages": [
+      {
+        "stageType": 0,
+        "stageStatus": 2,
+        "measures": {
+          "GWP": "1.77322266209294",
+          "ODP": "4.2537774403545E-14",
+          "AP": "0.0120437962351501",
+          "EP": "0.000627343278094671",
+          "POCP": "0.000640298045994062",
+          "ADPE": "0.000406526216290156",
+          "ADPF": "18.54408017617",
+          "PERE": "8.22274736128808",
+          "PERM": "0",
+          "PERT": "8.22274736128808",
+          "PENRE": "21.078371108687",
+          "PENRM": "0",
+          "PENRT": "21.078371108687",
+          "SM": "1.28679579397271",
+          "RSF": "0",
+          "NRSF": "0",
+          "FW": "0.00991263616364879",
+          "HWD": "6.24872508058932E-8",
+          "NHWD": "0.450700893922022",
+          "RWD": "0.00100415662243994",
+          "CRU": "0",
+          "MFR": "0",
+          "MER": "0",
+          "EEE": "0",
+          "EET": "0"
+        }
+      },
+      {
+        "stageType": 1,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 2,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 3,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 4,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 5,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 6,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 7,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 8,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 9,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 10,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 11,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 12,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 13,
+        "stageStatus": 1,
+        "measures": {
+          "GWP": "0",
+          "ODP": "0",
+          "AP": "0",
+          "EP": "0",
+          "POCP": "0",
+          "ADPE": "0",
+          "ADPF": "0",
+          "PERE": "0",
+          "PERM": "0",
+          "PERT": "0",
+          "PENRE": "0",
+          "PENRM": "0",
+          "PENRT": "0",
+          "SM": "0",
+          "RSF": "0",
+          "NRSF": "0",
+          "FW": "0",
+          "HWD": "0",
+          "NHWD": "0",
+          "RWD": "0",
+          "CRU": "0",
+          "MFR": "1.2",
+          "MER": "0",
+          "EEE": "0",
+          "EET": "0"
+        }
+      },
+      {
+        "stageType": 14,
+        "stageStatus": 1,
+        "measures": {
+          "GWP": "0.00278506197542698",
+          "ODP": "9.2186651739851E-19",
+          "AP": "5.62552501652062E-6",
+          "EP": "1.33734282344956E-6",
+          "POCP": "-1.68540460474931E-6",
+          "ADPE": "2.34365307034791E-10",
+          "ADPF": "0.0373322828020931",
+          "PERE": "0.00217920031902732",
+          "PERM": "0",
+          "PERT": "0.00217920031902732",
+          "PENRE": "0.0374330034995147",
+          "PENRM": "0",
+          "PENRT": "0.0374330034995147",
+          "SM": "0",
+          "RSF": "0",
+          "NRSF": "0",
+          "FW": "1.95165675977121E-6",
+          "HWD": "1.39883229723209E-9",
+          "NHWD": "6.5701462859711E-6",
+          "RWD": "3.9409261514825E-8",
+          "CRU": "0",
+          "MFR": "0",
+          "MER": "0",
+          "EEE": "0",
+          "EET": "0"
+        }
+      },
+      {
+        "stageType": 15,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 16,
+        "stageStatus": 1,
+        "measures": {}
+      },
+      {
+        "stageType": 17,
+        "stageStatus": 1,
+        "measures": {
+          "GWP": "0.0453819091843016",
+          "ODP": "9.74248982502835E-17",
+          "AP": "0.000508255021546051",
+          "EP": "1.64893730576388E-5",
+          "POCP": "3.27862498926033E-5",
+          "ADPE": "3.28683910941039E-5",
+          "ADPF": "0.500210029313514",
+          "PERE": "0.0652657794334",
+          "PERM": "0",
+          "PERT": "0.0652657794334",
+          "PENRE": "0.502752473247633",
+          "PENRM": "0",
+          "PENRT": "0.502752473247633",
+          "SM": "0",
+          "RSF": "0",
+          "NRSF": "0",
+          "FW": "0.000160875295570518",
+          "HWD": "1.26129959094301E-8",
+          "NHWD": "0.0015566890913552",
+          "RWD": "8.95946078057672E-7",
+          "CRU": "0",
+          "MFR": "0",
+          "MER": "0",
+          "EEE": "0",
+          "EET": "0"
+        }
+      }
+    ],
+    "tags": [
+      "Metaller",
+      "kobber",
+      "smededeogst\u00f8btedelelavetafkobberogmessing"
+    ]
+  }
+]
